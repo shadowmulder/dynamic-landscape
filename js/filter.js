@@ -393,6 +393,8 @@ $(function () {
 
 
 function search() {
+	jsPlumb.deleteEveryEndpoint();
+
 	currentElementId = null;
 	document.getElementById("arrowlayer").innerHTML = '';
 	var searchElements = d3.selectAll(".tag-text");
@@ -431,9 +433,7 @@ function adjustIconOpacityById(idList) {
 
 function showDependenciesPlumb() {
 	if (currentElementId === null) return;
-
-
-
+	jsPlumb.deleteEveryEndpoint();
 	var dependencies = searchIndex.filter(node => node.id == currentElementId)[0].dependencies;
 	var nodesToHighlight = [];
 	var con_in = [];
@@ -444,26 +444,31 @@ function showDependenciesPlumb() {
 	dependencies.in.forEach(item => {
 		con_in.push(item.dname);
 		jsPlumb.connect({
-
+			anchor: "AutoDefault",
 			source: item.dname,
-			target: currentElementId
-
+			target: currentElementId,
+			paintStyle:{ stroke:"blue"},
+			overlays: [
+				["PlainArrow", {width: 10, length: 10, location: 1.0}],
+				["Label", { label: item.dtype, location: 0.0, cssClass: "connectorLabel"}]
+			]
 		});
-
 	});
 
 	dependencies.out.forEach(item => {
 		con_out.push(item.dname);
 		jsPlumb.connect({
+			anchor: "AutoDefault",
 			source: currentElementId,
-			target: item.dname
-
+			target: item.dname,
+			overlays: [
+				["PlainArrow", {width: 10, length: 10, location: 1.0}],
+				["Label", { label: item.dtype, location: 1.0, cssClass: "connectorLabel"}]
+			]
 		});
-
 	});
 
 	nodesToHighlight = nodesToHighlight.concat(con_in, con_out);
-
 	adjustIconOpacityById(nodesToHighlight);
 
 

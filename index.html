@@ -37,16 +37,14 @@
 
         var menuNode = d3.selectAll(".blooming-menu__container");
 
-        menuNode.style("z-index", "2");
+        menuNode.style("z-index", "3");
         menuNode
             .on("click", function () {
                 menu.close();
                 setTimeout(function () { menuNode.style("display", "none"); }, 400);
             });
 
-        //d3.selectAll(".blooming-menu__item:nth-of-type(1) .blooming-menu__item-btn").style("background-image", "url(../img/language.svg)");
 
-        console.log();
 
         $.getJSON("/database/search_index.json", function (json) {
             searchIndex = json;;
@@ -109,8 +107,6 @@
                 .attr("height", "100%")
                 .attr("width", "100%")
                 .style("position", "absolute");
-
-
 
             leftContainer = landscape
                 .append("div")
@@ -190,6 +186,21 @@
             unlockResizing();
             updateLefHandHeader();
             lockResizing();
+
+            jsPlumb.bind("ready", function () {
+
+            });
+            jsPlumb.importDefaults({
+                Endpoint: "Blank",
+                Container: "svgContainer",
+                Connector: ["Bezier", { curviness: 0 }],
+                Anchors: ["Top", "Bottom", "Left", "Right"],
+
+
+            });
+
+
+            //jsPlumb.setContainer("svgContainer");
         }
 
         /*
@@ -313,7 +324,9 @@
             d3.selectAll("#zoomIndicator").text("ZOOM: " + Math.floor(zoomFactor * 100) + "%");
             updateLefHandHeader();
             lockResizing();
+            jsPlumb.repaintEverything();
             adjustSVGOverlay();
+            jsPlumb.repaintEverything();
             //showDependencies();
         }
 
@@ -327,10 +340,6 @@
             zoom(0);
 
         }
-
-
-
-
 
         /**
         * distinctYPos returns a list of y-positions of all elements with the given id
@@ -363,7 +372,9 @@
             unlockResizing();
             updateLefHandHeader();
             lockResizing();
+            jsPlumb.repaintEverything();
             adjustSVGOverlay();
+            jsPlumb.repaintEverything();
             //showDependencies();
 
         }
@@ -400,10 +411,6 @@
         }
 
 
-
-
-
-
         d3.select("#menu_button_0").on("click", showDependenciesPlumb);
 
 
@@ -414,10 +421,8 @@
          * https://stackoverflow.com/questions/42252538/deep-search-json-object
          */
 
-        jsPlumb.bind("ready", function () {
-        });
-        jsPlumb.setContainer("svgContainer");
-        console.log(document.getElementById("svgContainer"));
+
+
 
 
 
