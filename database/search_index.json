@@ -1,0 +1,9332 @@
+[
+  {
+    "id": "Ama_0",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "analytics",
+      "athena",
+      "interactive",
+      "query",
+      "service",
+      "easy",
+      "analyze",
+      "data",
+      "s3",
+      "standard",
+      "sql",
+      "serverless",
+      "there",
+      "infrastructure",
+      "manage",
+      "pay",
+      "only",
+      "queries",
+      "run"
+    ]
+  },
+  {
+    "id": "Ama_1",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "analytics",
+      "emr",
+      "provides",
+      "managed",
+      "hadoop",
+      "framework",
+      "easy",
+      "fast",
+      "costeffective",
+      "process",
+      "vast",
+      "amounts",
+      "data",
+      "across",
+      "dynamically",
+      "scalable",
+      "ec2",
+      "instances",
+      ""
+    ]
+  },
+  {
+    "id": "Ama_2",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "analytics",
+      "cloudsearch",
+      "managed",
+      "service",
+      "aws",
+      "cloud",
+      "simple",
+      "costeffective",
+      "manage",
+      "scale",
+      "search",
+      "solution",
+      "website",
+      "application"
+    ]
+  },
+  {
+    "id": "Ama_3",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "analytics",
+      "elasticsearch",
+      "service",
+      "easy",
+      "deploy",
+      "operate",
+      "scale",
+      "log",
+      "analytics",
+      "full",
+      "text",
+      "search",
+      "application",
+      "monitoring",
+      "more"
+    ]
+  },
+  {
+    "id": "Ama_4",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "analytics",
+      "kinesis",
+      "easy",
+      "collect",
+      "process",
+      "analyze",
+      "realtime",
+      "streaming",
+      "data",
+      "timely",
+      "insights",
+      "react",
+      "quickly",
+      "new",
+      "information",
+      ""
+    ]
+  },
+  {
+    "id": "Ama_5",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "analytics",
+      "databases",
+      "redshift",
+      "fast",
+      "fully",
+      "managed",
+      "data",
+      "warehouse",
+      "simple",
+      "costeffective",
+      "analyze",
+      "standard",
+      "sql",
+      "existing",
+      "business",
+      "intelligence",
+      "bi",
+      "tools",
+      ""
+    ]
+  },
+  {
+    "id": "Ama_6",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "analytics",
+      "quicksight",
+      "quicksight",
+      "fast",
+      "cloudpowered",
+      "business",
+      "analytics",
+      "service",
+      "easy",
+      "build",
+      "visualizations",
+      "perform",
+      "adhoc",
+      "analysis",
+      "quickly",
+      "insights",
+      "data"
+    ]
+  },
+  {
+    "id": "AWS_7",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "analytics",
+      "aws",
+      "data",
+      "pipeline",
+      "web",
+      "service",
+      "helps",
+      "reliably",
+      "process",
+      "move",
+      "data",
+      "between",
+      "different",
+      "compute",
+      "storage",
+      "services",
+      "well",
+      "onpremise",
+      "sources",
+      "specified",
+      "intervals"
+    ]
+  },
+  {
+    "id": "AWS_8",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "analytics",
+      "aws",
+      "glue",
+      "fully",
+      "managed",
+      "extract",
+      "transform",
+      "load",
+      "etl",
+      "service",
+      "easy",
+      "customers",
+      "prepare",
+      "their",
+      "data",
+      "analytics"
+    ]
+  },
+  {
+    "id": "AWS_9",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "application",
+      "services",
+      "aws",
+      "step",
+      "functions",
+      ""
+    ]
+  },
+  {
+    "id": "Ama_10",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "application",
+      "services",
+      "api",
+      "gateway",
+      "aws",
+      "step",
+      "functions",
+      "easy",
+      "coordinate",
+      "components",
+      "distributed",
+      "applications",
+      "microservices",
+      "visual",
+      "workflows"
+    ]
+  },
+  {
+    "id": "Ama_11",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "application",
+      "services",
+      "elastic",
+      "transcoder",
+      "media",
+      "transcoding",
+      "cloud",
+      "designed",
+      "highly",
+      "scalable",
+      "easy",
+      "cost",
+      "effective",
+      "way",
+      "developers",
+      "businesses",
+      "convert",
+      "?transcode?",
+      "files",
+      "their",
+      "source",
+      "format",
+      "versions",
+      "playback",
+      "devices",
+      "smartphones",
+      "tablets",
+      "pcs"
+    ]
+  },
+  {
+    "id": "Ama_12",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "artifical",
+      "intelligence",
+      "lex",
+      "service",
+      "building",
+      "conversational",
+      "interfaces",
+      "application",
+      "voice",
+      "text",
+      ""
+    ]
+  },
+  {
+    "id": "Ama_13",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "artifical",
+      "intelligence",
+      "polly",
+      "service",
+      "turns",
+      "text",
+      "lifelike",
+      "speech",
+      "allowing",
+      "create",
+      "applications",
+      "talk",
+      "build",
+      "entirely",
+      "new",
+      "categories",
+      "speechenabled",
+      "products",
+      ""
+    ]
+  },
+  {
+    "id": "Ama_14",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "artifical",
+      "intelligence",
+      "rekognition",
+      "service",
+      "easy",
+      "add",
+      "image",
+      "analysis",
+      "applications",
+      "with",
+      "detect",
+      "objects",
+      "scenes",
+      "faces",
+      "recognize",
+      "celebrities",
+      "identify",
+      "inappropriate",
+      "content",
+      "images"
+    ]
+  },
+  {
+    "id": "Ama_15",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "artifical",
+      "intelligence",
+      "maschine",
+      "learning",
+      "machine",
+      "service",
+      "easy",
+      "developers",
+      "skill",
+      "levels",
+      "machine",
+      "learning",
+      "technology"
+    ]
+  },
+  {
+    "id": "Ama_16",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "artifical",
+      "intelligence",
+      "deep",
+      "learning",
+      "amis",
+      "the",
+      "aws",
+      "equip",
+      "data",
+      "scientists",
+      "machine",
+      "learning",
+      "practitioners",
+      "research",
+      "infrastructure",
+      "tools",
+      "accelerate",
+      "work",
+      "deep",
+      "cloud",
+      "scale"
+    ]
+  },
+  {
+    "id": "Apa_17",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "artifical",
+      "intelligence",
+      "apache",
+      "mxnet",
+      "on",
+      "aws",
+      "lean",
+      "flexible",
+      "ultrascalable",
+      "deep",
+      "learning",
+      "framework",
+      "supports",
+      "state",
+      "art",
+      "models",
+      "including",
+      "convolutional",
+      "neural",
+      "networks",
+      "cnns",
+      "long",
+      "shortterm",
+      "memory",
+      "lstms"
+    ]
+  },
+  {
+    "id": "Ten_18",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "artifical",
+      "intelligence",
+      "tensorflow",
+      "on",
+      "aws",
+      "tensorflow?",
+      "enables",
+      "developers",
+      "quickly",
+      "easily",
+      "started",
+      "deep",
+      "learning",
+      "cloud"
+    ]
+  },
+  {
+    "id": "Ama_19",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "business",
+      "productivity",
+      "workdocs",
+      "fully",
+      "managed",
+      "secure",
+      "enterprise",
+      "storage",
+      "sharing",
+      "service",
+      "strong",
+      "administrative",
+      "controls",
+      "feedback",
+      "capabilities",
+      "improve",
+      "user",
+      "productivity"
+    ]
+  },
+  {
+    "id": "Ama_20",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "business",
+      "productivity",
+      "workmail",
+      "secure",
+      "managed",
+      "business",
+      "email",
+      "calendar",
+      "service",
+      "support",
+      "existing",
+      "desktop",
+      "mobile",
+      "client",
+      "applications",
+      ""
+    ]
+  },
+  {
+    "id": "Ama_21",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "business",
+      "productivity",
+      "chime",
+      "communications",
+      "service",
+      "transforms",
+      "online",
+      "meetings",
+      "secure",
+      "easytouse",
+      "application",
+      "trust",
+      ""
+    ]
+  },
+  {
+    "id": "Ama_22",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "compute",
+      "ec2",
+      "elastic",
+      "cloud",
+      "web",
+      "service",
+      "provides",
+      "secure",
+      "resizable",
+      "compute",
+      "capacity",
+      "cloud"
+    ]
+  },
+  {
+    "id": "Ama_23",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "compute",
+      "ec2",
+      "container",
+      "registry",
+      "ecr",
+      "fullymanaged",
+      "docker",
+      "container",
+      "registry",
+      "easy",
+      "developers",
+      "store",
+      "manage",
+      "deploy",
+      "images"
+    ]
+  },
+  {
+    "id": "Ama_24",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "compute",
+      "ec2",
+      "container",
+      "service",
+      "ecs",
+      "highly",
+      "scalable",
+      "high",
+      "performance",
+      "container",
+      "management",
+      "service",
+      "supports",
+      "docker",
+      "containers",
+      "allows",
+      "easily",
+      "run",
+      "applications",
+      "managed",
+      "cluster",
+      "instances",
+      ""
+    ]
+  },
+  {
+    "id": "Ama_25",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "compute",
+      "lightsail",
+      "easiest",
+      "way",
+      "started",
+      "aws",
+      "developers",
+      "who",
+      "just",
+      "need",
+      "virtual",
+      "private",
+      "servers",
+      "includes",
+      "everything",
+      "launch",
+      "project",
+      "quickly"
+    ]
+  },
+  {
+    "id": "Ama_26",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "compute",
+      "network",
+      "&",
+      "content",
+      "delivery",
+      "vpc",
+      "virtual",
+      "private",
+      "cloud",
+      "lets",
+      "provision",
+      "logically",
+      "isolated",
+      "section",
+      "web",
+      "services",
+      "aws",
+      "cloud",
+      "where",
+      "launch",
+      "resources",
+      "virtual",
+      "network",
+      "define",
+      ""
+    ]
+  },
+  {
+    "id": "AWS_27",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "compute",
+      "aws",
+      "batch",
+      "dynamically",
+      "provisions",
+      "optimal",
+      "quantity",
+      "type",
+      "compute",
+      "resources",
+      "eg",
+      "cpu",
+      "memory",
+      "optimized",
+      "instances",
+      "based",
+      "volume",
+      "specific",
+      "resource",
+      "requirements",
+      "batch",
+      "jobs",
+      "submitted"
+    ]
+  },
+  {
+    "id": "AWS_28",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "compute",
+      "aws",
+      "elastic",
+      "beanstalk",
+      "you",
+      "simply",
+      "upload",
+      "code",
+      "automatically",
+      "handles",
+      "deployment",
+      "capacity",
+      "provisioning",
+      "load",
+      "balancing",
+      "autoscaling",
+      "application",
+      "health",
+      "monitoring",
+      ""
+    ]
+  },
+  {
+    "id": "AWS_29",
+    "dependencies": {
+      "in": [
+        {
+          "dname": "Ama_52",
+          "dtype": ""
+        }
+      ],
+      "out": [
+        {
+          "dname": "Ama_93",
+          "dtype": ""
+        },
+        {
+          "dname": "Ama_77",
+          "dtype": ""
+        },
+        {
+          "dname": "Ama_61",
+          "dtype": ""
+        },
+        {
+          "dname": "Ama_62",
+          "dtype": ""
+        },
+        {
+          "dname": "Ama_52",
+          "dtype": ""
+        },
+        {
+          "dname": "Ama_4",
+          "dtype": ""
+        },
+        {
+          "dname": "Ama_34",
+          "dtype": ""
+        },
+        {
+          "dname": "Ama_12",
+          "dtype": ""
+        },
+        {
+          "dname": "Ama_78",
+          "dtype": ""
+        },
+        {
+          "dname": "AWS_55",
+          "dtype": ""
+        },
+        {
+          "dname": "Ama_73",
+          "dtype": ""
+        }
+      ]
+    },
+    "keywords": [
+      "amazon",
+      "compute",
+      "aws",
+      "lambda",
+      "lets",
+      "run",
+      "code",
+      "without",
+      "provisioning",
+      "managing",
+      "servers",
+      "you",
+      "pay",
+      "only",
+      "compute",
+      "time",
+      "consume",
+      "",
+      "there",
+      "charge",
+      "when",
+      "not",
+      "running",
+      "with",
+      "virtually",
+      "type",
+      "application",
+      "backend",
+      "service",
+      "zero",
+      "administration"
+    ]
+  },
+  {
+    "id": "Aut_30",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "compute",
+      "auto",
+      "scaling",
+      "helps",
+      "maintain",
+      "application",
+      "availability",
+      "allows",
+      "dynamically",
+      "scale",
+      "ec2",
+      "capacity",
+      "down",
+      "automatically",
+      "according",
+      "conditions",
+      "define"
+    ]
+  },
+  {
+    "id": "Ama_31",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "contact",
+      "center",
+      "connect",
+      "selfservice",
+      "cloudbased",
+      "contact",
+      "center",
+      "service",
+      "easy",
+      "business",
+      "deliver",
+      "better",
+      "customer",
+      "lower",
+      "cost"
+    ]
+  },
+  {
+    "id": "Ama_32",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "databases",
+      "aurora",
+      "mysql",
+      "postgresqlcompatible",
+      "relational",
+      "database",
+      "engine",
+      "combines",
+      "speed",
+      "availability",
+      "highend",
+      "commercial",
+      "databases",
+      "simplicity",
+      "costeffectiveness",
+      "open",
+      "source"
+    ]
+  },
+  {
+    "id": "Ama_33",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "databases",
+      "rds",
+      "relational",
+      "database",
+      "service",
+      "easy",
+      "operate",
+      "scale",
+      "relational",
+      "database",
+      "cloud",
+      ""
+    ]
+  },
+  {
+    "id": "Ama_34",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "databases",
+      "dynamodb",
+      "fast",
+      "flexible",
+      "nosql",
+      "databaseservice",
+      "applications",
+      "need",
+      "consistent",
+      "singledigit",
+      "millisecond",
+      "latency",
+      "scale"
+    ]
+  },
+  {
+    "id": "Ama_35",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "databases",
+      "dynamodb",
+      "accelerator",
+      "(dax)",
+      "dax",
+      "fully",
+      "managed",
+      "highly",
+      "available",
+      "inmemory",
+      "cache",
+      "delivers",
+      "10x",
+      "performance",
+      "improvement"
+    ]
+  },
+  {
+    "id": "Ama_36",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "databases",
+      "elasticache",
+      "web",
+      "service",
+      "easy",
+      "deploy",
+      "operate",
+      "scale",
+      "inmemory",
+      "data",
+      "store",
+      "cache",
+      "cloud",
+      ""
+    ]
+  },
+  {
+    "id": "AWS_37",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "databases",
+      "aws",
+      "database",
+      "migration",
+      "service",
+      "helps",
+      "migrate",
+      "databases",
+      "quickly",
+      "securely"
+    ]
+  },
+  {
+    "id": "Ama_38",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "desktop",
+      "app",
+      "&",
+      "streaming",
+      "workspaces",
+      "fully",
+      "managed",
+      "secure",
+      "desktopasaservice",
+      "daas",
+      "solution",
+      "which",
+      "runs",
+      "aws",
+      ""
+    ]
+  },
+  {
+    "id": "Ama_39",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "desktop",
+      "app",
+      "&",
+      "streaming",
+      "appstream",
+      "2.0",
+      "20",
+      "fully",
+      "managed",
+      "secure",
+      "application",
+      "streaming",
+      "service",
+      "allows",
+      "stream",
+      "desktop",
+      "applications",
+      "aws",
+      "device",
+      "running",
+      "web",
+      "browser",
+      "without",
+      "rewriting",
+      "them",
+      ""
+    ]
+  },
+  {
+    "id": "AWS_40",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "developer",
+      "tools",
+      "aws",
+      "codestar",
+      "enables",
+      "quickly",
+      "develop",
+      "build",
+      "deploy",
+      "applications",
+      "provides",
+      "unified",
+      "user",
+      "interface",
+      "enabling",
+      "easily",
+      "manage",
+      "software",
+      "development",
+      "activities",
+      "one",
+      "place",
+      ""
+    ]
+  },
+  {
+    "id": "AWS_41",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "developer",
+      "tools",
+      "aws",
+      "codecommit",
+      "fullymanaged",
+      "source",
+      "control",
+      "service",
+      "easy",
+      "companies",
+      "host",
+      "secure",
+      "highly",
+      "scalable",
+      "private",
+      "git",
+      "repositories",
+      ""
+    ]
+  },
+  {
+    "id": "AWS_42",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "developer",
+      "tools",
+      "aws",
+      "codebuild",
+      "fully",
+      "managed",
+      "build",
+      "service",
+      "compiles",
+      "source",
+      "code",
+      "runs",
+      "tests",
+      "produces",
+      "software",
+      "packages",
+      "are",
+      "ready",
+      "deploy",
+      ""
+    ]
+  },
+  {
+    "id": "AWS_43",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "developer",
+      "tools",
+      "aws",
+      "codedeploy",
+      "service",
+      "automates",
+      "code",
+      "deployments",
+      "instance",
+      "including",
+      "ec2",
+      "instances",
+      "running",
+      "onpremises"
+    ]
+  },
+  {
+    "id": "AWS_44",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "developer",
+      "tools",
+      "aws",
+      "codepipeline",
+      "continuous",
+      "integration",
+      "delivery",
+      "service",
+      "fast",
+      "reliable",
+      "application",
+      "infrastructure",
+      "updates"
+    ]
+  },
+  {
+    "id": "AWS_45",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "developer",
+      "tools",
+      "aws",
+      "x-ray",
+      "xray",
+      "helps",
+      "developers",
+      "analyze",
+      "debug",
+      "production",
+      "distributed",
+      "applications",
+      "such",
+      "those",
+      "built",
+      "microservices",
+      "architecture",
+      ""
+    ]
+  },
+  {
+    "id": "AWS_46",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "developer",
+      "tools",
+      "aws",
+      "command",
+      "line",
+      "interface",
+      "the",
+      "cli",
+      "unified",
+      "tool",
+      "manage",
+      "services",
+      ""
+    ]
+  },
+  {
+    "id": "Ama_47",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "game",
+      "development",
+      "gamelift",
+      "managed",
+      "service",
+      "deploying",
+      "operating",
+      "scaling",
+      "dedicated",
+      "game",
+      "servers",
+      "sessionbased",
+      "multiplayer",
+      "games",
+      "easy",
+      "manage",
+      "server",
+      "infrastructure",
+      "scale",
+      "capacity",
+      "lower",
+      "latency",
+      "cost",
+      "match",
+      "players",
+      "available",
+      "sessions",
+      "defend",
+      "distributed",
+      "denialofservice",
+      "ddos",
+      "attacks",
+      ""
+    ]
+  },
+  {
+    "id": "Ama_48",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "game",
+      "development",
+      "lumberyard",
+      "free",
+      "aaa",
+      "game",
+      "engine",
+      "deeply",
+      "integrated",
+      "aws",
+      "twitch",
+      "?",
+      "full",
+      "source"
+    ]
+  },
+  {
+    "id": "AWS_49",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "internet",
+      "of",
+      "things",
+      "aws",
+      "iot",
+      "platform",
+      "managed",
+      "cloud",
+      "platform",
+      "lets",
+      "connected",
+      "devices",
+      "easily",
+      "securely",
+      "interact",
+      "applications",
+      "other",
+      ""
+    ]
+  },
+  {
+    "id": "AWS_50",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "internet",
+      "of",
+      "things",
+      "aws",
+      "greengrass",
+      "software",
+      "lets",
+      "run",
+      "local",
+      "compute",
+      "messaging",
+      "",
+      "data",
+      "caching",
+      "connected",
+      "devices",
+      "secure",
+      "way"
+    ]
+  },
+  {
+    "id": "AWS_51",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "internet",
+      "of",
+      "things",
+      "aws",
+      "iot",
+      "button",
+      "the",
+      "programmable",
+      "button",
+      "based",
+      "dash",
+      "hardware",
+      ""
+    ]
+  },
+  {
+    "id": "Ama_52",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "management",
+      "tools",
+      "cloudwatch",
+      "monitoring",
+      "service",
+      "aws",
+      "cloud",
+      "resources",
+      "applications",
+      "run"
+    ]
+  },
+  {
+    "id": "AWS_53",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "management",
+      "tools",
+      "aws",
+      "cloudformation",
+      "gives",
+      "developers",
+      "systems",
+      "administrators",
+      "easy",
+      "way",
+      "create",
+      "manage",
+      "collection",
+      "related",
+      "resources",
+      "provisioning",
+      "updating",
+      "them",
+      "orderly",
+      "predictable",
+      "fashion"
+    ]
+  },
+  {
+    "id": "AWS_54",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "management",
+      "tools",
+      "aws",
+      "cloudtrail",
+      "service",
+      "enables",
+      "governance",
+      "compliance",
+      "operational",
+      "auditing",
+      "risk",
+      "account",
+      "with",
+      "log",
+      "continuously",
+      "monitor",
+      "retain",
+      "activity",
+      "related",
+      "actions",
+      "across",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "AWS_55",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "management",
+      "tools",
+      "aws",
+      "config",
+      "service",
+      "enables",
+      "assess",
+      "audit",
+      "evaluate",
+      "configurations",
+      "resources"
+    ]
+  },
+  {
+    "id": "AWS_56",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "management",
+      "tools",
+      "aws",
+      "opsworks",
+      "configuration",
+      "management",
+      "service",
+      "uses",
+      "chef",
+      "automation",
+      "platform",
+      "treats",
+      "server",
+      "configurations",
+      "code"
+    ]
+  },
+  {
+    "id": "AWS_57",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "management",
+      "tools",
+      "aws",
+      "service",
+      "catalog",
+      "allows",
+      "organizations",
+      "create",
+      "manage",
+      "catalogs",
+      "it",
+      "services",
+      "are",
+      "approved"
+    ]
+  },
+  {
+    "id": "AWS_58",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "management",
+      "tools",
+      "aws",
+      "trusted",
+      "advisor",
+      "an",
+      "online",
+      "resource",
+      "help",
+      "reduce",
+      "cost",
+      "increase",
+      "performance",
+      "improve",
+      "security",
+      "optimizing",
+      "environment",
+      "provides",
+      "real",
+      "time",
+      "guidance",
+      "provision",
+      "resources",
+      "following",
+      "best",
+      "practices"
+    ]
+  },
+  {
+    "id": "Ama_59",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "management",
+      "tools",
+      "ec2",
+      "systems",
+      "manager",
+      "management",
+      "service",
+      "helps",
+      "automatically",
+      "collect",
+      "software",
+      "inventory",
+      "apply",
+      "os",
+      "patches",
+      "create",
+      "system",
+      "images",
+      "configure",
+      "windows",
+      "linux",
+      "operating",
+      "systems"
+    ]
+  },
+  {
+    "id": "AWS_60",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "management",
+      "tools",
+      "aws",
+      "personal",
+      "health",
+      "dashboard",
+      "provides",
+      "alerts",
+      "remediation",
+      "guidance",
+      "when",
+      "experiencing",
+      "events",
+      "may",
+      "impact",
+      "while",
+      "service",
+      "displays",
+      "general",
+      "status",
+      "services",
+      "gives",
+      "personalized",
+      "view",
+      "performance",
+      "availability",
+      "underlying",
+      "resources"
+    ]
+  },
+  {
+    "id": "Ama_61",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "messaging",
+      "simple",
+      "queue",
+      "service",
+      "sqs",
+      "fully",
+      "managed",
+      "message",
+      "queuing",
+      "service",
+      "easy",
+      "decouple",
+      "scale",
+      "microservices",
+      "distributed",
+      "systems",
+      "serverless",
+      "applications"
+    ]
+  },
+  {
+    "id": "Ama_62",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "messaging",
+      "simple",
+      "notification",
+      "service",
+      "sns",
+      "flexible",
+      "fully",
+      "managed",
+      "pubsub",
+      "messaging",
+      "mobile",
+      "notifications",
+      "service",
+      "coordinating",
+      "delivery",
+      "messages",
+      "subscribing",
+      "endpoints",
+      "clients"
+    ]
+  },
+  {
+    "id": "Ama_63",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "messaging",
+      "simple",
+      "email",
+      "service",
+      "pinpoint",
+      "easy",
+      "message",
+      "users",
+      "directly",
+      "application",
+      "backend",
+      "service",
+      "run",
+      "targeted",
+      "campaigns",
+      "drive",
+      "user",
+      "engagement"
+    ]
+  },
+  {
+    "id": "Ama_64",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "messaging",
+      "pinpoint",
+      "simple",
+      "email",
+      "service",
+      "ses",
+      "evolved",
+      "email",
+      "platform",
+      "amazoncom",
+      "created",
+      "communicate",
+      "its",
+      "own",
+      "customers",
+      ""
+    ]
+  },
+  {
+    "id": "AWS_65",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "migration",
+      "aws",
+      "application",
+      "discovery",
+      "service",
+      "helps",
+      "enterprise",
+      "customers",
+      "plan",
+      "migration",
+      "projects",
+      "gathering",
+      "information",
+      "about",
+      "their",
+      "onpremises",
+      "data",
+      "centers"
+    ]
+  },
+  {
+    "id": "AWS_66",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "migration",
+      "aws",
+      "database",
+      "service",
+      "helps",
+      "migrate",
+      "databases",
+      "quickly",
+      "securely"
+    ]
+  },
+  {
+    "id": "AWS_67",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "migration",
+      "aws",
+      "hub",
+      "provides",
+      "single",
+      "location",
+      "track",
+      "progress",
+      "application",
+      "migrations",
+      "across",
+      "multiple",
+      "partner",
+      "solutions"
+    ]
+  },
+  {
+    "id": "AWS_68",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "migration",
+      "aws",
+      "server",
+      "service",
+      "sms",
+      "agentless",
+      "service",
+      "which",
+      "easier",
+      "faster",
+      "migrate",
+      "thousands",
+      "onpremises",
+      "workloads"
+    ]
+  },
+  {
+    "id": "AWS_69",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "migration",
+      "storage",
+      "aws",
+      "snowbball",
+      "snowball",
+      "petabytescale",
+      "data",
+      "transport",
+      "solution",
+      "uses",
+      "secure",
+      "appliances",
+      "transfer",
+      "large",
+      "amounts",
+      "out",
+      "cloud",
+      ""
+    ]
+  },
+  {
+    "id": "AWS_70",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "migration",
+      "storage",
+      "aws",
+      "snowball",
+      "edge",
+      "100tb",
+      "data",
+      "transfer",
+      "device",
+      "onboard",
+      "storage",
+      "compute",
+      "capabilities"
+    ]
+  },
+  {
+    "id": "AWS_71",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "migration",
+      "aws",
+      "snowmobile",
+      "exabytescale",
+      "data",
+      "transfer",
+      "service",
+      "used",
+      "move",
+      "extremely",
+      "large",
+      "amounts"
+    ]
+  },
+  {
+    "id": "AWS_72",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "mobile",
+      "services",
+      "aws",
+      "hub",
+      "provides",
+      "range",
+      "services",
+      "help",
+      "develop",
+      "mobile",
+      "apps",
+      "scale",
+      "hundreds",
+      "millions",
+      "users",
+      "reach",
+      "global",
+      "audiences"
+    ]
+  },
+  {
+    "id": "Ama_73",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "mobile",
+      "services",
+      "cognito",
+      "api",
+      "gateway",
+      "fully",
+      "managed",
+      "service",
+      "easy",
+      "developers",
+      "create",
+      "publish",
+      "maintain",
+      "monitor",
+      "secure",
+      "apis",
+      "scale",
+      ""
+    ]
+  },
+  {
+    "id": "AWS_74",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "mobile",
+      "services",
+      "aws",
+      "device",
+      "farm",
+      "cognito",
+      "lets",
+      "easily",
+      "add",
+      "user",
+      "signup",
+      "signin",
+      "mobile",
+      "web",
+      "apps"
+    ]
+  },
+  {
+    "id": "AWS_75",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "mobile",
+      "services",
+      "aws",
+      "sdk",
+      "the",
+      "helps",
+      "build",
+      "high",
+      "quality",
+      "mobile",
+      "apps",
+      "quickly",
+      "easily",
+      ""
+    ]
+  },
+  {
+    "id": "AWS_76",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "mobile",
+      "services",
+      "aws",
+      "pinpoint",
+      "easy",
+      "message",
+      "users",
+      "directly",
+      "application",
+      "backend",
+      "service",
+      "run",
+      "targeted",
+      "campaigns",
+      "drive",
+      "user",
+      "engagement",
+      ""
+    ]
+  },
+  {
+    "id": "Ama_77",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "mobile",
+      "services",
+      "api",
+      "gateway",
+      "fully",
+      "managed",
+      "service",
+      "easy",
+      "developers",
+      "create",
+      "publish",
+      "maintain",
+      "monitor",
+      "secure",
+      "apis",
+      "scale",
+      ""
+    ]
+  },
+  {
+    "id": "Ama_78",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "network",
+      "&",
+      "content",
+      "delivery",
+      "cloudfront",
+      "global",
+      "content",
+      "delivery",
+      "network",
+      "cdn",
+      "service",
+      "securely",
+      "delivers",
+      "data",
+      "videos",
+      "applications",
+      "apis",
+      "viewers",
+      "low",
+      "latency",
+      "high",
+      "transfer",
+      "speeds"
+    ]
+  },
+  {
+    "id": "Ama_79",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "network",
+      "&",
+      "content",
+      "delivery",
+      "direct",
+      "connect",
+      "aws",
+      "easy",
+      "establish",
+      "dedicated",
+      "network",
+      "connection",
+      "premises"
+    ]
+  },
+  {
+    "id": "Ama_80",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "network",
+      "&",
+      "content",
+      "delivery",
+      "route",
+      "53",
+      "highly",
+      "available",
+      "scalable",
+      "cloud",
+      "domain",
+      "name",
+      "system",
+      "dnsweb",
+      "service",
+      ""
+    ]
+  },
+  {
+    "id": "Ela_81",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "network",
+      "&",
+      "content",
+      "delivery",
+      "elastic",
+      "load",
+      "balancing",
+      "automatically",
+      "distributes",
+      "incoming",
+      "application",
+      "traffic",
+      "across",
+      "multiple",
+      "targets",
+      "such",
+      "ec2",
+      "instances",
+      "containers",
+      "ip",
+      "addresses"
+    ]
+  },
+  {
+    "id": "Ama_82",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "security,",
+      "identity",
+      "&",
+      "compliance",
+      "cloud",
+      "directory",
+      "enables",
+      "build",
+      "flexible",
+      "cloudnative",
+      "directories",
+      "organizing",
+      "hierarchies",
+      "data",
+      "along",
+      "multiple",
+      "dimensions",
+      ""
+    ]
+  },
+  {
+    "id": "AWS_83",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "security,",
+      "identity",
+      "&",
+      "compliance",
+      "aws",
+      "access",
+      "management",
+      "iam",
+      "enables",
+      "securely",
+      "control",
+      "access",
+      "services",
+      "resources",
+      "users",
+      "using",
+      "create",
+      "manage",
+      "groups",
+      "permissions",
+      "allow",
+      "deny",
+      "their",
+      ""
+    ]
+  },
+  {
+    "id": "Ama_84",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "security,",
+      "identity",
+      "&",
+      "compliance",
+      "inspector",
+      "automated",
+      "security",
+      "assessment",
+      "service",
+      "helps",
+      "improve",
+      "compliance",
+      "applications",
+      "deployed",
+      "aws",
+      ""
+    ]
+  },
+  {
+    "id": "Ama_85",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "security,",
+      "identity",
+      "&",
+      "compliance",
+      "macie",
+      "security",
+      "service",
+      "uses",
+      "machine",
+      "learning",
+      "automatically",
+      "discover",
+      "classify",
+      "protect",
+      "sensitive",
+      "data",
+      "aws"
+    ]
+  },
+  {
+    "id": "AWS_86",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "security,",
+      "identity",
+      "&",
+      "compliance",
+      "aws",
+      "certificate",
+      "manager",
+      "service",
+      "lets",
+      "easily",
+      "provision",
+      "manage",
+      "deploy",
+      "secure",
+      "sockets",
+      "layertransport",
+      "layer",
+      "security",
+      "ssltls",
+      "certificates",
+      "services"
+    ]
+  },
+  {
+    "id": "AWS_87",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "security,",
+      "identity",
+      "&",
+      "compliance",
+      "aws",
+      "cloud",
+      "hsm",
+      "cloudhsm",
+      "cloudbased",
+      "hardware",
+      "security",
+      "module",
+      "enables",
+      "easily",
+      "generate",
+      "own",
+      "encryption",
+      "keys",
+      "with",
+      "manage",
+      "fips",
+      "1402",
+      "level",
+      "3",
+      "validated",
+      "hsms"
+    ]
+  },
+  {
+    "id": "AWS_88",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "security,",
+      "identity",
+      "&",
+      "compliance",
+      "aws",
+      "directory",
+      "service",
+      "microsoft",
+      "active",
+      "enterprise",
+      "edition",
+      "also",
+      "known",
+      "ad",
+      "enables",
+      "directoryaware",
+      "workloads",
+      "resources",
+      "managed",
+      "cloud"
+    ]
+  },
+  {
+    "id": "AWS_89",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "security,",
+      "identity",
+      "&",
+      "compliance",
+      "aws",
+      "key",
+      "management",
+      "service",
+      "kms",
+      "managed",
+      "service",
+      "easy",
+      "create",
+      "control",
+      "encryption",
+      "keys",
+      "used",
+      "encrypt",
+      "data",
+      "uses",
+      "hardware",
+      "security",
+      "modules",
+      "hsms",
+      "protect",
+      "security"
+    ]
+  },
+  {
+    "id": "AWS_90",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "security,",
+      "identity",
+      "&",
+      "compliance",
+      "aws",
+      "organizations",
+      "offers",
+      "policybased",
+      "management",
+      "multiple",
+      "accounts"
+    ]
+  },
+  {
+    "id": "AWS_91",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "security,",
+      "identity",
+      "&",
+      "compliance",
+      "aws",
+      "shield",
+      "managed",
+      "distributed",
+      "denial",
+      "service",
+      "ddos",
+      "protection",
+      "service",
+      "safeguards",
+      "web",
+      "applications",
+      "running"
+    ]
+  },
+  {
+    "id": "AWS_92",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "security,",
+      "identity",
+      "&",
+      "compliance",
+      "aws",
+      "waf",
+      "web",
+      "application",
+      "firewall",
+      "helps",
+      "protect",
+      "applications",
+      "common",
+      "exploits",
+      "could",
+      "affect",
+      "availability",
+      "compromise",
+      "security",
+      "consume",
+      "excessive",
+      "resources",
+      "gives",
+      "control",
+      "over",
+      "which",
+      "traffic",
+      "allow",
+      "block",
+      "defining",
+      "customizable",
+      "rules"
+    ]
+  },
+  {
+    "id": "Ama_93",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "storage",
+      "s3",
+      "object",
+      "storage",
+      "built",
+      "store",
+      "retrieve",
+      "amount",
+      "data",
+      "anywhere"
+    ]
+  },
+  {
+    "id": "Ama_94",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "storage",
+      "ebs",
+      "elastic",
+      "block",
+      "store",
+      "provides",
+      "persistent",
+      "block",
+      "storage",
+      "volumes",
+      "ec2",
+      "instances",
+      "aws",
+      "cloud"
+    ]
+  },
+  {
+    "id": "Ama_95",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "storage",
+      "elastic",
+      "file",
+      "system",
+      "efs",
+      "provides",
+      "simple",
+      "scalable",
+      "file",
+      "storage",
+      "ec2",
+      "instances",
+      "aws",
+      "cloud"
+    ]
+  },
+  {
+    "id": "Ama_96",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "storage",
+      "glacier",
+      "secure",
+      "durable",
+      "extremely",
+      "lowcost",
+      "cloud",
+      "storage",
+      "service",
+      "data",
+      "archiving",
+      "longterm",
+      "backup",
+      ""
+    ]
+  },
+  {
+    "id": "AWS_97",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "storage",
+      "aws",
+      "gateway",
+      "hybrid",
+      "storage",
+      "service",
+      "enables",
+      "onpremises",
+      "applications",
+      "seamlessly",
+      "cloud",
+      ""
+    ]
+  },
+  {
+    "id": "AWS_98",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "storage",
+      "aws",
+      "snowmobile",
+      "exabytescale",
+      "data",
+      "transfer",
+      "service",
+      "used",
+      "move",
+      "extremely",
+      "large",
+      "amounts"
+    ]
+  },
+  {
+    "id": "Api_99",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "api",
+      "platform",
+      "and",
+      "ecosystem",
+      "apigee",
+      "full",
+      "lifecycle",
+      "management",
+      "platform",
+      "enables",
+      "providers",
+      "design",
+      "secure",
+      "deploy",
+      "monitor",
+      "scale",
+      "apis"
+    ]
+  },
+  {
+    "id": "API_100",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "api",
+      "platform",
+      "and",
+      "ecosystem",
+      "monetization",
+      "monetization",
+      "key",
+      "way",
+      "unlock",
+      "value",
+      "programs",
+      "increase",
+      "adoption"
+    ]
+  },
+  {
+    "id": "API_101",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "api",
+      "platform",
+      "and",
+      "ecosystem",
+      "analytics",
+      "gain",
+      "endtoend",
+      "visibility",
+      "across",
+      "apis",
+      "programs",
+      "operational",
+      "developer",
+      "engagement",
+      "business",
+      "metrics",
+      "required",
+      "monitor",
+      "measure",
+      "manage"
+    ]
+  },
+  {
+    "id": "Api_102",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "api",
+      "platform",
+      "and",
+      "ecosystem",
+      "apigee",
+      "sense",
+      "works",
+      "conjunction",
+      "edge",
+      "management",
+      "give",
+      "teams",
+      "powerful",
+      "weapon",
+      "protect",
+      "apis",
+      "attacks"
+    ]
+  },
+  {
+    "id": "Clo_103",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "api",
+      "platform",
+      "and",
+      "ecosystem",
+      "cloud",
+      "endpoints",
+      "develop",
+      "deploy",
+      "protect",
+      "monitor",
+      "apis"
+    ]
+  },
+  {
+    "id": "Big_104",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "bigdata",
+      "bigquery",
+      "google's",
+      "fully",
+      "managed",
+      "petabyte",
+      "scale",
+      "low",
+      "cost",
+      "enterprise",
+      "data",
+      "warehouse",
+      "analyticsbigquery",
+      "serverless",
+      ""
+    ]
+  },
+  {
+    "id": "Clo_105",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "bigdata",
+      "cloud",
+      "dataflow",
+      "fullymanaged",
+      "service",
+      "transforming",
+      "enriching",
+      "data",
+      "stream",
+      "real",
+      "time",
+      "batch",
+      "historical",
+      "modes",
+      "equal",
+      "reliability",
+      "expressiveness"
+    ]
+  },
+  {
+    "id": "Clo_106",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "bigdata",
+      "cloud",
+      "dataproc",
+      "fast",
+      "easytouse",
+      "fullymanaged",
+      "cloud",
+      "service",
+      "running",
+      "apache",
+      "spark",
+      "hadoop",
+      "clusters",
+      "simpler",
+      "more",
+      "costefficient",
+      "way",
+      ""
+    ]
+  },
+  {
+    "id": "Clo_107",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "bigdata",
+      "cloud",
+      "datalab",
+      "powerful",
+      "interactive",
+      "tool",
+      "created",
+      "explore",
+      "analyze",
+      "transform",
+      "visualize",
+      "data",
+      "build",
+      "machine",
+      "learning",
+      "models",
+      "platform"
+    ]
+  },
+  {
+    "id": "Clo_108",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "bigdata",
+      "cloud",
+      "dataprep",
+      "intelligent",
+      "data",
+      "service",
+      "visually",
+      "exploring",
+      "cleaning",
+      "preparing",
+      "structured",
+      "unstructured",
+      "analysis"
+    ]
+  },
+  {
+    "id": "Clo_109",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "bigdata",
+      "cloud",
+      "pub/sub",
+      "pubsub",
+      "simple",
+      "reliable",
+      "scalable",
+      "foundation",
+      "stream",
+      "analytics",
+      "eventdriven",
+      "computing",
+      "systems",
+      ""
+    ]
+  },
+  {
+    "id": "Gen_110",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "bigdata",
+      "genomics",
+      "helps",
+      "life",
+      "science",
+      "community",
+      "organize",
+      "world?s",
+      "genomic",
+      "information",
+      "make",
+      "accessible",
+      "useful",
+      ""
+    ]
+  },
+  {
+    "id": "Goo_111",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "bigdata",
+      "data",
+      "studio",
+      "turns",
+      "data",
+      "informative",
+      "dashboards",
+      "reports",
+      "are",
+      "easy",
+      "read",
+      "share",
+      "fully",
+      "customizable"
+    ]
+  },
+  {
+    "id": "Clo_112",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "compute",
+      "cloud",
+      "services",
+      "azure",
+      "removes",
+      "need",
+      "manage",
+      "server",
+      "infrastructure",
+      "with",
+      "web",
+      "worker",
+      "roles",
+      "lets",
+      "quickly",
+      "build",
+      "deploy",
+      "modern",
+      "applications"
+    ]
+  },
+  {
+    "id": "Com_113",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "compute",
+      "engine",
+      "delivers",
+      "virtual",
+      "machines",
+      "running",
+      "google's",
+      "innovative",
+      "data",
+      "centers",
+      "worldwide",
+      "fiber",
+      "network",
+      "engine's",
+      "tooling",
+      "workflow",
+      "support",
+      "enable",
+      "scaling",
+      "single",
+      "instances",
+      "global",
+      "loadbalanced",
+      "cloud",
+      "computing"
+    ]
+  },
+  {
+    "id": "App_114",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "compute",
+      "app",
+      "engine",
+      "fully",
+      "managed",
+      "platform",
+      "completely",
+      "abstracts",
+      "away",
+      "infrastructure",
+      "focus",
+      "only",
+      "code"
+    ]
+  },
+  {
+    "id": "Con_115",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "compute",
+      "container",
+      "engine",
+      "managed",
+      "environment",
+      "deploying",
+      "containerized",
+      "applications",
+      "brings",
+      "our",
+      "latest",
+      "innovations",
+      "developer",
+      "productivity",
+      "resource",
+      "efficiency",
+      "automated",
+      "operations",
+      "open",
+      "source",
+      "flexibility",
+      "accelerate",
+      "time",
+      "market"
+    ]
+  },
+  {
+    "id": "Clo_116",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "compute",
+      "cloud",
+      "functions",
+      "computing",
+      "has",
+      "made",
+      "possible",
+      "fully",
+      "serverless",
+      "models",
+      "where",
+      "logic",
+      "spun",
+      "ondemand",
+      "response",
+      "events",
+      "originating",
+      "anywhere"
+    ]
+  },
+  {
+    "id": "Clo_117",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "developer",
+      "tools",
+      "cloud",
+      "sdk",
+      "the",
+      "tools",
+      "platform",
+      "contains",
+      "gcloud",
+      "gsutil",
+      "bq",
+      "which",
+      "access",
+      "compute",
+      "engine",
+      "storage",
+      "bigquery",
+      "other",
+      "products",
+      "services",
+      "commandline",
+      ""
+    ]
+  },
+  {
+    "id": "Con_118",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "developer",
+      "tools",
+      "container",
+      "registry",
+      "store",
+      "private",
+      "docker",
+      "container",
+      "images",
+      "cloud",
+      "platform",
+      "fast",
+      "scalable",
+      "retrieval",
+      "deployment"
+    ]
+  },
+  {
+    "id": "Con_119",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "developer",
+      "tools",
+      "container",
+      "builder",
+      "run",
+      "container",
+      "image",
+      "builds",
+      "fast",
+      "consistent",
+      "reliable",
+      "environment",
+      "cloud",
+      "platform",
+      "build",
+      "language",
+      "package",
+      "build",
+      "artifacts",
+      "docker",
+      "containers",
+      "deployment",
+      ""
+    ]
+  },
+  {
+    "id": "Clo_120",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "developer",
+      "tools",
+      "cloud",
+      "source",
+      "repositories",
+      "repositories",
+      "provides",
+      "git",
+      "version",
+      "control",
+      "support",
+      "collaborative",
+      "development",
+      "application",
+      "service",
+      "including",
+      "those",
+      "run",
+      "app",
+      "engine",
+      "compute"
+    ]
+  },
+  {
+    "id": "Clo_121",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "developer",
+      "tools",
+      "cloud",
+      "for",
+      "intellij",
+      "using",
+      "easily",
+      "deploy",
+      "java",
+      "backends",
+      "cloud",
+      "apps",
+      "app",
+      "engine",
+      "standard",
+      "flexible",
+      "environments"
+    ]
+  },
+  {
+    "id": "Clo_122",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "developer",
+      "tools",
+      "cloud",
+      "for",
+      "powershell",
+      "powershell",
+      "lets",
+      "script",
+      "automate",
+      "manage",
+      "windows",
+      "workloads",
+      "running",
+      "platform"
+    ]
+  },
+  {
+    "id": "Clo_123",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "developer",
+      "tools",
+      "cloud",
+      "for",
+      "visual",
+      "studio",
+      "powerful",
+      "environment",
+      "build",
+      "windows",
+      "net",
+      "applications",
+      "deploy",
+      "them",
+      "platform",
+      "directly",
+      "favorite",
+      "ide"
+    ]
+  },
+  {
+    "id": "Clo_124",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "developer",
+      "tools",
+      "cloud",
+      "for",
+      "eclipse",
+      "googlesponsored",
+      "open",
+      "source",
+      "plugin",
+      "supports",
+      "app",
+      "engine",
+      "standard",
+      "environment",
+      "inside",
+      "ide"
+    ]
+  },
+  {
+    "id": "Gra_125",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "developer",
+      "tools",
+      "gradle",
+      "app",
+      "engine",
+      "plugin",
+      ""
+    ]
+  },
+  {
+    "id": "Mav_126",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "developer",
+      "tools",
+      "maven",
+      "app",
+      "engine",
+      "plugin",
+      ""
+    ]
+  },
+  {
+    "id": "Clo_127",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "developer",
+      "tools",
+      "cloud",
+      "test",
+      "lab",
+      ""
+    ]
+  },
+  {
+    "id": "Clo_128",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "identity",
+      "and",
+      "security",
+      "cloud",
+      "iam",
+      "",
+      "access",
+      "management",
+      "lets",
+      "administrators",
+      "authorize",
+      "who",
+      "take",
+      "action",
+      "specific",
+      "resources",
+      "giving",
+      "full",
+      "control",
+      "visibility",
+      "manage",
+      "cloud",
+      "centrally"
+    ]
+  },
+  {
+    "id": "Clo_129",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "identity",
+      "and",
+      "security",
+      "cloud",
+      "aware",
+      "proxy",
+      "identityaware",
+      "iap",
+      "controls",
+      "access",
+      "cloud",
+      "applications",
+      "running",
+      "platform"
+    ]
+  },
+  {
+    "id": "Clo_130",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "identity",
+      "and",
+      "security",
+      "cloud",
+      "data",
+      "loss",
+      "prevention",
+      "api",
+      "the",
+      "dlp",
+      "lets",
+      "understand",
+      "manage",
+      "sensitive",
+      "data",
+      "provides",
+      "fast",
+      "scalable",
+      "classification",
+      "optional",
+      "redaction",
+      "elements",
+      "credit",
+      "card",
+      "numbers",
+      "names",
+      "social",
+      "security",
+      "passport",
+      "us",
+      "selected",
+      "international",
+      "driver?s",
+      "license",
+      "phone",
+      "more",
+      ""
+    ]
+  },
+  {
+    "id": "Clo_131",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "identity",
+      "and",
+      "security",
+      "cloud",
+      "key",
+      "management",
+      "service",
+      "kms",
+      "cloudhosted",
+      "key",
+      "management",
+      "service",
+      "lets",
+      "manage",
+      "encryption",
+      "cloud",
+      "services",
+      "same",
+      "way",
+      "do",
+      "onpremises"
+    ]
+  },
+  {
+    "id": "Clo_132",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "identity",
+      "and",
+      "security",
+      "cloud",
+      "resource",
+      "manager",
+      "platform",
+      "provides",
+      "resource",
+      "containers",
+      "such",
+      "organizations",
+      "folders",
+      "projects",
+      "allow",
+      "group",
+      "hierarchically",
+      "organize",
+      "other",
+      "resources"
+    ]
+  },
+  {
+    "id": "Clo_133",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "identity",
+      "and",
+      "security",
+      "cloud",
+      "scanner",
+      "web",
+      "security",
+      "scanner",
+      "common",
+      "vulnerabilities",
+      "app",
+      "engine",
+      "applications",
+      "automatically",
+      "scan",
+      "detect",
+      "four",
+      "including",
+      "crosssitescripting",
+      "xss",
+      "flash",
+      "injection",
+      "mixed",
+      "content",
+      "http",
+      "https",
+      "outdatedinsecure",
+      "libraries"
+    ]
+  },
+  {
+    "id": "Clo_134",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "identity",
+      "and",
+      "security",
+      "cloud",
+      "platform",
+      "overview",
+      "the",
+      "security",
+      "model",
+      "endtoend",
+      "process",
+      "built",
+      "over",
+      "15",
+      "years",
+      "experience",
+      "focused",
+      "keeping",
+      "customers",
+      "safe",
+      "applications",
+      "gmail",
+      "search",
+      "other",
+      "apps"
+    ]
+  },
+  {
+    "id": "Clo_135",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "internet",
+      "of",
+      "things",
+      "cloud",
+      "iot",
+      "core",
+      "fully",
+      "managed",
+      "service",
+      "allows",
+      "easily",
+      "securely",
+      "connect",
+      "manage",
+      "ingest",
+      "data",
+      "millions",
+      "globally",
+      "dispersed",
+      "devices",
+      ""
+    ]
+  },
+  {
+    "id": "Clo_136",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "machine",
+      "learning",
+      "cloud",
+      "engine",
+      "managed",
+      "service",
+      "enables",
+      "easily",
+      "build",
+      "machine",
+      "learning",
+      "models",
+      "work",
+      "type",
+      "data",
+      "size"
+    ]
+  },
+  {
+    "id": "Clo_137",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "machine",
+      "learning",
+      "cloud",
+      "jobs",
+      "api",
+      "proud",
+      "part",
+      "",
+      "broader",
+      "commitment",
+      "help",
+      "people",
+      "find",
+      "jobs",
+      "more",
+      "easily"
+    ]
+  },
+  {
+    "id": "Clo_138",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "machine",
+      "learning",
+      "cloud",
+      "natural",
+      "language",
+      "api",
+      "reveals",
+      "structure",
+      "meaning",
+      "text",
+      "offering",
+      "powerful",
+      "machine",
+      "learning",
+      "models",
+      "easy",
+      "rest",
+      ""
+    ]
+  },
+  {
+    "id": "Clo_139",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "machine",
+      "learning",
+      "cloud",
+      "speech",
+      "api",
+      "enables",
+      "developers",
+      "convert",
+      "audio",
+      "text",
+      "applying",
+      "powerful",
+      "neural",
+      "network",
+      "models",
+      "easy",
+      ""
+    ]
+  },
+  {
+    "id": "Clo_140",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "machine",
+      "learning",
+      "cloud",
+      "translation",
+      "api",
+      "provides",
+      "simple",
+      "programmatic",
+      "interface",
+      "translating",
+      "arbitrary",
+      "string",
+      "supported",
+      "language",
+      "stateoftheart",
+      "neural",
+      ""
+    ]
+  },
+  {
+    "id": "Clo_141",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "machine",
+      "learning",
+      "cloud",
+      "vision",
+      "api",
+      "enables",
+      "developers",
+      "understand",
+      "content",
+      "image",
+      "encapsulating",
+      "powerful",
+      "machine",
+      "learning",
+      "models",
+      "easy",
+      "rest"
+    ]
+  },
+  {
+    "id": "Clo_142",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "machine",
+      "learning",
+      "cloud",
+      "video",
+      "intelligence",
+      "api",
+      "videos",
+      "searchable",
+      "discoverable",
+      "extracting",
+      "metadata",
+      "easy",
+      "rest",
+      ""
+    ]
+  },
+  {
+    "id": "Sta_143",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "management",
+      "tools",
+      "stackdriver",
+      "overview",
+      "provides",
+      "powerful",
+      "monitoring",
+      "logging",
+      "diagnostics",
+      "equips",
+      "insight",
+      "health",
+      "performance",
+      "availability",
+      "cloudpowered",
+      "applications",
+      "enabling",
+      "find",
+      "fix",
+      "issues",
+      "faster"
+    ]
+  },
+  {
+    "id": "Mon_144",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "management",
+      "tools",
+      "monitoring",
+      "stackdriver",
+      "provides",
+      "visibility",
+      "performance",
+      "uptime",
+      "overall",
+      "health",
+      "cloudpowered",
+      "applications",
+      ""
+    ]
+  },
+  {
+    "id": "Log_145",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "management",
+      "tools",
+      "logging",
+      "stackdriver",
+      "allows",
+      "store",
+      "search",
+      "analyze",
+      "monitor",
+      "alert",
+      "log",
+      "data",
+      "events",
+      "cloud",
+      "platform",
+      "amazon",
+      "web",
+      "services",
+      "aws",
+      ""
+    ]
+  },
+  {
+    "id": "Err_146",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "management",
+      "tools",
+      "error",
+      "reporting",
+      "stackdriver",
+      "counts",
+      "analyzes",
+      "aggregates",
+      "crashes",
+      "running",
+      "cloud",
+      "services",
+      "a",
+      "centralized",
+      "error",
+      "management",
+      "interface",
+      "displays",
+      "results",
+      "sorting",
+      "filtering",
+      "capabilities",
+      "dedicated",
+      "view",
+      "shows",
+      "details",
+      "time",
+      "chart",
+      "occurrences",
+      "affected",
+      "user",
+      "count",
+      "first",
+      "last",
+      "seen",
+      "dates",
+      "cleaned",
+      "exception",
+      "stack",
+      "trace",
+      "optin",
+      "receive",
+      "email",
+      "mobile",
+      "alerts",
+      "new",
+      "errors"
+    ]
+  },
+  {
+    "id": "Tra_147",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "management",
+      "tools",
+      "trace",
+      "stackdriver",
+      "distributed",
+      "tracing",
+      "system",
+      "collects",
+      "latency",
+      "data",
+      "applications",
+      "displays",
+      "cloud",
+      "platform",
+      "console"
+    ]
+  },
+  {
+    "id": "Deb_148",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "management",
+      "tools",
+      "debugger",
+      "stackdriver",
+      "feature",
+      "cloud",
+      "platform",
+      "lets",
+      "inspect",
+      "state",
+      "application",
+      "code",
+      "location",
+      "without",
+      "logging",
+      "statements",
+      "stopping",
+      "slowing",
+      "down",
+      "applications"
+    ]
+  },
+  {
+    "id": "Clo_149",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "management",
+      "tools",
+      "cloud",
+      "deployment",
+      "manager",
+      "allows",
+      "specify",
+      "resources",
+      "needed",
+      "application",
+      "declarative",
+      "format",
+      "yaml",
+      ""
+    ]
+  },
+  {
+    "id": "Clo_150",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "management",
+      "tools",
+      "cloud",
+      "console",
+      "manage",
+      "insights",
+      "everything",
+      "powers",
+      "cloud",
+      "application",
+      "",
+      "including",
+      "web",
+      "applications",
+      "data",
+      "analysis",
+      "virtual",
+      "machines",
+      "datastore",
+      "databases",
+      "networking",
+      "developer",
+      "services"
+    ]
+  },
+  {
+    "id": "Clo_151",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "management",
+      "tools",
+      "cloud",
+      "shell",
+      "provides",
+      "commandline",
+      "access",
+      "cloud",
+      "resources",
+      "directly",
+      "browser"
+    ]
+  },
+  {
+    "id": "Clo_152",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "management",
+      "tools",
+      "cloud",
+      "mobile",
+      "app",
+      "the",
+      "console",
+      "mobile",
+      "app",
+      "gives",
+      "convenient",
+      "way",
+      "discover",
+      "understand",
+      "respond",
+      "production",
+      "issues",
+      "monitor",
+      "make",
+      "changes",
+      "platform",
+      "resources",
+      "ios",
+      "android",
+      "device",
+      ""
+    ]
+  },
+  {
+    "id": "Clo_153",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "management",
+      "tools",
+      "cloud",
+      "billing",
+      "api",
+      "the",
+      "provides",
+      "methods",
+      "programmatically",
+      "manage",
+      "billing",
+      "projects",
+      "platform",
+      ""
+    ]
+  },
+  {
+    "id": "Clo_154",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "management",
+      "tools",
+      "cloud",
+      "apis",
+      "access",
+      "platform",
+      "products",
+      "code"
+    ]
+  },
+  {
+    "id": "Vir_155",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "networking",
+      "virtual",
+      "private",
+      "cloud",
+      "with",
+      "platform",
+      "gcp",
+      "vpc",
+      "provision",
+      "resources",
+      "connect",
+      "them",
+      "each",
+      "other",
+      "isolate",
+      "one",
+      "another",
+      ""
+    ]
+  },
+  {
+    "id": "Clo_156",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "networking",
+      "cloud",
+      "load",
+      "balancing",
+      "scale",
+      "applications",
+      "compute",
+      "engine",
+      "zero",
+      "fullthrottle",
+      "prewarming",
+      "needed"
+    ]
+  },
+  {
+    "id": "Clo_157",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "networking",
+      "cloud",
+      "cdn",
+      "leverages",
+      "google's",
+      "globally",
+      "distributed",
+      "edge",
+      "points",
+      "presence",
+      "accelerate",
+      "content",
+      "delivery",
+      "websites",
+      "applications",
+      "served",
+      "out",
+      "compute",
+      "engine",
+      "storage",
+      ""
+    ]
+  },
+  {
+    "id": "Clo_158",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "networking",
+      "cloud",
+      "interconnect",
+      "options",
+      "connect",
+      "infrastructure",
+      "platform",
+      "gcp"
+    ]
+  },
+  {
+    "id": "Clo_159",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "networking",
+      "cloud",
+      "dns",
+      "scalable",
+      "reliable",
+      "managed",
+      "authoritative",
+      "domain",
+      "name",
+      "system",
+      "service",
+      "running",
+      "same",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "Net_160",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "networking",
+      "network",
+      "service",
+      "tiers",
+      "with",
+      "gcp",
+      "first",
+      "major",
+      "public",
+      "cloud",
+      "offer",
+      "tiered",
+      "network"
+    ]
+  },
+  {
+    "id": "Clo_161",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "storage",
+      "and",
+      "databases",
+      "cloud",
+      "unified",
+      "object",
+      "storage",
+      "developers",
+      "enterprises",
+      "live",
+      "data",
+      "serving",
+      "analyticsml",
+      "archiving"
+    ]
+  },
+  {
+    "id": "Clo_162",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "storage",
+      "and",
+      "databases",
+      "cloud",
+      "sql",
+      "fullymanaged",
+      "database",
+      "service",
+      "easy",
+      "maintain",
+      "manage",
+      "administer",
+      "relational",
+      "postgresql",
+      "beta",
+      "mysql",
+      "databases",
+      "cloud",
+      ""
+    ]
+  },
+  {
+    "id": "Clo_163",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "storage",
+      "and",
+      "databases",
+      "cloud",
+      "bigtable",
+      "google's",
+      "nosql",
+      "big",
+      "data",
+      "database",
+      "service",
+      "it's",
+      "same",
+      "powers",
+      "many",
+      "core",
+      "services",
+      "including",
+      "search",
+      "analytics",
+      "maps",
+      "gmail"
+    ]
+  },
+  {
+    "id": "Clo_164",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "storage",
+      "and",
+      "databases",
+      "cloud",
+      "spanner",
+      "world?s",
+      "first",
+      "fully",
+      "managed",
+      "relational",
+      "database",
+      "service",
+      "offer",
+      "both",
+      "strong",
+      "consistency",
+      "horizontal",
+      "scalability",
+      "missioncritical",
+      "online",
+      "transaction",
+      "processing",
+      "oltp",
+      "applications"
+    ]
+  },
+  {
+    "id": "Clo_165",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "storage",
+      "and",
+      "databases",
+      "cloud",
+      "datastore",
+      "highlyscalable",
+      "nosql",
+      "database",
+      "applications",
+      "automatically",
+      "handles",
+      "sharding",
+      "replication",
+      "providing",
+      "highly",
+      "available",
+      "durable",
+      "scales",
+      "handle",
+      "applications'",
+      "load",
+      ""
+    ]
+  },
+  {
+    "id": "Per_166",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "storage",
+      "and",
+      "databases",
+      "persistent",
+      "disk",
+      "durable",
+      "high",
+      "performance",
+      "block",
+      "storage",
+      "cloud",
+      "platform",
+      "provides",
+      "ssd",
+      "hdd",
+      "which",
+      "attached",
+      "instances",
+      "running",
+      "either",
+      "compute",
+      "engine",
+      "container",
+      "volumes",
+      "transparently",
+      "resized",
+      "quickly",
+      "backed",
+      "offer",
+      "ability",
+      "support",
+      "simultaneous",
+      "readers"
+    ]
+  },
+  {
+    "id": "Dat_167",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "storage",
+      "and",
+      "databases",
+      "data",
+      "transfer",
+      "whether",
+      "are",
+      "denver",
+      "denmark",
+      "50",
+      "gigabytes",
+      "petabytes",
+      "access",
+      "t1",
+      "line",
+      "10",
+      "gbps",
+      "offers",
+      "solutions",
+      "meet",
+      "unique",
+      "data",
+      "transfer",
+      "requirements",
+      "cloud",
+      "quickly",
+      "securely"
+    ]
+  },
+  {
+    "id": "Goo_168",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "web",
+      "&",
+      "mobile",
+      "app",
+      "engine",
+      ""
+    ]
+  },
+  {
+    "id": "Sec_169",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "identity",
+      "and",
+      "security",
+      "key",
+      "enforcement",
+      "2step",
+      "verification",
+      "security",
+      "key",
+      "uses",
+      "cryptography",
+      "provide",
+      "twoway",
+      "sure",
+      "you're",
+      "logging",
+      "service",
+      "originally",
+      "registered",
+      "verifies",
+      "it's",
+      "correct",
+      "well"
+    ]
+  },
+  {
+    "id": "Cog_170",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "a",
+      "portfolio",
+      "apis",
+      "sdks",
+      "enable",
+      "developers",
+      "easily",
+      "add",
+      "intelligent",
+      "services",
+      "such",
+      "vision",
+      "speech",
+      "language",
+      "knowledge",
+      "search",
+      "capabilities",
+      "their",
+      "solutions"
+    ]
+  },
+  {
+    "id": "Tex_171",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "text",
+      "analytics",
+      "api",
+      "easily",
+      "evaluate",
+      "sentiment",
+      "topics",
+      "understand",
+      "what",
+      "users",
+      "want"
+    ]
+  },
+  {
+    "id": "Rec_172",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "recommendations",
+      "api",
+      "predict",
+      "recommend",
+      "items",
+      "customers",
+      "want"
+    ]
+  },
+  {
+    "id": "Aca_173",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "academic",
+      "knowledge",
+      "api",
+      "tap",
+      "wealth",
+      "academic",
+      "content",
+      "graph"
+    ]
+  },
+  {
+    "id": "Com_174",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "computer",
+      "vision",
+      "api",
+      "distill",
+      "actionable",
+      "information",
+      "images"
+    ]
+  },
+  {
+    "id": "Con_175",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "content",
+      "moderator",
+      "automated",
+      "image",
+      "text",
+      "video",
+      "moderation"
+    ]
+  },
+  {
+    "id": "Emo_176",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "emotion",
+      "api",
+      "personalize",
+      "user",
+      "experiences",
+      "emotion",
+      "recognition"
+    ]
+  },
+  {
+    "id": "Fac_177",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "face",
+      "api",
+      "detect",
+      "identify",
+      "analyze",
+      "organize",
+      "tag",
+      "faces",
+      "photos"
+    ]
+  },
+  {
+    "id": "Bin_178",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "bing",
+      "speech",
+      "api",
+      "convert",
+      "speech",
+      "text",
+      "back",
+      "again",
+      "understand",
+      "user",
+      "intent"
+    ]
+  },
+  {
+    "id": "Web_179",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "web",
+      "language",
+      "model",
+      "api",
+      "use",
+      "power",
+      "predictive",
+      "language",
+      "models",
+      "trained",
+      "webscale",
+      "data"
+    ]
+  },
+  {
+    "id": "Lan_180",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "language",
+      "understanding",
+      "intelligent",
+      "service",
+      "teach",
+      "apps",
+      "understand",
+      "commands",
+      "users"
+    ]
+  },
+  {
+    "id": "Spe_181",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "speaker",
+      "recoognition",
+      "api",
+      "use",
+      "speech",
+      "identify",
+      "authenticate",
+      "individual",
+      "speakers"
+    ]
+  },
+  {
+    "id": "Cus_182",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "custom",
+      "speech",
+      "service",
+      "overcome",
+      "speech",
+      "recognition",
+      "barriers",
+      "speaking",
+      "style",
+      "background",
+      "noise",
+      "vocabulary"
+    ]
+  },
+  {
+    "id": "Bin_183",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "bing",
+      "autosuggest",
+      "api",
+      "give",
+      "app",
+      "intelligent",
+      "autosuggest",
+      "options",
+      "searches"
+    ]
+  },
+  {
+    "id": "Bin_184",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "bing",
+      "spell",
+      "check",
+      "api",
+      "detect",
+      "correct",
+      "spelling",
+      "mistakes",
+      "app"
+    ]
+  },
+  {
+    "id": "Tra_185",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "translator",
+      "speech",
+      "api",
+      "easily",
+      "conduct",
+      "realtime",
+      "speech",
+      "translation",
+      "simple",
+      "rest",
+      "call"
+    ]
+  },
+  {
+    "id": "Tra_186",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "translator",
+      "text",
+      "api",
+      "easily",
+      "conduct",
+      "machine",
+      "translation",
+      "simple",
+      "rest",
+      "call"
+    ]
+  },
+  {
+    "id": "Bin_187",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "bing",
+      "custom",
+      "search",
+      "an",
+      "easytouse",
+      "adfree",
+      "commercialgrade",
+      "search",
+      "tool",
+      "lets",
+      "deliver",
+      "results",
+      "want"
+    ]
+  },
+  {
+    "id": "Bin_188",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "bing",
+      "entitiy",
+      "search",
+      "api",
+      "enrich",
+      "experiences",
+      "identifying",
+      "augmenting",
+      "entity",
+      "information",
+      "web"
+    ]
+  },
+  {
+    "id": "Bin_189",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "bing",
+      "web",
+      "search",
+      "api",
+      "get",
+      "enhanced",
+      "search",
+      "details",
+      "billions",
+      "web",
+      "documents"
+    ]
+  },
+  {
+    "id": "Bin_190",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "bing",
+      "video",
+      "search",
+      "api",
+      "videos",
+      "comprehensive",
+      "results"
+    ]
+  },
+  {
+    "id": "Bin_191",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "bing",
+      "news",
+      "search",
+      "api",
+      "news",
+      "comprehensive",
+      "results"
+    ]
+  },
+  {
+    "id": "Cus_192",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "custom",
+      "decision",
+      "service",
+      "a",
+      "cloudbased",
+      "contextual",
+      "decisionmaking",
+      "api",
+      "sharpens",
+      "experience"
+    ]
+  },
+  {
+    "id": "QnA_193",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "qna",
+      "maker",
+      "api",
+      "distill",
+      "information",
+      "conversational",
+      "easytonavigate",
+      "answers"
+    ]
+  },
+  {
+    "id": "Kno_194",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "knowledge",
+      "exploration",
+      "service",
+      "enable",
+      "interactive",
+      "search",
+      "experiences",
+      "over",
+      "structured",
+      "data",
+      "via",
+      "natural",
+      "language",
+      "inputs"
+    ]
+  },
+  {
+    "id": "Ent_195",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "entity",
+      "linking",
+      "service",
+      "api",
+      "power",
+      "app's",
+      "data",
+      "links",
+      "named",
+      "entity",
+      "recognition",
+      "disambiguation"
+    ]
+  },
+  {
+    "id": "Lin_196",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "linguistic",
+      "analysis",
+      "api",
+      "simplify",
+      "complex",
+      "language",
+      "concepts",
+      "parse",
+      "text"
+    ]
+  },
+  {
+    "id": "Vid_197",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "video",
+      "indexer",
+      "unlock",
+      "video",
+      "insights"
+    ]
+  },
+  {
+    "id": "Vid_198",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "video",
+      "api",
+      "intelligent",
+      "video",
+      "processing"
+    ]
+  },
+  {
+    "id": "Cus_199",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "artifical",
+      "intelligence",
+      "and",
+      "cognitive",
+      "services",
+      "customer",
+      "vision",
+      "service",
+      "easily",
+      "customize",
+      "own",
+      "stateoftheart",
+      "computer",
+      "vision",
+      "models",
+      "unique",
+      "case"
+    ]
+  },
+  {
+    "id": "Vir_200",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "compute",
+      "virtual",
+      "machines",
+      "azure",
+      "lets",
+      "deploy",
+      "windows",
+      "server",
+      "linux",
+      "image",
+      "cloud",
+      "you",
+      "select",
+      "images",
+      "marketplace",
+      "own",
+      "customized"
+    ]
+  },
+  {
+    "id": "Vir_201",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "compute",
+      "virtual",
+      "machine",
+      "scale",
+      "sets",
+      "vm",
+      "sets",
+      "make",
+      "easy",
+      "build",
+      "highly",
+      "scalable",
+      "applications",
+      "allowing",
+      "easily",
+      "deploy",
+      "manage",
+      "identical",
+      "vms",
+      "built",
+      "azure",
+      "resource",
+      "manager",
+      "deployment",
+      "model",
+      "are",
+      "fully",
+      "integrated",
+      "load",
+      "balancing",
+      "autoscale",
+      "support",
+      "windows",
+      "linux",
+      "custom",
+      "images",
+      "extensions"
+    ]
+  },
+  {
+    "id": "App_202",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "compute",
+      "app",
+      "service",
+      "azure",
+      "lets",
+      "create",
+      "apps",
+      "faster",
+      "oneofa",
+      "kind",
+      "cloud",
+      "service",
+      "quickly",
+      "easily",
+      "enterpriseready",
+      "web",
+      "mobile",
+      "platform",
+      "device",
+      "deploy",
+      "them",
+      "scalable",
+      "reliable",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "Azu_203",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "compute",
+      "azure",
+      "functions",
+      "event",
+      "driven",
+      "computeondemand",
+      "experience",
+      "you",
+      "leverage",
+      "build",
+      "http",
+      "endpoints",
+      "accessible",
+      "mobile",
+      "iot",
+      "devices"
+    ]
+  },
+  {
+    "id": "Azu_204",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "compute",
+      "azure",
+      "batch",
+      "easy",
+      "run",
+      "largescale",
+      "parallel",
+      "highperformance",
+      "computing",
+      "hpc",
+      "workloads",
+      "use",
+      "scale",
+      "out",
+      "manage",
+      "execution",
+      "tasks",
+      "queue",
+      "cloudenable",
+      "applications",
+      "offload",
+      "compute",
+      "jobs",
+      "cloud"
+    ]
+  },
+  {
+    "id": "Ser_205",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "compute",
+      "service",
+      "fabric",
+      "microservices",
+      "platform",
+      "used",
+      "build",
+      "scalable",
+      "reliable",
+      "easily",
+      "managed",
+      "applications",
+      "cloud",
+      "addressing",
+      "significant",
+      "challenges",
+      "developing",
+      "managing",
+      "allows",
+      "developers",
+      "administrators",
+      "avoid",
+      "solving",
+      "complex",
+      "infrastructure",
+      "problems",
+      "focus",
+      "instead",
+      "implementing",
+      "missioncritical",
+      "demanding",
+      "workloads"
+    ]
+  },
+  {
+    "id": "App_206",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "container",
+      "app",
+      "services",
+      "azure",
+      "service",
+      "lets",
+      "create",
+      "apps",
+      "faster",
+      "oneofa",
+      "kind",
+      "cloud",
+      "service",
+      "quickly",
+      "easily",
+      "enterpriseready",
+      "web",
+      "mobile",
+      "platform",
+      "device",
+      "deploy",
+      "them",
+      "scalable",
+      "reliable",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "Bat_207",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "container",
+      "batch",
+      "azure",
+      "easy",
+      "run",
+      "largescale",
+      "parallel",
+      "highperformance",
+      "computing",
+      "hpc",
+      "workloads",
+      "use",
+      "scale",
+      "out",
+      "manage",
+      "execution",
+      "tasks",
+      "queue",
+      "cloudenable",
+      "applications",
+      "offload",
+      "compute",
+      "jobs",
+      "cloud"
+    ]
+  },
+  {
+    "id": "Con_208",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "container",
+      "registry",
+      "azure",
+      "place",
+      "store",
+      "manage",
+      "container",
+      "images",
+      "types",
+      "deployments",
+      "mesosphere",
+      "dcos",
+      "docker",
+      "swarm",
+      "kubernetes",
+      "app",
+      "service",
+      "fabric",
+      "batch",
+      "the",
+      "provides",
+      "local",
+      "networkclose",
+      "storage",
+      "you",
+      "benefit",
+      "familiar",
+      "open",
+      "source",
+      "cli",
+      "tools",
+      "push",
+      "pull",
+      "registry"
+    ]
+  },
+  {
+    "id": "Con_209",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "container",
+      "instances",
+      "easily",
+      "run",
+      "containers",
+      "single",
+      "command",
+      "with",
+      "azure",
+      "started",
+      "seconds",
+      "lower",
+      "infrastructure",
+      "costs",
+      "taking",
+      "advantage",
+      "persecond",
+      "billing",
+      "there",
+      "are",
+      "container",
+      "orchestration",
+      "tools",
+      "learn?just",
+      "application",
+      "running",
+      "cloud"
+    ]
+  },
+  {
+    "id": "Ser_210",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "container",
+      "service",
+      "fabric",
+      "microservices",
+      "platform",
+      "used",
+      "build",
+      "scalable",
+      "reliable",
+      "easily",
+      "managed",
+      "applications",
+      "cloud",
+      "addressing",
+      "significant",
+      "challenges",
+      "developing",
+      "managing",
+      "allows",
+      "developers",
+      "administrators",
+      "avoid",
+      "solving",
+      "complex",
+      "infrastructure",
+      "problems",
+      "focus",
+      "instead",
+      "implementing",
+      "missioncritical",
+      "demanding",
+      "workloads"
+    ]
+  },
+  {
+    "id": "Con_211",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "container",
+      "service",
+      "azure",
+      "container",
+      "hosting",
+      "environment",
+      "optimized",
+      "lets",
+      "deploy",
+      "scale",
+      "orchestrate",
+      "containerbased",
+      "applications",
+      "docker",
+      "swarm",
+      "apache",
+      "mesos?popular",
+      "open",
+      "source",
+      "tools",
+      "you?re",
+      "already",
+      "familiar"
+    ]
+  },
+  {
+    "id": "HDI_212",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "data",
+      "and",
+      "analytics",
+      "hdinsight",
+      "azure",
+      "hadoopbased",
+      "service",
+      "brings",
+      "apache",
+      "hadoop",
+      "solution",
+      "cloud",
+      "gain",
+      "full",
+      "value",
+      "big",
+      "data",
+      "cloudbased",
+      "platform",
+      "manages",
+      "type",
+      "size"
+    ]
+  },
+  {
+    "id": "Mac_213",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "data",
+      "and",
+      "analytics",
+      "machine",
+      "learning",
+      "azure",
+      "lets",
+      "easily",
+      "design",
+      "test",
+      "operationalize",
+      "manage",
+      "predictive",
+      "analytics",
+      "solutions",
+      "cloud"
+    ]
+  },
+  {
+    "id": "Str_214",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "data",
+      "and",
+      "analytics",
+      "stream",
+      "azure",
+      "eventprocessing",
+      "engine",
+      "helps",
+      "gain",
+      "insights",
+      "devices",
+      "sensors",
+      "cloud",
+      "infrastructure",
+      "existing",
+      "data",
+      "properties",
+      "realtime",
+      "it's",
+      "integrated",
+      "out",
+      "box",
+      "event",
+      "hubs",
+      "combined",
+      "solution",
+      "both",
+      "ingest",
+      "millions",
+      "events",
+      "do",
+      "analytics",
+      "help",
+      "better",
+      "understand",
+      "patterns",
+      "power",
+      "dashboard",
+      "detect",
+      "anomalies",
+      "kick",
+      "off",
+      "action",
+      "while",
+      "being",
+      "streamed",
+      "real",
+      "time"
+    ]
+  },
+  {
+    "id": "Azu_215",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "data",
+      "and",
+      "analytics",
+      "azure",
+      "bot",
+      "service",
+      "enables",
+      "rapid",
+      "intelligent",
+      "bot",
+      "development",
+      "bringing",
+      "together",
+      "power",
+      "framework",
+      "functions",
+      "build",
+      "connect",
+      "deploy",
+      "manage",
+      "bots",
+      "interact",
+      "naturally",
+      "wherever",
+      "users",
+      "are",
+      "talking",
+      "allow",
+      "scale",
+      "based",
+      "ondemand",
+      "pay",
+      "only",
+      "resources",
+      "consume"
+    ]
+  },
+  {
+    "id": "Dat_216",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "data",
+      "and",
+      "analytics",
+      "lake",
+      "the",
+      "analytics",
+      "service",
+      "new",
+      "distributed",
+      "built",
+      "apache",
+      "yarn",
+      "dynamically",
+      "scales",
+      "focus",
+      "business",
+      "goals",
+      "not",
+      "infrastructure",
+      "instead",
+      "deploying",
+      "configuring",
+      "tuning",
+      "hardware",
+      "write",
+      "queries",
+      "transform",
+      "data",
+      "extract",
+      "valuable",
+      "insights",
+      "handle",
+      "jobs",
+      "scale",
+      "instantly",
+      "simply",
+      "setting",
+      "dial",
+      "how",
+      "much",
+      "power",
+      "need"
+    ]
+  },
+  {
+    "id": "Dat_217",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "data",
+      "and",
+      "analytics",
+      "lake",
+      "store",
+      "the",
+      "store",
+      "provides",
+      "single",
+      "repository",
+      "where",
+      "capture",
+      "data",
+      "size",
+      "type",
+      "speed",
+      "simply",
+      "without",
+      "forcing",
+      "changes",
+      "application",
+      "scales",
+      "in",
+      "shared",
+      "collaboration",
+      "enterprisegrade",
+      "security",
+      "also",
+      "designed",
+      "highperformance",
+      "processing",
+      "analytics",
+      "hdfs",
+      "applications",
+      "ie",
+      "azure",
+      "hdinsight",
+      "service",
+      "hortonworks",
+      "cloudera",
+      "mapr",
+      "tools",
+      "including",
+      "support",
+      "low",
+      "latency",
+      "workloads"
+    ]
+  },
+  {
+    "id": "Dat_218",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "data",
+      "and",
+      "analytics",
+      "factory",
+      "azure",
+      "managed",
+      "service",
+      "lets",
+      "produce",
+      "trusted",
+      "information",
+      "raw",
+      "data",
+      "cloud",
+      "onpremises",
+      "sources",
+      "easily",
+      "create",
+      "orchestrate",
+      "schedule",
+      "highlyavailable",
+      "faulttolerant",
+      "work",
+      "flows",
+      "movement",
+      "transformation",
+      "activities",
+      "monitor",
+      "health",
+      "pipelines",
+      "glance",
+      "rich",
+      "visual",
+      "experience",
+      "offered",
+      "through",
+      "portal"
+    ]
+  },
+  {
+    "id": "Pow_219",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "data",
+      "and",
+      "analytics",
+      "power",
+      "bi",
+      "embedded",
+      "provides",
+      "stunning",
+      "fully",
+      "interactive",
+      "data",
+      "visualizations",
+      "customerfacing",
+      "apps",
+      "without",
+      "time",
+      "expense",
+      "having",
+      "build",
+      "ground"
+    ]
+  },
+  {
+    "id": "Dat_220",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "data",
+      "and",
+      "analytics",
+      "catalog",
+      "azure",
+      "fully",
+      "managed",
+      "service",
+      "serves",
+      "system",
+      "registration",
+      "discovery",
+      "enterprise",
+      "data",
+      "sources",
+      "lets",
+      "users?from",
+      "analysts",
+      "scientists",
+      "developers?register",
+      "discover",
+      "understand",
+      "consume",
+      "use",
+      "crowdsourced",
+      "annotations",
+      "metadata",
+      "capture",
+      "tribal",
+      "knowledge",
+      "within",
+      "organization",
+      "shine",
+      "light",
+      "hidden",
+      "more",
+      "value"
+    ]
+  },
+  {
+    "id": "Log_221",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "data",
+      "and",
+      "analytics",
+      "log",
+      "azure",
+      "lets",
+      "collect",
+      "correlate",
+      "visualize",
+      "machine",
+      "data",
+      "such",
+      "event",
+      "logs",
+      "network",
+      "performance",
+      "much",
+      "more",
+      "both",
+      "onpremises",
+      "cloud",
+      "assets"
+    ]
+  },
+  {
+    "id": "Apa_222",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "data",
+      "and",
+      "analytics",
+      "apache",
+      "spark",
+      "for",
+      "azure",
+      "hdinsight",
+      "cloud",
+      "mission",
+      "critical",
+      "deployments"
+    ]
+  },
+  {
+    "id": "Tex_223",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "data",
+      "and",
+      "analytics",
+      "text",
+      "api",
+      "easily",
+      "evaluate",
+      "sentiment",
+      "topics",
+      "understand",
+      "what",
+      "users",
+      "want"
+    ]
+  },
+  {
+    "id": "Azu_224",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "data",
+      "and",
+      "analytics",
+      "azure",
+      "analysis",
+      "services",
+      "enterprise",
+      "grade",
+      "analytics",
+      "engine",
+      "service"
+    ]
+  },
+  {
+    "id": "Dyn_225",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "data",
+      "and",
+      "analytics",
+      "dynamics",
+      "365",
+      "for",
+      "customer",
+      "insights",
+      "transform",
+      "customer",
+      "data",
+      "actionable",
+      "insights"
+    ]
+  },
+  {
+    "id": "Cus_226",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "data",
+      "and",
+      "analytics",
+      "custom",
+      "speech",
+      "service",
+      "overcome",
+      "speech",
+      "recognition",
+      "barriers",
+      "speaking",
+      "style",
+      "background",
+      "noise",
+      "vocabulary"
+    ]
+  },
+  {
+    "id": "SQL_227",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "databases",
+      "sql",
+      "database",
+      "azure",
+      "relational",
+      "database",
+      "service",
+      "lets",
+      "rapidly",
+      "create",
+      "extend",
+      "scale",
+      "applications",
+      "cloud"
+    ]
+  },
+  {
+    "id": "Azu_228",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "databases",
+      "azure",
+      "database",
+      "for",
+      "mysql",
+      "provides",
+      "managed",
+      "database",
+      "service",
+      "app",
+      "development",
+      "deployment",
+      "allows",
+      "stand",
+      "minutes",
+      "scale",
+      "fly",
+      "?",
+      "cloud",
+      "trust",
+      "most"
+    ]
+  },
+  {
+    "id": "Azu_229",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "databases",
+      "azure",
+      "database",
+      "for",
+      "postgresql",
+      "provides",
+      "managed",
+      "database",
+      "service",
+      "app",
+      "development",
+      "deployment",
+      "allows",
+      "stand",
+      "minutes",
+      "scale",
+      "fly",
+      "?",
+      "cloud",
+      "trust",
+      "most"
+    ]
+  },
+  {
+    "id": "SQL_230",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "databases",
+      "sql",
+      "data",
+      "warehouse",
+      "azure",
+      "elastic",
+      "data",
+      "warehouse",
+      "service",
+      "enterprisegrade",
+      "features",
+      "based",
+      "massively",
+      "parallel",
+      "server",
+      "processing",
+      "architecture",
+      "lets",
+      "scale",
+      "either",
+      "onpremises",
+      "our",
+      "cloud",
+      "it?s",
+      "first",
+      "dynamically",
+      "grow",
+      "shrink",
+      "pay",
+      "only",
+      "query",
+      "performance",
+      "need",
+      "when",
+      "petabytescale",
+      "existing",
+      "transactsql",
+      "tsql",
+      "skills",
+      "integrate",
+      "queries",
+      "across",
+      "structured",
+      "unstructured",
+      ""
+    ]
+  },
+  {
+    "id": "SQL_231",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "databases",
+      "sql",
+      "server",
+      "stretch",
+      "database",
+      "with",
+      "dynamically",
+      "stretch",
+      "warm",
+      "cold",
+      "transactional",
+      "data",
+      "azure",
+      "unlike",
+      "typical",
+      "storage",
+      "always",
+      "hand",
+      "lets",
+      "provide",
+      "longer",
+      "retention",
+      "times",
+      "than",
+      "enterprise",
+      "without",
+      "breaking",
+      "bank",
+      "depending",
+      "how",
+      "often",
+      "you?ll",
+      "access",
+      "choose",
+      "appropriate",
+      "level",
+      "service",
+      "then",
+      "scale",
+      "down",
+      "needed",
+      "using",
+      "doesn?t",
+      "require",
+      "application",
+      "changes"
+    ]
+  },
+  {
+    "id": "Azu_232",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "databases",
+      "azure",
+      "cosmos",
+      "db",
+      "fullymanaged",
+      "nosql",
+      "document",
+      "database",
+      "service",
+      "offers",
+      "querying",
+      "transactionprocessing",
+      "over",
+      "schemafree",
+      "data",
+      "predictable",
+      "reliable",
+      "performance",
+      "rapid",
+      "development"
+    ]
+  },
+  {
+    "id": "Red_233",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "databases",
+      "redis",
+      "cache",
+      "azure",
+      "cache?based",
+      "popular",
+      "open",
+      "source",
+      "cache?gives",
+      "access",
+      "secure",
+      "dedicated",
+      "cache",
+      "applications"
+    ]
+  },
+  {
+    "id": "Dat_234",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "databases",
+      "data",
+      "factory",
+      "azure",
+      "managed",
+      "service",
+      "lets",
+      "produce",
+      "trusted",
+      "information",
+      "raw",
+      "data",
+      "cloud",
+      "onpremises",
+      "sources",
+      "easily",
+      "create",
+      "orchestrate",
+      "schedule",
+      "highlyavailable",
+      "faulttolerant",
+      "work",
+      "flows",
+      "movement",
+      "transformation",
+      "activities",
+      "monitor",
+      "health",
+      "pipelines",
+      "glance",
+      "rich",
+      "visual",
+      "experience",
+      "offered",
+      "through",
+      "portal"
+    ]
+  },
+  {
+    "id": "Vis_235",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "developer",
+      "tools",
+      "visual",
+      "studio",
+      "team",
+      "services",
+      "cloudbased",
+      "application",
+      "lifecycle",
+      "management",
+      "alm",
+      "solution",
+      "everything",
+      "hostedcode",
+      "repositories",
+      "issuetracking",
+      "loadtesting",
+      "automated",
+      "builds",
+      "it's",
+      "accessible",
+      "nearly",
+      "anywhere",
+      "create",
+      "account",
+      "free",
+      "licensed",
+      "separately",
+      "azure",
+      "services"
+    ]
+  },
+  {
+    "id": "Azu_236",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "developer",
+      "tools",
+      "azure",
+      "devtest",
+      "labs",
+      "easy",
+      "quickly",
+      "create",
+      "environments",
+      "deploy",
+      "test",
+      "applications",
+      "use",
+      "reusable",
+      "templates",
+      "artifacts",
+      "build",
+      "windows",
+      "linux",
+      "while",
+      "minimalizing",
+      "waste",
+      "controlling",
+      "costs"
+    ]
+  },
+  {
+    "id": "App_237",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "developer",
+      "tools",
+      "application",
+      "insights",
+      "detect",
+      "triage",
+      "diagnose",
+      "issues",
+      "web",
+      "apps",
+      "services"
+    ]
+  },
+  {
+    "id": "API_238",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "developer",
+      "tools",
+      "api",
+      "management",
+      "azure",
+      "lets",
+      "publish",
+      "apis",
+      "developers",
+      "partners",
+      "employees",
+      "securely",
+      "scale"
+    ]
+  },
+  {
+    "id": "Hoc_239",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "developer",
+      "tools",
+      "hockey",
+      "app",
+      "hockeyapp",
+      "lets",
+      "distribute",
+      "beta",
+      "versions",
+      "collect",
+      "live",
+      "crash",
+      "reports",
+      "feedback",
+      "real",
+      "users",
+      "?",
+      "enable",
+      "build",
+      "world?s",
+      "best",
+      "mobile",
+      "apps"
+    ]
+  },
+  {
+    "id": "Log_240",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "enterprise",
+      "integration",
+      "logic",
+      "apps",
+      "automate",
+      "access",
+      "data",
+      "across",
+      "clouds",
+      "without",
+      "writing",
+      "code"
+    ]
+  },
+  {
+    "id": "Ser_241",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "enterprise",
+      "integration",
+      "service",
+      "bus",
+      "azure",
+      "messaging",
+      "infrastructure",
+      "sits",
+      "between",
+      "applications",
+      "allowing",
+      "them",
+      "exchange",
+      "messages",
+      "improved",
+      "scale",
+      "resiliency"
+    ]
+  },
+  {
+    "id": "API_242",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "enterprise",
+      "integration",
+      "api",
+      "management",
+      "azure",
+      "lets",
+      "publish",
+      "apis",
+      "developers",
+      "partners",
+      "employees",
+      "securely",
+      "scale"
+    ]
+  },
+  {
+    "id": "Sto_243",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "enterprise",
+      "integration",
+      "storsimple",
+      "azure",
+      "unique",
+      "hybrid",
+      "cloud",
+      "storage",
+      "solution",
+      "primary",
+      "archiving",
+      "disaster",
+      "recovery",
+      "optimizes",
+      "total",
+      "costs",
+      "data",
+      "protection",
+      "note",
+      "8000",
+      "series",
+      "licensed",
+      "separately",
+      "services"
+    ]
+  },
+  {
+    "id": "SQL_244",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "enterprise",
+      "integration",
+      "sql",
+      "server",
+      "stretch",
+      "database",
+      "with",
+      "dynamically",
+      "stretch",
+      "warm",
+      "cold",
+      "transactional",
+      "data",
+      "azure",
+      "unlike",
+      "typical",
+      "storage",
+      "always",
+      "hand",
+      "lets",
+      "provide",
+      "longer",
+      "retention",
+      "times",
+      "than",
+      "enterprise",
+      "without",
+      "breaking",
+      "bank",
+      "depending",
+      "how",
+      "often",
+      "you?ll",
+      "access",
+      "choose",
+      "appropriate",
+      "level",
+      "service",
+      "then",
+      "scale",
+      "down",
+      "needed",
+      "using",
+      "doesn?t",
+      "require",
+      "application",
+      "changes",
+      "and",
+      "new",
+      "always",
+      "encrypted",
+      "technology",
+      "which",
+      "helps",
+      "protect",
+      "rest",
+      "motion?extending",
+      "more",
+      "secured",
+      "manner",
+      "greater",
+      "peace",
+      "mind"
+    ]
+  },
+  {
+    "id": "Dat_245",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "enterprise",
+      "integration",
+      "data",
+      "catalog",
+      "azure",
+      "fully",
+      "managed",
+      "service",
+      "serves",
+      "system",
+      "registration",
+      "discovery",
+      "enterprise",
+      "data",
+      "sources",
+      "lets",
+      "users?from",
+      "analysts",
+      "scientists",
+      "developers?register",
+      "discover",
+      "understand",
+      "consume",
+      "use",
+      "crowdsourced",
+      "annotations",
+      "metadata",
+      "capture",
+      "tribal",
+      "knowledge",
+      "within",
+      "organization",
+      "shine",
+      "light",
+      "hidden",
+      "more",
+      "value"
+    ]
+  },
+  {
+    "id": "Dat_246",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "enterprise",
+      "integration",
+      "data",
+      "factory",
+      "azure",
+      "managed",
+      "service",
+      "lets",
+      "produce",
+      "trusted",
+      "information",
+      "raw",
+      "data",
+      "cloud",
+      "onpremises",
+      "sources",
+      "easily",
+      "create",
+      "orchestrate",
+      "schedule",
+      "highlyavailable",
+      "faulttolerant",
+      "work",
+      "flows",
+      "movement",
+      "transformation",
+      "activities",
+      "monitor",
+      "health",
+      "pipelines",
+      "glance",
+      "rich",
+      "visual",
+      "experience",
+      "offered",
+      "through",
+      "portal"
+    ]
+  },
+  {
+    "id": "Eve_247",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "enterprise",
+      "integration",
+      "event",
+      "grid",
+      "build",
+      "reactive",
+      "eventdriven",
+      "apps",
+      "fully",
+      "managed",
+      "event",
+      "routing",
+      "service",
+      "create",
+      "richer",
+      "app",
+      "scenarios",
+      "connecting",
+      "serverless",
+      "logic",
+      "events",
+      "multiple",
+      "sources"
+    ]
+  },
+  {
+    "id": "IoT_248",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "internet",
+      "of",
+      "things",
+      "iot",
+      "hub",
+      "connect",
+      "monitor",
+      "control",
+      "billions",
+      "assets",
+      "running",
+      "broad",
+      "operating",
+      "systems",
+      "protocols",
+      "establish",
+      "reliable",
+      "bidirectional",
+      "communication",
+      "these",
+      "even",
+      "if",
+      "they?re",
+      "intermittently",
+      "connected",
+      "analyze?and",
+      "act",
+      "on?incoming",
+      "telemetry",
+      "data",
+      "enhance",
+      "security",
+      "solutions",
+      "perdevice",
+      "authentication",
+      "communicate",
+      "devices",
+      "have",
+      "appropriate",
+      "credentials",
+      "revoke",
+      "access",
+      "rights",
+      "specific",
+      "maintain",
+      "integrity",
+      "system"
+    ]
+  },
+  {
+    "id": "Eve_249",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "internet",
+      "of",
+      "things",
+      "event",
+      "hubs",
+      "azure",
+      "enables",
+      "elasticscale",
+      "telemetry",
+      "event",
+      "ingestion",
+      "durable",
+      "buffering",
+      "subsecond",
+      "endtoend",
+      "latency",
+      "millions",
+      "devices",
+      "events"
+    ]
+  },
+  {
+    "id": "Str_250",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "internet",
+      "of",
+      "things",
+      "stream",
+      "analytics",
+      "azure",
+      "eventprocessing",
+      "engine",
+      "helps",
+      "gain",
+      "insights",
+      "devices",
+      "sensors",
+      "cloud",
+      "infrastructure",
+      "existing",
+      "data",
+      "properties",
+      "realtime",
+      "it's",
+      "integrated",
+      "out",
+      "box",
+      "event",
+      "hubs",
+      "combined",
+      "solution",
+      "both",
+      "ingest",
+      "millions",
+      "events",
+      "do",
+      "analytics",
+      "help",
+      "better",
+      "understand",
+      "patterns",
+      "power",
+      "dashboard",
+      "detect",
+      "anomalies",
+      "kick",
+      "off",
+      "action",
+      "while",
+      "being",
+      "streamed",
+      "real",
+      "time"
+    ]
+  },
+  {
+    "id": "Mas_251",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "internet",
+      "of",
+      "things",
+      "maschine",
+      "learning",
+      "azure",
+      "machine",
+      "lets",
+      "easily",
+      "design",
+      "test",
+      "operationalize",
+      "manage",
+      "predictive",
+      "analytics",
+      "solutions",
+      "cloud"
+    ]
+  },
+  {
+    "id": "Not_252",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "internet",
+      "of",
+      "things",
+      "notification",
+      "hubs",
+      "a",
+      "scalable",
+      "push",
+      "notification",
+      "engine",
+      "quickly",
+      "sending",
+      "millions",
+      "messages"
+    ]
+  },
+  {
+    "id": "Tim_253",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "internet",
+      "of",
+      "things",
+      "time",
+      "series",
+      "insights",
+      "instantly",
+      "explore",
+      "analyze",
+      "timeseries",
+      "data",
+      "iot",
+      "solutions"
+    ]
+  },
+  {
+    "id": "Azu_254",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "internet",
+      "of",
+      "things",
+      "azure",
+      "cosmos",
+      "db",
+      "fullymanaged",
+      "nosql",
+      "document",
+      "database",
+      "service",
+      "offers",
+      "querying",
+      "transactionprocessing",
+      "over",
+      "schemafree",
+      "data",
+      "predictable",
+      "reliable",
+      "performance",
+      "rapid",
+      "development"
+    ]
+  },
+  {
+    "id": "Azu_255",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "azure",
+      "advisor",
+      "personalized",
+      "recommendation",
+      "engine",
+      "helps",
+      "follow",
+      "best",
+      "practices",
+      "analyzes",
+      "resource",
+      "configuration",
+      "usage",
+      "telemetry",
+      "then",
+      "provides",
+      "recommendations",
+      "reduce",
+      "costs",
+      "improve",
+      "performance",
+      "security",
+      "reliability",
+      "applications"
+    ]
+  },
+  {
+    "id": "Mic_256",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "azure",
+      "portal",
+      "build",
+      "manage",
+      "monitor",
+      "products",
+      "single",
+      "unified",
+      "console"
+    ]
+  },
+  {
+    "id": "Azu_257",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "azure",
+      "mobile",
+      "app",
+      ""
+    ]
+  },
+  {
+    "id": "Azu_258",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "azure",
+      "resource",
+      "manager",
+      "simplify",
+      "how",
+      "manage",
+      "app",
+      "resources"
+    ]
+  },
+  {
+    "id": "App_259",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "application",
+      "insights",
+      "detect",
+      "triage",
+      "diagnose",
+      "issues",
+      "web",
+      "apps",
+      "services"
+    ]
+  },
+  {
+    "id": "Log_260",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "log",
+      "analytics",
+      "azure",
+      "analytics",
+      "lets",
+      "collect",
+      "correlate",
+      "visualize",
+      "machine",
+      "data",
+      "such",
+      "event",
+      "logs",
+      "network",
+      "performance",
+      "much",
+      "more",
+      "both",
+      "onpremises",
+      "cloud",
+      "assets"
+    ]
+  },
+  {
+    "id": "Aut_261",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "automation",
+      "azure",
+      "lets",
+      "create",
+      "deploy",
+      "monitor",
+      "maintain",
+      "resources",
+      "environment",
+      "automatically",
+      "highly",
+      "scalable",
+      "reliable",
+      "workflow",
+      "execution",
+      "engine"
+    ]
+  },
+  {
+    "id": "Bac_262",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "backup",
+      "on",
+      "corporate",
+      "laptops",
+      "azure",
+      "protects",
+      "windows",
+      "client",
+      "data",
+      "shared",
+      "files",
+      "folders",
+      "in",
+      "datacenter",
+      "integrated",
+      "system",
+      "center",
+      "data",
+      "protection",
+      "manager",
+      "dpm",
+      "sharepoint",
+      "exchange",
+      "sql",
+      "server",
+      "hyperv",
+      "virtual",
+      "machines",
+      "other",
+      "applications"
+    ]
+  },
+  {
+    "id": "Sit_263",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "site",
+      "recovery",
+      "azure",
+      "helps",
+      "protect",
+      "important",
+      "applications",
+      "coordinating",
+      "replication",
+      "recovery",
+      "private",
+      "clouds",
+      "simple",
+      "costeffective",
+      "disaster"
+    ]
+  },
+  {
+    "id": "She_264",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "sheduler",
+      "azure",
+      "scheduler",
+      "lets",
+      "invoke",
+      "actions",
+      "call",
+      "https",
+      "endpoints",
+      "post",
+      "messages",
+      "storage",
+      "queue",
+      "schedule",
+      "create",
+      "jobs",
+      "reliably",
+      "services",
+      "either",
+      "inside",
+      "outside",
+      "run",
+      "those",
+      "right",
+      "away",
+      "regular",
+      "irregular",
+      "future",
+      "date"
+    ]
+  },
+  {
+    "id": "Tra_265",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "traffic",
+      "manager",
+      "azure",
+      "lets",
+      "route",
+      "incoming",
+      "traffic",
+      "across",
+      "multiple",
+      "hosted",
+      "services",
+      "whether",
+      "they?re",
+      "running",
+      "same",
+      "datacenter",
+      "different",
+      "datacenters",
+      "around",
+      "world"
+    ]
+  },
+  {
+    "id": "Azu_266",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "azure",
+      "highly",
+      "granular",
+      "realtime",
+      "monitoring",
+      "data",
+      "resource"
+    ]
+  },
+  {
+    "id": "Sec_267",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "security",
+      "compliance",
+      "enable",
+      "threat",
+      "detection",
+      "prevention",
+      "through",
+      "advanced",
+      "cloud",
+      "security"
+    ]
+  },
+  {
+    "id": "Pro_268",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "protection",
+      "recovery",
+      "ensure",
+      "application",
+      "availability",
+      "data",
+      "protection"
+    ]
+  },
+  {
+    "id": "Aut_269",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "automation",
+      "control",
+      "centrally",
+      "manage",
+      "automation",
+      "configuration",
+      "assets"
+    ]
+  },
+  {
+    "id": "Ins_270",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "insight",
+      "analytics",
+      "easily",
+      "search",
+      "correlate",
+      "analyze",
+      "data",
+      "cloud"
+    ]
+  },
+  {
+    "id": "Net_271",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "network",
+      "watcher",
+      "service",
+      "enable",
+      "monitor",
+      "diagnose",
+      "conditions",
+      "network",
+      "scenario",
+      "level",
+      "diagnostic",
+      "visualization",
+      "tools",
+      "available",
+      "take",
+      "packet",
+      "captures",
+      "vm",
+      "help",
+      "understand",
+      "if",
+      "ip",
+      "flow",
+      "allowed",
+      "denied",
+      "virtual",
+      "machine",
+      "find",
+      "where",
+      "routed",
+      "gain",
+      "insights",
+      "topology"
+    ]
+  },
+  {
+    "id": "Clo_272",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "cloud",
+      "shell",
+      "azure",
+      "browserbased",
+      "shell",
+      "experience",
+      "running",
+      "cloud",
+      "help",
+      "manage",
+      "resources",
+      "includes",
+      "support",
+      "popular",
+      "commandline",
+      "tools",
+      "programming",
+      "languages",
+      "maintains",
+      "updates",
+      "persist",
+      "files",
+      "attached",
+      "file",
+      "storage",
+      "when",
+      "used",
+      "alongside",
+      "portal?s",
+      "familiar",
+      "gui",
+      "adds",
+      "power",
+      "authenticated",
+      "greater",
+      "flexibility",
+      "saves",
+      "trouble",
+      "configuring",
+      "maintaining",
+      "admin",
+      "machine",
+      "own",
+      "providing",
+      "clean",
+      "readytouse",
+      "every",
+      "time",
+      "virtually",
+      "anywhere"
+    ]
+  },
+  {
+    "id": "Azu_273",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "azure",
+      "service",
+      "health",
+      "get",
+      "personalized",
+      "guidance",
+      "support",
+      "when",
+      "issues",
+      "services",
+      "affect"
+    ]
+  },
+  {
+    "id": "Eve_274",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "monitor",
+      "&",
+      "management",
+      "event",
+      "grid",
+      "build",
+      "reactive",
+      "eventdriven",
+      "apps",
+      "fully",
+      "managed",
+      "event",
+      "routing",
+      "service",
+      "create",
+      "richer",
+      "app",
+      "scenarios",
+      "connecting",
+      "serverless",
+      "logic",
+      "events",
+      "multiple",
+      "sources"
+    ]
+  },
+  {
+    "id": "Vir_275",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "networking",
+      "virtual",
+      "network",
+      "azure",
+      "lets",
+      "create",
+      "private",
+      "networks",
+      "cloud",
+      "full",
+      "control",
+      "over",
+      "ip",
+      "addresses",
+      "dns",
+      "servers",
+      "security",
+      "rules",
+      "traffic",
+      "flows",
+      "securely",
+      "connect",
+      "virtual",
+      "network",
+      "onpremises",
+      "vpn",
+      "tunnel",
+      "privately",
+      "expressroute",
+      "service"
+    ]
+  },
+  {
+    "id": "Loa_276",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "networking",
+      "load",
+      "balancer",
+      "azure",
+      "distributes",
+      "internet",
+      "private",
+      "network",
+      "traffic",
+      "among",
+      "healthy",
+      "service",
+      "instances",
+      "cloud",
+      "services",
+      "virtual",
+      "machines",
+      "lets",
+      "achieve",
+      "greater",
+      "reliability",
+      "seamlessly",
+      "add",
+      "more",
+      "capacity",
+      "applications"
+    ]
+  },
+  {
+    "id": "App_277",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "networking",
+      "application",
+      "gateway",
+      "azure",
+      "azuremanaged",
+      "layer7",
+      "solution",
+      "providing",
+      "http",
+      "load",
+      "balancing",
+      "ssl",
+      "termination",
+      "sessionbased",
+      "cookie",
+      "affinity",
+      "internetfacing",
+      "internal",
+      "web",
+      "applications"
+    ]
+  },
+  {
+    "id": "VPN_278",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "networking",
+      "vpn",
+      "gateway",
+      "azure",
+      "lets",
+      "establish",
+      "secure",
+      "crosspremises",
+      "connections",
+      "between",
+      "virtual",
+      "network",
+      "within",
+      "onpremises",
+      "it",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "Azu_279",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "networking",
+      "azure",
+      "dns",
+      "lets",
+      "host",
+      "domains",
+      "alongside",
+      "apps",
+      "manage",
+      "records",
+      "existing",
+      "subscription",
+      "microsoft?s",
+      "global",
+      "network",
+      "name",
+      "servers",
+      "has",
+      "reach",
+      "scale",
+      "redundancy",
+      "ensure",
+      "ultrafast",
+      "responses",
+      "ultrahigh",
+      "availability",
+      "with",
+      "sure",
+      "always",
+      "fast",
+      "available"
+    ]
+  },
+  {
+    "id": "Con_280",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "networking",
+      "content",
+      "delivery",
+      "network",
+      "azure",
+      "lets",
+      "deliver",
+      "highbandwidth",
+      "content",
+      "users",
+      "around",
+      "world",
+      "low",
+      "latency",
+      "high",
+      "availability",
+      "via",
+      "robust",
+      "network",
+      "global",
+      "data",
+      "centers"
+    ]
+  },
+  {
+    "id": "Tra_281",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "networking",
+      "traffic",
+      "manager",
+      "azure",
+      "lets",
+      "route",
+      "incoming",
+      "traffic",
+      "across",
+      "multiple",
+      "hosted",
+      "services",
+      "whether",
+      "they?re",
+      "running",
+      "same",
+      "datacenter",
+      "different",
+      "datacenters",
+      "around",
+      "world"
+    ]
+  },
+  {
+    "id": "Exp_282",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "networking",
+      "express",
+      "route",
+      "azure",
+      "expressroute",
+      "lets",
+      "create",
+      "private",
+      "connections",
+      "between",
+      "datacenters",
+      "infrastructure",
+      "that?s",
+      "premises",
+      "colocation",
+      "environment"
+    ]
+  },
+  {
+    "id": "Net_283",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "networking",
+      "network",
+      "watcher",
+      "service",
+      "enable",
+      "monitor",
+      "diagnose",
+      "conditions",
+      "network",
+      "scenario",
+      "level",
+      "diagnostic",
+      "visualization",
+      "tools",
+      "available",
+      "take",
+      "packet",
+      "captures",
+      "vm",
+      "help",
+      "understand",
+      "if",
+      "ip",
+      "flow",
+      "allowed",
+      "denied",
+      "virtual",
+      "machine",
+      "find",
+      "where",
+      "routed",
+      "gain",
+      "insights",
+      "topology"
+    ]
+  },
+  {
+    "id": "Sec_284",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "security",
+      "",
+      "&",
+      "identity",
+      "center",
+      "azure",
+      "helps",
+      "prevent",
+      "detect",
+      "respond",
+      "threats",
+      "increased",
+      "visibility",
+      "control",
+      "over",
+      "security",
+      "resources",
+      "provides",
+      "central",
+      "view",
+      "across",
+      "subscriptions",
+      "lets",
+      "policies",
+      "monitor",
+      "configurations",
+      "policydriven",
+      "recommendations",
+      "guide",
+      "resource",
+      "owners",
+      "through",
+      "process",
+      "implementing",
+      "controls",
+      "enable",
+      "rapid",
+      "deployment",
+      "integrated",
+      "partner",
+      "solutions",
+      "using",
+      "global",
+      "threat",
+      "intelligence",
+      "securityrelated",
+      "events",
+      "deployments",
+      "are",
+      "automatically",
+      "collected",
+      "analyzed",
+      "identify",
+      "actual",
+      "reduce",
+      "false",
+      "alarms",
+      "the",
+      "resulting",
+      "alerts",
+      "offer",
+      "insights",
+      "attack",
+      "suggest",
+      "ways",
+      "remediate",
+      "issues"
+    ]
+  },
+  {
+    "id": "Key_285",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "security",
+      "",
+      "&",
+      "identity",
+      "key",
+      "vault",
+      "azure",
+      "offers",
+      "easy",
+      "costeffective",
+      "way",
+      "safeguard",
+      "keys",
+      "other",
+      "secrets",
+      "cloud",
+      "hardware",
+      "security",
+      "modules",
+      "hsms",
+      "protect",
+      "cryptographic",
+      "small",
+      "passwords",
+      "stored",
+      "for",
+      "added",
+      "assurance",
+      "import",
+      "generate",
+      "are",
+      "certified",
+      "fips",
+      "1402",
+      "level",
+      "2",
+      "common",
+      "criteria",
+      "eal4+",
+      "standards",
+      "stay",
+      "within",
+      "hsm",
+      "boundary",
+      "designed",
+      "does",
+      "not",
+      "see",
+      "extract",
+      "create",
+      "new",
+      "devtest",
+      "minutes",
+      "migrate",
+      "seamlessly",
+      "production",
+      "managed",
+      "operations",
+      "scales",
+      "meet",
+      "demands",
+      "applications",
+      "without",
+      "hassle",
+      "required",
+      "provision",
+      "deploy",
+      "manage",
+      "key",
+      "management",
+      "software"
+    ]
+  },
+  {
+    "id": "Azu_286",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "security",
+      "",
+      "&",
+      "identity",
+      "azure",
+      "active",
+      "directory",
+      "provides",
+      "identity",
+      "management",
+      "access",
+      "control",
+      "cloud",
+      "applications",
+      "to",
+      "simply",
+      "user",
+      "synchronize",
+      "onpremises",
+      "identities",
+      "enable",
+      "single",
+      "signon",
+      "comes",
+      "3",
+      "editions",
+      "free",
+      "basic",
+      "premium"
+    ]
+  },
+  {
+    "id": "Azu_287",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "security",
+      "",
+      "&",
+      "identity",
+      "azure",
+      "active",
+      "directory",
+      "b2c",
+      "cloud",
+      "service",
+      "proven",
+      "ability",
+      "handle",
+      "billions",
+      "authentications",
+      "per",
+      "day",
+      "extends",
+      "its",
+      "capabilities",
+      "manage",
+      "consumer",
+      "identities",
+      "new",
+      "now",
+      "public",
+      "preview",
+      "comprehensive",
+      "identity",
+      "management",
+      "solution",
+      "consumerfacing",
+      "applications",
+      "easily",
+      "integrated",
+      "platform",
+      "accessible",
+      "device",
+      "the",
+      "free",
+      "during",
+      "period"
+    ]
+  },
+  {
+    "id": "Azu_288",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "security",
+      "",
+      "&",
+      "identity",
+      "azure",
+      "active",
+      "directory",
+      "domain",
+      "services",
+      "provide",
+      "scalable",
+      "highperformance",
+      "managed",
+      "domain",
+      "services",
+      "such",
+      "domainjoin",
+      "ldap",
+      "kerberos",
+      "windows",
+      "integrated",
+      "authentication",
+      "group",
+      "policy",
+      "support",
+      "with",
+      "click",
+      "button",
+      "administrators",
+      "enable",
+      "virtual",
+      "machines",
+      "directoryaware",
+      "applications",
+      "deployed",
+      "infrastructure",
+      "built",
+      "same",
+      "underlying",
+      "technology",
+      "server",
+      "easy",
+      "way",
+      "migrate",
+      "traditional",
+      "onpremises",
+      "cloud"
+    ]
+  },
+  {
+    "id": "Mul_289",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "security",
+      "",
+      "&",
+      "identity",
+      "multi",
+      "factor",
+      "authentication",
+      "azure",
+      "multifactor",
+      "helps",
+      "prevent",
+      "unauthorized",
+      "access",
+      "onpremises",
+      "cloud",
+      "applications",
+      "providing",
+      "additional",
+      "layer",
+      "authentication",
+      "follow",
+      "organizational",
+      "security",
+      "compliance",
+      "standards",
+      "while",
+      "also",
+      "addressing",
+      "user",
+      "demand",
+      "convenient"
+    ]
+  },
+  {
+    "id": "Azu_290",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "storage",
+      "azure",
+      "blob",
+      "restbased",
+      "object",
+      "storage",
+      "unstructured",
+      "data"
+    ]
+  },
+  {
+    "id": "Azu_291",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "storage",
+      "azure",
+      "queue",
+      "effectively",
+      "scale",
+      "apps",
+      "according",
+      "traffic"
+    ]
+  },
+  {
+    "id": "Azu_292",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "storage",
+      "azure",
+      "file",
+      "shares",
+      "standard",
+      "smb",
+      "30",
+      "protocol"
+    ]
+  },
+  {
+    "id": "Azu_293",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "storage",
+      "azure",
+      "disk",
+      "persistent",
+      "secured",
+      "disk",
+      "options",
+      "supporting",
+      "virtual",
+      "machines"
+    ]
+  },
+  {
+    "id": "Azu_294",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "storage",
+      "azure",
+      "data",
+      "lake",
+      "the",
+      "store",
+      "provides",
+      "single",
+      "repository",
+      "where",
+      "capture",
+      "data",
+      "size",
+      "type",
+      "speed",
+      "simply",
+      "without",
+      "forcing",
+      "changes",
+      "application",
+      "scales",
+      "in",
+      "shared",
+      "collaboration",
+      "enterprisegrade",
+      "security",
+      "also",
+      "designed",
+      "highperformance",
+      "processing",
+      "analytics",
+      "hdfs",
+      "applications",
+      "ie",
+      "hdinsight",
+      "service",
+      "hortonworks",
+      "cloudera",
+      "mapr",
+      "tools",
+      "including",
+      "support",
+      "low",
+      "latency",
+      "workloads"
+    ]
+  },
+  {
+    "id": "Azu_295",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "storage",
+      "azure",
+      "storesimple",
+      "storsimple",
+      "unique",
+      "hybrid",
+      "cloud",
+      "storage",
+      "solution",
+      "primary",
+      "archiving",
+      "disaster",
+      "recovery",
+      "optimizes",
+      "total",
+      "costs",
+      "data",
+      "protection"
+    ]
+  },
+  {
+    "id": "Azu_296",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "storage",
+      "azure",
+      "backup",
+      "on",
+      "corporate",
+      "laptops",
+      "protects",
+      "windows",
+      "client",
+      "data",
+      "shared",
+      "files",
+      "folders",
+      "in",
+      "datacenter",
+      "integrated",
+      "system",
+      "center",
+      "data",
+      "protection",
+      "manager",
+      "dpm",
+      "sharepoint",
+      "exchange",
+      "sql",
+      "server",
+      "hyperv",
+      "virtual",
+      "machines",
+      "other",
+      "applications"
+    ]
+  },
+  {
+    "id": "Azu_297",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "storage",
+      "azure",
+      "site",
+      "recovery",
+      "helps",
+      "protect",
+      "important",
+      "applications",
+      "coordinating",
+      "replication",
+      "recovery",
+      "private",
+      "clouds",
+      "simple",
+      "costeffective",
+      "disaster"
+    ]
+  },
+  {
+    "id": "IoT_298",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "suites",
+      "iot",
+      "suite",
+      ""
+    ]
+  },
+  {
+    "id": "Ope_299",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "suites",
+      "operations",
+      "management",
+      "suite",
+      ""
+    ]
+  },
+  {
+    "id": "App_300",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "web",
+      "&",
+      "mobile",
+      "app",
+      "services",
+      "azure",
+      "service",
+      "lets",
+      "create",
+      "apps",
+      "faster",
+      "oneofa",
+      "kind",
+      "cloud",
+      "service",
+      "quickly",
+      "easily",
+      "enterpriseready",
+      "web",
+      "mobile",
+      "platform",
+      "device",
+      "deploy",
+      "them",
+      "scalable",
+      "reliable",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "Web_301",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "web",
+      "&",
+      "mobile",
+      "apps",
+      "quickly",
+      "create",
+      "deploy",
+      "mission",
+      "critical",
+      "apps",
+      "scale"
+    ]
+  },
+  {
+    "id": "Mob_302",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "web",
+      "&",
+      "mobile",
+      "apps",
+      "build",
+      "host",
+      "backend",
+      "mobile",
+      "app"
+    ]
+  },
+  {
+    "id": "Log_303",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "web",
+      "&",
+      "mobile",
+      "logic",
+      "apps",
+      "automate",
+      "access",
+      "data",
+      "across",
+      "clouds",
+      "without",
+      "writing",
+      "code"
+    ]
+  },
+  {
+    "id": "API_304",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "web",
+      "&",
+      "mobile",
+      "api",
+      "apps",
+      "easily",
+      "build",
+      "consume",
+      "cloud",
+      "apis"
+    ]
+  },
+  {
+    "id": "Con_305",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "web",
+      "&",
+      "mobile",
+      "content",
+      "delivery",
+      "network",
+      "azure",
+      "lets",
+      "deliver",
+      "highbandwidth",
+      "content",
+      "users",
+      "around",
+      "world",
+      "low",
+      "latency",
+      "high",
+      "availability",
+      "via",
+      "robust",
+      "network",
+      "global",
+      "data",
+      "centers"
+    ]
+  },
+  {
+    "id": "Med_306",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "web",
+      "&",
+      "mobile",
+      "media",
+      "services",
+      "azure",
+      "offers",
+      "cloudbased",
+      "media",
+      "solutions",
+      "including",
+      "ingest",
+      "encoding",
+      "format",
+      "conversion",
+      "content",
+      "protection",
+      "both",
+      "ondemand",
+      "livestreaming",
+      "capabilities"
+    ]
+  },
+  {
+    "id": "Azu_307",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "web",
+      "&",
+      "mobile",
+      "azure",
+      "search",
+      "fullymanaged",
+      "service",
+      "adding",
+      "sophisticated",
+      "search",
+      "capabilities",
+      "web",
+      "mobile",
+      "applications",
+      "without",
+      "typical",
+      "complexities",
+      "fulltext"
+    ]
+  },
+  {
+    "id": "API_308",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "web",
+      "&",
+      "mobile",
+      "api",
+      "management",
+      "azure",
+      "lets",
+      "publish",
+      "apis",
+      "developers",
+      "partners",
+      "employees",
+      "securely",
+      "scale"
+    ]
+  },
+  {
+    "id": "Not_309",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "web",
+      "&",
+      "mobile",
+      "notification",
+      "hubs",
+      "a",
+      "scalable",
+      "push",
+      "notification",
+      "engine",
+      "quickly",
+      "sending",
+      "millions",
+      "messages"
+    ]
+  },
+  {
+    "id": "Liv_310",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "web",
+      "&",
+      "mobile",
+      "live",
+      "and",
+      "on-demand",
+      "streaming",
+      "deliver",
+      "content",
+      "virtually",
+      "devices",
+      "scale",
+      "meet",
+      "business",
+      "needs"
+    ]
+  },
+  {
+    "id": "Azu_311",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "web",
+      "&",
+      "mobile",
+      "azure",
+      "media",
+      "player",
+      "a",
+      "single",
+      "layer",
+      "playback",
+      "needs"
+    ]
+  },
+  {
+    "id": "Con_312",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "web",
+      "&",
+      "mobile",
+      "content",
+      "protection",
+      "securely",
+      "deliver",
+      "content",
+      "aes",
+      "playready",
+      "widevine",
+      "fairplay"
+    ]
+  },
+  {
+    "id": "Med_313",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "microsoft",
+      "web",
+      "&",
+      "mobile",
+      "media",
+      "analytics",
+      "uncover",
+      "insights",
+      "video",
+      "files",
+      "speech",
+      "vision",
+      "services"
+    ]
+  }
+]
