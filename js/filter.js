@@ -441,31 +441,43 @@ function showDependenciesPlumb() {
 
 	nodesToHighlight.push(currentElementId);
 
-	dependencies.in.forEach(item => {
-		con_in.push(item.dname);
-		jsPlumb.connect({
-			anchor: "AutoDefault",
-			source: item.dname,
-			target: currentElementId,
-			paintStyle:{ stroke:"blue"},
-			overlays: [
-				["PlainArrow", {width: 10, length: 10, location: 1.0}],
-				["Label", { label: item.dtype, location: 0.0, cssClass: "connectorLabel"}]
-			]
+	dependencies.out.forEach(item => {
+		
+		item.dname.forEach(id => {
+			con_in.push(id);
+			jsPlumb.connect({
+				anchor: "AutoDefault",
+				source: currentElementId,
+				target: id,
+				paintStyle:{ stroke:"green", strokeWidth: 2},
+				connector: ["Bezier", { curviness: 50 }],
+				overlays: [
+					["PlainArrow", {width: 6, length: 6, location: 1.0}],
+					["Label", { label: item.dtype, location: 0.6, cssClass: "connectorLabel"}]
+				]
+			});
 		});
+		
+
 	});
 
-	dependencies.out.forEach(item => {
-		con_out.push(item.dname);
-		jsPlumb.connect({
-			anchor: "AutoDefault",
-			source: currentElementId,
-			target: item.dname,
-			overlays: [
-				["PlainArrow", {width: 10, length: 10, location: 1.0}],
-				["Label", { label: item.dtype, location: 1.0, cssClass: "connectorLabel"}]
-			]
+	dependencies.in.forEach(item => {
+	
+		item.dname.forEach(id => {
+			con_in.push(id);
+			jsPlumb.connect({
+				anchor: "AutoDefault",
+				source: id,
+				target: currentElementId,
+				paintStyle:{ stroke:"blue", strokeWidth: 2},
+				connector: ["Bezier", { curviness: 50 }],
+				overlays: [
+					["PlainArrow", {width: 6, length: 6, location: 1.0}],
+					["Label", { label: item.dtype, location: 0.6, cssClass: "connectorLabel"}]
+				]
+			});
 		});
+
 	});
 
 	nodesToHighlight = nodesToHighlight.concat(con_in, con_out);
@@ -475,55 +487,3 @@ function showDependenciesPlumb() {
 
 }
 
-function showDependencies() {
-
-	if (currentElementId === null) return;
-
-	var arrowLayer = document.getElementById("arrowlayer");
-
-	arrowLayer.innerHTML = ''
-
-	console.log(parentContainer.clientHeight);
-	var dependencies = searchIndex.filter(node => node.id == currentElementId)[0].dependencies;
-	var nodesToHighlight = [];
-	var con_in = [];
-	var con_out = [];
-
-	var currentDom = d3.selectAll("#" + currentElementId)._groups[0][0];
-
-	var rootX = posX(currentDom) + iconScale / 2;
-	var rootY = posY(currentDom) + iconScale / 2;
-
-	nodesToHighlight.push(currentElementId);
-
-	dependencies.in.forEach(item => {
-		con_in.push(item.dname);
-		var dom = d3.selectAll("#" + item.dname)._groups[0][0];
-		createArrow(posX(dom) + iconScale / 2, posY(dom) + iconScale / 2, rootX, rootY, "blue");
-
-	});
-
-	dependencies.out.forEach(item => {
-		con_out.push(item.dname);
-		var dom = d3.selectAll("#" + item.dname)._groups[0][0];
-		createArrow(rootX, rootY, posX(dom) + iconScale / 2, posY(dom) + iconScale / 2, "red");
-
-	});
-
-	nodesToHighlight = nodesToHighlight.concat(con_in, con_out);
-
-	adjustIconOpacityById(nodesToHighlight);
-
-
-}
-
-function createArrow(fromX, fromY, toX, toY, color) {
-	d3.select("#arrowlayer")
-		.append("line")          // attach a line
-		.style("stroke", color)  // colour the line
-
-		.attr("x1", fromX)     // x position of the first end of the line
-		.attr("y1", fromY)      // y position of the first end of the line
-		.attr("x2", toX)     // x position of the second end of the line
-		.attr("y2", toY);    // y position of the second end of the line
-}

@@ -4743,7 +4743,7 @@
                 evtParams[idx === 0 ? "newSourceId" : "newTargetId"] = ep.elementId;
 
                 fireMoveEvent(evtParams);
-
+                
                 if (!doNotRepaint) {
                     c.repaint();
                 }

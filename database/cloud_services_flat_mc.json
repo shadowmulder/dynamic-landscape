@@ -341,7 +341,7 @@
     "provider": "Amazon",
     "category": ["Compute", "Network & Content Delivery"],
     "service": "Amazon VPC",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Compute/Compute_AmazonVPC.svg",
     "description": "Amazon Virtual Private Cloud (Amazon VPC) lets you provision a logically isolated section of the Amazon Web Services (AWS) cloud where you can launch AWS resources in a virtual network that you define. ",
     "keywords": [], 
     "dependencies": {
@@ -367,12 +367,30 @@
     "provider": "Amazon",
     "category": ["Compute"],
     "service": "AWS Elastic Beanstalk",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Compute/Compute_AWSElasticBeanstalk.svg",
     "description": "You can simply upload your code and Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring. ",
     "keywords": [], 
     "dependencies": {
-    	"in":[],
-    	"out":[] 
+    	"in":[
+        {
+          "dname": "Amazon S3",
+          "dtype": "Archive"
+        },
+        {
+          "dname": "Elastic Load Balancing",
+          "dtype": "Load balancer"
+        }
+      ],
+    	"out":[
+        {
+          "dname": "Amazon CloudWatch",
+          "dtype": "Log"
+        },
+        {
+          "dname": "Amazon VPC",
+          "dtype": "Network"
+        }
+      ] 
 } 
 
 },
@@ -731,7 +749,7 @@
     "provider": "Amazon",
     "category": ["Management Tools"],
     "service": "Amazon CloudWatch",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Management Tools/ManagementTools_AmazonCloudWatch.svg",
     "description": "Amazon CloudWatch is a monitoring service for AWS cloud resources and the applications you run on AWS.",
     "keywords": [], 
     "dependencies": {
@@ -1108,7 +1126,7 @@
     "provider": "Amazon",
     "category": ["Network & Content Delivery"],
     "service": "Elastic Load Balancing",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Compute/Compute_ElasticLoadBalancing.svg",
     "description": "Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, and IP addresses.",
     "keywords": [], 
     "dependencies": {
@@ -1264,7 +1282,7 @@
     "provider": "Amazon",
     "category": ["Storage"],
     "service": "Amazon S3",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Storage/Storage_AmazonS3.svg",
     "description": "Amazon S3 is a object storage built to store and retrieve any amount of data from anywhere",
     "keywords": [], 
     "dependencies": {
