@@ -41,8 +41,7 @@
         menuNode.style("z-index", "3");
         menuNode
             .on("click", function () {
-                menu.close();
-                setTimeout(function () { menuNode.style("display", "none"); }, 400);
+                menuCloseAdapter();
             });
 
 
@@ -97,8 +96,8 @@
                 .attr("id", "landscape")
                 .append("div")
                 .attr("class", "row master");
-            
-            d3.select("body").append("div").attr("id","overlay");
+
+            d3.select("body").append("div").attr("id", "overlay");
 
             var arrowLayer = d3.selectAll("body")
                 .append("div")
@@ -204,17 +203,21 @@
         createDetailsView();
 
 
-        /*
-                $(document).ready(function () {
-                    hideDetails();
-                });
-        
-        */
+
         d3.select("#menu_button_0").on("click", showDependenciesPlumb);
         d3.select("#menu_button_1").on("click", showDetails);
 
 
         window.addEventListener("resize", adjustContainers);
+
+        d3.select("body")
+            .on("keydown", function () {
+                if (d3.event.key == "Escape") {
+                    resetView();
+                }
+            })
+
+
         /**
          * "If you are writing code and you are not sure of the data you are using there is something wrong in the design of the whole project."
          * -- Blindman67
