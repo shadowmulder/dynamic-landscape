@@ -159,7 +159,7 @@
     "provider": "Amazon",
     "category": ["Artifical Intelligence"],
     "service": "Amazon Lex",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/AI/AI_AmazonLex.svg",
     "description": "Amazon Lex is a service for building conversational interfaces into any application using voice and text. ",
     "keywords": [], 
     "dependencies": {
@@ -515,7 +515,7 @@
     "provider": "Amazon",
     "category": ["Databases"],
     "service": "Amazon DynamoDB",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Database/Database_AmazonDynamoDB.svg",
     "description": "Amazon DynamoDB is a fast and flexible NoSQL databaseservice for all applications that need consistent, single-digit millisecond latency at any scale.",
     "keywords": [], 
     "dependencies": {
@@ -528,7 +528,7 @@
     "provider": "Amazon",
     "category": ["Databases"],
     "service": "Amazon DynamoDB Accelerator (DAX)",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Database/Database_AmazonDynamoDBAccelerator.svg",
     "description": "Amazon DynamoDB Accelerator (DAX) is a fully managed, highly available, in-memory cache for DynamoDB that delivers up to a 10x performance improvement",
     "keywords": [], 
     "dependencies": {
@@ -788,7 +788,7 @@
     "provider": "Amazon",
     "category": ["Management Tools"],
     "service": "AWS Config",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Management Tools/ManagementTools_AWSConfig.svg",
     "description": "AWS Config is a service that enables you to assess, audit, and evaluate the configurations of your AWS resources",
     "keywords": [], 
     "dependencies": {
@@ -866,7 +866,7 @@
     "provider": "Amazon",
     "category": ["Messaging"],
     "service": "Amazon Simple Queue Service",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Messaging/Messaging_AmazonSQS.svg",
     "description": "Amazon Simple Queue Service (SQS) is a fully managed message queuing service that makes it easy to decouple and scale microservices, distributed systems, and serverless applications.",
     "keywords": [], 
     "dependencies": {
@@ -879,7 +879,7 @@
     "provider": "Amazon",
     "category": ["Messaging"],
     "service": "Amazon Simple Notification Service",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Messaging/Messaging_AmazonSNS.svg",
     "description": "Amazon Simple Notification Service (SNS) is a flexible, fully managed pub/sub messaging and mobile notifications service for coordinating the delivery of messages to subscribing endpoints and clients.",
     "keywords": [], 
     "dependencies": {
@@ -1022,7 +1022,7 @@
     "provider": "Amazon",
     "category": ["Mobile Services"],
     "service": "Amazon Cognito",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Mobile Services/MobileServices_AmazonCognito.svg",
     "description": "Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. ",
     "keywords": [], 
     "dependencies": {
@@ -1072,9 +1072,9 @@
 },
   {
     "provider": "Amazon",
-    "category": ["Mobile Services"],
+    "category": ["Mobile Services", "Application Services"],
     "service": "Amazon API Gateway",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Mobile Services/MobileServices_AmazonAPIGateway.svg",
     "description": "Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. ",
     "keywords": [], 
     "dependencies": {
@@ -1087,7 +1087,7 @@
     "provider": "Amazon",
     "category": ["Network & Content Delivery"],
     "service": "Amazon CloudFront",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Networking & Content Delivery/NetworkingContentDelivery_AmazonCloudFront.svg",
     "description": "Amazon CloudFront is a global content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to your viewers with low latency and high transfer speeds",
     "keywords": [], 
     "dependencies": {

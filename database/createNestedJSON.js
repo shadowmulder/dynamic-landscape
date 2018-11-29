@@ -113,6 +113,11 @@ _.each(uData, function (d, i) {
     var sEl =
     {
         id: d.id,
+        service: d.service,
+        provider: d.provider,
+        category: d.category,
+        description: d.description,
+        img: d.img,
         dependencies: d.dependencies,
         keywords: keyWordList
     };

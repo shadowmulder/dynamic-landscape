@@ -73,6 +73,11 @@
             "id": "Ama_11_0",
             "service": "Amazon Elastic Transcoder",
             "img": "./logos/AWS/General/General_AWScloud.svg"
+          },
+          {
+            "id": "Ama_77_1",
+            "service": "Amazon API Gateway",
+            "img": "./logos/AWS/Mobile Services/MobileServices_AmazonAPIGateway.svg"
           }
         ]
       },
@@ -82,7 +87,7 @@
           {
             "id": "Ama_12_0",
             "service": "Amazon Lex",
-            "img": "./logos/AWS/General/General_AWScloud.svg"
+            "img": "./logos/AWS/AI/AI_AmazonLex.svg"
           },
           {
             "id": "Ama_13_0",
@@ -233,12 +238,12 @@
           {
             "id": "Ama_34_0",
             "service": "Amazon DynamoDB",
-            "img": "./logos/AWS/General/General_AWScloud.svg"
+            "img": "./logos/AWS/Database/Database_AmazonDynamoDB.svg"
           },
           {
             "id": "Ama_35_0",
             "service": "Amazon DynamoDB Accelerator (DAX)",
-            "img": "./logos/AWS/General/General_AWScloud.svg"
+            "img": "./logos/AWS/Database/Database_AmazonDynamoDBAccelerator.svg"
           },
           {
             "id": "Ama_36_0",
@@ -375,7 +380,7 @@
           {
             "id": "AWS_55_0",
             "service": "AWS Config",
-            "img": "./logos/AWS/General/General_AWScloud.svg"
+            "img": "./logos/AWS/Management Tools/ManagementTools_AWSConfig.svg"
           },
           {
             "id": "AWS_56_0",
@@ -410,12 +415,12 @@
           {
             "id": "Ama_61_0",
             "service": "Amazon Simple Queue Service",
-            "img": "./logos/AWS/General/General_AWScloud.svg"
+            "img": "./logos/AWS/Messaging/Messaging_AmazonSQS.svg"
           },
           {
             "id": "Ama_62_0",
             "service": "Amazon Simple Notification Service",
-            "img": "./logos/AWS/General/General_AWScloud.svg"
+            "img": "./logos/AWS/Messaging/Messaging_AmazonSNS.svg"
           },
           {
             "id": "Ama_63_0",
@@ -480,7 +485,7 @@
           {
             "id": "Ama_73_0",
             "service": "Amazon Cognito",
-            "img": "./logos/AWS/General/General_AWScloud.svg"
+            "img": "./logos/AWS/Mobile Services/MobileServices_AmazonCognito.svg"
           },
           {
             "id": "AWS_74_0",
@@ -500,7 +505,7 @@
           {
             "id": "Ama_77_0",
             "service": "Amazon API Gateway",
-            "img": "./logos/AWS/General/General_AWScloud.svg"
+            "img": "./logos/AWS/Mobile Services/MobileServices_AmazonAPIGateway.svg"
           }
         ]
       },
@@ -519,7 +524,7 @@
           {
             "id": "Ama_78_0",
             "service": "Amazon CloudFront",
-            "img": "./logos/AWS/General/General_AWScloud.svg"
+            "img": "./logos/AWS/Networking & Content Delivery/NetworkingContentDelivery_AmazonCloudFront.svg"
           },
           {
             "id": "Ama_79_0",
