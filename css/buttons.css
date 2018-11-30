@@ -262,20 +262,27 @@
   color: white; }
   .button-action:visited,
   .button-action-flat:visited {
-    color: white; }
+    /*color: white; */
+  }
   .button-action:hover, .button-action:focus,
   .button-action-flat:hover,
   .button-action-flat:focus {
+/*
     background-color: #b9e563;
     border-color: #b9e563;
-    color: white; }
+    color: white; 
+*/
+  }
   .button-action:active, .button-action.active, .button-action.is-active,
   .button-action-flat:active,
   .button-action-flat.active,
   .button-action-flat.is-active {
+    /*
     background-color: #a1d243;
     border-color: #a1d243;
-    color: #8bc220; }
+    color: #8bc220; 
+    */
+  }
 
 .button-highlight,
 .button-highlight-flat {

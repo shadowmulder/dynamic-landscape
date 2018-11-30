@@ -89,11 +89,11 @@ function normalizeHeight(sID, tID, padding) {
 * zoom changes the size of images and text in the grid larger or smaller
 * and adjusts the size of the parent elements if necessary
 */
-function zoom(scale) {
+function zoom(newFactor) {
     menu.close();
-
-    zoomFactor = zoomFactor + scale;
-
+    
+    //zoomFactor = zoomFactor + scale;
+    zoomFactor = newFactor;
     // keep zoom factor between zoomMin and zoomMax
     zoomFactor = Math.min(Math.max(zoomFactor, zoomMin), zoomMax);
     iconScale = imgMinSize * zoomFactor;
@@ -118,6 +118,7 @@ function zoom(scale) {
 
 
     d3.selectAll("#zoomIndicator").text("ZOOM: " + Math.floor(zoomFactor * 100) + "%");
+    document.getElementById("zoomIndicator").value = Math.floor(zoomFactor * 100);
     updateLefHandHeader();
     lockResizing();
     jsPlumb.repaintEverything();
@@ -133,7 +134,7 @@ function zoom(scale) {
 function zoomReset() {
 
     zoomFactor = 1.0;
-    zoom(0);
+    zoom(1);
 
 }
 
@@ -171,6 +172,8 @@ function adjustContainers() {
     jsPlumb.repaintEverything();
     adjustSVGOverlay();
     jsPlumb.repaintEverything();
+    var windowWidth = $(window).width();
+    d3.select("#searchForm").style("width",windowWidth*0.6+"px")
 
 }
 
@@ -289,3 +292,12 @@ function resetView(){
     d3.select("#form-tags-1_tagsinput").selectAll("span").remove();
     search();
 }
+
+function extractKeyWords(database){
+    var wordSet = new Set();
+    database.forEach(e => e.keywords.forEach(w => wordSet.add(w)));
+
+    return [...wordSet];
+
+}
+

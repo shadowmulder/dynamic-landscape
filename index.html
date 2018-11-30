@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+    crossorigin="anonymous"></script>
 <script src="//d3js.org/d3.v4.min.js"></script>
 <script src="/js/filter.js"></script>
 <script src="/js/blooming-menu.min.js"></script>
@@ -44,11 +47,28 @@
                 menuCloseAdapter();
             });
 
+        var allKeyWords = [];
 
-
-        $.getJSON("/database/search_index.json", function (json) {
-            searchIndex = json;;
+        $.ajax({
+            url: '/database/search_index.json',
+            async: false,
+            dataType: 'json',
+            success: function (response) {
+                searchIndex = response;
+                allKeyWords = extractKeyWords(searchIndex);
+            }
         });
+
+
+        /*
+                $.getJSON("/database/search_index.json", function (json) {
+                    searchIndex = json;
+                    allKeyWords = extractKeyWords(searchIndex);
+                });
+        */
+
+
+
 
         var tooltip = d3.select("body").append("div").attr("class", "toolTip");
         var catColumns = [];
@@ -137,6 +157,8 @@
                     .append("div")
                     .attr("class", "row")
                     .attr("id", "hHeader")
+                    .append("div")
+                    .attr("class", "textBox")
                     .text(d.category);
             });
 
@@ -223,30 +245,62 @@
          * -- Blindman67
          * https://stackoverflow.com/questions/42252538/deep-search-json-object
          */
+        $(window).ready(function () {
+            var windowWidth = $(window).width();
+            d3.select("#searchForm").style("width", windowWidth * 0.6 + "px");
+
+        });
 
 
     </script>
 
-    <div class="sidenav">
+    <div class="topnav">
+        <div style="margin:5px" style="display:block">
+            <img src="img/mbw_logo_small.svg" height="40px" style="float:left" alt="MaibornWolff">
+        </div>
+
         <div class="toolbox">
             <!-- Search design based on https://bootsnipp.com/snippets/exqd3 by Siddharth Panchal -->
-            <form id="form">
+            <form id="searchForm" style="overflow: hidden">
                 <input id="form-tags-1" name="tags-1" type="text">
             </form>
-            <button class="button button-primary button-rectangel" onclick="search()" type="button"><span class="oi oi-magnifying-glass"></span></button>
+            <button onclick="search()" type="button"><span class="oi oi-magnifying-glass"></span></button>
         </div>
         <div class="toolbox">
-            <p id="zoomIndicator">ZOOM: 100%</p>
+            <button onclick="zoom(zoomFactor-0.1)"><span class="oi oi-zoom-out"></button>
 
-            <button class="button button-primary button-circle" onclick="zoom(0.1)"><span class="oi oi-zoom-in"></span></button>
-            <button class="button button-primary button-circle" onclick="zoom(-0.1)"><span class="oi oi-zoom-out"></button>
-            <button class="button button-primary button-circle" onclick="zoomReset()"><span class="oi oi-fullscreen-enter"></button>
+            <form id="zoomForm" style="overflow: hidden" onsubmit="return false">
+                <input id="zoomIndicator" type="number" min="80" max="300" value="100" onchange="zoom(value/100)">
+            </form>
+            <button onclick="zoom(zoomFactor+0.1)"><span class="oi oi-zoom-in"></span></button>
         </div>
+
+
 
     </div>
 
 
+    <div class="footer">
+        <div class="row" style="border: 0px">
+            <div class="col" style="border: 0px">
+                    <button class="footer-button" onclick=""><span>Help</span></button>
+            </div>
 
+            <div class="col" style="border: 0px">
+                    <button class="footer-button"  onclick=""><span>Export</span></button>
+            </div>
+
+            <div class="col" style="border: 0px">
+                    <button class="footer-button" onclick=""><span>Feedback</span></button>
+            </div>
+
+            <div class="col" style="border: 0px">
+                    <button class="footer-button" onclick=""><span>Impress</span></button>
+            </div>
+        </div>
+        
+        
+    </div>
 
 </body>
 

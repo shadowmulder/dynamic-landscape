@@ -1,18 +1,28 @@
 // Source code from https://bootsnipp.com/snippets/exqd3 by Siddharth Panchal
 
-
 $(function () {
-	$('#form-tags-1').tagsInput();
-
+	//console.log(allKeyWords)
+	$('#form-tags-1').tagsInput({
+		'autocomplete': {
+			source: allKeyWords
+		} 
+	});
 
 });
 
-
+$.ui.autocomplete.filter = function (array, term) {
+    var matcher = new RegExp("^" + $.ui.autocomplete.escapeRegex(term), "i");
+    return $.grep(array, function (value) {
+        return matcher.test(value.label || value.value || value);
+    });
+};
 
 /* jQuery Tags Input Revisited Plugin
  *
  * Copyright (c) Krzysztof Rusnarczyk
  * Licensed under the MIT license */
+var settings;
+var l_data;
 
 (function ($) {
 	var delimiter = [];
@@ -72,7 +82,6 @@ $(function () {
 	};
 
 	$.fn.removeTag = function (value) {
-
 		value = decodeURI(value);
 
 		this.each(function () {
@@ -113,15 +122,15 @@ $(function () {
 	};
 
 	$.fn.tagsInput = function (options) {
-		var settings = jQuery.extend({
+		settings = jQuery.extend({
 			interactive: true,
-			placeholder: 'Search...',
+			placeholder: 'Search... (e.g. speech, cloud, aws)',
 			minChars: 0,
 			maxChars: null,
 			limit: null,
 			validationPattern: null,
 			width: 'auto',
-			height: 'auto',
+			height: '40px',
 			autocomplete: null,
 			hide: true,
 			delimiter: ',',
@@ -150,6 +159,8 @@ $(function () {
 				input_wrapper: '#' + id + '_addTag',
 				fake_input: '#' + id + '_tag'
 			}, settings);
+
+	
 
 			delimiter[id] = data.delimiter;
 			inputSettings[id] = {
@@ -200,7 +211,7 @@ $(function () {
 			$(data.fake_input).on('blur', data, function (event) {
 				$(data.holder).removeClass('focus');
 			});
-
+			l_data = jQuery;
 			if (settings.autocomplete !== null && jQuery.ui.autocomplete !== undefined) {
 				$(data.fake_input).autocomplete(settings.autocomplete);
 				$(data.fake_input).on('autocompleteselect', data, function (event, ui) {
@@ -442,38 +453,38 @@ function showDependenciesPlumb() {
 	nodesToHighlight.push(currentElementId);
 
 	dependencies.out.forEach(item => {
-		
+
 		item.dname.forEach(id => {
 			con_in.push(id);
 			jsPlumb.connect({
 				anchor: "AutoDefault",
 				source: currentElementId,
 				target: id,
-				paintStyle:{ stroke:"green", strokeWidth: 2},
+				paintStyle: { stroke: "green", strokeWidth: 2 },
 				connector: ["Bezier", { curviness: 50 }],
 				overlays: [
-					["PlainArrow", {width: 6, length: 6, location: 1.0}],
-					["Label", { label: item.dtype, location: 0.6, cssClass: "connectorLabel"}]
+					["PlainArrow", { width: 6, length: 6, location: 1.0 }],
+					["Label", { label: item.dtype, location: 0.6, cssClass: "connectorLabel" }]
 				]
 			});
 		});
-		
+
 
 	});
 
 	dependencies.in.forEach(item => {
-	
+
 		item.dname.forEach(id => {
 			con_in.push(id);
 			jsPlumb.connect({
 				anchor: "AutoDefault",
 				source: id,
 				target: currentElementId,
-				paintStyle:{ stroke:"blue", strokeWidth: 2},
+				paintStyle: { stroke: "blue", strokeWidth: 2 },
 				connector: ["Bezier", { curviness: 50 }],
 				overlays: [
-					["PlainArrow", {width: 6, length: 6, location: 1.0}],
-					["Label", { label: item.dtype, location: 0.6, cssClass: "connectorLabel"}]
+					["PlainArrow", { width: 6, length: 6, location: 1.0 }],
+					["Label", { label: item.dtype, location: 0.6, cssClass: "connectorLabel" }]
 				]
 			});
 		});
