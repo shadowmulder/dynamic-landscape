@@ -8,19 +8,25 @@
 <script src="/js/filter.js"></script>
 <script src="/js/blooming-menu.min.js"></script>
 <script src="/js/jsplumb.js "></script>
-<script src="/js/utilities.js "></script>
+<script src="/js/utilities.js"></script>
+<script src="/js/jspdf.js"></script>
+<script src="/js/canvas.js"></script>
+<script src="/js/svg.js"></script>
+<script src="/js/context2d.js"></script>
+<script src="/js/html.js"></script>
+<script src="/js/html2canvas.js"></script>
 
 
 <head>
 
 
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" media="screen,projection">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Trirong:100,200" media="screen,projection">
-    <link rel="stylesheet" type="text/css" href="/css/buttons.css" media="screen,projection">
-    <link rel="stylesheet" type="text/css" href="/css/open-iconic-bootstrap.css" media="screen,projection">
-    <link rel="stylesheet" type="text/css" href="/css/search.css" media="screen,projection">
-    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" media="screen,projection">
-    <link rel="stylesheet" type="text/css" href="/css/styles.css" media="screen,projection">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" media="screen,projection,print">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Trirong:100,200" media="screen,projection,print">
+    <link rel="stylesheet" type="text/css" href="./css/buttons.css" media="screen,projection,print">
+    <link rel="stylesheet" type="text/css" href="./css/open-iconic-bootstrap.css" media="screen,projection,print">
+    <link rel="stylesheet" type="text/css" href="./css/search.css" media="screen,projection,print">
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" media="screen,projection,print">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" media="screen,projection,print">
 
 </head>
 
@@ -50,22 +56,23 @@
         var allKeyWords = [];
 
         $.ajax({
-            url: '/database/search_index.json',
+            url: '/database/autocomplete_index.json',
             async: false,
             dataType: 'json',
-            success: function (response) {
-                searchIndex = response;
-                allKeyWords = extractKeyWords(searchIndex);
+            success: function (json) {
+
+                allKeyWords = json;
             }
         });
 
 
-        /*
-                $.getJSON("/database/search_index.json", function (json) {
-                    searchIndex = json;
-                    allKeyWords = extractKeyWords(searchIndex);
-                });
-        */
+
+        $.getJSON("/database/search_index.json", function (json) {
+            searchIndex = json;
+            d3.select("#resultCount").html(searchIndex.length);
+
+        });
+
 
 
 
@@ -83,6 +90,7 @@
         var providerColumn;
         var currentElementId = null;
         var landscape;
+        var cursorOutsideIcon = true;
 
 
 
@@ -132,12 +140,12 @@
             leftContainer = landscape
                 .append("div")
                 .attr("class", "col-md-auto")
-                .attr("id", "leftContainer")
-                .style("width", "100px");
+                .attr("id", "leftContainer");
 
             var rightContainer = landscape
                 .append("div")
                 .attr("class", "col-sm")
+                .attr("id", "elementTable")
 
 
             var grid = rightContainer
@@ -174,6 +182,8 @@
                         .append("div")
                         .attr("class", "categories")
                         .attr("id", "cContainer");
+
+
                     categories.push(cat);
                     d.categories[cc].members.forEach(m => {
                         var service = cat.append("div")
@@ -190,9 +200,14 @@
                                     .style("top", d3.event.pageY - 70 + "px")
                                     .style("display", "inline-block")
                                     .text(m.service);
+
+                                this.style.boxShadow = "0 0 10px rgba(0,0,0,0.5)";
+                                cursorOutsideIcon = false;
                             })
                             .on("mouseout", function (d, i) {
                                 tooltip.style("display", "none");
+                                this.style.boxShadow = "";
+                                cursorOutsideIcon = true;
                             })
                             .on("click", function () {
                                 currentElementId = m.id;
@@ -255,16 +270,24 @@
     </script>
 
     <div class="topnav">
-        <div style="margin:5px" style="display:block">
+        
+        <div style="margin:5px" style="display:inline-block">
+
             <img src="img/mbw_logo_small.svg" height="40px" style="float:left" alt="MaibornWolff">
+            
         </div>
 
+<!--        <div class="pName">GRIDSCAPE</div>-->
         <div class="toolbox">
             <!-- Search design based on https://bootsnipp.com/snippets/exqd3 by Siddharth Panchal -->
             <form id="searchForm" style="overflow: hidden">
                 <input id="form-tags-1" name="tags-1" type="text">
             </form>
             <button onclick="search()" type="button"><span class="oi oi-magnifying-glass"></span></button>
+        </div>
+        <div class="toolbox" id="resCountContainer">
+            <div>Matches:</div>
+            <div id=resultCount>0</div>
         </div>
         <div class="toolbox">
             <button onclick="zoom(zoomFactor-0.1)"><span class="oi oi-zoom-out"></button>
@@ -280,26 +303,26 @@
     </div>
 
 
-    <div class="footer">
+    <div class="footer" style="padding-left: 12%">
         <div class="row" style="border: 0px">
             <div class="col" style="border: 0px">
-                    <button class="footer-button" onclick=""><span>Help</span></button>
+                <button class="footer-button" onclick=""><span>Help</span></button>
             </div>
 
             <div class="col" style="border: 0px">
-                    <button class="footer-button"  onclick=""><span>Export</span></button>
+                <button class="footer-button" onclick="generatePDF()"><span>Export</span></button>
             </div>
 
             <div class="col" style="border: 0px">
-                    <button class="footer-button" onclick=""><span>Feedback</span></button>
+                <button class="footer-button" onclick=""><span>Feedback</span></button>
             </div>
 
             <div class="col" style="border: 0px">
-                    <button class="footer-button" onclick=""><span>Impress</span></button>
+                <button class="footer-button" onclick=""><span>Impress</span></button>
             </div>
         </div>
-        
-        
+
+
     </div>
 
 </body>

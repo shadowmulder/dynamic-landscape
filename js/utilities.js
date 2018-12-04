@@ -1,3 +1,6 @@
+var windowWidth = $(window).width();
+
+
 
 /*
 * unlockResizing sets the width and height parameters of grid columns to auto 
@@ -18,9 +21,11 @@ function unlockResizing() {
 * of all rows at the same value
 */
 function lockResizing() {
-    normalizeHeight("#cContainer", "#cContainer");
-    normalizeHeight("#cContainer", "#vHeader", 2);
-    normalizeHeight("#hHeader", "#hHeader");
+    normalizeHeight("#cContainer", "#cContainer", "height");
+    //normalizeHeight("#cContainer", "#vHeader", "width", 2);
+    normalizeHeight("#cContainer", "#vHeader", "height", 2);
+    normalizeHeight("#hHeader", "#hHeader", "height");
+
 }
 
 function updateLefHandHeader() {
@@ -30,30 +35,40 @@ function updateLefHandHeader() {
     d3.selectAll("#providerColumn").remove();
     leftHeaderPositions.forEach(p => {
         var pos = (p - 1) / c;
-        pos = 10;
+        pos = 20;
         providerColumn = leftContainer
             .append("div")
-            .attr("class", "col header")
             .attr("id", "providerColumn")
             .style("margin-top", pos + "px");
 
-
         providerColumn
             .append("div")
-            .attr("class", "row")
             .attr("id", "hHeader");
 
-        data.forEach(d => {
 
+        data.forEach(d => {
             var providerName = providerColumn
                 .append("div")
-                .attr("class", "row")
                 .attr("id", "vHeader")
                 .style("font-size", fontSize * zoomFactor + "px")
                 .datum(d)
-                .text(d.provider);
+                .append("div")
+                .attr("class", "vContainer");
 
+            providerName
+                .append("div")
+                .attr("class", "providerIcon")
+                .append("img")
+                .attr("src", d.providerIcon)
+                .attr("height", imgMinSize * zoomFactor)
+                .attr("width", imgMinSize * zoomFactor);
+
+            providerName.append("div")
+                .attr("class", "textBoxRot").text(d.provider);
         });
+
+
+
         c++;
     });
 
@@ -67,12 +82,11 @@ function updateLefHandHeader() {
 *   tID: id of the elements in the target group
 *   padding: can be added as an offset to the max height h
 */
-function normalizeHeight(sID, tID, padding) {
+function normalizeHeight(sID, tID, hw, padding) {
 
     padding = padding || 0;
 
     var source = d3.selectAll(sID);
-    var target = d3.selectAll(tID);
     var h = 0;
     source._groups[0].forEach(function (g) {
         _h = g.clientHeight;
@@ -82,7 +96,7 @@ function normalizeHeight(sID, tID, padding) {
         }
     })
 
-    d3.selectAll(tID).style("height", h + padding + "px");
+    d3.selectAll(tID).style(hw, h + padding + "px");
 }
 
 /*
@@ -91,7 +105,7 @@ function normalizeHeight(sID, tID, padding) {
 */
 function zoom(newFactor) {
     menu.close();
-    
+
     //zoomFactor = zoomFactor + scale;
     zoomFactor = newFactor;
     // keep zoom factor between zoomMin and zoomMax
@@ -100,19 +114,17 @@ function zoom(newFactor) {
     unlockResizing();
 
     var images = d3.selectAll(".serviceIcon").selectAll("img");
-    images
-        .attr("height", iconScale + "px");
-    images
-        .attr("width", iconScale + "px");
+
+
+    images.attr("height", iconScale + "px");
+    images.attr("width", iconScale + "px");
+
 
     var iconContainers = d3.selectAll(".serviceIcon");
-    iconContainers
-        .style("height", iconScale + "px");
-    iconContainers
-        .style("width", iconScale + "px");
+    iconContainers.style("height", iconScale + "px");
+    iconContainers.style("width", iconScale + "px");
 
-    d3.selectAll(".categories")
-        .style("grid-template-rows", "repeat(4," + iconScale + "px)");
+    d3.selectAll(".categories").style("grid-template-rows", "repeat(4," + iconScale + "px)");
     d3.selectAll("#vHeader").style("font-size", fontSize * zoomFactor + "px");
     d3.selectAll("#hHeader").style("font-size", fontSize * zoomFactor + "px");
 
@@ -166,14 +178,15 @@ function posX(el) {
 
 
 function adjustContainers() {
+    windowWidth = $(window).width();
     unlockResizing();
     updateLefHandHeader();
     lockResizing();
     jsPlumb.repaintEverything();
     adjustSVGOverlay();
     jsPlumb.repaintEverything();
-    var windowWidth = $(window).width();
-    d3.select("#searchForm").style("width",windowWidth*0.6+"px")
+
+    d3.select("#searchForm").style("width", windowWidth * 0.6 + "px")
 
 }
 
@@ -286,18 +299,29 @@ function menuCloseAdapter() {
     setTimeout(function () { menuNode.style("display", "none"); }, 400);
 }
 
-function resetView(){
+function resetView() {
     menuCloseAdapter();
     hideDetails();
-    d3.select("#form-tags-1_tagsinput").selectAll("span").remove();
+    //d3.select("#form-tags-1_tagsinput").selectAll("span").remove();
     search();
 }
 
-function extractKeyWords(database){
+function extractKeyWords(database) {
     var wordSet = new Set();
     database.forEach(e => e.keywords.forEach(w => wordSet.add(w)));
 
     return [...wordSet];
 
 }
+
+function generatePDF() {
+    window.print();
+}
+
+
+
+$(window).click(function () {
+   if (cursorOutsideIcon)  menu.close();
+});
+
 

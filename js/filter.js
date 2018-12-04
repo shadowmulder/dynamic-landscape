@@ -425,6 +425,17 @@ function search() {
 		var isResult = keyWords.every(val => e.keywords.includes(val));
 		if (isResult) searchResults.push(e.id);
 	});
+	var resultCount = searchResults.length;
+	var searchResCounter = d3.select("#resultCount");
+	
+
+	if (resultCount == 0) {
+		searchResCounter.style("color","red")
+		searchResCounter.html("NONE")
+	 } else {
+		searchResCounter.style("color","black");
+		searchResCounter.html(resultCount)
+	 } 
 
 	adjustIconOpacityById(searchResults);
 

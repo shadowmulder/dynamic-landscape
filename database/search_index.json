@@ -229,7 +229,7 @@
     "provider": "Amazon",
     "category": "Analytics",
     "description": "Amazon QuickSight is a fast, cloud-powered business analytics service that makes it easy to build visualizations, perform ad-hoc analysis, and quickly get business insights from your data",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Analytics/Analytics_AmazonQuickSight.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -261,7 +261,7 @@
     "provider": "Amazon",
     "category": "Analytics",
     "description": "AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premise data sources, at specified intervals.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Analytics/Analytics_AWSDataPipeline.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -297,7 +297,7 @@
     "provider": "Amazon",
     "category": "Analytics",
     "description": "AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy for customers to prepare and load their data for analytics.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Analytics/Analytics_AWSGlue.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -328,7 +328,7 @@
     "provider": "Amazon",
     "category": "Application Services",
     "description": "",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Application Services/ApplicationServices_AWSStepFunctions.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -345,41 +345,11 @@
   },
   {
     "id": "Ama_10_0",
-    "service": "Amazon API Gateway",
-    "provider": "Amazon",
-    "category": "Application Services",
-    "description": "AWS Step Functions makes it easy to coordinate the components of distributed applications and microservices using visual workflows.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
-    "dependencies": {
-      "in": [],
-      "out": []
-    },
-    "keywords": [
-      "amazon",
-      "application",
-      "services",
-      "api",
-      "gateway",
-      "aws",
-      "step",
-      "functions",
-      "easy",
-      "coordinate",
-      "components",
-      "distributed",
-      "applications",
-      "microservices",
-      "visual",
-      "workflows"
-    ]
-  },
-  {
-    "id": "Ama_11_0",
     "service": "Amazon Elastic Transcoder",
     "provider": "Amazon",
     "category": "Application Services",
     "description": "Amazon Elastic Transcoder is media transcoding in the cloud. It is designed to be a highly scalable, easy to use and a cost effective way for developers and businesses to convert (or ?transcode?) media files from their source format into versions that will playback on devices like smartphones, tablets and PCs.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Application Services/ApplicationServices_AmazonElasticTranscoder.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -417,7 +387,7 @@
     ]
   },
   {
-    "id": "Ama_12_0",
+    "id": "Ama_11_0",
     "service": "Amazon Lex",
     "provider": "Amazon",
     "category": "Artifical Intelligence",
@@ -443,12 +413,12 @@
     ]
   },
   {
-    "id": "Ama_13_0",
+    "id": "Ama_12_0",
     "service": "Amazon Polly",
     "provider": "Amazon",
     "category": "Artifical Intelligence",
     "description": "Amazon Polly is a service that turns text into lifelike speech, allowing you to create applications that talk, and build entirely new categories of speech-enabled products. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/AI/AI_AmazonPolly.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -477,12 +447,12 @@
     ]
   },
   {
-    "id": "Ama_14_0",
+    "id": "Ama_13_0",
     "service": "Amazon Rekognition",
     "provider": "Amazon",
     "category": "Artifical Intelligence",
     "description": "Amazon Rekognition is a service that makes it easy to add image analysis to your applications. With Rekognition, you can detect objects, scenes, faces; recognize celebrities; and identify inappropriate content in images.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/AI/AI_AmazonRekognition.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -512,12 +482,12 @@
     ]
   },
   {
-    "id": "Ama_15_0",
+    "id": "Ama_14_0",
     "service": "Amazon Maschine Learning",
     "provider": "Amazon",
     "category": "Artifical Intelligence",
     "description": "Amazon Machine Learning is a service that makes it easy for developers of all skill levels to use machine learning technology.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/AI/AI_AmazonMachineLearning.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -540,7 +510,7 @@
     ]
   },
   {
-    "id": "Ama_16_0",
+    "id": "Ama_15_0",
     "service": "Amazon Deep Learning AMIs",
     "provider": "Amazon",
     "category": "Artifical Intelligence",
@@ -576,7 +546,7 @@
     ]
   },
   {
-    "id": "Apa_17_0",
+    "id": "Apa_16_0",
     "service": "Apache MXNet on AWS",
     "provider": "Amazon",
     "category": "Artifical Intelligence",
@@ -616,7 +586,7 @@
     ]
   },
   {
-    "id": "Ten_18_0",
+    "id": "Ten_17_0",
     "service": "TensorFlow on AWS",
     "provider": "Amazon",
     "category": "Artifical Intelligence",
@@ -645,12 +615,12 @@
     ]
   },
   {
-    "id": "Ama_19_0",
+    "id": "Ama_18_0",
     "service": "Amazon WorkDocs",
     "provider": "Amazon",
     "category": "Business Productivity",
     "description": "Amazon WorkDocs is a fully managed, secure enterprise storage and sharing service with strong administrative controls and feedback capabilities that improve user productivity.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Business Productivity/BusinessProductivity_AmazonWorkDocs.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -678,12 +648,12 @@
     ]
   },
   {
-    "id": "Ama_20_0",
+    "id": "Ama_19_0",
     "service": "Amazon WorkMail",
     "provider": "Amazon",
     "category": "Business Productivity",
     "description": "Amazon WorkMail is a secure, managed business email and calendar service with support for existing desktop and mobile email client applications. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Business Productivity/BusinessProductivity_AmazonWorkMail.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -709,12 +679,12 @@
     ]
   },
   {
-    "id": "Ama_21_0",
+    "id": "Ama_20_0",
     "service": "Amazon Chime",
     "provider": "Amazon",
     "category": "Business Productivity",
     "description": "Amazon Chime is a communications service that transforms online meetings with a secure, easy-to-use application that you can trust. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Business Productivity/BusinessProductivity_AmazonChime.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -737,12 +707,12 @@
     ]
   },
   {
-    "id": "Ama_22_0",
+    "id": "Ama_21_0",
     "service": "Amazon EC2",
     "provider": "Amazon",
     "category": "Compute",
     "description": "Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Compute/Compute_AmazonEC2.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -764,12 +734,12 @@
     ]
   },
   {
-    "id": "Ama_23_0",
+    "id": "Ama_22_0",
     "service": "Amazon EC2 Container Registry",
     "provider": "Amazon",
     "category": "Compute",
     "description": "Amazon EC2 Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Compute/Compute_AmazonECR_ECRRegistry.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -794,12 +764,12 @@
     ]
   },
   {
-    "id": "Ama_24_0",
+    "id": "Ama_23_0",
     "service": "Amazon EC2 Container Service",
     "provider": "Amazon",
     "category": "Compute",
     "description": "Amazon EC2 Container Service (ECS) is a highly scalable, high performance container management service that supports Docker containers and allows you to easily run applications on a managed cluster of Amazon EC2 instances. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Compute/Compute_AmazonECS.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -832,12 +802,12 @@
     ]
   },
   {
-    "id": "Ama_25_0",
+    "id": "Ama_24_0",
     "service": "Amazon Lightsail",
     "provider": "Amazon",
     "category": "Compute",
     "description": "Amazon Lightsail is the easiest way to get started with AWS for developers who just need virtual private servers. Lightsail includes everything you need to launch your project quickly",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Compute/Compute_AmazonLightsail.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -865,7 +835,7 @@
     ]
   },
   {
-    "id": "Ama_26_0",
+    "id": "Ama_25_0",
     "service": "Amazon VPC",
     "provider": "Amazon",
     "category": "Compute",
@@ -901,7 +871,7 @@
     ]
   },
   {
-    "id": "Ama_26_1",
+    "id": "Ama_25_1",
     "service": "Amazon VPC",
     "provider": "Amazon",
     "category": "Network & Content Delivery",
@@ -940,12 +910,12 @@
     ]
   },
   {
-    "id": "AWS_27_0",
+    "id": "AWS_26_0",
     "service": "AWS Batch",
     "provider": "Amazon",
     "category": "Compute",
     "description": "AWS Batch dynamically provisions the optimal quantity and type of compute resources (e.g., CPU or memory optimized instances) based on the volume and specific resource requirements of the batch jobs submitted.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Compute/Compute_AWSBatch.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -978,7 +948,7 @@
     ]
   },
   {
-    "id": "AWS_28_0",
+    "id": "AWS_27_0",
     "service": "AWS Elastic Beanstalk",
     "provider": "Amazon",
     "category": "Compute",
@@ -988,13 +958,14 @@
       "in": [
         {
           "dname": [
-            "Ama_93_0"
+            "Ama_90_0"
           ],
           "dtype": "Archive"
         },
         {
           "dname": [
-            "Ela_81_0"
+            "Ela_78_0",
+            "Ela_78_1"
           ],
           "dtype": "Load balancer"
         }
@@ -1002,14 +973,14 @@
       "out": [
         {
           "dname": [
-            "Ama_52_0"
+            "Ama_51_0"
           ],
           "dtype": "Log"
         },
         {
           "dname": [
-            "Ama_26_0",
-            "Ama_26_1"
+            "Ama_25_0",
+            "Ama_25_1"
           ],
           "dtype": "Network"
         }
@@ -1040,7 +1011,7 @@
     ]
   },
   {
-    "id": "AWS_29_0",
+    "id": "AWS_28_0",
     "service": "AWS Lambda",
     "provider": "Amazon",
     "category": "Compute",
@@ -1050,7 +1021,7 @@
       "in": [
         {
           "dname": [
-            "Ama_52_0"
+            "Ama_51_0"
           ],
           "dtype": ""
         }
@@ -1058,14 +1029,20 @@
       "out": [
         {
           "dname": [
-            "Ama_93_0"
+            "Ama_90_0"
           ],
           "dtype": ""
         },
         {
           "dname": [
-            "Ama_77_0",
-            "Ama_77_1"
+            "Ama_74_0",
+            "Ama_74_1"
+          ],
+          "dtype": ""
+        },
+        {
+          "dname": [
+            "Ama_60_0"
           ],
           "dtype": ""
         },
@@ -1077,13 +1054,7 @@
         },
         {
           "dname": [
-            "Ama_62_0"
-          ],
-          "dtype": ""
-        },
-        {
-          "dname": [
-            "Ama_52_0"
+            "Ama_51_0"
           ],
           "dtype": ""
         },
@@ -1095,31 +1066,31 @@
         },
         {
           "dname": [
-            "Ama_34_0"
+            "Ama_33_0"
           ],
           "dtype": ""
         },
         {
           "dname": [
-            "Ama_12_0"
+            "Ama_11_0"
           ],
           "dtype": ""
         },
         {
           "dname": [
-            "Ama_78_0"
+            "Ama_75_0"
           ],
           "dtype": ""
         },
         {
           "dname": [
-            "AWS_55_0"
+            "AWS_54_0"
           ],
           "dtype": ""
         },
         {
           "dname": [
-            "Ama_73_0"
+            "Ama_71_0"
           ],
           "dtype": ""
         }
@@ -1160,12 +1131,12 @@
     ]
   },
   {
-    "id": "Aut_30_0",
+    "id": "Aut_29_0",
     "service": "Auto Scaling",
     "provider": "Amazon",
     "category": "Compute",
     "description": "Auto Scaling helps you maintain application availability and allows you to dynamically scale your Amazon EC2 capacity up or down automatically according to conditions you define.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Compute/Compute_AmazonEC2_AutoScaling.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -1192,12 +1163,12 @@
     ]
   },
   {
-    "id": "Ama_31_0",
+    "id": "Ama_30_0",
     "service": "Amazon Connect",
     "provider": "Amazon",
     "category": "Contact Center",
     "description": "Amazon Connect is a self-service, cloud-based contact center service that makes it easy for any business to deliver better customer service at lower cost.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Contact Center/ContactCenter_AmazonConnect.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -1222,12 +1193,12 @@
     ]
   },
   {
-    "id": "Ama_32_0",
+    "id": "Ama_31_0",
     "service": "Amazon Aurora",
     "provider": "Amazon",
     "category": "Databases",
     "description": "Amazon Aurora is a MySQL and PostgreSQL-compatible relational database engine that combines the speed and availability of high-end commercial databases with the simplicity and cost-effectiveness of open source databases.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Database/Database_AmazonRDS.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -1254,12 +1225,12 @@
     ]
   },
   {
-    "id": "Ama_33_0",
+    "id": "Ama_32_0",
     "service": "Amazon RDS",
     "provider": "Amazon",
     "category": "Databases",
     "description": "Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Database/Database_AmazonRDS.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -1281,7 +1252,7 @@
     ]
   },
   {
-    "id": "Ama_34_0",
+    "id": "Ama_33_0",
     "service": "Amazon DynamoDB",
     "provider": "Amazon",
     "category": "Databases",
@@ -1309,7 +1280,7 @@
     ]
   },
   {
-    "id": "Ama_35_0",
+    "id": "Ama_34_0",
     "service": "Amazon DynamoDB Accelerator (DAX)",
     "provider": "Amazon",
     "category": "Databases",
@@ -1339,12 +1310,12 @@
     ]
   },
   {
-    "id": "Ama_36_0",
+    "id": "Ama_35_0",
     "service": "Amazon ElastiCache",
     "provider": "Amazon",
     "category": "Databases",
     "description": "Amazon ElastiCache is a web service that makes it easy to deploy, operate, and scale an in-memory data store or cache in the cloud. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Database/Database_AmazonElasticCache.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -1368,17 +1339,18 @@
     ]
   },
   {
-    "id": "AWS_37_0",
+    "id": "AWS_36_0",
     "service": "AWS Database Migration Service",
     "provider": "Amazon",
     "category": "Databases",
     "description": "AWS Database Migration Service helps you migrate databases to AWS quickly and securely.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Migration/Migration_AWSDMS.svg",
     "dependencies": {
       "in": [],
       "out": []
     },
     "keywords": [
+      "awsdms",
       "amazon",
       "databases",
       "aws",
@@ -1393,12 +1365,37 @@
     ]
   },
   {
-    "id": "Ama_38_0",
+    "id": "AWS_36_1",
+    "service": "AWS Database Migration Service",
+    "provider": "Amazon",
+    "category": "Migration",
+    "description": "AWS Database Migration Service helps you migrate databases to AWS quickly and securely.",
+    "img": "./logos/AWS/Migration/Migration_AWSDMS.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "awsdms",
+      "amazon",
+      "migration",
+      "aws",
+      "database",
+      "service",
+      "helps",
+      "migrate",
+      "databases",
+      "quickly",
+      "securely"
+    ]
+  },
+  {
+    "id": "Ama_37_0",
     "service": "Amazon WorkSpaces",
     "provider": "Amazon",
-    "category": "Desktop App & Streaming",
+    "category": "Desktop & App Streaming",
     "description": "Amazon WorkSpaces is a fully managed, secure Desktop-as-a-Service (DaaS) solution which runs on AWS. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Desktop & App Streaming/DesktopAppStreaming_AmazonWorkSpaces.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -1406,8 +1403,8 @@
     "keywords": [
       "amazon",
       "desktop",
-      "app",
       "&",
+      "app",
       "streaming",
       "workspaces",
       "fully",
@@ -1423,12 +1420,12 @@
     ]
   },
   {
-    "id": "Ama_39_0",
+    "id": "Ama_38_0",
     "service": "Amazon AppStream 2.0",
     "provider": "Amazon",
-    "category": "Desktop App & Streaming",
+    "category": "Desktop & App Streaming",
     "description": "Amazon AppStream 2.0 is a fully managed, secure application streaming service that allows you to stream desktop applications from AWS to any device running a web browser, without rewriting them. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Desktop & App Streaming/DesktopAppStreaming_AmazonAppStream2.0.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -1436,8 +1433,8 @@
     "keywords": [
       "amazon",
       "desktop",
-      "app",
       "&",
+      "app",
       "streaming",
       "appstream",
       "2.0",
@@ -1464,12 +1461,12 @@
     ]
   },
   {
-    "id": "AWS_40_0",
+    "id": "AWS_39_0",
     "service": "AWS CodeStar",
     "provider": "Amazon",
     "category": "Developer Tools",
     "description": "AWS CodeStar enables you to quickly develop, build, and deploy applications on AWS. AWS CodeStar provides a unified user interface, enabling you to easily manage your software development activities in one place. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Developer Tools/DeveloperTools_AWSCodeStar.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -1502,12 +1499,12 @@
     ]
   },
   {
-    "id": "AWS_41_0",
+    "id": "AWS_40_0",
     "service": "AWS CodeCommit",
     "provider": "Amazon",
     "category": "Developer Tools",
     "description": "AWS CodeCommit is a fully-managed source control service that makes it easy for companies to host secure and highly scalable private Git repositories. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Developer Tools/DeveloperTools_AWSCodeCommit.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -1535,12 +1532,12 @@
     ]
   },
   {
-    "id": "AWS_42_0",
+    "id": "AWS_41_0",
     "service": "AWS CodeBuild",
     "provider": "Amazon",
     "category": "Developer Tools",
     "description": "AWS CodeBuild is a fully managed build service that compiles source code, runs tests, and produces software packages that are ready to deploy. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Developer Tools/DeveloperTools_AWSCodeBuild.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -1570,12 +1567,12 @@
     ]
   },
   {
-    "id": "AWS_43_0",
+    "id": "AWS_42_0",
     "service": "AWS CodeDeploy",
     "provider": "Amazon",
     "category": "Developer Tools",
     "description": "AWS CodeDeploy is a service that automates code deployments to any instance, including Amazon EC2 instances and instances running on-premises.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Developer Tools/DeveloperTools_AWSCodeDeploy.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -1599,12 +1596,12 @@
     ]
   },
   {
-    "id": "AWS_44_0",
+    "id": "AWS_43_0",
     "service": "AWS CodePipeline",
     "provider": "Amazon",
     "category": "Developer Tools",
     "description": "AWS CodePipeline is a continuous integration and continuous delivery service for fast and reliable application and infrastructure updates.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Developer Tools/DeveloperTools_AWSCodePipeline.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -1627,12 +1624,12 @@
     ]
   },
   {
-    "id": "AWS_45_0",
+    "id": "AWS_44_0",
     "service": "AWS X-Ray",
     "provider": "Amazon",
     "category": "Developer Tools",
     "description": "AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Developer Tools/DeveloperTools_AWSX-Ray.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -1660,12 +1657,12 @@
     ]
   },
   {
-    "id": "AWS_46_0",
+    "id": "AWS_45_0",
     "service": "AWS Command Line Interface",
     "provider": "Amazon",
     "category": "Developer Tools",
     "description": "The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/SDKs/SDKs_AWSCLI.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -1688,12 +1685,12 @@
     ]
   },
   {
-    "id": "Ama_47_0",
+    "id": "Ama_46_0",
     "service": "Amazon GameLift",
     "provider": "Amazon",
     "category": "Game Development",
     "description": "Amazon GameLift is a managed service for deploying, operating, and scaling dedicated game servers for session-based multiplayer games. Amazon GameLift makes it easy to manage server infrastructure, scale capacity to lower latency and cost, match players into available game sessions, and defend from distributed denial-of-service (DDoS) attacks. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Game Development/GameDevelopment_AmazonGameLift.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -1736,12 +1733,12 @@
     ]
   },
   {
-    "id": "Ama_48_0",
+    "id": "Ama_47_0",
     "service": "Amazon Lumberyard",
     "provider": "Amazon",
     "category": "Game Development",
     "description": "Amazon Lumberyard is a free AAA game engine deeply integrated with AWS and Twitch ? with full source.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/_/Lumberyard_Logo.png",
     "dependencies": {
       "in": [],
       "out": []
@@ -1765,12 +1762,12 @@
     ]
   },
   {
-    "id": "AWS_49_0",
+    "id": "AWS_48_0",
     "service": "AWS IoT Platform",
     "provider": "Amazon",
     "category": "Internet of Things",
     "description": "AWS IoT is a managed cloud platform that lets connected devices easily and securely interact with cloud applications and other devices. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Internet Of Things/InternetOfThings_AWSIoT.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -1798,12 +1795,12 @@
     ]
   },
   {
-    "id": "AWS_50_0",
+    "id": "AWS_49_0",
     "service": "AWS Greengrass",
     "provider": "Amazon",
     "category": "Internet of Things",
     "description": "AWS Greengrass is software that lets you run local compute, messaging & data caching for connected devices in a secure way.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Internet Of Things/InternetOfThings_AWSIoT_AWSGreengrass.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -1831,7 +1828,7 @@
     ]
   },
   {
-    "id": "AWS_51_0",
+    "id": "AWS_50_0",
     "service": "AWS IoT Button",
     "provider": "Amazon",
     "category": "Internet of Things",
@@ -1859,7 +1856,7 @@
     ]
   },
   {
-    "id": "Ama_52_0",
+    "id": "Ama_51_0",
     "service": "Amazon CloudWatch",
     "provider": "Amazon",
     "category": "Management Tools",
@@ -1884,12 +1881,12 @@
     ]
   },
   {
-    "id": "AWS_53_0",
+    "id": "AWS_52_0",
     "service": "AWS CloudFormation",
     "provider": "Amazon",
     "category": "Management Tools",
     "description": "AWS CloudFormation gives developers and systems administrators an easy way to create and manage a collection of related AWS resources, provisioning and updating them in an orderly and predictable fashion",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Management Tools/ManagementTools_AWSCloudFormation.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -1920,12 +1917,12 @@
     ]
   },
   {
-    "id": "AWS_54_0",
+    "id": "AWS_53_0",
     "service": "AWS CloudTrail",
     "provider": "Amazon",
     "category": "Management Tools",
     "description": "AWS CloudTrail is a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account. With CloudTrail, you can log, continuously monitor, and retain account activity related to actions across your AWS infrastructure",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Management Tools/ManagementTools_AWSCloudTrail.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -1957,7 +1954,7 @@
     ]
   },
   {
-    "id": "AWS_55_0",
+    "id": "AWS_54_0",
     "service": "AWS Config",
     "provider": "Amazon",
     "category": "Management Tools",
@@ -1983,12 +1980,12 @@
     ]
   },
   {
-    "id": "AWS_56_0",
+    "id": "AWS_55_0",
     "service": "AWS OpsWorks",
     "provider": "Amazon",
     "category": "Management Tools",
     "description": "AWS OpsWorks is a configuration management service that uses Chef, an automation platform that treats server configurations as code.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Management Tools/ManagementTools_AWSOpsWorks.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -2013,12 +2010,12 @@
     ]
   },
   {
-    "id": "AWS_57_0",
+    "id": "AWS_56_0",
     "service": "AWS Service Catalog",
     "provider": "Amazon",
     "category": "Management Tools",
     "description": "AWS Service Catalog allows organizations to create and manage catalogs of IT services that are approved for use on AWS.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Management Tools/ManagementTools_AWSServiceCatalog.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -2042,12 +2039,12 @@
     ]
   },
   {
-    "id": "AWS_58_0",
+    "id": "AWS_57_0",
     "service": "AWS Trusted Advisor",
     "provider": "Amazon",
     "category": "Management Tools",
     "description": "An online resource to help you reduce cost, increase performance, and improve security by optimizing your AWS environment, Trusted Advisor provides real time guidance to help you provision your resources following AWS best practices.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Management Tools/ManagementTools_AWSTrustedAdvisor.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -2083,12 +2080,12 @@
     ]
   },
   {
-    "id": "Ama_59_0",
+    "id": "Ama_58_0",
     "service": "Amazon EC2 Systems Manager",
     "provider": "Amazon",
     "category": "Management Tools",
     "description": "Amazon EC2 Systems Manager is a management service that helps you automatically collect software inventory, apply OS patches, create system images, and configure Windows and Linux operating systems.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Management Tools/ManagementTools_AmazonEC2SystemsManager.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -2121,7 +2118,7 @@
     ]
   },
   {
-    "id": "AWS_60_0",
+    "id": "AWS_59_0",
     "service": "AWS Personal Health Dashboard",
     "provider": "Amazon",
     "category": "Management Tools",
@@ -2146,7 +2143,6 @@
       "when",
       "experiencing",
       "events",
-      "may",
       "impact",
       "while",
       "service",
@@ -2164,7 +2160,7 @@
     ]
   },
   {
-    "id": "Ama_61_0",
+    "id": "Ama_60_0",
     "service": "Amazon Simple Queue Service",
     "provider": "Amazon",
     "category": "Messaging",
@@ -2197,7 +2193,7 @@
     ]
   },
   {
-    "id": "Ama_62_0",
+    "id": "Ama_61_0",
     "service": "Amazon Simple Notification Service",
     "provider": "Amazon",
     "category": "Messaging",
@@ -2231,12 +2227,12 @@
     ]
   },
   {
-    "id": "Ama_63_0",
+    "id": "Ama_62_0",
     "service": "Amazon Simple Email Service",
     "provider": "Amazon",
     "category": "Messaging",
     "description": "Amazon Pinpoint makes it easy to message users directly from your application or backend service, or run targeted campaigns to drive user engagement.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Messaging/Messaging_AmazonSES.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -2264,12 +2260,12 @@
     ]
   },
   {
-    "id": "Ama_64_0",
+    "id": "Ama_63_0",
     "service": "Amazon Pinpoint",
     "provider": "Amazon",
     "category": "Messaging",
     "description": "Amazon Simple Email Service (Amazon SES) evolved from the email platform that Amazon.com created to communicate with its own customers. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Messaging/Messaging_AmazonPinpoint.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -2295,12 +2291,44 @@
     ]
   },
   {
-    "id": "AWS_65_0",
+    "id": "Ama_63_1",
+    "service": "Amazon Pinpoint",
+    "provider": "Amazon",
+    "category": "Mobile Services",
+    "description": "Amazon Simple Email Service (Amazon SES) evolved from the email platform that Amazon.com created to communicate with its own customers. ",
+    "img": "./logos/AWS/Messaging/Messaging_AmazonPinpoint.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "mobile",
+      "services",
+      "pinpoint",
+      "simple",
+      "email",
+      "service",
+      "ses",
+      "evolved",
+      "email",
+      "platform",
+      "amazoncom",
+      "created",
+      "communicate",
+      "its",
+      "own",
+      "customers",
+      ""
+    ]
+  },
+  {
+    "id": "AWS_64_0",
     "service": "AWS Application Discovery Service",
     "provider": "Amazon",
     "category": "Migration",
     "description": "AWS Application Discovery Service helps enterprise customers plan migration projects by gathering information about their on-premises data centers.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Migration/Migration_AWSApplicationDiscoveryService.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -2328,36 +2356,12 @@
     ]
   },
   {
-    "id": "AWS_66_0",
-    "service": "AWS Database Migration Service",
-    "provider": "Amazon",
-    "category": "Migration",
-    "description": "AWS Database Migration Service helps you migrate databases to AWS quickly and securely.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
-    "dependencies": {
-      "in": [],
-      "out": []
-    },
-    "keywords": [
-      "amazon",
-      "migration",
-      "aws",
-      "database",
-      "service",
-      "helps",
-      "migrate",
-      "databases",
-      "quickly",
-      "securely"
-    ]
-  },
-  {
-    "id": "AWS_67_0",
+    "id": "AWS_65_0",
     "service": "AWS Migration Hub",
     "provider": "Amazon",
     "category": "Migration",
     "description": "AWS Migration Hub provides a single location to track the progress of application migrations across multiple AWS and partner solutions.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Migration/Migration_AWSMigrationHub.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -2381,12 +2385,12 @@
     ]
   },
   {
-    "id": "AWS_68_0",
+    "id": "AWS_66_0",
     "service": "AWS Server Migration Service",
     "provider": "Amazon",
     "category": "Migration",
     "description": "AWS Server Migration Service (SMS) is an agentless service which makes it easier and faster for you to migrate thousands of on-premises workloads to AWS.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Migration/Migration_AWSSMS.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -2410,125 +2414,125 @@
     ]
   },
   {
+    "id": "AWS_67_0",
+    "service": "AWS Snowbball",
+    "provider": "Amazon",
+    "category": "Migration",
+    "description": "Snowball is a petabyte-scale data transport solution that uses secure appliances to transfer large amounts of data into and out of the AWS cloud. ",
+    "img": "./logos/AWS/Storage/Storage_AWSSnowball.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "migration",
+      "aws",
+      "snowbball",
+      "snowball",
+      "petabytescale",
+      "data",
+      "transport",
+      "solution",
+      "uses",
+      "secure",
+      "appliances",
+      "transfer",
+      "large",
+      "amounts",
+      "out",
+      "cloud",
+      ""
+    ]
+  },
+  {
+    "id": "AWS_67_1",
+    "service": "AWS Snowbball",
+    "provider": "Amazon",
+    "category": "Storage",
+    "description": "Snowball is a petabyte-scale data transport solution that uses secure appliances to transfer large amounts of data into and out of the AWS cloud. ",
+    "img": "./logos/AWS/Storage/Storage_AWSSnowball.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "storage",
+      "aws",
+      "snowbball",
+      "snowball",
+      "petabytescale",
+      "data",
+      "transport",
+      "solution",
+      "uses",
+      "secure",
+      "appliances",
+      "transfer",
+      "large",
+      "amounts",
+      "out",
+      "cloud",
+      ""
+    ]
+  },
+  {
+    "id": "AWS_68_0",
+    "service": "AWS Snowball Edge",
+    "provider": "Amazon",
+    "category": "Migration",
+    "description": "AWS Snowball Edge is a 100TB data transfer device with on-board storage and compute capabilities.",
+    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "migration",
+      "aws",
+      "snowball",
+      "edge",
+      "100tb",
+      "data",
+      "transfer",
+      "device",
+      "onboard",
+      "storage",
+      "compute",
+      "capabilities"
+    ]
+  },
+  {
+    "id": "AWS_68_1",
+    "service": "AWS Snowball Edge",
+    "provider": "Amazon",
+    "category": "Storage",
+    "description": "AWS Snowball Edge is a 100TB data transfer device with on-board storage and compute capabilities.",
+    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "storage",
+      "aws",
+      "snowball",
+      "edge",
+      "100tb",
+      "data",
+      "transfer",
+      "device",
+      "onboard",
+      "storage",
+      "compute",
+      "capabilities"
+    ]
+  },
+  {
     "id": "AWS_69_0",
-    "service": "AWS Snowbball",
-    "provider": "Amazon",
-    "category": "Migration",
-    "description": "Snowball is a petabyte-scale data transport solution that uses secure appliances to transfer large amounts of data into and out of the AWS cloud. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
-    "dependencies": {
-      "in": [],
-      "out": []
-    },
-    "keywords": [
-      "amazon",
-      "migration",
-      "aws",
-      "snowbball",
-      "snowball",
-      "petabytescale",
-      "data",
-      "transport",
-      "solution",
-      "uses",
-      "secure",
-      "appliances",
-      "transfer",
-      "large",
-      "amounts",
-      "out",
-      "cloud",
-      ""
-    ]
-  },
-  {
-    "id": "AWS_69_1",
-    "service": "AWS Snowbball",
-    "provider": "Amazon",
-    "category": "Storage",
-    "description": "Snowball is a petabyte-scale data transport solution that uses secure appliances to transfer large amounts of data into and out of the AWS cloud. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
-    "dependencies": {
-      "in": [],
-      "out": []
-    },
-    "keywords": [
-      "amazon",
-      "storage",
-      "aws",
-      "snowbball",
-      "snowball",
-      "petabytescale",
-      "data",
-      "transport",
-      "solution",
-      "uses",
-      "secure",
-      "appliances",
-      "transfer",
-      "large",
-      "amounts",
-      "out",
-      "cloud",
-      ""
-    ]
-  },
-  {
-    "id": "AWS_70_0",
-    "service": "AWS Snowball Edge",
-    "provider": "Amazon",
-    "category": "Migration",
-    "description": "AWS Snowball Edge is a 100TB data transfer device with on-board storage and compute capabilities.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
-    "dependencies": {
-      "in": [],
-      "out": []
-    },
-    "keywords": [
-      "amazon",
-      "migration",
-      "aws",
-      "snowball",
-      "edge",
-      "100tb",
-      "data",
-      "transfer",
-      "device",
-      "onboard",
-      "storage",
-      "compute",
-      "capabilities"
-    ]
-  },
-  {
-    "id": "AWS_70_1",
-    "service": "AWS Snowball Edge",
-    "provider": "Amazon",
-    "category": "Storage",
-    "description": "AWS Snowball Edge is a 100TB data transfer device with on-board storage and compute capabilities.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
-    "dependencies": {
-      "in": [],
-      "out": []
-    },
-    "keywords": [
-      "amazon",
-      "storage",
-      "aws",
-      "snowball",
-      "edge",
-      "100tb",
-      "data",
-      "transfer",
-      "device",
-      "onboard",
-      "storage",
-      "compute",
-      "capabilities"
-    ]
-  },
-  {
-    "id": "AWS_71_0",
     "service": "AWS Snowmobile",
     "provider": "Amazon",
     "category": "Migration",
@@ -2555,12 +2559,39 @@
     ]
   },
   {
-    "id": "AWS_72_0",
+    "id": "AWS_69_1",
+    "service": "AWS Snowmobile",
+    "provider": "Amazon",
+    "category": "Storage",
+    "description": "AWS Snowmobile is an Exabyte-scale data transfer service used to move extremely large amounts of data to AWS.",
+    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "storage",
+      "aws",
+      "snowmobile",
+      "exabytescale",
+      "data",
+      "transfer",
+      "service",
+      "used",
+      "move",
+      "extremely",
+      "large",
+      "amounts"
+    ]
+  },
+  {
+    "id": "AWS_70_0",
     "service": "AWS Mobile Hub",
     "provider": "Amazon",
     "category": "Mobile Services",
     "description": "AWS provides a range of services to help you develop mobile apps that can scale to hundreds of millions of users, and reach global audiences.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Mobile Services/MobileServices_AWSMobileHub.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -2588,7 +2619,7 @@
     ]
   },
   {
-    "id": "Ama_73_0",
+    "id": "Ama_71_0",
     "service": "Amazon Cognito",
     "provider": "Amazon",
     "category": "Mobile Services",
@@ -2621,12 +2652,12 @@
     ]
   },
   {
-    "id": "AWS_74_0",
+    "id": "AWS_72_0",
     "service": "AWS Device Farm",
     "provider": "Amazon",
     "category": "Mobile Services",
     "description": "Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and web apps.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Mobile Services/MobileServices_AWSDeviceFarm.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -2651,12 +2682,12 @@
     ]
   },
   {
-    "id": "AWS_75_0",
+    "id": "AWS_73_0",
     "service": "AWS Mobile SDK",
     "provider": "Amazon",
     "category": "Mobile Services",
     "description": "The AWS Mobile SDK helps you build high quality mobile apps quickly and easily. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Mobile Services/General_AWScloud.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -2680,40 +2711,7 @@
     ]
   },
   {
-    "id": "AWS_76_0",
-    "service": "AWS Pinpoint",
-    "provider": "Amazon",
-    "category": "Mobile Services",
-    "description": "Amazon Pinpoint makes it easy to message users directly from your application or backend service, or run targeted campaigns to drive user engagement. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
-    "dependencies": {
-      "in": [],
-      "out": []
-    },
-    "keywords": [
-      "amazon",
-      "mobile",
-      "services",
-      "aws",
-      "pinpoint",
-      "easy",
-      "message",
-      "users",
-      "directly",
-      "application",
-      "backend",
-      "service",
-      "run",
-      "targeted",
-      "campaigns",
-      "drive",
-      "user",
-      "engagement",
-      ""
-    ]
-  },
-  {
-    "id": "Ama_77_0",
+    "id": "Ama_74_0",
     "service": "Amazon API Gateway",
     "provider": "Amazon",
     "category": "Mobile Services",
@@ -2745,7 +2743,7 @@
     ]
   },
   {
-    "id": "Ama_77_1",
+    "id": "Ama_74_1",
     "service": "Amazon API Gateway",
     "provider": "Amazon",
     "category": "Application Services",
@@ -2777,7 +2775,7 @@
     ]
   },
   {
-    "id": "Ama_78_0",
+    "id": "Ama_75_0",
     "service": "Amazon CloudFront",
     "provider": "Amazon",
     "category": "Network & Content Delivery",
@@ -2815,12 +2813,12 @@
     ]
   },
   {
-    "id": "Ama_79_0",
+    "id": "Ama_76_0",
     "service": "Amazon Direct Connect",
     "provider": "Amazon",
     "category": "Network & Content Delivery",
     "description": "AWS Direct Connect makes it easy to establish a dedicated network connection from your premises to AWS.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Networking & Content Delivery/NetworkingContentDelivery_AWSDirectConnect.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -2843,12 +2841,12 @@
     ]
   },
   {
-    "id": "Ama_80_0",
+    "id": "Ama_77_0",
     "service": "Amazon Route 53",
     "provider": "Amazon",
     "category": "Network & Content Delivery",
     "description": "Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS)web service. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Networking & Content Delivery/NetworkingContentDelivery_AmazonRoute53.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -2874,7 +2872,40 @@
     ]
   },
   {
-    "id": "Ela_81_0",
+    "id": "Ela_78_0",
+    "service": "Elastic Load Balancing",
+    "provider": "Amazon",
+    "category": "Compute",
+    "description": "Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, and IP addresses.",
+    "img": "./logos/AWS/Compute/Compute_ElasticLoadBalancing.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "amazon",
+      "compute",
+      "elastic",
+      "load",
+      "balancing",
+      "automatically",
+      "distributes",
+      "incoming",
+      "application",
+      "traffic",
+      "across",
+      "multiple",
+      "targets",
+      "such",
+      "ec2",
+      "instances",
+      "containers",
+      "ip",
+      "addresses"
+    ]
+  },
+  {
+    "id": "Ela_78_1",
     "service": "Elastic Load Balancing",
     "provider": "Amazon",
     "category": "Network & Content Delivery",
@@ -2910,12 +2941,12 @@
     ]
   },
   {
-    "id": "Ama_82_0",
+    "id": "Ama_79_0",
     "service": "Amazon Cloud Directory",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
     "description": "Amazon Cloud Directory enables you to build flexible cloud-native directories for organizing hierarchies of data along multiple dimensions. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AmazonCloudDirectory.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -2943,12 +2974,12 @@
     ]
   },
   {
-    "id": "AWS_83_0",
+    "id": "AWS_80_0",
     "service": "AWS Identity & Access Management",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
     "description": "AWS Identity and Access Management (IAM) enables you to securely control access to AWS services and resources for your users. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_IAM.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -2982,12 +3013,12 @@
     ]
   },
   {
-    "id": "Ama_84_0",
+    "id": "Ama_81_0",
     "service": "Amazon Inspector",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
     "description": "Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AmazonInspector.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -3013,12 +3044,12 @@
     ]
   },
   {
-    "id": "Ama_85_0",
+    "id": "Ama_82_0",
     "service": "Amazon Macie",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
     "description": "Amazon Macie is a security service that uses machine learning to automatically discover, classify, and protect sensitive data in AWS.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AmazonMacie.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -3045,12 +3076,12 @@
     ]
   },
   {
-    "id": "AWS_86_0",
+    "id": "AWS_83_0",
     "service": "AWS Certificate Manager",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
     "description": "AWS Certificate Manager is a service that lets you easily provision, manage, and deploy Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates for use with AWS services.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSCertificateManager.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -3081,12 +3112,12 @@
     ]
   },
   {
-    "id": "AWS_87_0",
+    "id": "AWS_84_0",
     "service": "AWS Cloud HSM",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
     "description": "AWS CloudHSM is a cloud-based hardware security module (HSM) that enables you to easily generate and use your own encryption keys on the AWS Cloud. With CloudHSM, you can manage your own encryption keys using FIPS 140-2 Level 3 validated HSMs.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSCloudHSM.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -3122,12 +3153,12 @@
     ]
   },
   {
-    "id": "AWS_88_0",
+    "id": "AWS_85_0",
     "service": "AWS Directory Service",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
     "description": "AWS Directory Service for Microsoft Active Directory (Enterprise Edition), also known as AWS Microsoft AD, enables your directory-aware workloads and AWS resources to use managed Active Directory in the AWS Cloud.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSDirectoryService.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -3157,12 +3188,12 @@
     ]
   },
   {
-    "id": "AWS_89_0",
+    "id": "AWS_86_0",
     "service": "AWS Key Management Service",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
     "description": "AWS Key Management Service (KMS) is a managed service that makes it easy for you to create and control the encryption keys used to encrypt your data, and uses Hardware Security Modules (HSMs) to protect the security of your keys.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSKMS.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -3198,12 +3229,12 @@
     ]
   },
   {
-    "id": "AWS_90_0",
+    "id": "AWS_87_0",
     "service": "AWS Organizations",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
     "description": "AWS Organizations offers policy-based management for multiple AWS accounts.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSOrganizations.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -3224,12 +3255,12 @@
     ]
   },
   {
-    "id": "AWS_91_0",
+    "id": "AWS_88_0",
     "service": "AWS Shield",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
     "description": "AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards web applications running on AWS.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSShield.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -3256,12 +3287,12 @@
     ]
   },
   {
-    "id": "AWS_92_0",
+    "id": "AWS_89_0",
     "service": "AWS WAF",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
     "description": "AWS WAF is a web application firewall that helps protect your web applications from common web exploits that could affect application availability, compromise security, or consume excessive resources. AWS WAF gives you control over which traffic to allow or block to your web applications by defining customizable web security rules.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSWAF.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -3303,7 +3334,7 @@
     ]
   },
   {
-    "id": "Ama_93_0",
+    "id": "Ama_90_0",
     "service": "Amazon S3",
     "provider": "Amazon",
     "category": "Storage",
@@ -3328,12 +3359,12 @@
     ]
   },
   {
-    "id": "Ama_94_0",
+    "id": "Ama_91_0",
     "service": "Amazon EBS",
     "provider": "Amazon",
     "category": "Storage",
     "description": "Amazon Elastic Block Store (Amazon EBS) provides persistent block storage volumes for use with Amazon EC2 instances in the AWS Cloud.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Storage/Storage_AmazonEBS.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -3357,12 +3388,12 @@
     ]
   },
   {
-    "id": "Ama_95_0",
-    "service": "Amazon Elastic File System",
+    "id": "Ama_92_0",
+    "service": "Amazon EFS",
     "provider": "Amazon",
     "category": "Storage",
     "description": "Amazon Elastic File System (Amazon EFS) provides simple, scalable file storage for use with Amazon EC2 instances in the AWS Cloud.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Storage/Storage_AmazonEFS.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -3370,10 +3401,10 @@
     "keywords": [
       "amazon",
       "storage",
+      "efs",
       "elastic",
       "file",
       "system",
-      "efs",
       "provides",
       "simple",
       "scalable",
@@ -3386,12 +3417,12 @@
     ]
   },
   {
-    "id": "Ama_96_0",
+    "id": "Ama_93_0",
     "service": "Amazon Glacier",
     "provider": "Amazon",
     "category": "Storage",
     "description": "Amazon Glacier is a secure, durable, and extremely low-cost cloud storage service for data archiving and long-term backup. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Storage/Storage_AmazonGlacier.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -3415,12 +3446,12 @@
     ]
   },
   {
-    "id": "AWS_97_0",
+    "id": "AWS_94_0",
     "service": "AWS Storage Gateway",
     "provider": "Amazon",
     "category": "Storage",
     "description": "AWS Storage Gateway is a hybrid storage service that enables your on-premises applications to seamlessly use AWS cloud storage. ",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Storage/Storage_AWSStorageGateway.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -3442,34 +3473,7 @@
     ]
   },
   {
-    "id": "AWS_98_0",
-    "service": "AWS Snowmobile",
-    "provider": "Amazon",
-    "category": "Storage",
-    "description": "AWS Snowmobile is an Exabyte-scale data transfer service used to move extremely large amounts of data to AWS.",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
-    "dependencies": {
-      "in": [],
-      "out": []
-    },
-    "keywords": [
-      "amazon",
-      "storage",
-      "aws",
-      "snowmobile",
-      "exabytescale",
-      "data",
-      "transfer",
-      "service",
-      "used",
-      "move",
-      "extremely",
-      "large",
-      "amounts"
-    ]
-  },
-  {
-    "id": "Api_99_0",
+    "id": "Api_95_0",
     "service": "Apigee API Platform",
     "provider": "Google",
     "category": "API Platform and Ecosystem",
@@ -3501,7 +3505,7 @@
     ]
   },
   {
-    "id": "API_100_0",
+    "id": "API_96_0",
     "service": "API Monetization",
     "provider": "Google",
     "category": "API Platform and Ecosystem",
@@ -3529,7 +3533,7 @@
     ]
   },
   {
-    "id": "API_101_0",
+    "id": "API_97_0",
     "service": "API Analytics",
     "provider": "Google",
     "category": "API Platform and Ecosystem",
@@ -3564,7 +3568,7 @@
     ]
   },
   {
-    "id": "Api_102_0",
+    "id": "Api_98_0",
     "service": "Apigee Sense",
     "provider": "Google",
     "category": "API Platform and Ecosystem",
@@ -3596,7 +3600,7 @@
     ]
   },
   {
-    "id": "Clo_103_0",
+    "id": "Clo_99_0",
     "service": "Cloud Endpoints",
     "provider": "Google",
     "category": "API Platform and Ecosystem",
@@ -3622,7 +3626,7 @@
     ]
   },
   {
-    "id": "Big_104_0",
+    "id": "Big_100_0",
     "service": "BigQuery",
     "provider": "Google",
     "category": "BigData",
@@ -3652,7 +3656,7 @@
     ]
   },
   {
-    "id": "Clo_105_0",
+    "id": "Clo_101_0",
     "service": "Cloud Dataflow",
     "provider": "Google",
     "category": "BigData",
@@ -3684,7 +3688,7 @@
     ]
   },
   {
-    "id": "Clo_106_0",
+    "id": "Clo_102_0",
     "service": "Cloud Dataproc",
     "provider": "Google",
     "category": "BigData",
@@ -3717,7 +3721,7 @@
     ]
   },
   {
-    "id": "Clo_107_0",
+    "id": "Clo_103_0",
     "service": "Cloud Datalab",
     "provider": "Google",
     "category": "BigData",
@@ -3749,7 +3753,7 @@
     ]
   },
   {
-    "id": "Clo_108_0",
+    "id": "Clo_104_0",
     "service": "Cloud Dataprep",
     "provider": "Google",
     "category": "BigData",
@@ -3777,7 +3781,7 @@
     ]
   },
   {
-    "id": "Clo_109_0",
+    "id": "Clo_105_0",
     "service": "Cloud Pub/Sub",
     "provider": "Google",
     "category": "BigData",
@@ -3806,7 +3810,7 @@
     ]
   },
   {
-    "id": "Gen_110_0",
+    "id": "Gen_106_0",
     "service": "Genomics",
     "provider": "Google",
     "category": "BigData",
@@ -3835,7 +3839,7 @@
     ]
   },
   {
-    "id": "Goo_111_0",
+    "id": "Goo_107_0",
     "service": "Google Data Studio",
     "provider": "Google",
     "category": "BigData",
@@ -3864,7 +3868,7 @@
     ]
   },
   {
-    "id": "Clo_112_0",
+    "id": "Clo_108_0",
     "service": "Cloud Services",
     "provider": "Google",
     "category": "Compute",
@@ -3898,7 +3902,7 @@
     ]
   },
   {
-    "id": "Com_113_0",
+    "id": "Com_109_0",
     "service": "Compute Engine",
     "provider": "Google",
     "category": "Compute",
@@ -3938,7 +3942,7 @@
     ]
   },
   {
-    "id": "App_114_0",
+    "id": "App_110_0",
     "service": "App Engine",
     "provider": "Google",
     "category": "Compute",
@@ -3966,7 +3970,7 @@
     ]
   },
   {
-    "id": "Con_115_0",
+    "id": "Con_111_0",
     "service": "Container Engine",
     "provider": "Google",
     "category": "Compute",
@@ -4005,7 +4009,7 @@
     ]
   },
   {
-    "id": "Clo_116_0",
+    "id": "Clo_112_0",
     "service": "Cloud Functions",
     "provider": "Google",
     "category": "Compute",
@@ -4021,7 +4025,6 @@
       "cloud",
       "functions",
       "computing",
-      "has",
       "made",
       "possible",
       "fully",
@@ -4038,7 +4041,7 @@
     ]
   },
   {
-    "id": "Clo_117_0",
+    "id": "Clo_113_0",
     "service": "Cloud SDK",
     "provider": "Google",
     "category": "Developer Tools",
@@ -4075,7 +4078,7 @@
     ]
   },
   {
-    "id": "Con_118_0",
+    "id": "Con_114_0",
     "service": "Container Registry",
     "provider": "Google",
     "category": "Developer Tools",
@@ -4105,7 +4108,7 @@
     ]
   },
   {
-    "id": "Con_119_0",
+    "id": "Con_115_0",
     "service": "Container Builder",
     "provider": "Google",
     "category": "Developer Tools",
@@ -4143,7 +4146,7 @@
     ]
   },
   {
-    "id": "Clo_120_0",
+    "id": "Clo_116_0",
     "service": "Cloud Source repositories",
     "provider": "Google",
     "category": "Developer Tools",
@@ -4179,7 +4182,7 @@
     ]
   },
   {
-    "id": "Clo_121_0",
+    "id": "Clo_117_0",
     "service": "Cloud Tools for IntelliJ",
     "provider": "Google",
     "category": "Developer Tools",
@@ -4211,7 +4214,7 @@
     ]
   },
   {
-    "id": "Clo_122_0",
+    "id": "Clo_118_0",
     "service": "Cloud Tools for Powershell",
     "provider": "Google",
     "category": "Developer Tools",
@@ -4240,7 +4243,7 @@
     ]
   },
   {
-    "id": "Clo_123_0",
+    "id": "Clo_119_0",
     "service": "Cloud Tools for Visual Studio",
     "provider": "Google",
     "category": "Developer Tools",
@@ -4273,7 +4276,7 @@
     ]
   },
   {
-    "id": "Clo_124_0",
+    "id": "Clo_120_0",
     "service": "Cloud Tools for Eclipse",
     "provider": "Google",
     "category": "Developer Tools",
@@ -4304,7 +4307,7 @@
     ]
   },
   {
-    "id": "Gra_125_0",
+    "id": "Gra_121_0",
     "service": "Gradle App Engine Plugin",
     "provider": "Google",
     "category": "Developer Tools",
@@ -4326,7 +4329,7 @@
     ]
   },
   {
-    "id": "Mav_126_0",
+    "id": "Mav_122_0",
     "service": "Maven App Engine Plugin",
     "provider": "Google",
     "category": "Developer Tools",
@@ -4348,7 +4351,7 @@
     ]
   },
   {
-    "id": "Clo_127_0",
+    "id": "Clo_123_0",
     "service": "Cloud Test Lab",
     "provider": "Google",
     "category": "Developer Tools",
@@ -4369,7 +4372,7 @@
     ]
   },
   {
-    "id": "Clo_128_0",
+    "id": "Clo_124_0",
     "service": "Cloud IAM",
     "provider": "Google",
     "category": "Identity and Security",
@@ -4407,7 +4410,7 @@
     ]
   },
   {
-    "id": "Clo_129_0",
+    "id": "Clo_125_0",
     "service": "Cloud Identity Aware Proxy",
     "provider": "Google",
     "category": "Identity and Security",
@@ -4436,7 +4439,7 @@
     ]
   },
   {
-    "id": "Clo_130_0",
+    "id": "Clo_126_0",
     "service": "Cloud Data Loss Prevention API",
     "provider": "Google",
     "category": "Identity and Security",
@@ -4488,7 +4491,7 @@
     ]
   },
   {
-    "id": "Clo_131_0",
+    "id": "Clo_127_0",
     "service": "Cloud Key Management Service",
     "provider": "Google",
     "category": "Identity and Security",
@@ -4524,7 +4527,7 @@
     ]
   },
   {
-    "id": "Clo_132_0",
+    "id": "Clo_128_0",
     "service": "Cloud Resource Manager",
     "provider": "Google",
     "category": "Identity and Security",
@@ -4559,7 +4562,7 @@
     ]
   },
   {
-    "id": "Clo_133_0",
+    "id": "Clo_129_0",
     "service": "Cloud Security Scanner",
     "provider": "Google",
     "category": "Identity and Security",
@@ -4602,7 +4605,7 @@
     ]
   },
   {
-    "id": "Clo_134_0",
+    "id": "Clo_130_0",
     "service": "Cloud Platform Security Overview",
     "provider": "Google",
     "category": "Identity and Security",
@@ -4642,7 +4645,7 @@
     ]
   },
   {
-    "id": "Clo_135_0",
+    "id": "Clo_131_0",
     "service": "Cloud IoT Core",
     "provider": "Google",
     "category": "Internet of Things",
@@ -4678,7 +4681,7 @@
     ]
   },
   {
-    "id": "Clo_136_0",
+    "id": "Clo_132_0",
     "service": "Cloud Machine Learning Engine",
     "provider": "Google",
     "category": "Machine Learning",
@@ -4709,7 +4712,7 @@
     ]
   },
   {
-    "id": "Clo_137_0",
+    "id": "Clo_133_0",
     "service": "Cloud Jobs API",
     "provider": "Google",
     "category": "Machine Learning",
@@ -4740,7 +4743,7 @@
     ]
   },
   {
-    "id": "Clo_138_0",
+    "id": "Clo_134_0",
     "service": "Cloud Natural Language API",
     "provider": "Google",
     "category": "Machine Learning",
@@ -4773,7 +4776,7 @@
     ]
   },
   {
-    "id": "Clo_139_0",
+    "id": "Clo_135_0",
     "service": "Cloud Speech API",
     "provider": "Google",
     "category": "Machine Learning",
@@ -4805,7 +4808,7 @@
     ]
   },
   {
-    "id": "Clo_140_0",
+    "id": "Clo_136_0",
     "service": "Cloud Translation API",
     "provider": "Google",
     "category": "Machine Learning",
@@ -4837,7 +4840,7 @@
     ]
   },
   {
-    "id": "Clo_141_0",
+    "id": "Clo_137_0",
     "service": "Cloud Vision API",
     "provider": "Google",
     "category": "Machine Learning",
@@ -4869,7 +4872,7 @@
     ]
   },
   {
-    "id": "Clo_142_0",
+    "id": "Clo_138_0",
     "service": "Cloud Video Intelligence API",
     "provider": "Google",
     "category": "Machine Learning",
@@ -4898,7 +4901,7 @@
     ]
   },
   {
-    "id": "Sta_143_0",
+    "id": "Sta_139_0",
     "service": "Stackdriver Overview",
     "provider": "Google",
     "category": "Management Tools",
@@ -4934,7 +4937,7 @@
     ]
   },
   {
-    "id": "Mon_144_0",
+    "id": "Mon_140_0",
     "service": "Monitoring",
     "provider": "Google",
     "category": "Management Tools",
@@ -4962,7 +4965,7 @@
     ]
   },
   {
-    "id": "Log_145_0",
+    "id": "Log_141_0",
     "service": "Logging",
     "provider": "Google",
     "category": "Management Tools",
@@ -4997,7 +5000,7 @@
     ]
   },
   {
-    "id": "Err_146_0",
+    "id": "Err_142_0",
     "service": "Error Reporting",
     "provider": "Google",
     "category": "Management Tools",
@@ -5059,7 +5062,7 @@
     ]
   },
   {
-    "id": "Tra_147_0",
+    "id": "Tra_143_0",
     "service": "Trace",
     "provider": "Google",
     "category": "Management Tools",
@@ -5089,7 +5092,7 @@
     ]
   },
   {
-    "id": "Deb_148_0",
+    "id": "Deb_144_0",
     "service": "Debugger",
     "provider": "Google",
     "category": "Management Tools",
@@ -5124,7 +5127,7 @@
     ]
   },
   {
-    "id": "Clo_149_0",
+    "id": "Clo_145_0",
     "service": "Cloud Deployment Manager",
     "provider": "Google",
     "category": "Management Tools",
@@ -5153,7 +5156,7 @@
     ]
   },
   {
-    "id": "Clo_150_0",
+    "id": "Clo_146_0",
     "service": "Cloud Console",
     "provider": "Google",
     "category": "Management Tools",
@@ -5191,7 +5194,7 @@
     ]
   },
   {
-    "id": "Clo_151_0",
+    "id": "Clo_147_0",
     "service": "Cloud Shell",
     "provider": "Google",
     "category": "Management Tools",
@@ -5217,7 +5220,7 @@
     ]
   },
   {
-    "id": "Clo_152_0",
+    "id": "Clo_148_0",
     "service": "Cloud Mobile App",
     "provider": "Google",
     "category": "Management Tools",
@@ -5258,7 +5261,7 @@
     ]
   },
   {
-    "id": "Clo_153_0",
+    "id": "Clo_149_0",
     "service": "Cloud Billing API",
     "provider": "Google",
     "category": "Management Tools",
@@ -5287,7 +5290,7 @@
     ]
   },
   {
-    "id": "Clo_154_0",
+    "id": "Clo_150_0",
     "service": "Cloud APIs",
     "provider": "Google",
     "category": "Management Tools",
@@ -5310,7 +5313,7 @@
     ]
   },
   {
-    "id": "Vir_155_0",
+    "id": "Vir_151_0",
     "service": "Virtual Private Cloud",
     "provider": "Google",
     "category": "Networking",
@@ -5343,7 +5346,7 @@
     ]
   },
   {
-    "id": "Clo_156_0",
+    "id": "Clo_152_0",
     "service": "Cloud Load Balancing",
     "provider": "Google",
     "category": "Networking",
@@ -5370,7 +5373,7 @@
     ]
   },
   {
-    "id": "Clo_157_0",
+    "id": "Clo_153_0",
     "service": "Cloud CDN",
     "provider": "Google",
     "category": "Networking",
@@ -5406,7 +5409,7 @@
     ]
   },
   {
-    "id": "Clo_158_0",
+    "id": "Clo_154_0",
     "service": "Cloud Interconnect",
     "provider": "Google",
     "category": "Networking",
@@ -5429,7 +5432,7 @@
     ]
   },
   {
-    "id": "Clo_159_0",
+    "id": "Clo_155_0",
     "service": "Cloud DNS",
     "provider": "Google",
     "category": "Networking",
@@ -5458,7 +5461,7 @@
     ]
   },
   {
-    "id": "Net_160_0",
+    "id": "Net_156_0",
     "service": "Network Service Tiers",
     "provider": "Google",
     "category": "Networking",
@@ -5486,12 +5489,12 @@
     ]
   },
   {
-    "id": "Clo_161_0",
+    "id": "Clo_157_0",
     "service": "Cloud Storage",
     "provider": "Google",
     "category": "Storage and Databases",
     "description": "Google Cloud Storage is unified object storage for developers and enterprises, from live data serving to data analytics/ML to data archiving.",
-    "img": "./logos/Google/Extras/Google Cloud Platform.svg",
+    "img": "./logos/Google/Storage & Databases/Cloud Storage.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -5515,12 +5518,12 @@
     ]
   },
   {
-    "id": "Clo_162_0",
+    "id": "Clo_158_0",
     "service": "Cloud SQL",
     "provider": "Google",
     "category": "Storage and Databases",
     "description": "Cloud SQL is a fully-managed database service that makes it easy to set up, maintain, manage, and administer your relational PostgreSQL BETA and MySQL databases in the cloud. ",
-    "img": "./logos/Google/Extras/Google Cloud Platform.svg",
+    "img": "./logos/Google/Storage & Databases/Cloud SQL.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -5549,12 +5552,12 @@
     ]
   },
   {
-    "id": "Clo_163_0",
+    "id": "Clo_159_0",
     "service": "Cloud Bigtable",
     "provider": "Google",
     "category": "Storage and Databases",
     "description": "Cloud Bigtable is Google's NoSQL Big Data database service. It's the same database that powers many core Google services, including Search, Analytics, Maps, and Gmail.",
-    "img": "./logos/Google/Extras/Google Cloud Platform.svg",
+    "img": "./logos/Google/Storage & Databases/Cloud Bigtable.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -5586,12 +5589,12 @@
     ]
   },
   {
-    "id": "Clo_164_0",
+    "id": "Clo_160_0",
     "service": "Cloud Spanner",
     "provider": "Google",
     "category": "Storage and Databases",
     "description": "Cloud Spanner is the world?s first fully managed relational database service to offer both strong consistency and horizontal scalability for mission-critical online transaction processing (OLTP) applications.",
-    "img": "./logos/Google/Extras/Google Cloud Platform.svg",
+    "img": "./logos/Google/Storage & Databases/Cloud Spanner.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -5625,12 +5628,12 @@
     ]
   },
   {
-    "id": "Clo_165_0",
+    "id": "Clo_161_0",
     "service": "Cloud Datastore",
     "provider": "Google",
     "category": "Storage and Databases",
     "description": "Cloud Datastore is a highly-scalable NoSQL database for your applications. Cloud Datastore automatically handles sharding and replication, providing you with a highly available and durable database that scales automatically to handle your applications' load. ",
-    "img": "./logos/Google/Extras/Google Cloud Platform.svg",
+    "img": "./logos/Google/Storage & Databases/Cloud Datastore.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -5662,12 +5665,12 @@
     ]
   },
   {
-    "id": "Per_166_0",
+    "id": "Per_162_0",
     "service": "Persistent Disk",
     "provider": "Google",
     "category": "Storage and Databases",
     "description": "Google Persistent Disk is durable and high performance block storage for the Google Cloud Platform. Persistent Disk provides SSD and HDD storage which can be attached to instances running in either Google Compute Engine or Google Container Engine. Storage volumes can be transparently resized, quickly backed up, and offer the ability to support simultaneous readers.",
-    "img": "./logos/Google/Extras/Google Cloud Platform.svg",
+    "img": "./logos/Google/Storage & Databases/Persistent Disk.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -5710,12 +5713,12 @@
     ]
   },
   {
-    "id": "Dat_167_0",
+    "id": "Dat_163_0",
     "service": "Data Transfer",
     "provider": "Google",
     "category": "Storage and Databases",
     "description": "Whether you are in Denver or Denmark; with 50 Gigabytes or 50 Petabytes; access to a T1 line or 10 Gbps; Google offers solutions to meet your unique data transfer requirements and get your data to the cloud quickly and securely.",
-    "img": "./logos/Google/Extras/Google Cloud Platform.svg",
+    "img": "./logos/Google/Storage & Databases/Data Transfer.svg",
     "dependencies": {
       "in": [],
       "out": []
@@ -5752,7 +5755,7 @@
     ]
   },
   {
-    "id": "Goo_168_0",
+    "id": "Goo_164_0",
     "service": "Google App Engine",
     "provider": "Google",
     "category": "Web & Mobile",
@@ -5773,7 +5776,7 @@
     ]
   },
   {
-    "id": "Sec_169_0",
+    "id": "Sec_165_0",
     "service": "Security Key Enforcement",
     "provider": "Google",
     "category": "Identity and Security",
@@ -5811,7 +5814,7 @@
     ]
   },
   {
-    "id": "Cog_170_0",
+    "id": "Cog_166_0",
     "service": "Cognitive Services",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -5850,7 +5853,7 @@
     ]
   },
   {
-    "id": "Tex_171_0",
+    "id": "Tex_167_0",
     "service": "Text Analytics API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -5881,7 +5884,7 @@
     ]
   },
   {
-    "id": "Rec_172_0",
+    "id": "Rec_168_0",
     "service": "Recommendations API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -5908,7 +5911,7 @@
     ]
   },
   {
-    "id": "Aca_173_0",
+    "id": "Aca_169_0",
     "service": "Academic Knowledge API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -5936,7 +5939,7 @@
     ]
   },
   {
-    "id": "Com_174_0",
+    "id": "Com_170_0",
     "service": "Computer Vision API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -5963,7 +5966,7 @@
     ]
   },
   {
-    "id": "Con_175_0",
+    "id": "Con_171_0",
     "service": "Content Moderator",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -5990,7 +5993,7 @@
     ]
   },
   {
-    "id": "Emo_176_0",
+    "id": "Emo_172_0",
     "service": "Emotion API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6017,7 +6020,7 @@
     ]
   },
   {
-    "id": "Fac_177_0",
+    "id": "Fac_173_0",
     "service": "Face API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6046,7 +6049,7 @@
     ]
   },
   {
-    "id": "Bin_178_0",
+    "id": "Bin_174_0",
     "service": "Bing Speech API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6077,7 +6080,7 @@
     ]
   },
   {
-    "id": "Web_179_0",
+    "id": "Web_175_0",
     "service": "Web Language Model API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6109,7 +6112,7 @@
     ]
   },
   {
-    "id": "Lan_180_0",
+    "id": "Lan_176_0",
     "service": "Language Understanding Intelligent Service",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6138,7 +6141,7 @@
     ]
   },
   {
-    "id": "Spe_181_0",
+    "id": "Spe_177_0",
     "service": "Speaker Recoognition API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6167,7 +6170,7 @@
     ]
   },
   {
-    "id": "Cus_182_0",
+    "id": "Cus_178_0",
     "service": "Custom Speech Service",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6199,7 +6202,7 @@
     ]
   },
   {
-    "id": "Bin_183_0",
+    "id": "Bin_179_0",
     "service": "Bing Autosuggest API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6228,7 +6231,7 @@
     ]
   },
   {
-    "id": "Bin_184_0",
+    "id": "Bin_180_0",
     "service": "Bing Spell Check API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6257,7 +6260,7 @@
     ]
   },
   {
-    "id": "Tra_185_0",
+    "id": "Tra_181_0",
     "service": "Translator Speech API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6288,7 +6291,7 @@
     ]
   },
   {
-    "id": "Tra_186_0",
+    "id": "Tra_182_0",
     "service": "Translator Text API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6318,7 +6321,7 @@
     ]
   },
   {
-    "id": "Bin_187_0",
+    "id": "Bin_183_0",
     "service": "Bing Custom Search",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6351,7 +6354,7 @@
     ]
   },
   {
-    "id": "Bin_188_0",
+    "id": "Bin_184_0",
     "service": "Bing Entitiy Search API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6382,7 +6385,7 @@
     ]
   },
   {
-    "id": "Bin_189_0",
+    "id": "Bin_185_0",
     "service": "Bing Web Search API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6413,7 +6416,7 @@
     ]
   },
   {
-    "id": "Bin_190_0",
+    "id": "Bin_186_0",
     "service": "Bing Video Search API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6440,7 +6443,7 @@
     ]
   },
   {
-    "id": "Bin_191_0",
+    "id": "Bin_187_0",
     "service": "Bing News Search API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6467,7 +6470,7 @@
     ]
   },
   {
-    "id": "Cus_192_0",
+    "id": "Cus_188_0",
     "service": "Custom Decision Service",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6497,7 +6500,7 @@
     ]
   },
   {
-    "id": "QnA_193_0",
+    "id": "QnA_189_0",
     "service": "QnA Maker API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6525,7 +6528,7 @@
     ]
   },
   {
-    "id": "Kno_194_0",
+    "id": "Kno_190_0",
     "service": "Knowledge Exploration Service",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6559,7 +6562,7 @@
     ]
   },
   {
-    "id": "Ent_195_0",
+    "id": "Ent_191_0",
     "service": "Entity Linking Intelligence Service API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6591,7 +6594,7 @@
     ]
   },
   {
-    "id": "Lin_196_0",
+    "id": "Lin_192_0",
     "service": "Linguistic Analysis API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6620,7 +6623,7 @@
     ]
   },
   {
-    "id": "Vid_197_0",
+    "id": "Vid_193_0",
     "service": "Video Indexer",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6645,7 +6648,7 @@
     ]
   },
   {
-    "id": "Vid_198_0",
+    "id": "Vid_194_0",
     "service": "Video API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6670,7 +6673,7 @@
     ]
   },
   {
-    "id": "Cus_199_0",
+    "id": "Cus_195_0",
     "service": "Customer Vision Service",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
@@ -6702,7 +6705,7 @@
     ]
   },
   {
-    "id": "Vir_200_0",
+    "id": "Vir_196_0",
     "service": "Virtual Machines",
     "provider": "Microsoft",
     "category": "Compute",
@@ -6734,7 +6737,7 @@
     ]
   },
   {
-    "id": "Vir_201_0",
+    "id": "Vir_197_0",
     "service": "Virtual Machine Scale Sets",
     "provider": "Microsoft",
     "category": "Compute",
@@ -6786,7 +6789,7 @@
     ]
   },
   {
-    "id": "App_202_0",
+    "id": "App_198_0",
     "service": "App Service",
     "provider": "Microsoft",
     "category": "Compute",
@@ -6825,7 +6828,7 @@
     ]
   },
   {
-    "id": "Azu_203_0",
+    "id": "Azu_199_0",
     "service": "Azure Functions",
     "provider": "Microsoft",
     "category": "Compute",
@@ -6856,7 +6859,7 @@
     ]
   },
   {
-    "id": "Azu_204_0",
+    "id": "Azu_200_0",
     "service": "Azure Batch",
     "provider": "Microsoft",
     "category": "Compute",
@@ -6895,7 +6898,7 @@
     ]
   },
   {
-    "id": "Ser_205_0",
+    "id": "Ser_201_0",
     "service": "Service Fabric",
     "provider": "Microsoft",
     "category": "Compute",
@@ -6942,7 +6945,7 @@
     ]
   },
   {
-    "id": "App_206_0",
+    "id": "App_202_0",
     "service": "App Services",
     "provider": "Microsoft",
     "category": "Container",
@@ -6982,7 +6985,7 @@
     ]
   },
   {
-    "id": "Bat_207_0",
+    "id": "Bat_203_0",
     "service": "Batch",
     "provider": "Microsoft",
     "category": "Container",
@@ -7021,7 +7024,7 @@
     ]
   },
   {
-    "id": "Con_208_0",
+    "id": "Con_204_0",
     "service": "Container Registry",
     "provider": "Microsoft",
     "category": "Container",
@@ -7070,7 +7073,7 @@
     ]
   },
   {
-    "id": "Con_209_0",
+    "id": "Con_205_0",
     "service": "Container Instances",
     "provider": "Microsoft",
     "category": "Container",
@@ -7112,7 +7115,7 @@
     ]
   },
   {
-    "id": "Ser_210_0",
+    "id": "Ser_206_0",
     "service": "Service Fabric",
     "provider": "Microsoft",
     "category": "Container",
@@ -7159,7 +7162,7 @@
     ]
   },
   {
-    "id": "Con_211_0",
+    "id": "Con_207_0",
     "service": "Container Service",
     "provider": "Microsoft",
     "category": "Container",
@@ -7197,7 +7200,7 @@
     ]
   },
   {
-    "id": "HDI_212_0",
+    "id": "HDI_208_0",
     "service": "HDInsight",
     "provider": "Microsoft",
     "category": "Data and Analytics",
@@ -7234,7 +7237,7 @@
     ]
   },
   {
-    "id": "Mac_213_0",
+    "id": "Mac_209_0",
     "service": "Machine Learning",
     "provider": "Microsoft",
     "category": "Data and Analytics",
@@ -7265,7 +7268,7 @@
     ]
   },
   {
-    "id": "Str_214_0",
+    "id": "Str_210_0",
     "service": "Stream Analytics",
     "provider": "Microsoft",
     "category": "Data and Analytics",
@@ -7328,7 +7331,7 @@
     ]
   },
   {
-    "id": "Azu_215_0",
+    "id": "Azu_211_0",
     "service": "Azure Bot Service",
     "provider": "Microsoft",
     "category": "Data and Analytics",
@@ -7378,7 +7381,7 @@
     ]
   },
   {
-    "id": "Dat_216_0",
+    "id": "Dat_212_0",
     "service": "Data Lake Analytics",
     "provider": "Microsoft",
     "category": "Data and Analytics",
@@ -7428,14 +7431,13 @@
       "simply",
       "setting",
       "dial",
-      "how",
       "much",
       "power",
       "need"
     ]
   },
   {
-    "id": "Dat_217_0",
+    "id": "Dat_213_0",
     "service": "Data Lake Store",
     "provider": "Microsoft",
     "category": "Data and Analytics",
@@ -7497,7 +7499,7 @@
     ]
   },
   {
-    "id": "Dat_218_0",
+    "id": "Dat_214_0",
     "service": "Data Factory",
     "provider": "Microsoft",
     "category": "Data and Analytics",
@@ -7549,7 +7551,7 @@
     ]
   },
   {
-    "id": "Pow_219_0",
+    "id": "Pow_215_0",
     "service": "Power BI Embedded",
     "provider": "Microsoft",
     "category": "Data and Analytics",
@@ -7584,7 +7586,7 @@
     ]
   },
   {
-    "id": "Dat_220_0",
+    "id": "Dat_216_0",
     "service": "Data Catalog",
     "provider": "Microsoft",
     "category": "Data and Analytics",
@@ -7636,7 +7638,7 @@
     ]
   },
   {
-    "id": "Log_221_0",
+    "id": "Log_217_0",
     "service": "Log Analytics",
     "provider": "Microsoft",
     "category": "Data and Analytics",
@@ -7673,7 +7675,7 @@
     ]
   },
   {
-    "id": "Apa_222_0",
+    "id": "Apa_218_0",
     "service": "Apache Spark for Azure HDInsight",
     "provider": "Microsoft",
     "category": "Data and Analytics",
@@ -7700,7 +7702,7 @@
     ]
   },
   {
-    "id": "Tex_223_0",
+    "id": "Tex_219_0",
     "service": "Text Analytics API",
     "provider": "Microsoft",
     "category": "Data and Analytics",
@@ -7728,7 +7730,7 @@
     ]
   },
   {
-    "id": "Azu_224_0",
+    "id": "Azu_220_0",
     "service": "Azure Analysis Services",
     "provider": "Microsoft",
     "category": "Data and Analytics",
@@ -7754,7 +7756,7 @@
     ]
   },
   {
-    "id": "Dyn_225_0",
+    "id": "Dyn_221_0",
     "service": "Dynamics 365 for Customer Insights",
     "provider": "Microsoft",
     "category": "Data and Analytics",
@@ -7782,7 +7784,7 @@
     ]
   },
   {
-    "id": "Cus_226_0",
+    "id": "Cus_222_0",
     "service": "Custom Speech Service",
     "provider": "Microsoft",
     "category": "Data and Analytics",
@@ -7812,7 +7814,7 @@
     ]
   },
   {
-    "id": "SQL_227_0",
+    "id": "SQL_223_0",
     "service": "SQL Database",
     "provider": "Microsoft",
     "category": "Databases",
@@ -7841,7 +7843,7 @@
     ]
   },
   {
-    "id": "Azu_228_0",
+    "id": "Azu_224_0",
     "service": "Azure Database for MySQL",
     "provider": "Microsoft",
     "category": "Databases",
@@ -7877,7 +7879,7 @@
     ]
   },
   {
-    "id": "Azu_229_0",
+    "id": "Azu_225_0",
     "service": "Azure Database for PostgreSQL",
     "provider": "Microsoft",
     "category": "Databases",
@@ -7913,7 +7915,7 @@
     ]
   },
   {
-    "id": "SQL_230_0",
+    "id": "SQL_226_0",
     "service": "SQL Data Warehouse",
     "provider": "Microsoft",
     "category": "Databases",
@@ -7973,7 +7975,7 @@
     ]
   },
   {
-    "id": "SQL_231_0",
+    "id": "SQL_227_0",
     "service": "SQL Server Stretch Database",
     "provider": "Microsoft",
     "category": "Databases",
@@ -8014,7 +8016,6 @@
       "breaking",
       "bank",
       "depending",
-      "how",
       "often",
       "you?ll",
       "access",
@@ -8034,7 +8035,7 @@
     ]
   },
   {
-    "id": "Azu_232_0",
+    "id": "Azu_228_0",
     "service": "Azure Cosmos DB",
     "provider": "Microsoft",
     "category": "Databases",
@@ -8069,7 +8070,7 @@
     ]
   },
   {
-    "id": "Red_233_0",
+    "id": "Red_229_0",
     "service": "Redis Cache",
     "provider": "Microsoft",
     "category": "Databases",
@@ -8098,7 +8099,7 @@
     ]
   },
   {
-    "id": "Dat_234_0",
+    "id": "Dat_230_0",
     "service": "Data Factory",
     "provider": "Microsoft",
     "category": "Databases",
@@ -8149,7 +8150,7 @@
     ]
   },
   {
-    "id": "Vis_235_0",
+    "id": "Vis_231_0",
     "service": "Visual Studio Team",
     "provider": "Microsoft",
     "category": "Developer Tools",
@@ -8194,7 +8195,7 @@
     ]
   },
   {
-    "id": "Azu_236_0",
+    "id": "Azu_232_0",
     "service": "Azure DevTest Labs",
     "provider": "Microsoft",
     "category": "Developer Tools",
@@ -8233,7 +8234,7 @@
     ]
   },
   {
-    "id": "App_237_0",
+    "id": "App_233_0",
     "service": "Application Insights",
     "provider": "Microsoft",
     "category": "Developer Tools",
@@ -8259,7 +8260,7 @@
     ]
   },
   {
-    "id": "API_238_0",
+    "id": "API_234_0",
     "service": "API Management",
     "provider": "Microsoft",
     "category": "Developer Tools",
@@ -8287,7 +8288,7 @@
     ]
   },
   {
-    "id": "Hoc_239_0",
+    "id": "Hoc_235_0",
     "service": "Hockey App",
     "provider": "Microsoft",
     "category": "Developer Tools",
@@ -8325,7 +8326,7 @@
     ]
   },
   {
-    "id": "Log_240_0",
+    "id": "Log_236_0",
     "service": "Logic Apps",
     "provider": "Microsoft",
     "category": "Enterprise Integration",
@@ -8352,7 +8353,7 @@
     ]
   },
   {
-    "id": "Ser_241_0",
+    "id": "Ser_237_0",
     "service": "Service Bus",
     "provider": "Microsoft",
     "category": "Enterprise Integration",
@@ -8384,7 +8385,7 @@
     ]
   },
   {
-    "id": "API_242_0",
+    "id": "API_238_0",
     "service": "API Management",
     "provider": "Microsoft",
     "category": "Enterprise Integration",
@@ -8412,7 +8413,7 @@
     ]
   },
   {
-    "id": "Sto_243_0",
+    "id": "Sto_239_0",
     "service": "StorSimple",
     "provider": "Microsoft",
     "category": "Enterprise Integration",
@@ -8451,7 +8452,7 @@
     ]
   },
   {
-    "id": "SQL_244_0",
+    "id": "SQL_240_0",
     "service": "SQL Server Stretch Database",
     "provider": "Microsoft",
     "category": "Enterprise Integration",
@@ -8493,7 +8494,6 @@
       "breaking",
       "bank",
       "depending",
-      "how",
       "often",
       "you?ll",
       "access",
@@ -8529,7 +8529,7 @@
     ]
   },
   {
-    "id": "Dat_245_0",
+    "id": "Dat_241_0",
     "service": "Data Catalog",
     "provider": "Microsoft",
     "category": "Enterprise Integration",
@@ -8581,7 +8581,7 @@
     ]
   },
   {
-    "id": "Dat_246_0",
+    "id": "Dat_242_0",
     "service": "Data Factory",
     "provider": "Microsoft",
     "category": "Enterprise Integration",
@@ -8633,7 +8633,7 @@
     ]
   },
   {
-    "id": "Eve_247_0",
+    "id": "Eve_243_0",
     "service": "Event Grid",
     "provider": "Microsoft",
     "category": "Enterprise Integration",
@@ -8671,7 +8671,7 @@
     ]
   },
   {
-    "id": "IoT_248_0",
+    "id": "IoT_244_0",
     "service": "IoT Hub",
     "provider": "Microsoft",
     "category": "Internet of Things",
@@ -8733,7 +8733,7 @@
     ]
   },
   {
-    "id": "Eve_249_0",
+    "id": "Eve_245_0",
     "service": "Event Hubs",
     "provider": "Microsoft",
     "category": "Internet of Things",
@@ -8767,7 +8767,7 @@
     ]
   },
   {
-    "id": "Str_250_0",
+    "id": "Str_246_0",
     "service": "Stream Analytics",
     "provider": "Microsoft",
     "category": "Internet of Things",
@@ -8831,7 +8831,7 @@
     ]
   },
   {
-    "id": "Mas_251_0",
+    "id": "Mas_247_0",
     "service": "Maschine Learning",
     "provider": "Microsoft",
     "category": "Internet of Things",
@@ -8863,7 +8863,7 @@
     ]
   },
   {
-    "id": "Not_252_0",
+    "id": "Not_248_0",
     "service": "Notification Hubs",
     "provider": "Microsoft",
     "category": "Internet of Things",
@@ -8892,7 +8892,7 @@
     ]
   },
   {
-    "id": "Tim_253_0",
+    "id": "Tim_249_0",
     "service": "Time Series Insights",
     "provider": "Microsoft",
     "category": "Internet of Things",
@@ -8920,7 +8920,7 @@
     ]
   },
   {
-    "id": "Azu_254_0",
+    "id": "Azu_250_0",
     "service": "Azure Cosmos DB",
     "provider": "Microsoft",
     "category": "Internet of Things",
@@ -8957,7 +8957,7 @@
     ]
   },
   {
-    "id": "Azu_255_0",
+    "id": "Azu_251_0",
     "service": "Azure Advisor",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -8999,7 +8999,7 @@
     ]
   },
   {
-    "id": "Mic_256_0",
+    "id": "Mic_252_0",
     "service": "Microsoft Azure portal",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -9026,7 +9026,7 @@
     ]
   },
   {
-    "id": "Azu_257_0",
+    "id": "Azu_253_0",
     "service": "Azure mobile App",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -9048,7 +9048,7 @@
     ]
   },
   {
-    "id": "Azu_258_0",
+    "id": "Azu_254_0",
     "service": "Azure Resource Manager",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -9067,14 +9067,13 @@
       "resource",
       "manager",
       "simplify",
-      "how",
       "manage",
       "app",
       "resources"
     ]
   },
   {
-    "id": "App_259_0",
+    "id": "App_255_0",
     "service": "Application Insights",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -9101,7 +9100,7 @@
     ]
   },
   {
-    "id": "Log_260_0",
+    "id": "Log_256_0",
     "service": "Log analytics",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -9140,7 +9139,7 @@
     ]
   },
   {
-    "id": "Aut_261_0",
+    "id": "Aut_257_0",
     "service": "Automation",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -9174,7 +9173,7 @@
     ]
   },
   {
-    "id": "Bac_262_0",
+    "id": "Bac_258_0",
     "service": "Backup",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -9222,7 +9221,7 @@
     ]
   },
   {
-    "id": "Sit_263_0",
+    "id": "Sit_259_0",
     "service": "Site Recovery",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -9255,7 +9254,7 @@
     ]
   },
   {
-    "id": "She_264_0",
+    "id": "She_260_0",
     "service": "Sheduler",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -9302,7 +9301,7 @@
     ]
   },
   {
-    "id": "Tra_265_0",
+    "id": "Tra_261_0",
     "service": "Traffic Manager",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -9340,7 +9339,7 @@
     ]
   },
   {
-    "id": "Azu_266_0",
+    "id": "Azu_262_0",
     "service": "Azure Monitor",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -9365,7 +9364,7 @@
     ]
   },
   {
-    "id": "Sec_267_0",
+    "id": "Sec_263_0",
     "service": "Security & Compliance",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -9393,7 +9392,7 @@
     ]
   },
   {
-    "id": "Pro_268_0",
+    "id": "Pro_264_0",
     "service": "Protection & Recovery",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -9418,7 +9417,7 @@
     ]
   },
   {
-    "id": "Aut_269_0",
+    "id": "Aut_265_0",
     "service": "Automation & Control",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -9443,7 +9442,7 @@
     ]
   },
   {
-    "id": "Ins_270_0",
+    "id": "Ins_266_0",
     "service": "Insight & analytics",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -9469,7 +9468,7 @@
     ]
   },
   {
-    "id": "Net_271_0",
+    "id": "Net_267_0",
     "service": "Network Watcher",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -9520,7 +9519,7 @@
     ]
   },
   {
-    "id": "Clo_272_0",
+    "id": "Clo_268_0",
     "service": "Cloud Shell",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -9588,7 +9587,7 @@
     ]
   },
   {
-    "id": "Azu_273_0",
+    "id": "Azu_269_0",
     "service": "Azure Service Health",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -9617,7 +9616,7 @@
     ]
   },
   {
-    "id": "Eve_274_0",
+    "id": "Eve_270_0",
     "service": "Event Grid",
     "provider": "Microsoft",
     "category": "Monitor & Management",
@@ -9656,7 +9655,7 @@
     ]
   },
   {
-    "id": "Vir_275_0",
+    "id": "Vir_271_0",
     "service": "Virtual Network",
     "provider": "Microsoft",
     "category": "Networking",
@@ -9701,7 +9700,7 @@
     ]
   },
   {
-    "id": "Loa_276_0",
+    "id": "Loa_272_0",
     "service": "Load Balancer",
     "provider": "Microsoft",
     "category": "Networking",
@@ -9742,7 +9741,7 @@
     ]
   },
   {
-    "id": "App_277_0",
+    "id": "App_273_0",
     "service": "Application Gateway",
     "provider": "Microsoft",
     "category": "Networking",
@@ -9777,7 +9776,7 @@
     ]
   },
   {
-    "id": "VPN_278_0",
+    "id": "VPN_274_0",
     "service": "VPN Gateway",
     "provider": "Microsoft",
     "category": "Networking",
@@ -9808,7 +9807,7 @@
     ]
   },
   {
-    "id": "Azu_279_0",
+    "id": "Azu_275_0",
     "service": "Azure DNS",
     "provider": "Microsoft",
     "category": "Networking",
@@ -9837,7 +9836,6 @@
       "network",
       "name",
       "servers",
-      "has",
       "reach",
       "scale",
       "redundancy",
@@ -9854,7 +9852,7 @@
     ]
   },
   {
-    "id": "Con_280_0",
+    "id": "Con_276_0",
     "service": "Content Delivery Network",
     "provider": "Microsoft",
     "category": "Networking",
@@ -9891,7 +9889,7 @@
     ]
   },
   {
-    "id": "Tra_281_0",
+    "id": "Tra_277_0",
     "service": "Traffic Manager",
     "provider": "Microsoft",
     "category": "Networking",
@@ -9927,7 +9925,7 @@
     ]
   },
   {
-    "id": "Exp_282_0",
+    "id": "Exp_278_0",
     "service": "Express Route",
     "provider": "Microsoft",
     "category": "Networking",
@@ -9958,7 +9956,7 @@
     ]
   },
   {
-    "id": "Net_283_0",
+    "id": "Net_279_0",
     "service": "Network Watcher",
     "provider": "Microsoft",
     "category": "Networking",
@@ -10007,7 +10005,7 @@
     ]
   },
   {
-    "id": "Sec_284_0",
+    "id": "Sec_280_0",
     "service": "Security Center",
     "provider": "Microsoft",
     "category": "Security  & Identity",
@@ -10089,7 +10087,7 @@
     ]
   },
   {
-    "id": "Key_285_0",
+    "id": "Key_281_0",
     "service": "Key Vault",
     "provider": "Microsoft",
     "category": "Security  & Identity",
@@ -10175,7 +10173,7 @@
     ]
   },
   {
-    "id": "Azu_286_0",
+    "id": "Azu_282_0",
     "service": "Azure Active Directory",
     "provider": "Microsoft",
     "category": "Security  & Identity",
@@ -10219,7 +10217,7 @@
     ]
   },
   {
-    "id": "Azu_287_0",
+    "id": "Azu_283_0",
     "service": "Azure Active Directory B2C",
     "provider": "Microsoft",
     "category": "Security  & Identity",
@@ -10276,7 +10274,7 @@
     ]
   },
   {
-    "id": "Azu_288_0",
+    "id": "Azu_284_0",
     "service": "Azure Active Directory Domain Services",
     "provider": "Microsoft",
     "category": "Security  & Identity",
@@ -10338,7 +10336,7 @@
     ]
   },
   {
-    "id": "Mul_289_0",
+    "id": "Mul_285_0",
     "service": "Multi Factor Authentication",
     "provider": "Microsoft",
     "category": "Security  & Identity",
@@ -10384,7 +10382,7 @@
     ]
   },
   {
-    "id": "Azu_290_0",
+    "id": "Azu_286_0",
     "service": "Azure Blob Storage",
     "provider": "Microsoft",
     "category": "Storage",
@@ -10407,7 +10405,7 @@
     ]
   },
   {
-    "id": "Azu_291_0",
+    "id": "Azu_287_0",
     "service": "Azure Queue Storage",
     "provider": "Microsoft",
     "category": "Storage",
@@ -10430,7 +10428,7 @@
     ]
   },
   {
-    "id": "Azu_292_0",
+    "id": "Azu_288_0",
     "service": "Azure File Storage",
     "provider": "Microsoft",
     "category": "Storage",
@@ -10453,7 +10451,7 @@
     ]
   },
   {
-    "id": "Azu_293_0",
+    "id": "Azu_289_0",
     "service": "Azure Disk Storage",
     "provider": "Microsoft",
     "category": "Storage",
@@ -10478,7 +10476,7 @@
     ]
   },
   {
-    "id": "Azu_294_0",
+    "id": "Azu_290_0",
     "service": "Azure Data Lake Storage",
     "provider": "Microsoft",
     "category": "Storage",
@@ -10538,7 +10536,7 @@
     ]
   },
   {
-    "id": "Azu_295_0",
+    "id": "Azu_291_0",
     "service": "Azure StoreSimple",
     "provider": "Microsoft",
     "category": "Storage",
@@ -10571,7 +10569,7 @@
     ]
   },
   {
-    "id": "Azu_296_0",
+    "id": "Azu_292_0",
     "service": "Azure Backup",
     "provider": "Microsoft",
     "category": "Storage",
@@ -10617,7 +10615,7 @@
     ]
   },
   {
-    "id": "Azu_297_0",
+    "id": "Azu_293_0",
     "service": "Azure Site Recovery",
     "provider": "Microsoft",
     "category": "Storage",
@@ -10648,7 +10646,7 @@
     ]
   },
   {
-    "id": "IoT_298_0",
+    "id": "IoT_294_0",
     "service": "IoT Suite",
     "provider": "Microsoft",
     "category": "Suites",
@@ -10667,7 +10665,7 @@
     ]
   },
   {
-    "id": "Ope_299_0",
+    "id": "Ope_295_0",
     "service": "Operations Management Suite",
     "provider": "Microsoft",
     "category": "Suites",
@@ -10687,7 +10685,7 @@
     ]
   },
   {
-    "id": "App_300_0",
+    "id": "App_296_0",
     "service": "App Services",
     "provider": "Microsoft",
     "category": "Web & Mobile",
@@ -10729,7 +10727,7 @@
     ]
   },
   {
-    "id": "Web_301_0",
+    "id": "Web_297_0",
     "service": "Web Apps",
     "provider": "Microsoft",
     "category": "Web & Mobile",
@@ -10755,7 +10753,7 @@
     ]
   },
   {
-    "id": "Mob_302_0",
+    "id": "Mob_298_0",
     "service": "Mobile Apps",
     "provider": "Microsoft",
     "category": "Web & Mobile",
@@ -10779,7 +10777,7 @@
     ]
   },
   {
-    "id": "Log_303_0",
+    "id": "Log_299_0",
     "service": "Logic Apps",
     "provider": "Microsoft",
     "category": "Web & Mobile",
@@ -10807,7 +10805,7 @@
     ]
   },
   {
-    "id": "API_304_0",
+    "id": "API_300_0",
     "service": "API Apps",
     "provider": "Microsoft",
     "category": "Web & Mobile",
@@ -10832,7 +10830,7 @@
     ]
   },
   {
-    "id": "Con_305_0",
+    "id": "Con_301_0",
     "service": "Content Delivery Network",
     "provider": "Microsoft",
     "category": "Web & Mobile",
@@ -10871,7 +10869,7 @@
     ]
   },
   {
-    "id": "Med_306_0",
+    "id": "Med_302_0",
     "service": "Media Services",
     "provider": "Microsoft",
     "category": "Web & Mobile",
@@ -10907,7 +10905,7 @@
     ]
   },
   {
-    "id": "Azu_307_0",
+    "id": "Azu_303_0",
     "service": "Azure Search",
     "provider": "Microsoft",
     "category": "Web & Mobile",
@@ -10940,7 +10938,7 @@
     ]
   },
   {
-    "id": "API_308_0",
+    "id": "API_304_0",
     "service": "API Management",
     "provider": "Microsoft",
     "category": "Web & Mobile",
@@ -10969,7 +10967,7 @@
     ]
   },
   {
-    "id": "Not_309_0",
+    "id": "Not_305_0",
     "service": "Notification Hubs",
     "provider": "Microsoft",
     "category": "Web & Mobile",
@@ -10998,7 +10996,7 @@
     ]
   },
   {
-    "id": "Liv_310_0",
+    "id": "Liv_306_0",
     "service": "Live and On-Demand Streaming",
     "provider": "Microsoft",
     "category": "Web & Mobile",
@@ -11028,7 +11026,7 @@
     ]
   },
   {
-    "id": "Azu_311_0",
+    "id": "Azu_307_0",
     "service": "Azure Media Player",
     "provider": "Microsoft",
     "category": "Web & Mobile",
@@ -11054,7 +11052,7 @@
     ]
   },
   {
-    "id": "Con_312_0",
+    "id": "Con_308_0",
     "service": "Content Protection",
     "provider": "Microsoft",
     "category": "Web & Mobile",
@@ -11081,7 +11079,7 @@
     ]
   },
   {
-    "id": "Med_313_0",
+    "id": "Med_309_0",
     "service": "Media Analytics",
     "provider": "Microsoft",
     "category": "Web & Mobile",

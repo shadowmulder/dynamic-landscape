@@ -1,6 +1,7 @@
 [
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Analytics"],
     "service": "Amazon Athena",
     "img": "./logos/AWS/Analytics/Analytics_AmazonAthena.svg",
@@ -14,6 +15,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Analytics"],
     "service": "Amazon EMR",
     "img": "./logos/AWS/Analytics/Analytics_AmazonEMR.svg",
@@ -27,6 +29,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Analytics"],
     "service": "Amazon CloudSearch",
     "img": "./logos/AWS/Analytics/Analytics_AmazonCloudSearch.svg",
@@ -40,6 +43,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Analytics"],
     "service": "Amazon Elasticsearch Service",
     "img": "./logos/AWS/General/General_AWScloud.svg",
@@ -53,6 +57,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Analytics"],
     "service": "Amazon Kinesis",
     "img": "./logos/AWS/Analytics/Analytics_AmazonKinesis.svg",
@@ -66,6 +71,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Analytics","Databases"],
     "service": "Amazon Redshift",
     "img": "./logos/AWS/Analytics/Analytics_AmazonRedshift.svg",
@@ -79,9 +85,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Analytics"],
     "service": "Amazon Quicksight",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Analytics/Analytics_AmazonQuickSight.svg",
     "description": "Amazon QuickSight is a fast, cloud-powered business analytics service that makes it easy to build visualizations, perform ad-hoc analysis, and quickly get business insights from your data",
     "keywords": [], 
     "dependencies": {
@@ -92,9 +99,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Analytics"],
     "service": "AWS Data Pipeline",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Analytics/Analytics_AWSDataPipeline.svg",
     "description": "AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premise data sources, at specified intervals.",
     "keywords": [], 
     "dependencies": {
@@ -105,9 +113,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Analytics"],
     "service": "AWS Glue",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Analytics/Analytics_AWSGlue.svg",
     "description": "AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy for customers to prepare and load their data for analytics.",
     "keywords": [], 
     "dependencies": {
@@ -118,9 +127,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Application Services"],
     "service": "AWS Step Functions",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Application Services/ApplicationServices_AWSStepFunctions.svg",
     "description": "",
     "keywords": [], 
     "dependencies": {
@@ -129,24 +139,13 @@
 } 
 
 },
-  {
-    "provider": "Amazon",
-    "category": ["Application Services"],
-    "service": "Amazon API Gateway",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
-    "description": "AWS Step Functions makes it easy to coordinate the components of distributed applications and microservices using visual workflows.",
-    "keywords": [], 
-    "dependencies": {
-    	"in":[],
-    	"out":[] 
-} 
 
-},
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Application Services"],
     "service": "Amazon Elastic Transcoder",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Application Services/ApplicationServices_AmazonElasticTranscoder.svg",
     "description": "Amazon Elastic Transcoder is media transcoding in the cloud. It is designed to be a highly scalable, easy to use and a cost effective way for developers and businesses to convert (or ?transcode?) media files from their source format into versions that will playback on devices like smartphones, tablets and PCs.",
     "keywords": [], 
     "dependencies": {
@@ -157,6 +156,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Artifical Intelligence"],
     "service": "Amazon Lex",
     "img": "./logos/AWS/AI/AI_AmazonLex.svg",
@@ -170,9 +170,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Artifical Intelligence"],
     "service": "Amazon Polly",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/AI/AI_AmazonPolly.svg",
     "description": "Amazon Polly is a service that turns text into lifelike speech, allowing you to create applications that talk, and build entirely new categories of speech-enabled products. ",
     "keywords": [], 
     "dependencies": {
@@ -183,9 +184,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Artifical Intelligence"],
     "service": "Amazon Rekognition",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/AI/AI_AmazonRekognition.svg",
     "description": "Amazon Rekognition is a service that makes it easy to add image analysis to your applications. With Rekognition, you can detect objects, scenes, faces; recognize celebrities; and identify inappropriate content in images.",
     "keywords": [], 
     "dependencies": {
@@ -196,9 +198,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Artifical Intelligence"],
     "service": "Amazon Maschine Learning",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/AI/AI_AmazonMachineLearning.svg",
     "description": "Amazon Machine Learning is a service that makes it easy for developers of all skill levels to use machine learning technology.",
     "keywords": [], 
     "dependencies": {
@@ -209,6 +212,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Artifical Intelligence"],
     "service": "Amazon Deep Learning AMIs",
     "img": "./logos/AWS/General/General_AWScloud.svg",
@@ -222,6 +226,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Artifical Intelligence"],
     "service": "Apache MXNet on AWS",
     "img": "./logos/AWS/General/General_AWScloud.svg",
@@ -235,6 +240,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Artifical Intelligence"],
     "service": "TensorFlow on AWS",
     "img": "./logos/AWS/General/General_AWScloud.svg",
@@ -248,9 +254,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Business Productivity"],
     "service": "Amazon WorkDocs",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Business Productivity/BusinessProductivity_AmazonWorkDocs.svg",
     "description": "Amazon WorkDocs is a fully managed, secure enterprise storage and sharing service with strong administrative controls and feedback capabilities that improve user productivity.",
     "keywords": [], 
     "dependencies": {
@@ -261,9 +268,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Business Productivity"],
     "service": "Amazon WorkMail",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Business Productivity/BusinessProductivity_AmazonWorkMail.svg",
     "description": "Amazon WorkMail is a secure, managed business email and calendar service with support for existing desktop and mobile email client applications. ",
     "keywords": [], 
     "dependencies": {
@@ -274,9 +282,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Business Productivity"],
     "service": "Amazon Chime",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Business Productivity/BusinessProductivity_AmazonChime.svg",
     "description": "Amazon Chime is a communications service that transforms online meetings with a secure, easy-to-use application that you can trust. ",
     "keywords": [], 
     "dependencies": {
@@ -287,9 +296,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Compute"],
     "service": "Amazon EC2",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Compute/Compute_AmazonEC2.svg",
     "description": "Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud.",
     "keywords": [], 
     "dependencies": {
@@ -300,9 +310,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Compute"],
     "service": "Amazon EC2 Container Registry",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Compute/Compute_AmazonECR_ECRRegistry.svg",
     "description": "Amazon EC2 Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images.",
     "keywords": [], 
     "dependencies": {
@@ -313,9 +324,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Compute"],
     "service": "Amazon EC2 Container Service",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Compute/Compute_AmazonECS.svg",
     "description": "Amazon EC2 Container Service (ECS) is a highly scalable, high performance container management service that supports Docker containers and allows you to easily run applications on a managed cluster of Amazon EC2 instances. ",
     "keywords": [], 
     "dependencies": {
@@ -326,9 +338,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Compute"],
     "service": "Amazon Lightsail",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Compute/Compute_AmazonLightsail.svg",
     "description": "Amazon Lightsail is the easiest way to get started with AWS for developers who just need virtual private servers. Lightsail includes everything you need to launch your project quickly",
     "keywords": [], 
     "dependencies": {
@@ -339,6 +352,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Compute", "Network & Content Delivery"],
     "service": "Amazon VPC",
     "img": "./logos/AWS/Compute/Compute_AmazonVPC.svg",
@@ -352,9 +366,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Compute"],
     "service": "AWS Batch",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Compute/Compute_AWSBatch.svg",
     "description": "AWS Batch dynamically provisions the optimal quantity and type of compute resources (e.g., CPU or memory optimized instances) based on the volume and specific resource requirements of the batch jobs submitted.",
     "keywords": [], 
     "dependencies": {
@@ -365,6 +380,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Compute"],
     "service": "AWS Elastic Beanstalk",
     "img": "./logos/AWS/Compute/Compute_AWSElasticBeanstalk.svg",
@@ -396,6 +412,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Compute"],
     "service": "AWS Lambda",
     "img": "./logos/AWS/Compute/Compute_AWSLambda.svg",
@@ -461,9 +478,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Compute"],
     "service": "Auto Scaling",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Compute/Compute_AmazonEC2_AutoScaling.svg",
     "description": "Auto Scaling helps you maintain application availability and allows you to dynamically scale your Amazon EC2 capacity up or down automatically according to conditions you define.",
     "keywords": [], 
     "dependencies": {
@@ -474,9 +492,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Contact Center"],
     "service": "Amazon Connect",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Contact Center/ContactCenter_AmazonConnect.svg",
     "description": "Amazon Connect is a self-service, cloud-based contact center service that makes it easy for any business to deliver better customer service at lower cost.",
     "keywords": [], 
     "dependencies": {
@@ -487,9 +506,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Databases"],
     "service": "Amazon Aurora",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Database/Database_AmazonRDS.svg",
     "description": "Amazon Aurora is a MySQL and PostgreSQL-compatible relational database engine that combines the speed and availability of high-end commercial databases with the simplicity and cost-effectiveness of open source databases.",
     "keywords": [], 
     "dependencies": {
@@ -500,9 +520,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Databases"],
     "service": "Amazon RDS",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Database/Database_AmazonRDS.svg",
     "description": "Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud. ",
     "keywords": [], 
     "dependencies": {
@@ -513,6 +534,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Databases"],
     "service": "Amazon DynamoDB",
     "img": "./logos/AWS/Database/Database_AmazonDynamoDB.svg",
@@ -526,6 +548,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Databases"],
     "service": "Amazon DynamoDB Accelerator (DAX)",
     "img": "./logos/AWS/Database/Database_AmazonDynamoDBAccelerator.svg",
@@ -539,9 +562,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Databases"],
     "service": "Amazon ElastiCache",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Database/Database_AmazonElasticCache.svg",
     "description": "Amazon ElastiCache is a web service that makes it easy to deploy, operate, and scale an in-memory data store or cache in the cloud. ",
     "keywords": [], 
     "dependencies": {
@@ -552,11 +576,12 @@
 },
   {
     "provider": "Amazon",
-    "category": ["Databases"],
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
+    "category": ["Databases","Migration"],
     "service": "AWS Database Migration Service",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Migration/Migration_AWSDMS.svg",
     "description": "AWS Database Migration Service helps you migrate databases to AWS quickly and securely.",
-    "keywords": [], 
+    "keywords": ["AWSDMS"], 
     "dependencies": {
     	"in":[],
     	"out":[] 
@@ -565,9 +590,10 @@
 },
   {
     "provider": "Amazon",
-    "category": ["Desktop App & Streaming"],
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
+    "category": ["Desktop & App Streaming"],
     "service": "Amazon WorkSpaces",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Desktop & App Streaming/DesktopAppStreaming_AmazonWorkSpaces.svg",
     "description": "Amazon WorkSpaces is a fully managed, secure Desktop-as-a-Service (DaaS) solution which runs on AWS. ",
     "keywords": [], 
     "dependencies": {
@@ -578,9 +604,10 @@
 },
   {
     "provider": "Amazon",
-    "category": ["Desktop App & Streaming"],
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
+    "category": ["Desktop & App Streaming"],
     "service": "Amazon AppStream 2.0",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Desktop & App Streaming/DesktopAppStreaming_AmazonAppStream2.0.svg",
     "description": "Amazon AppStream 2.0 is a fully managed, secure application streaming service that allows you to stream desktop applications from AWS to any device running a web browser, without rewriting them. ",
     "keywords": [], 
     "dependencies": {
@@ -591,9 +618,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Developer Tools"],
     "service": "AWS CodeStar",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Developer Tools/DeveloperTools_AWSCodeStar.svg",
     "description": "AWS CodeStar enables you to quickly develop, build, and deploy applications on AWS. AWS CodeStar provides a unified user interface, enabling you to easily manage your software development activities in one place. ",
     "keywords": [], 
     "dependencies": {
@@ -604,9 +632,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Developer Tools"],
     "service": "AWS CodeCommit",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Developer Tools/DeveloperTools_AWSCodeCommit.svg",
     "description": "AWS CodeCommit is a fully-managed source control service that makes it easy for companies to host secure and highly scalable private Git repositories. ",
     "keywords": [], 
     "dependencies": {
@@ -617,9 +646,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Developer Tools"],
     "service": "AWS CodeBuild",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Developer Tools/DeveloperTools_AWSCodeBuild.svg",
     "description": "AWS CodeBuild is a fully managed build service that compiles source code, runs tests, and produces software packages that are ready to deploy. ",
     "keywords": [], 
     "dependencies": {
@@ -630,9 +660,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Developer Tools"],
     "service": "AWS CodeDeploy",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Developer Tools/DeveloperTools_AWSCodeDeploy.svg",
     "description": "AWS CodeDeploy is a service that automates code deployments to any instance, including Amazon EC2 instances and instances running on-premises.",
     "keywords": [], 
     "dependencies": {
@@ -643,9 +674,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Developer Tools"],
     "service": "AWS CodePipeline",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Developer Tools/DeveloperTools_AWSCodePipeline.svg",
     "description": "AWS CodePipeline is a continuous integration and continuous delivery service for fast and reliable application and infrastructure updates.",
     "keywords": [], 
     "dependencies": {
@@ -656,9 +688,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Developer Tools"],
     "service": "AWS X-Ray",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Developer Tools/DeveloperTools_AWSX-Ray.svg",
     "description": "AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture. ",
     "keywords": [], 
     "dependencies": {
@@ -669,9 +702,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Developer Tools"],
     "service": "AWS Command Line Interface",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/SDKs/SDKs_AWSCLI.svg",
     "description": "The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. ",
     "keywords": [], 
     "dependencies": {
@@ -682,9 +716,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Game Development"],
     "service": "Amazon GameLift",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Game Development/GameDevelopment_AmazonGameLift.svg",
     "description": "Amazon GameLift is a managed service for deploying, operating, and scaling dedicated game servers for session-based multiplayer games. Amazon GameLift makes it easy to manage server infrastructure, scale capacity to lower latency and cost, match players into available game sessions, and defend from distributed denial-of-service (DDoS) attacks. ",
     "keywords": [], 
     "dependencies": {
@@ -695,9 +730,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Game Development"],
     "service": "Amazon Lumberyard",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/_/Lumberyard_Logo.png",
     "description": "Amazon Lumberyard is a free AAA game engine deeply integrated with AWS and Twitch ? with full source.",
     "keywords": [], 
     "dependencies": {
@@ -708,9 +744,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Internet of Things"],
     "service": "AWS IoT Platform",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Internet Of Things/InternetOfThings_AWSIoT.svg",
     "description": "AWS IoT is a managed cloud platform that lets connected devices easily and securely interact with cloud applications and other devices. ",
     "keywords": [], 
     "dependencies": {
@@ -721,9 +758,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Internet of Things"],
     "service": "AWS Greengrass",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Internet Of Things/InternetOfThings_AWSIoT_AWSGreengrass.svg",
     "description": "AWS Greengrass is software that lets you run local compute, messaging & data caching for connected devices in a secure way.",
     "keywords": [], 
     "dependencies": {
@@ -734,6 +772,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Internet of Things"],
     "service": "AWS IoT Button",
     "img": "./logos/AWS/General/General_AWScloud.svg",
@@ -747,6 +786,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Management Tools"],
     "service": "Amazon CloudWatch",
     "img": "./logos/AWS/Management Tools/ManagementTools_AmazonCloudWatch.svg",
@@ -760,9 +800,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Management Tools"],
     "service": "AWS CloudFormation",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Management Tools/ManagementTools_AWSCloudFormation.svg",
     "description": "AWS CloudFormation gives developers and systems administrators an easy way to create and manage a collection of related AWS resources, provisioning and updating them in an orderly and predictable fashion",
     "keywords": [], 
     "dependencies": {
@@ -773,9 +814,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Management Tools"],
     "service": "AWS CloudTrail",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Management Tools/ManagementTools_AWSCloudTrail.svg",
     "description": "AWS CloudTrail is a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account. With CloudTrail, you can log, continuously monitor, and retain account activity related to actions across your AWS infrastructure",
     "keywords": [], 
     "dependencies": {
@@ -786,6 +828,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Management Tools"],
     "service": "AWS Config",
     "img": "./logos/AWS/Management Tools/ManagementTools_AWSConfig.svg",
@@ -799,9 +842,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Management Tools"],
     "service": "AWS OpsWorks",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Management Tools/ManagementTools_AWSOpsWorks.svg",
     "description": "AWS OpsWorks is a configuration management service that uses Chef, an automation platform that treats server configurations as code.",
     "keywords": [], 
     "dependencies": {
@@ -812,9 +856,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Management Tools"],
     "service": "AWS Service Catalog",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Management Tools/ManagementTools_AWSServiceCatalog.svg",
     "description": "AWS Service Catalog allows organizations to create and manage catalogs of IT services that are approved for use on AWS.",
     "keywords": [], 
     "dependencies": {
@@ -825,9 +870,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Management Tools"],
     "service": "AWS Trusted Advisor",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Management Tools/ManagementTools_AWSTrustedAdvisor.svg",
     "description": "An online resource to help you reduce cost, increase performance, and improve security by optimizing your AWS environment, Trusted Advisor provides real time guidance to help you provision your resources following AWS best practices.",
     "keywords": [], 
     "dependencies": {
@@ -838,9 +884,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Management Tools"],
     "service": "Amazon EC2 Systems Manager",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Management Tools/ManagementTools_AmazonEC2SystemsManager.svg",
     "description": "Amazon EC2 Systems Manager is a management service that helps you automatically collect software inventory, apply OS patches, create system images, and configure Windows and Linux operating systems.",
     "keywords": [], 
     "dependencies": {
@@ -851,6 +898,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Management Tools"],
     "service": "AWS Personal Health Dashboard",
     "img": "./logos/AWS/General/General_AWScloud.svg",
@@ -864,6 +912,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Messaging"],
     "service": "Amazon Simple Queue Service",
     "img": "./logos/AWS/Messaging/Messaging_AmazonSQS.svg",
@@ -877,6 +926,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Messaging"],
     "service": "Amazon Simple Notification Service",
     "img": "./logos/AWS/Messaging/Messaging_AmazonSNS.svg",
@@ -890,9 +940,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Messaging"],
     "service": "Amazon Simple Email Service",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Messaging/Messaging_AmazonSES.svg",
     "description": "Amazon Pinpoint makes it easy to message users directly from your application or backend service, or run targeted campaigns to drive user engagement.",
     "keywords": [], 
     "dependencies": {
@@ -903,9 +954,10 @@
 },
   {
     "provider": "Amazon",
-    "category": ["Messaging"],
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
+    "category": ["Messaging","Mobile Services"],
     "service": "Amazon Pinpoint",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Messaging/Messaging_AmazonPinpoint.svg",
     "description": "Amazon Simple Email Service (Amazon SES) evolved from the email platform that Amazon.com created to communicate with its own customers. ",
     "keywords": [], 
     "dependencies": {
@@ -916,9 +968,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Migration"],
     "service": "AWS Application Discovery Service",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Migration/Migration_AWSApplicationDiscoveryService.svg",
     "description": "AWS Application Discovery Service helps enterprise customers plan migration projects by gathering information about their on-premises data centers.",
     "keywords": [], 
     "dependencies": {
@@ -929,22 +982,10 @@
 },
   {
     "provider": "Amazon",
-    "category": ["Migration"],
-    "service": "AWS Database Migration Service",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
-    "description": "AWS Database Migration Service helps you migrate databases to AWS quickly and securely.",
-    "keywords": [], 
-    "dependencies": {
-    	"in":[],
-    	"out":[] 
-} 
-
-},
-  {
-    "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Migration"],
     "service": "AWS Migration Hub",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Migration/Migration_AWSMigrationHub.svg",
     "description": "AWS Migration Hub provides a single location to track the progress of application migrations across multiple AWS and partner solutions.",
     "keywords": [], 
     "dependencies": {
@@ -955,9 +996,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Migration"],
     "service": "AWS Server Migration Service",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Migration/Migration_AWSSMS.svg",
     "description": "AWS Server Migration Service (SMS) is an agentless service which makes it easier and faster for you to migrate thousands of on-premises workloads to AWS.",
     "keywords": [], 
     "dependencies": {
@@ -968,9 +1010,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Migration", "Storage"],
     "service": "AWS Snowbball",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Storage/Storage_AWSSnowball.svg",
     "description": "Snowball is a petabyte-scale data transport solution that uses secure appliances to transfer large amounts of data into and out of the AWS cloud. ",
     "keywords": [], 
     "dependencies": {
@@ -981,6 +1024,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Migration", "Storage"],
     "service": "AWS Snowball Edge",
     "img": "./logos/AWS/General/General_AWScloud.svg",
@@ -994,7 +1038,8 @@
 },
   {
     "provider": "Amazon",
-    "category": ["Migration"],
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
+    "category": ["Migration","Storage"],
     "service": "AWS Snowmobile",
     "img": "./logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Snowmobile is an Exabyte-scale data transfer service used to move extremely large amounts of data to AWS.",
@@ -1007,9 +1052,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Mobile Services"],
     "service": "AWS Mobile Hub",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Mobile Services/MobileServices_AWSMobileHub.svg",
     "description": "AWS provides a range of services to help you develop mobile apps that can scale to hundreds of millions of users, and reach global audiences.",
     "keywords": [], 
     "dependencies": {
@@ -1020,6 +1066,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Mobile Services"],
     "service": "Amazon Cognito",
     "img": "./logos/AWS/Mobile Services/MobileServices_AmazonCognito.svg",
@@ -1033,9 +1080,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Mobile Services"],
     "service": "AWS Device Farm",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Mobile Services/MobileServices_AWSDeviceFarm.svg",
     "description": "Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and web apps.",
     "keywords": [], 
     "dependencies": {
@@ -1046,9 +1094,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Mobile Services"],
     "service": "AWS Mobile SDK",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Mobile Services/General_AWScloud.svg",
     "description": "The AWS Mobile SDK helps you build high quality mobile apps quickly and easily. ",
     "keywords": [], 
     "dependencies": {
@@ -1057,21 +1106,10 @@
 } 
 
 },
-  {
-    "provider": "Amazon",
-    "category": ["Mobile Services"],
-    "service": "AWS Pinpoint",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
-    "description": "Amazon Pinpoint makes it easy to message users directly from your application or backend service, or run targeted campaigns to drive user engagement. ",
-    "keywords": [], 
-    "dependencies": {
-    	"in":[],
-    	"out":[] 
-} 
 
-},
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Mobile Services", "Application Services"],
     "service": "Amazon API Gateway",
     "img": "./logos/AWS/Mobile Services/MobileServices_AmazonAPIGateway.svg",
@@ -1085,6 +1123,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Network & Content Delivery"],
     "service": "Amazon CloudFront",
     "img": "./logos/AWS/Networking & Content Delivery/NetworkingContentDelivery_AmazonCloudFront.svg",
@@ -1098,9 +1137,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Network & Content Delivery"],
     "service": "Amazon Direct Connect",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Networking & Content Delivery/NetworkingContentDelivery_AWSDirectConnect.svg",
     "description": "AWS Direct Connect makes it easy to establish a dedicated network connection from your premises to AWS.",
     "keywords": [], 
     "dependencies": {
@@ -1111,9 +1151,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Network & Content Delivery"],
     "service": "Amazon Route 53",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Networking & Content Delivery/NetworkingContentDelivery_AmazonRoute53.svg",
     "description": "Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS)web service. ",
     "keywords": [], 
     "dependencies": {
@@ -1124,7 +1165,8 @@
 },
   {
     "provider": "Amazon",
-    "category": ["Network & Content Delivery"],
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
+    "category": ["Compute","Network & Content Delivery"],
     "service": "Elastic Load Balancing",
     "img": "./logos/AWS/Compute/Compute_ElasticLoadBalancing.svg",
     "description": "Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, and IP addresses.",
@@ -1137,9 +1179,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Security, Identity & Compliance"],
     "service": "Amazon Cloud Directory",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AmazonCloudDirectory.svg",
     "description": "Amazon Cloud Directory enables you to build flexible cloud-native directories for organizing hierarchies of data along multiple dimensions. ",
     "keywords": [], 
     "dependencies": {
@@ -1150,9 +1193,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Security, Identity & Compliance"],
     "service": "AWS Identity & Access Management",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_IAM.svg",
     "description": "AWS Identity and Access Management (IAM) enables you to securely control access to AWS services and resources for your users. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources. ",
     "keywords": [], 
     "dependencies": {
@@ -1163,9 +1207,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Security, Identity & Compliance"],
     "service": "Amazon Inspector",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AmazonInspector.svg",
     "description": "Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS. ",
     "keywords": [], 
     "dependencies": {
@@ -1176,9 +1221,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Security, Identity & Compliance"],
     "service": "Amazon Macie",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AmazonMacie.svg",
     "description": "Amazon Macie is a security service that uses machine learning to automatically discover, classify, and protect sensitive data in AWS.",
     "keywords": [], 
     "dependencies": {
@@ -1189,9 +1235,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Security, Identity & Compliance"],
     "service": "AWS Certificate Manager",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSCertificateManager.svg",
     "description": "AWS Certificate Manager is a service that lets you easily provision, manage, and deploy Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates for use with AWS services.",
     "keywords": [], 
     "dependencies": {
@@ -1202,9 +1249,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Security, Identity & Compliance"],
     "service": "AWS Cloud HSM",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSCloudHSM.svg",
     "description": "AWS CloudHSM is a cloud-based hardware security module (HSM) that enables you to easily generate and use your own encryption keys on the AWS Cloud. With CloudHSM, you can manage your own encryption keys using FIPS 140-2 Level 3 validated HSMs.",
     "keywords": [], 
     "dependencies": {
@@ -1215,9 +1263,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Security, Identity & Compliance"],
     "service": "AWS Directory Service",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSDirectoryService.svg",
     "description": "AWS Directory Service for Microsoft Active Directory (Enterprise Edition), also known as AWS Microsoft AD, enables your directory-aware workloads and AWS resources to use managed Active Directory in the AWS Cloud.",
     "keywords": [], 
     "dependencies": {
@@ -1228,9 +1277,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Security, Identity & Compliance"],
     "service": "AWS Key Management Service",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSKMS.svg",
     "description": "AWS Key Management Service (KMS) is a managed service that makes it easy for you to create and control the encryption keys used to encrypt your data, and uses Hardware Security Modules (HSMs) to protect the security of your keys.",
     "keywords": [], 
     "dependencies": {
@@ -1241,9 +1291,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Security, Identity & Compliance"],
     "service": "AWS Organizations",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSOrganizations.svg",
     "description": "AWS Organizations offers policy-based management for multiple AWS accounts.",
     "keywords": [], 
     "dependencies": {
@@ -1254,9 +1305,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Security, Identity & Compliance"],
     "service": "AWS Shield",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSShield.svg",
     "description": "AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards web applications running on AWS.",
     "keywords": [], 
     "dependencies": {
@@ -1267,9 +1319,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Security, Identity & Compliance"],
     "service": "AWS WAF",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSWAF.svg",
     "description": "AWS WAF is a web application firewall that helps protect your web applications from common web exploits that could affect application availability, compromise security, or consume excessive resources. AWS WAF gives you control over which traffic to allow or block to your web applications by defining customizable web security rules.",
     "keywords": [], 
     "dependencies": {
@@ -1280,6 +1333,7 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Storage"],
     "service": "Amazon S3",
     "img": "./logos/AWS/Storage/Storage_AmazonS3.svg",
@@ -1293,9 +1347,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Storage"],
     "service": "Amazon EBS",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Storage/Storage_AmazonEBS.svg",
     "description": "Amazon Elastic Block Store (Amazon EBS) provides persistent block storage volumes for use with Amazon EC2 instances in the AWS Cloud.",
     "keywords": [], 
     "dependencies": {
@@ -1306,9 +1361,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Storage"],
-    "service": "Amazon Elastic File System",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "service": "Amazon EFS",
+    "img": "./logos/AWS/Storage/Storage_AmazonEFS.svg",
     "description": "Amazon Elastic File System (Amazon EFS) provides simple, scalable file storage for use with Amazon EC2 instances in the AWS Cloud.",
     "keywords": [], 
     "dependencies": {
@@ -1319,9 +1375,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Storage"],
     "service": "Amazon Glacier",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Storage/Storage_AmazonGlacier.svg",
     "description": "Amazon Glacier is a secure, durable, and extremely low-cost cloud storage service for data archiving and long-term backup. ",
     "keywords": [], 
     "dependencies": {
@@ -1332,9 +1389,10 @@
 },
   {
     "provider": "Amazon",
+    "providerIcon": "./logos/AWS/General/General_AWScloud.svg",
     "category": ["Storage"],
     "service": "AWS Storage Gateway",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
+    "img": "./logos/AWS/Storage/Storage_AWSStorageGateway.svg",
     "description": "AWS Storage Gateway is a hybrid storage service that enables your on-premises applications to seamlessly use AWS cloud storage. ",
     "keywords": [], 
     "dependencies": {
@@ -1343,21 +1401,10 @@
 } 
 
 },
-  {
-    "provider": "Amazon",
-    "category": ["Storage"],
-    "service": "AWS Snowmobile",
-    "img": "./logos/AWS/General/General_AWScloud.svg",
-    "description": "AWS Snowmobile is an Exabyte-scale data transfer service used to move extremely large amounts of data to AWS.",
-    "keywords": [], 
-    "dependencies": {
-    	"in":[],
-    	"out":[] 
-} 
 
-},
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["API Platform and Ecosystem"],
     "service": "Apigee API Platform",
     "img": "./logos/Google/API Platform & Ecosystems/Apigee API Platform.svg",
@@ -1371,6 +1418,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["API Platform and Ecosystem"],
     "service": "API Monetization",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1384,6 +1432,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["API Platform and Ecosystem"],
     "service": "API Analytics",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1397,6 +1446,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["API Platform and Ecosystem"],
     "service": "Apigee Sense",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1410,6 +1460,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["API Platform and Ecosystem"],
     "service": "Cloud Endpoints",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1423,6 +1474,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["BigData"],
     "service": "BigQuery",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1436,6 +1488,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["BigData"],
     "service": "Cloud Dataflow",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1449,6 +1502,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["BigData"],
     "service": "Cloud Dataproc",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1462,6 +1516,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["BigData"],
     "service": "Cloud Datalab",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1475,6 +1530,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["BigData"],
     "service": "Cloud Dataprep",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1488,6 +1544,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["BigData"],
     "service": "Cloud Pub/Sub",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1501,6 +1558,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["BigData"],
     "service": "Genomics",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1514,6 +1572,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["BigData"],
     "service": "Google Data Studio",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1527,6 +1586,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Compute"],
     "service": "Cloud Services",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1540,6 +1600,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Compute"],
     "service": "Compute Engine",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1553,6 +1614,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Compute"],
     "service": "App Engine",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1566,6 +1628,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Compute"],
     "service": "Container Engine",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1579,6 +1642,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Compute"],
     "service": "Cloud Functions",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1592,6 +1656,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Developer Tools"],
     "service": "Cloud SDK",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1605,6 +1670,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Developer Tools"],
     "service": "Container Registry",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1618,6 +1684,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Developer Tools"],
     "service": "Container Builder",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1631,6 +1698,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Developer Tools"],
     "service": "Cloud Source repositories",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1644,6 +1712,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Developer Tools"],
     "service": "Cloud Tools for IntelliJ",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1657,6 +1726,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Developer Tools"],
     "service": "Cloud Tools for Powershell",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1670,6 +1740,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Developer Tools"],
     "service": "Cloud Tools for Visual Studio",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1683,6 +1754,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Developer Tools"],
     "service": "Cloud Tools for Eclipse",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1696,6 +1768,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Developer Tools"],
     "service": "Gradle App Engine Plugin",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1709,6 +1782,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Developer Tools"],
     "service": "Maven App Engine Plugin",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1722,6 +1796,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Developer Tools"],
     "service": "Cloud Test Lab",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1735,6 +1810,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Identity and Security"],
     "service": "Cloud IAM",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1748,6 +1824,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Identity and Security"],
     "service": "Cloud Identity Aware Proxy",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1761,6 +1838,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Identity and Security"],
     "service": "Cloud Data Loss Prevention API",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1774,6 +1852,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Identity and Security"],
     "service": "Cloud Key Management Service",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1787,6 +1866,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Identity and Security"],
     "service": "Cloud Resource Manager",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1800,6 +1880,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Identity and Security"],
     "service": "Cloud Security Scanner",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1813,6 +1894,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Identity and Security"],
     "service": "Cloud Platform Security Overview",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1826,6 +1908,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Internet of Things"],
     "service": "Cloud IoT Core",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1839,6 +1922,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Machine Learning"],
     "service": "Cloud Machine Learning Engine",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1852,6 +1936,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Machine Learning"],
     "service": "Cloud Jobs API",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1865,6 +1950,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Machine Learning"],
     "service": "Cloud Natural Language API",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1878,6 +1964,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Machine Learning"],
     "service": "Cloud Speech API",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1891,6 +1978,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Machine Learning"],
     "service": "Cloud Translation API",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1904,6 +1992,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Machine Learning"],
     "service": "Cloud Vision API",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1917,6 +2006,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Machine Learning"],
     "service": "Cloud Video Intelligence API",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1930,6 +2020,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Management Tools"],
     "service": "Stackdriver Overview",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1943,6 +2034,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Management Tools"],
     "service": "Monitoring",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1956,6 +2048,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Management Tools"],
     "service": "Logging",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1969,6 +2062,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Management Tools"],
     "service": "Error Reporting",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1982,6 +2076,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Management Tools"],
     "service": "Trace",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -1995,6 +2090,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Management Tools"],
     "service": "Debugger",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -2008,6 +2104,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Management Tools"],
     "service": "Cloud Deployment Manager",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -2021,6 +2118,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Management Tools"],
     "service": "Cloud Console",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -2034,6 +2132,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Management Tools"],
     "service": "Cloud Shell",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -2047,6 +2146,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Management Tools"],
     "service": "Cloud Mobile App",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -2060,6 +2160,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Management Tools"],
     "service": "Cloud Billing API",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -2073,6 +2174,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Management Tools"],
     "service": "Cloud APIs",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -2086,6 +2188,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Networking"],
     "service": "Virtual Private Cloud",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -2099,6 +2202,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Networking"],
     "service": "Cloud Load Balancing",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -2112,6 +2216,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Networking"],
     "service": "Cloud CDN",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -2125,6 +2230,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Networking"],
     "service": "Cloud Interconnect",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -2138,6 +2244,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Networking"],
     "service": "Cloud DNS",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -2151,6 +2258,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Networking"],
     "service": "Network Service Tiers",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -2164,9 +2272,10 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Storage and Databases"],
     "service": "Cloud Storage",
-    "img": "./logos/Google/Extras/Google Cloud Platform.svg",
+    "img": "./logos/Google/Storage & Databases/Cloud Storage.svg",
     "description": "Google Cloud Storage is unified object storage for developers and enterprises, from live data serving to data analytics/ML to data archiving.",
     "keywords": [], 
     "dependencies": {
@@ -2177,9 +2286,10 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Storage and Databases"],
     "service": "Cloud SQL",
-    "img": "./logos/Google/Extras/Google Cloud Platform.svg",
+    "img": "./logos/Google/Storage & Databases/Cloud SQL.svg",
     "description": "Cloud SQL is a fully-managed database service that makes it easy to set up, maintain, manage, and administer your relational PostgreSQL BETA and MySQL databases in the cloud. ",
     "keywords": [], 
     "dependencies": {
@@ -2190,9 +2300,10 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Storage and Databases"],
     "service": "Cloud Bigtable",
-    "img": "./logos/Google/Extras/Google Cloud Platform.svg",
+    "img": "./logos/Google/Storage & Databases/Cloud Bigtable.svg",
     "description": "Cloud Bigtable is Google's NoSQL Big Data database service. It's the same database that powers many core Google services, including Search, Analytics, Maps, and Gmail.",
     "keywords": [], 
     "dependencies": {
@@ -2203,9 +2314,10 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Storage and Databases"],
     "service": "Cloud Spanner",
-    "img": "./logos/Google/Extras/Google Cloud Platform.svg",
+    "img": "./logos/Google/Storage & Databases/Cloud Spanner.svg",
     "description": "Cloud Spanner is the world?s first fully managed relational database service to offer both strong consistency and horizontal scalability for mission-critical online transaction processing (OLTP) applications.",
     "keywords": [], 
     "dependencies": {
@@ -2216,9 +2328,10 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Storage and Databases"],
     "service": "Cloud Datastore",
-    "img": "./logos/Google/Extras/Google Cloud Platform.svg",
+    "img": "./logos/Google/Storage & Databases/Cloud Datastore.svg",
     "description": "Cloud Datastore is a highly-scalable NoSQL database for your applications. Cloud Datastore automatically handles sharding and replication, providing you with a highly available and durable database that scales automatically to handle your applications' load. ",
     "keywords": [], 
     "dependencies": {
@@ -2229,9 +2342,10 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Storage and Databases"],
     "service": "Persistent Disk",
-    "img": "./logos/Google/Extras/Google Cloud Platform.svg",
+    "img": "./logos/Google/Storage & Databases/Persistent Disk.svg",
     "description": "Google Persistent Disk is durable and high performance block storage for the Google Cloud Platform. Persistent Disk provides SSD and HDD storage which can be attached to instances running in either Google Compute Engine or Google Container Engine. Storage volumes can be transparently resized, quickly backed up, and offer the ability to support simultaneous readers.",
     "keywords": [], 
     "dependencies": {
@@ -2242,9 +2356,10 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Storage and Databases"],
     "service": "Data Transfer",
-    "img": "./logos/Google/Extras/Google Cloud Platform.svg",
+    "img": "./logos/Google/Storage & Databases/Data Transfer.svg",
     "description": "Whether you are in Denver or Denmark; with 50 Gigabytes or 50 Petabytes; access to a T1 line or 10 Gbps; Google offers solutions to meet your unique data transfer requirements and get your data to the cloud quickly and securely.",
     "keywords": [], 
     "dependencies": {
@@ -2255,6 +2370,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Web & Mobile"],
     "service": "Google App Engine",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -2268,6 +2384,7 @@
 },
   {
     "provider": "Google",
+    "providerIcon": "./logos/Google/Extras/Google Cloud Platform.svg",
     "category": ["Identity and Security"],
     "service": "Security Key Enforcement",
     "img": "./logos/Google/Extras/Google Cloud Platform.svg",
@@ -2281,6 +2398,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Cognitive Services",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure Cognative Services.svg",
@@ -2294,6 +2412,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Text Analytics API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2307,6 +2426,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Recommendations API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2320,6 +2440,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Academic Knowledge API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2333,6 +2454,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Computer Vision API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2346,6 +2468,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Content Moderator",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2359,6 +2482,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Emotion API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2372,6 +2496,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Face API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2385,6 +2510,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Bing Speech API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2398,6 +2524,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Web Language Model API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2411,6 +2538,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Language Understanding Intelligent Service",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2424,6 +2552,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Speaker Recoognition API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2437,6 +2566,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Custom Speech Service",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2450,6 +2580,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Bing Autosuggest API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2463,6 +2594,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Bing Spell Check API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2476,6 +2608,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Translator Speech API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2489,6 +2622,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Translator Text API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2502,6 +2636,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Bing Custom Search",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2515,6 +2650,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Bing Entitiy Search API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2528,6 +2664,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Bing Web Search API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2541,6 +2678,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Bing Video Search API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2554,6 +2692,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Bing News Search API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2567,6 +2706,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Custom Decision Service",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2580,6 +2720,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "QnA Maker API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2593,6 +2734,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Knowledge Exploration Service",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2606,6 +2748,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Entity Linking Intelligence Service API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2619,6 +2762,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Linguistic Analysis API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2632,6 +2776,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Video Indexer",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2645,6 +2790,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Video API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2658,6 +2804,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Artifical Intelligence and Cognitive Services"],
     "service": "Customer Vision Service",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2671,6 +2818,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Compute"],
     "service": "Virtual Machines",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2684,6 +2832,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Compute"],
     "service": "Virtual Machine Scale Sets",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2697,6 +2846,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Compute"],
     "service": "App Service",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2710,6 +2860,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Compute"],
     "service": "Azure Functions",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2723,6 +2874,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Compute"],
     "service": "Azure Batch",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2736,6 +2888,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Compute"],
     "service": "Service Fabric",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2749,6 +2902,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Container"],
     "service": "App Services",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2762,6 +2916,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Container"],
     "service": "Batch",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2775,6 +2930,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Container"],
     "service": "Container Registry",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2788,6 +2944,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Container"],
     "service": "Container Instances",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2801,6 +2958,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Container"],
     "service": "Service Fabric",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2814,6 +2972,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Container"],
     "service": "Container Service",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2827,6 +2986,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Data and Analytics"],
     "service": "HDInsight",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2840,6 +3000,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Data and Analytics"],
     "service": "Machine Learning",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2853,6 +3014,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Data and Analytics"],
     "service": "Stream Analytics",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2866,6 +3028,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Data and Analytics"],
     "service": "Azure Bot Service",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2879,6 +3042,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Data and Analytics"],
     "service": "Data Lake Analytics",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2892,6 +3056,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Data and Analytics"],
     "service": "Data Lake Store",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2905,6 +3070,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Data and Analytics"],
     "service": "Data Factory",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2918,6 +3084,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Data and Analytics"],
     "service": "Power BI Embedded",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2931,6 +3098,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Data and Analytics"],
     "service": "Data Catalog",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2944,6 +3112,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Data and Analytics"],
     "service": "Log Analytics",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2957,6 +3126,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Data and Analytics"],
     "service": "Apache Spark for Azure HDInsight",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2970,6 +3140,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Data and Analytics"],
     "service": "Text Analytics API",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2983,6 +3154,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Data and Analytics"],
     "service": "Azure Analysis Services",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -2996,6 +3168,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Data and Analytics"],
     "service": "Dynamics 365 for Customer Insights",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3009,6 +3182,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Data and Analytics"],
     "service": "Custom Speech Service",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3022,6 +3196,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Databases"],
     "service": "SQL Database",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3035,6 +3210,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Databases"],
     "service": "Azure Database for MySQL",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3048,6 +3224,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Databases"],
     "service": "Azure Database for PostgreSQL",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3061,6 +3238,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Databases"],
     "service": "SQL Data Warehouse",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3074,6 +3252,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Databases"],
     "service": "SQL Server Stretch Database",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3087,6 +3266,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Databases"],
     "service": "Azure Cosmos DB",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3100,6 +3280,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Databases"],
     "service": "Redis Cache",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3113,6 +3294,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Databases"],
     "service": "Data Factory",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3126,6 +3308,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Developer Tools"],
     "service": "Visual Studio Team",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3139,6 +3322,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Developer Tools"],
     "service": "Azure DevTest Labs",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3152,6 +3336,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Developer Tools"],
     "service": "Application Insights",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3165,6 +3350,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Developer Tools"],
     "service": "API Management",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3178,6 +3364,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Developer Tools"],
     "service": "Hockey App",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3191,6 +3378,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Enterprise Integration"],
     "service": "Logic Apps",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3204,6 +3392,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Enterprise Integration"],
     "service": "Service Bus",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3217,6 +3406,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Enterprise Integration"],
     "service": "API Management",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3230,6 +3420,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Enterprise Integration"],
     "service": "StorSimple",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3243,6 +3434,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Enterprise Integration"],
     "service": "SQL Server Stretch Database",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3256,6 +3448,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Enterprise Integration"],
     "service": "Data Catalog",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3269,6 +3462,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Enterprise Integration"],
     "service": "Data Factory",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3282,6 +3476,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Enterprise Integration"],
     "service": "Event Grid",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3295,6 +3490,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Internet of Things"],
     "service": "IoT Hub",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3308,6 +3504,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Internet of Things"],
     "service": "Event Hubs",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3321,6 +3518,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Internet of Things"],
     "service": "Stream Analytics",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3334,6 +3532,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Internet of Things"],
     "service": "Maschine Learning",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3347,6 +3546,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Internet of Things"],
     "service": "Notification Hubs",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3360,6 +3560,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Internet of Things"],
     "service": "Time Series Insights",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3373,6 +3574,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Internet of Things"],
     "service": "Azure Cosmos DB",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3386,6 +3588,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Azure Advisor",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3399,6 +3602,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Microsoft Azure portal",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3412,6 +3616,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Azure mobile App",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3425,6 +3630,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Azure Resource Manager",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3438,6 +3644,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Application Insights",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3451,6 +3658,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Log analytics",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3464,6 +3672,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Automation",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3477,6 +3686,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Backup",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3490,6 +3700,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Site Recovery",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3503,6 +3714,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Sheduler",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3516,6 +3728,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Traffic Manager",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3529,6 +3742,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Azure Monitor",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3542,6 +3756,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Security & Compliance",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3555,6 +3770,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Protection & Recovery",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3568,6 +3784,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Automation & Control",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3581,6 +3798,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Insight & analytics",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3594,6 +3812,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Network Watcher",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3607,6 +3826,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Cloud Shell",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3620,6 +3840,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Azure Service Health",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3633,6 +3854,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Monitor & Management"],
     "service": "Event Grid",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3646,6 +3868,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Networking"],
     "service": "Virtual Network",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3659,6 +3882,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Networking"],
     "service": "Load Balancer",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3672,6 +3896,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Networking"],
     "service": "Application Gateway",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3685,6 +3910,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Networking"],
     "service": "VPN Gateway",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3698,6 +3924,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Networking"],
     "service": "Azure DNS",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3711,6 +3938,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Networking"],
     "service": "Content Delivery Network",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3724,6 +3952,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Networking"],
     "service": "Traffic Manager",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3737,6 +3966,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Networking"],
     "service": "Express Route",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3750,6 +3980,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Networking"],
     "service": "Network Watcher",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3763,6 +3994,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Security  & Identity"],
     "service": "Security Center",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3776,6 +4008,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Security  & Identity"],
     "service": "Key Vault",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3789,6 +4022,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Security  & Identity"],
     "service": "Azure Active Directory",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3802,6 +4036,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Security  & Identity"],
     "service": "Azure Active Directory B2C",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3815,6 +4050,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Security  & Identity"],
     "service": "Azure Active Directory Domain Services",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3828,6 +4064,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Security  & Identity"],
     "service": "Multi Factor Authentication",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3841,6 +4078,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Storage"],
     "service": "Azure Blob Storage",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3854,6 +4092,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Storage"],
     "service": "Azure Queue Storage",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3867,6 +4106,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Storage"],
     "service": "Azure File Storage",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3880,6 +4120,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Storage"],
     "service": "Azure Disk Storage",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3893,6 +4134,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Storage"],
     "service": "Azure Data Lake Storage",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3906,6 +4148,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Storage"],
     "service": "Azure StoreSimple",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3919,6 +4162,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Storage"],
     "service": "Azure Backup",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3932,6 +4176,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Storage"],
     "service": "Azure Site Recovery",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3945,6 +4190,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Suites"],
     "service": "IoT Suite",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3958,6 +4204,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Suites"],
     "service": "Operations Management Suite",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3971,6 +4218,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Web & Mobile"],
     "service": "App Services",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3984,6 +4232,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Web & Mobile"],
     "service": "Web Apps",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -3997,6 +4246,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Web & Mobile"],
     "service": "Mobile Apps",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -4010,6 +4260,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Web & Mobile"],
     "service": "Logic Apps",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -4023,6 +4274,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Web & Mobile"],
     "service": "API Apps",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -4036,6 +4288,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Web & Mobile"],
     "service": "Content Delivery Network",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -4049,6 +4302,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Web & Mobile"],
     "service": "Media Services",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -4062,6 +4316,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Web & Mobile"],
     "service": "Azure Search",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -4075,6 +4330,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Web & Mobile"],
     "service": "API Management",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -4088,6 +4344,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Web & Mobile"],
     "service": "Notification Hubs",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -4101,6 +4358,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Web & Mobile"],
     "service": "Live and On-Demand Streaming",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -4114,6 +4372,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Web & Mobile"],
     "service": "Azure Media Player",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -4127,6 +4386,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Web & Mobile"],
     "service": "Content Protection",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
@@ -4140,6 +4400,7 @@
 },
   {
     "provider": "Microsoft",
+    "providerIcon": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "category": ["Web & Mobile"],
     "service": "Media Analytics",
     "img": "./logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
