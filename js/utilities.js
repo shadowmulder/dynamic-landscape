@@ -1,159 +1,10 @@
-var windowWidth = $(window).width();
-
-
-
-/*
-* unlockResizing sets the width and height parameters of grid columns to auto 
-* so they automatically adjust to the size of their content without further calculations
-*/
-function unlockResizing() {
-    d3.selectAll("#cContainer").style("height", "auto");
-    d3.selectAll("#vHeader").style("height", "auto");
-    d3.selectAll("#hHeader").style("height", "auto");
-
-    d3.selectAll("#cContainer").style("width", "auto");
-    d3.selectAll("#vHeader").style("width", "auto");
-    d3.selectAll("#hHeader").style("width", "auto");
-}
-
-/*
-* lockResizing normalizes the height of grid elements. This is very important to keep the height
-* of all rows at the same value
-*/
-function lockResizing() {
-    normalizeHeight("#cContainer", "#cContainer", "height");
-    //normalizeHeight("#cContainer", "#vHeader", "width", 2);
-    normalizeHeight("#cContainer", "#vHeader", "height", 2);
-    normalizeHeight("#hHeader", "#hHeader", "height");
-
-}
-
-function updateLefHandHeader() {
-    leftHeaderPositions = distinctYPos("#catColumn");
-    var c = 1;
-    document.getElementById("leftContainer").innerHTML = '';
-    d3.selectAll("#providerColumn").remove();
-    leftHeaderPositions.forEach(p => {
-        var pos = (p - 1) / c;
-        pos = 20;
-        providerColumn = leftContainer
-            .append("div")
-            .attr("id", "providerColumn")
-            .style("margin-top", pos + "px");
-
-        providerColumn
-            .append("div")
-            .attr("id", "hHeader");
-
-
-        data.forEach(d => {
-            var providerName = providerColumn
-                .append("div")
-                .attr("id", "vHeader")
-                .style("font-size", fontSize * zoomFactor + "px")
-                .datum(d)
-                .append("div")
-                .attr("class", "vContainer");
-
-            providerName
-                .append("div")
-                .attr("class", "providerIcon")
-                .append("img")
-                .attr("src", d.providerIcon)
-                .attr("height", imgMinSize * zoomFactor)
-                .attr("width", imgMinSize * zoomFactor);
-
-            providerName.append("div")
-                .attr("class", "textBoxRot").text(d.provider);
-        });
-
-
-
-        c++;
-    });
-
-}
-
-/**
-* normalizeHeight finds the max height of the elements
-* in the source group and applies it to all elements in the target group
-* @Params:
-*   sID: id of the elements in the source group
-*   tID: id of the elements in the target group
-*   padding: can be added as an offset to the max height h
-*/
-function normalizeHeight(sID, tID, hw, padding) {
-
-    padding = padding || 0;
-
-    var source = d3.selectAll(sID);
-    var h = 0;
-    source._groups[0].forEach(function (g) {
-        _h = g.clientHeight;
-
-        if (_h > h) {
-            h = _h;
-        }
-    })
-
-    d3.selectAll(tID).style(hw, h + padding + "px");
-}
-
-/*
-* zoom changes the size of images and text in the grid larger or smaller
-* and adjusts the size of the parent elements if necessary
-*/
-function zoom(newFactor) {
-    menu.close();
-
-    //zoomFactor = zoomFactor + scale;
-    zoomFactor = newFactor;
-    // keep zoom factor between zoomMin and zoomMax
-    zoomFactor = Math.min(Math.max(zoomFactor, zoomMin), zoomMax);
-    iconScale = imgMinSize * zoomFactor;
-    unlockResizing();
-
-    var images = d3.selectAll(".serviceIcon").selectAll("img");
-
-
-    images.attr("height", iconScale + "px");
-    images.attr("width", iconScale + "px");
-
-
-    var iconContainers = d3.selectAll(".serviceIcon");
-    iconContainers.style("height", iconScale + "px");
-    iconContainers.style("width", iconScale + "px");
-
-    d3.selectAll(".categories").style("grid-template-rows", "repeat(4," + iconScale + "px)");
-    d3.selectAll("#vHeader").style("font-size", fontSize * zoomFactor + "px");
-    d3.selectAll("#hHeader").style("font-size", fontSize * zoomFactor + "px");
-
-
-    d3.selectAll("#zoomIndicator").text("ZOOM: " + Math.floor(zoomFactor * 100) + "%");
-    document.getElementById("zoomIndicator").value = Math.floor(zoomFactor * 100);
-    updateLefHandHeader();
-    lockResizing();
-    jsPlumb.repaintEverything();
-    adjustSVGOverlay();
-    jsPlumb.repaintEverything();
-    //showDependencies();
-}
-
-
-/**
-* resets image and text size inside the grid
-*/
-function zoomReset() {
-
-    zoomFactor = 1.0;
-    zoom(1);
-
-}
 
 /**
 * distinctYPos returns a list of y-positions of all elements with the given id
 * the returned list only contains distinct values, redundand values are removed
 */
+
+
 function distinctYPos(id) {
     var elements = d3.selectAll(id)._groups[0];
     var cYPositions = new Set();
@@ -163,7 +14,7 @@ function distinctYPos(id) {
     })
 
     var result = [...cYPositions];
-    return result;
+    return result.length;
 }
 
 function posY(el) {
@@ -174,51 +25,6 @@ function posY(el) {
 function posX(el) {
     for (var lx = 0; el != null; lx += el.offsetLeft, el = el.offsetParent);
     return lx;
-}
-
-
-function adjustContainers() {
-    windowWidth = $(window).width();
-    unlockResizing();
-    updateLefHandHeader();
-    lockResizing();
-    jsPlumb.repaintEverything();
-    adjustSVGOverlay();
-    jsPlumb.repaintEverything();
-
-    d3.select("#searchForm").style("width", windowWidth * 0.6 + "px")
-
-}
-
-function adjustSVGOverlay() {
-    var svgContainer = document.getElementById("svgContainer");
-    var parentContainer = document.getElementById("landscape");
-    svgContainer.style.width = parentContainer.clientWidth + "px";
-    svgContainer.style.height = parentContainer.clientHeight + "px";
-}
-
-function processItemClick(node) {
-
-    menuNode.style("display", "inline-block");
-
-    var x = posX(node) + iconScale / 2;
-    var y = posY(node) + iconScale / 2;
-
-
-    if (!((lastSelectedItemPos.x == x) && (lastSelectedItemPos.y == y))) {
-        lastSelectedItemPos.x = x;
-        lastSelectedItemPos.y = y;
-        menu.close();
-
-        menu.setPos(x, y);
-    }
-
-    if (menu.isOpen()) {
-        menu.close();
-    } else {
-        menu.open();
-    }
-
 }
 
 
@@ -243,7 +49,6 @@ function updateDetailsView(id) {
     var leftMargin = logoSize + 30;
 
     var item = searchIndex.find(x => x.id === id);
-    console.log(item);
 
     detailsViewBody.html("")
     var imageColumn = detailsViewBody.append("div").attr("class","detailsViewIcon");
@@ -268,18 +73,9 @@ function updateDetailsView(id) {
     detailsText.append("h5").html("<b>Description</b>").style("margin-top", "50px");;
     detailsText.append("span").html("<i>" + item.description + "</i>");
 
-
-
-
-    /**
-     * Generation of the details-view goes here.
-     */
-
-
 }
 
-var detailsView;
-var detailsViewBody;
+
 
 function createDetailsView() {
     
@@ -294,34 +90,45 @@ function createDetailsView() {
 }
 
 
-function menuCloseAdapter() {
-    menu.close();
-    setTimeout(function () { menuNode.style("display", "none"); }, 400);
-}
 
-function resetView() {
-    menuCloseAdapter();
-    hideDetails();
-    //d3.select("#form-tags-1_tagsinput").selectAll("span").remove();
-    search();
-}
 
-function extractKeyWords(database) {
-    var wordSet = new Set();
-    database.forEach(e => e.keywords.forEach(w => wordSet.add(w)));
 
-    return [...wordSet];
-
-}
 
 function generatePDF() {
+    var originalZoom = zoomFactor;
+    var originalFontZoom = fontZoomFactor;
+    zoomReset();
+    //d3.select("#landscape").style("border","5mm solid rgb(230, 230, 230)")
+    
+    while (getLandscapeHeight() > 20){
+        zoom(zoomFactor-0.1)
+    }
     window.print();
+    //d3.select("#landscape").style("border","0")
+    zoom(originalZoom);
+    zoomFont(originalFontZoom);
+
 }
 
+
+function generatePDFHeadless() {
+
+    while (getLandscapeHeight() > 20){
+        zoom(zoomFactor-0.1)
+    }
+    
+}
 
 
 $(window).click(function () {
    if (cursorOutsideIcon)  menu.close();
 });
 
+
+function getLandscapeHeight(){
+
+    var dpi_y = document.getElementById('dpi').offsetHeight;
+    var height = document.getElementById('landscape').offsetHeight / dpi_y;
+    return height*leftHeaderPositions;
+}
 

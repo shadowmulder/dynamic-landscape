@@ -4,3 +4,10 @@
 
 #Gradle
 .gradle
+
+#macos
+.DS_Store
+
+#npm
+/tools/package-lock.json
+/tools/node_modules

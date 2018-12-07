@@ -1,7 +1,6 @@
 // Source code from https://bootsnipp.com/snippets/exqd3 by Siddharth Panchal
 
 $(function () {
-	//console.log(allKeyWords)
 	$('#form-tags-1').tagsInput({
 		'autocomplete': {
 			source: allKeyWords
@@ -10,6 +9,10 @@ $(function () {
 
 });
 
+
+/**
+ * Enable autocomplete only for the firs letters
+ */
 $.ui.autocomplete.filter = function (array, term) {
     var matcher = new RegExp("^" + $.ui.autocomplete.escapeRegex(term), "i");
     return $.grep(array, function (value) {
@@ -475,7 +478,7 @@ function showDependenciesPlumb() {
 				connector: ["Bezier", { curviness: 50 }],
 				overlays: [
 					["PlainArrow", { width: 6, length: 6, location: 1.0 }],
-					["Label", { label: item.dtype, location: 0.6, cssClass: "connectorLabel" }]
+					["Label", { label: item.dtype, location: 0.6, cssClass: "connectorLabelOut" }]
 				]
 			});
 		});
@@ -495,7 +498,7 @@ function showDependenciesPlumb() {
 				connector: ["Bezier", { curviness: 50 }],
 				overlays: [
 					["PlainArrow", { width: 6, length: 6, location: 1.0 }],
-					["Label", { label: item.dtype, location: 0.6, cssClass: "connectorLabel" }]
+					["Label", { label: item.dtype, location: 0.6, cssClass: "connectorLabelIn" }]
 				]
 			});
 		});

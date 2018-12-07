@@ -9,12 +9,9 @@
 <script src="/js/blooming-menu.min.js"></script>
 <script src="/js/jsplumb.js "></script>
 <script src="/js/utilities.js"></script>
-<script src="/js/jspdf.js"></script>
-<script src="/js/canvas.js"></script>
-<script src="/js/svg.js"></script>
-<script src="/js/context2d.js"></script>
-<script src="/js/html.js"></script>
-<script src="/js/html2canvas.js"></script>
+<script src="/js/landscape.js"></script>
+<script src="/js/global_values.js"></script>
+
 
 
 <head>
@@ -35,25 +32,10 @@
 
     <script>
 
-        var searchIndex;
-        var menu = new BloomingMenu({
-            itemsNum: 2,
-            radius: 30,
-            startAngle: 0,
-            endAngle: 180
-        });
-        menu.render();
 
 
-        var menuNode = d3.selectAll(".blooming-menu__container");
 
-        menuNode.style("z-index", "3");
-        menuNode
-            .on("click", function () {
-                menuCloseAdapter();
-            });
 
-        var allKeyWords = [];
 
         $.ajax({
             url: '/database/autocomplete_index.json',
@@ -65,6 +47,10 @@
             }
         });
 
+        d3.json("./database/cloud_services_nested_mc.json", function (d) {
+            data = d;
+            createLandscape(d);
+        });
 
 
         $.getJSON("/database/search_index.json", function (json) {
@@ -73,179 +59,32 @@
 
         });
 
-
-
-
-
-        var tooltip = d3.select("body").append("div").attr("class", "toolTip");
-        var catColumns = [];
-        var categories = [];
-        var data;
-        var zoomFactor = 1.0;
-        var imgMinSize = 20;
-        var iconScale = imgMinSize * zoomFactor;
-        var fontSize = imgMinSize / 2;
-        var leftHeaderPositions;
-        var leftContainer;
-        var providerColumn;
-        var currentElementId = null;
-        var landscape;
-        var cursorOutsideIcon = true;
-
-
-
-        var lastSelectedItemPos = { "x": null, "y": null };
-
-        const zoomMin = 0.8;
-        const zoomMax = 3.0;
-
-        // Read database
-        d3.json("./database/cloud_services_nested_mc.json", function (d) {
-            data = d;
-            createLandscape(d);
+        var menu = new BloomingMenu({
+            itemsNum: 2,
+            radius: 30,
+            startAngle: 0,
+            endAngle: 180
         });
-
-        /*
-        * createLandscape creates the main grid in the right layout div based on the data from json file
-        * IMPORTANT NOTES:
-        * - The grid technically consists of ONLY ONE ROW to enable automatical wraping provided by the bootstrap lib 
-        * - Every column consists of further rows. The amount of these rows depends on the amount of key1-categories (in this example: providers)
-        *   The height of theses rows must be normalized manually to provide the table like appearance. This can be done with the normalizeHeight function.
-        * - The very left column with the key1-category names (= providers) is technically not a part of the main grid. 
-        *   It is detached to an extra column. This is done to keep it on the very left while cloning it along with the main grid wraps.
-        */
-
-        function createLandscape(d) {
+        menu.render();
 
 
-            landscape = d3.select("body")
-                .append("div")
-                .attr("class", "container-fluid")
-                .attr("id", "landscape")
-                .append("div")
-                .attr("class", "row master");
+        menuNode = d3.selectAll(".blooming-menu__container");
 
-            d3.select("body").append("div").attr("id", "overlay");
-
-            var arrowLayer = d3.selectAll("body")
-                .append("div")
-                .attr("class", "svgContainer")
-                .attr("id", "svgContainer")
-                .append("svg")
-                .attr("id", "arrowlayer")
-                .attr("height", "100%")
-                .attr("width", "100%")
-                .style("position", "absolute");
-
-            leftContainer = landscape
-                .append("div")
-                .attr("class", "col-md-auto")
-                .attr("id", "leftContainer");
-
-            var rightContainer = landscape
-                .append("div")
-                .attr("class", "col-sm")
-                .attr("id", "elementTable")
-
-
-            var grid = rightContainer
-                .append("div")
-                .attr("class", "row master");
-
-
-            data[0].categories.forEach(d => {
-                var column = grid
-                    .append("div")
-                    .attr("class", "col header")
-                    .attr("id", "catColumn");
-
-                catColumns.push(column);
-
-                column
-                    .append("div")
-                    .attr("class", "row")
-                    .attr("id", "hHeader")
-                    .append("div")
-                    .attr("class", "textBox")
-                    .text(d.category);
+        menuNode.style("z-index", "3");
+        menuNode
+            .on("click", function () {
+                menuCloseAdapter();
             });
 
-            data.forEach(d => {
 
-                var cc = 0;
-                var id_index = 0;
-
-                catColumns.forEach(c => {
-                    var cat = c
-                        .append("div")
-                        .attr("class", "row")
-                        .append("div")
-                        .attr("class", "categories")
-                        .attr("id", "cContainer");
-
-
-                    categories.push(cat);
-                    d.categories[cc].members.forEach(m => {
-                        var service = cat.append("div")
-                            .attr("class", "serviceIcon")
-                            .attr("id", m.id)
-                            .append("img")
-                            .attr("src", m.img)
-                            .attr("height", imgMinSize)
-                            .attr("width", imgMinSize);
-                        service
-                            .on("mousemove", function () {
-                                tooltip
-                                    .style("left", d3.event.pageX - 50 + "px")
-                                    .style("top", d3.event.pageY - 70 + "px")
-                                    .style("display", "inline-block")
-                                    .text(m.service);
-
-                                this.style.boxShadow = "0 0 10px rgba(0,0,0,0.5)";
-                                cursorOutsideIcon = false;
-                            })
-                            .on("mouseout", function (d, i) {
-                                tooltip.style("display", "none");
-                                this.style.boxShadow = "";
-                                cursorOutsideIcon = true;
-                            })
-                            .on("click", function () {
-                                currentElementId = m.id;
-                                processItemClick(this);
-                            });
-
-                    });
-                    cc++;
-                });
-
-
-            });
-
-            unlockResizing();
-            updateLefHandHeader();
-            lockResizing();
-
-            jsPlumb.bind("ready", function () {
-
-            });
-            jsPlumb.importDefaults({
-                Endpoint: "Blank",
-                Container: "svgContainer",
-                Anchors: ["Top", "Bottom", "Left", "Right"],
-
-            });
-
-        }
-
+        tooltip = d3.select("body").append("div").attr("class", "toolTip");
         createDetailsView();
-
-
 
         d3.select("#menu_button_0").on("click", showDependenciesPlumb);
         d3.select("#menu_button_1").on("click", showDetails);
 
 
-        window.addEventListener("resize", adjustContainers);
+
 
         d3.select("body")
             .on("keydown", function () {
@@ -262,22 +101,29 @@
          */
         $(window).ready(function () {
             var windowWidth = $(window).width();
-            d3.select("#searchForm").style("width", windowWidth * 0.6 + "px");
+            d3.select("#searchForm").style("width", windowWidth * 0.5 + "px");
+           // zoomReset();
+            //adjustContainers();
+            var zoomIndicator = document.getElementById("zoomIndicator");
+            zoomIndicator.setAttribute("min", Math.floor(zoomMin * 100));
+            zoomIndicator.setAttribute("max", Math.floor(zoomMax * 100));
+            var zoomFIndicator = document.getElementById("zoomFIndicator");
+            zoomFIndicator.setAttribute("min", Math.floor(zoomMin * 100));
+            zoomFIndicator.setAttribute("max", Math.floor(zoomMax * 100));
 
         });
+        window.addEventListener("resize", adjustContainers);
 
 
     </script>
 
-    <div class="topnav">
-        
-        <div style="margin:5px" style="display:inline-block">
 
-            <img src="img/mbw_logo_small.svg" height="40px" style="float:left" alt="MaibornWolff">
-            
-        </div>
+    <div id="dpi" style="height: 1in; width: 1in; left: 100%; position: fixed; top: 100%;"></div>
+    <div id="topnav" class="topnav">
 
-<!--        <div class="pName">GRIDSCAPE</div>-->
+
+
+        <!--        <div class="pName">GRIDSCAPE</div>-->
         <div class="toolbox">
             <!-- Search design based on https://bootsnipp.com/snippets/exqd3 by Siddharth Panchal -->
             <form id="searchForm" style="overflow: hidden">
@@ -285,18 +131,36 @@
             </form>
             <button onclick="search()" type="button"><span class="oi oi-magnifying-glass"></span></button>
         </div>
-        <div class="toolbox" id="resCountContainer">
+
+        <div class="toolbox" id="resCountContainer" style="font-size: 16px; padding: 0; margin: 0">
             <div>Matches:</div>
             <div id=resultCount>0</div>
         </div>
+
         <div class="toolbox">
-            <button onclick="zoom(zoomFactor-0.1)"><span class="oi oi-zoom-out"></button>
+            <button id="zoomOutButton" onclick="zoom(zoomFactor-0.1)"><span class="oi oi-zoom-out"></button>
 
             <form id="zoomForm" style="overflow: hidden" onsubmit="return false">
-                <input id="zoomIndicator" type="number" min="80" max="300" value="100" onchange="zoom(value/100)">
+                <input id="zoomIndicator" type="number" value="100" onchange="zoom(value/100)">
             </form>
-            <button onclick="zoom(zoomFactor+0.1)"><span class="oi oi-zoom-in"></span></button>
+            <button id="zoomInButton" onclick="zoom(zoomFactor+0.1)"><span class="oi oi-zoom-in"></span></button>
+            <button id="zoomResetButton" onclick="zoomReset()" style="margin: 0px 5px 0px 5px;">
+                <span class="bbg" style="background: url(./img/noun_Reset_Zoom_54041.svg) no-repeat top left;"></span>
+            </button>
+
+            <button id="zoomFOutButton" onclick="zoomFont(fontZoomFactor-0.1)">
+                <span class="bbg" style="background: url(./img/noun_Zoom_Out_45291.svg) no-repeat top left; height: 25px; width: 25px; top: 8px">
+            </button>
+
+            <form id="zoomForm" style="overflow: hidden" onsubmit="return false">
+                <input id="zoomFIndicator" type="number" value="100" onchange="zoomFont(value/100)">
+            </form>
+            <button id="zoomFInButton" onclick="zoomFont(fontZoomFactor+0.1)">
+                <span class="bbg" style="background: url(./img/noun_zoom-in_45294.svg) no-repeat top left; height: 25px; width: 25px; top: 8px">
+            </button>
         </div>
+
+
 
 
 
@@ -310,7 +174,14 @@
             </div>
 
             <div class="col" style="border: 0px">
-                <button class="footer-button" onclick="generatePDF()"><span>Export</span></button>
+                <button class="footer-button" onclick="generatePDF()"><span>Print</span></button>
+            </div>
+
+            <div class="col" style="border: 0px">
+                <form method="get" action="/offline/landscape_latest.pdf">
+                    <button type="submit">PDF</button>
+                </form>
+
             </div>
 
             <div class="col" style="border: 0px">
@@ -319,6 +190,18 @@
 
             <div class="col" style="border: 0px">
                 <button class="footer-button" onclick=""><span>Impress</span></button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- PRINT SECTION -->
+    <div id="printHeader">
+        <div class="row" style="border: 0px">
+            <div class="col" style="border: 0px">
+                <span id="headerText" style="font-size: 10mm">GRIDSCAPE</span>
             </div>
         </div>
 
