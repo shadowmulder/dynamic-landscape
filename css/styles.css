@@ -355,6 +355,7 @@ button {
 }
 
 .iconImg {
+	position: relative !important;
 	float: right;
 	height: auto;
 }
@@ -369,7 +370,8 @@ button {
 
 #zoomIndicator,
 #searchForm,
-#zoomForm {
+#zoomForm,
+#zoomFForm {
 	border-radius: 0px;
 	margin: 0px;
 	padding: 0px;
@@ -387,6 +389,14 @@ input[type=number]
 	font-size: 16px;
     width: 50px;
     height: 40px;
+}
+
+#dpi{
+	height: 1in;
+	width: 1in;
+	left: 100%;
+	position: fixed;
+	top: 100%;
 }
 
 @media print {
@@ -420,5 +430,7 @@ input[type=number]
 		overflow: hidden;
 		z-index: 4;
 	}
+
+
 
 }
