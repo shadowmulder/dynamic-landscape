@@ -19,9 +19,9 @@
     var landscape;
     var cursorOutsideIcon = true;
     const zoomMin = 0.3;
-    const zoomMax = 3.0;
-    var detailsView;
-    var detailsViewBody;
+    const zoomMax = 2.0;
+    var modalView;
+    var modalViewBody;
     var lastSelectedItemPos = { "x": null, "y": null };
     var tooltip;
     var menuNode;
@@ -30,7 +30,12 @@
     //var father = d3.select("body")._groups[0][0];
     var menu;
     var classContext;
-
+    var modalViewTitle;
+    var modalViewHeader;
+    var modalViewFooter;
+    var modalViewHeaderIcon;
+    var mouseOnOverlay = false;
+    
 
 
 
@@ -46,6 +51,7 @@
         */
 
         createHeader();
+        createFooter();
 
         /**
         * END STATIC BODY SECTION
@@ -75,7 +81,7 @@
 
     }
 
-    function createHeader(){
+    function createHeader() {
         d3.select("body").append("div").attr("id", "dpi");
         var pageHeader = d3.select("body")
             .append("div")
@@ -192,13 +198,144 @@
             "submit", function (e) {
                 e.preventDefault();
             });
+
+
+        d3.select("body")
+            .append("div")
+            .attr("id", "printHeader")
+            .append("div")
+            .attr("class", "row")
+            .append("div")
+            .attr("class", "col")
+            .append("span")
+            .attr("id", "headerText")
+            .style("font-size", "10mm")
+            .text("GRIDSCAPE");
+
+    }
+
+    function createFooter() {
+        var footer = d3.select("body")
+            .append("div")
+            .attr("class", "footer")
+            .style("padding-left", "12%")
+            .append("div")
+            .attr("class", "row");
+
+
+        /**
+         * Help button
+         */
+        footer.append("div")
+            .attr("class", "col")
+            .append("button")
+            .attr("class", "footer-button")
+            .on("click", function () {
+
+            })
+            .append("span")
+            .text("Help");
+
+        /**
+         * Print button
+         */
+        footer.append("div")
+            .attr("class", "col")
+            .append("button")
+            .attr("class", "footer-button")
+            .on("click", function () {
+                classContext.generatePDF();
+            })
+            .append("span")
+            .text("Print");
+
+
+        /**
+         * PDF button
+         */
+        footer.append("div")
+            .attr("class", "col")
+            .append("form")
+            .attr("method", "get")
+            .attr("action", "/offline/landscape_latest.pdf")
+            .append("button")
+            .attr("class", "footer-button")
+            .on("click", function () {
+
+            })
+            .append("span")
+            .text("PDF");
+
+        /**
+         * Feedback button
+         */
+        footer.append("div")
+            .attr("class", "col")
+            .append("button")
+            .attr("class", "footer-button")
+            .on("click", function () {
+                //createFeedBackView();
+            })
+            .append("span")
+            .text("Feedback");
+
+
+        /**
+         * Impress button
+         */
+        footer.append("div")
+            .attr("class", "col")
+            .append("button")
+            .attr("class", "footer-button")
+            .on("click", function () {
+
+            })
+            .append("span")
+            .text("Impress");
+    }
+
+    var detailsActive = false;
+
+    function showDetails() {
+        if (currentElementId === null) return;
+        var currentScrollOffset = document.documentElement.scrollTop;
+        modalView.attr("class", "modal-dialog modal-lg");
+        updatemodalView(currentElementId);
+        modalView.style("top", currentScrollOffset + "px")
+        d3.select("body").style("overflow-y", "hidden")
+        d3.select("#overlay").style("display", "block");
+        console.log("showDetails")
+        detailsActive = true;
+        depsActive = true;
+    }
+
+    function hideDetails() {
+
+        modalView.attr("class", "null");
+        d3.select("body").style("overflow-y", "auto")
+        d3.select("#overlay").style("display", "none");
+        console.log("hideDetails")
+        detailsActive = false;
     }
 
 
-
-
     $(window).click(function () {
-        if (cursorOutsideIcon) menu.close();
+        if (cursorOutsideIcon) {
+            console.log("click-i")
+            menu.close();
+        }
+
+        if(mouseOnOverlay){
+            hideDetails();
+        }
+
+        if(depsActive && cursorOutsideIcon && !detailsActive){
+            console.log("click-d")
+            search();
+            depsActive = false;
+        }
+
+
     });
 
     // Source code from https://bootsnipp.com/snippets/exqd3 by Siddharth Panchal
@@ -224,14 +361,10 @@
     };
 
 
-
-
     /* jQuery Tags Input Revisited Plugin
      *
      * Copyright (c) Krzysztof Rusnarczyk
      * Licensed under the MIT license */
-
-
     (function ($) {
         var delimiter = [];
         var inputSettings = [];
@@ -639,7 +772,15 @@
             .append("div")
             .attr("class", "row master");
 
-        d3.select("body").append("div").attr("id", "overlay");
+        d3.select("body")
+            .append("div")
+            .attr("id", "overlay")
+            .on("mousemove", function(){
+                mouseOnOverlay = true;
+            })
+            .on("mouseout", function(){
+                mouseOnOverlay = false;
+            });
 
         var arrowLayer = d3.selectAll("body")
             .append("div")
@@ -758,7 +899,6 @@
 
     }
 
-
     windowWidth = $(window).width();
 
 
@@ -793,7 +933,7 @@
         leftHeaderPositions = distinctYPos("#catColumn");
 
         var c = 1;
-        document.getElementById("leftContainer").innerHTML = '';
+        leftContainer._groups[0][0].innerHTML = '';
         d3.selectAll("#providerColumn").remove();
         for (i = 0; i < leftHeaderPositions; i++) {
 
@@ -830,11 +970,8 @@
                     .attr("class", "textBoxRot").text(d.provider);
             });
 
-
-
             c++;
         }
-
     }
 
     /**
@@ -881,7 +1018,7 @@
 
         // keep zoom factor between zoomMin and zoomMax
         zoomFactor = Math.min(Math.max(zoomFactor, zoomMin), zoomMax);
-        fontZoomFactor = Math.min(Math.max(fontZoomFactor, zoomMin), zoomMax / 2);
+        fontZoomFactor = Math.min(Math.max(fontZoomFactor, zoomMin), zoomMax);
 
 
         var zoomInB = d3.select("#zoomInButton");
@@ -920,7 +1057,6 @@
         jsPlumb.repaintEverything();
         adjustSVGOverlay();
         jsPlumb.repaintEverything();
-        //showDependencies();
         getLandscapeHeight();
     }
 
@@ -931,14 +1067,14 @@
         fontZoomFactor = Math.round(fontZoomFactor * 10) / 10;
         // keep zoom factor between zoomMin and zoomMax
         //fontZoomFactor = Math.min(Math.max(fontZoomFactor, zoomMin), zoomMax);
-        fontZoomFactor = Math.min(Math.max(fontZoomFactor, zoomMin), zoomMax / 2);
+        fontZoomFactor = Math.min(Math.max(fontZoomFactor, zoomMin), zoomMax);
         var zoomInB = d3.select("#zoomFInButton");
         var zoomOutB = d3.select("#zoomFOutButton");
 
 
         if (fontZoomFactor == zoomMin) {
             zoomOutB.style("background-color", "grey");
-        } else if (fontZoomFactor == zoomMax / 2) {
+        } else if (fontZoomFactor == zoomMax) {
             zoomInB.style("background-color", "grey");
         } else {
             zoomInB.style("background-color", "#008688");
@@ -990,6 +1126,7 @@
         var topPadding = document.getElementById("topnav").clientHeight;
         d3.select("#landscape").style("padding-top", topPadding + "px")
         d3.select("#searchForm").style("width", windowWidth * 0.5 + "px")
+        leftContainer._groups[0][0].style.maxWidth = (catImgMinSize * zoomFactor) + 4;
 
     }
 
@@ -1001,6 +1138,7 @@
     }
 
     function processItemClick(node) {
+        showDependencies();
 
         menuNode.style("display", "inline-block");
 
@@ -1032,7 +1170,6 @@
     function resetView() {
         menuCloseAdapter();
         hideDetails();
-        //d3.select("#form-tags-1_tagsinput").selectAll("span").remove();
         search();
     }
 
@@ -1067,31 +1204,50 @@
     }
 
 
-    function showDetails() {
-        console.log(currentElementId);
+
+
+    function createFeedBackView() {
         var currentScrollOffset = document.documentElement.scrollTop;
-        updateDetailsView(currentElementId);
-        detailsView.attr("class", "modal-dialog modal-lg");
-        detailsView.style("top", currentScrollOffset + "px")
+        modalView.attr("class", "modal-dialog modal-lg");
+        modalViewTitle.text("FEEDBACK");
+
+        modalViewBody.html("");
+        modalViewHeaderIcon.html("");
+        var form = modalViewBody.append("form").attr("method", "post");
+
+        form.append("textarea").attr("id", "feedbackText").attr("placeholder", "Your feedback goes here")
+            .style("height", modalViewBody._groups[0][0].clientHeight + "px")
+            .style("width", modalViewBody._groups[0][0].clientWidth + "px");
+        form.append("input").attr("type", "submit").append("span").text("submit");
+
+
+        modalView.style("top", currentScrollOffset + "px")
         d3.select("body").style("overflow-y", "hidden")
         d3.select("#overlay").style("display", "block");
+
+
     }
 
-    function hideDetails() {
-        detailsView.attr("class", "null");
-        d3.select("body").style("overflow-y", "auto")
-        d3.select("#overlay").style("display", "none");
-    }
-
-    function updateDetailsView(id) {
+    function updatemodalView(id) {
 
         var logoSize = 100;
         var leftMargin = logoSize + 30;
 
+        var providerIconSize = modalViewHeader._groups[0][0].clientHeight;
+
         var item = searchIndex.find(x => x.id === id);
 
-        detailsViewBody.html("")
-        var imageColumn = detailsViewBody.append("div").attr("class", "detailsViewIcon");
+        modalViewTitle.text("SERVICE DETAILS");
+        var providerIconSize = modalViewTitle._groups[0][0].clientHeight;
+
+        modalViewBody.html("");
+        modalViewHeaderIcon.html("");
+        var imageColumn = modalViewBody.append("div").attr("class", "modalViewIcon");
+
+        modalViewHeaderIcon.append("img")
+            .attr("src", item.providerIcon)
+            .attr("height", providerIconSize)
+            .attr("width", providerIconSize);
 
         var lorem = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   =)))))";
 
@@ -1100,10 +1256,10 @@
             .attr("height", logoSize)
             .attr("width", logoSize);
 
-        var detailsText = detailsViewBody
+        var detailsText = modalViewBody
             .append("div")
             .attr("id", "detailsText")
-            .attr("class", "detailsView")
+            .attr("class", "modalView")
             .style("margin-left", leftMargin + "px");
 
         detailsText.append("h5").style("margin-top", "10px").html("<b>Service: </b><i>" + item.service + "</i>");
@@ -1113,19 +1269,55 @@
         detailsText.append("h5").html("<b>Description</b>").style("margin-top", "50px");;
         detailsText.append("span").html("<i>" + item.description + "</i>");
 
+
     }
 
 
 
-    function createDetailsView() {
+    function createmodalView() {
 
-        detailsView = d3.select("body").append("div").attr("class", "null").attr("id", "detailsView").attr("role", "document").style("overflow-x", "hidden")
-        var modalContent = detailsView.append("div").attr("class", "modal-content");
-        var detailsViewHeader = modalContent.append("div").attr("class", "modal-header");
-        detailsViewHeader.append("h4").attr("class", "modal-title").text("SERVICE DETAILS");
-        detailsViewHeader.append("button").attr("type", "button").attr("class", "close").on("click", hideDetails);
-        detailsViewBody = modalContent.append("div").attr("class", "modal-body").attr("id", "detailsViewBody").style("overflow-x", "hidden");
-        modalContent.append("div").attr("class", "modal-footer").append("button").attr("class", "btn btn-primary").text("Close").on("click", hideDetails);
+        modalView = d3.select("body")
+            .append("div")
+            .attr("class", "null")
+            .attr("id", "modalView")
+            .attr("role", "document")
+            .style("overflow-x", "hidden");
+
+        var modalContent = modalView.append("div")
+            .attr("class", "modal-content");
+
+        modalViewHeader = modalContent.append("div")
+            .attr("class", "modal-header")
+            .attr("id", "modal-header")
+            .style("display", "inline-block");
+
+
+        modalViewHeaderIcon = modalViewHeader.append("div")
+            .attr("id", "modalTitleIcon")
+            .style("display", "inline-block")
+            .style("float", "left")
+            .style("margin-right", "10px");
+
+        modalViewTitle = modalViewHeader.append("span")
+            .attr("class", "modal-title")
+            .style("float", "left")
+            .style("font-size", "1ex");
+
+        modalViewHeader.append("button")
+            .attr("type", "button")
+            .attr("class", "close")
+            .on("click", hideDetails);
+
+        modalViewBody = modalContent.append("div")
+            .attr("class", "modal-body")
+            .attr("id", "modalViewBody")
+            .style("overflow-x", "hidden");
+
+        modalContent.append("div")
+            .attr("class", "modal-footer")
+            .append("button")
+            .text("Close")
+            .on("click", hideDetails);
 
     }
 
@@ -1137,8 +1329,6 @@
 
         this.zoomReset();
 
-        //d3.select("#landscape").style("border","5mm solid rgb(230, 230, 230)")
-
         while (getLandscapeHeight() > 20) {
             this.zoom(-0.1)
         }
@@ -1146,7 +1336,6 @@
         jsPlumb.repaintEverything();
 
         window.print();
-        //d3.select("#landscape").style("border","0")
         this.zoomReset();
         jsPlumb.repaintEverything();
 
@@ -1219,9 +1408,10 @@
             node.style("opacity", "1");
         });
     }
-
-    function showDependenciesPlumb() {
+    var depsActive = false;
+    function showDependencies() {
         if (currentElementId === null) return;
+        
         jsPlumb.deleteEveryEndpoint();
         var dependencies = searchIndex.filter(node => node.id == currentElementId)[0].dependencies;
         var nodesToHighlight = [];
@@ -1271,6 +1461,8 @@
 
         nodesToHighlight = nodesToHighlight.concat(con_in, con_out);
         adjustIconOpacityById(nodesToHighlight);
+        console.log("deps")
+        depsActive = true;
     }
 
     tooltip = d3.select("body").append("div").attr("class", "toolTip");
@@ -1286,9 +1478,9 @@
         zoomFIndicator.setAttribute("min", Math.floor(zoomMin * 100));
         zoomFIndicator.setAttribute("max", Math.floor(zoomMax * 100));
 
-        createDetailsView();
+        createmodalView();
         menu = new BloomingMenu({
-            itemsNum: 2,
+            itemsNum: 1,
             radius: 30,
             startAngle: 0,
             endAngle: 180
@@ -1299,14 +1491,15 @@
 
         menuNode = d3.selectAll(".blooming-menu__container");
 
-        menuNode.style("z-index", "3");
+        menuNode.style("z-index", "4");
         menuNode
             .on("click", function () {
                 menuCloseAdapter();
             });
 
-        document.getElementById("menu_button_0").addEventListener("click", showDependenciesPlumb);
-        document.getElementById("menu_button_1").addEventListener("click", showDetails);
+        document.getElementById("menu_button_0").addEventListener("click", showDetails);
+
+        //document.getElementById("menu_button_1").addEventListener("click", showDetails);
 
         d3.select("body")
             .on("keydown", function () {

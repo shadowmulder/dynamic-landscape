@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
@@ -32,88 +33,6 @@
         var gridscape = new Gridscape();
 
     </script>
-
-<!--
-    <div id="dpi"></div>
-    <div id="topnav" class="topnav">
-
-
-
-
-        <div class="toolbox">
-           
-            <form id="searchForm" style="overflow: hidden">
-                <input id="search-input" name="search" type="text">
-            </form>
-            <button onclick="gridscape.searchStub()" type="button"><span class="oi oi-magnifying-glass"></span></button>
-        </div>
-
-        <div class="toolbox" style="font-size: 16px;">
-            <div>Matches:</div>
-            <div id=resultCount>0</div>
-        </div>
-
-        <div class="toolbox">
-            <button id="zoomOutButton" onclick="gridscape.zoom(-0.1)"><span class="oi oi-zoom-out"></button>
-
-            <form id="zoomForm" style="overflow: hidden" onsubmit="return false">
-                <input id="zoomIndicator" type="number" value="100" onchange="gridscape.absoluteZoom(value/100)">
-            </form>
-            <button id="zoomInButton" onclick="gridscape.zoom(0.1)"><span class="oi oi-zoom-in"></span></button>
-            <button id="zoomResetButton" onclick="gridscape.zoomReset()" style="margin: 0px 5px 0px 5px;">
-                <span class="bbg" style="background: url(./img/noun_Reset_Zoom_54041.svg) no-repeat top left;"></span>
-            </button>
-
-            <button id="zoomFOutButton" onclick="gridscape.zoomFont(-0.1)">
-                <span class="bbg" style="background: url(./img/noun_Zoom_Out_45291.svg) no-repeat top left; height: 25px; width: 25px; top: 8px">
-            </button>
-
-            <form id="zoomForm" style="overflow: hidden" onsubmit="return false">
-                <input id="zoomFIndicator" type="number" value="100" onchange="gridscape.absoluteFontZoom(value/100)">
-            </form>
-            <button id="zoomFInButton" onclick="gridscape.zoomFont(0.1)">
-                <span class="bbg" style="background: url(./img/noun_zoom-in_45294.svg) no-repeat top left; height: 25px; width: 25px; top: 8px">
-            </button>
-        </div>
-    </div>
--->
-
-    <div class="footer" style="padding-left: 12%">
-        <div class="row" style="border: 0px">
-
-            <div class="col" style="border: 0px">
-                <button class="footer-button" onclick=""><span>Help</span></button>
-            </div>
-
-            <div class="col" style="border: 0px">
-                <button class="footer-button" onclick="gridscape.generatePDF()"><span>Print</span></button>
-            </div>
-
-            <div class="col" style="border: 0px">
-                <form method="get" action="/offline/landscape_latest.pdf">
-                    <button type="submit">PDF</button>
-                </form>
-            </div>
-
-            <div class="col" style="border: 0px">
-                <button class="footer-button" onclick=""><span>Feedback</span></button>
-            </div>
-
-            <div class="col" style="border: 0px">
-                <button class="footer-button" onclick=""><span>Impress</span></button>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- PRINT SECTION -->
-    <div id="printHeader">
-        <div class="row" style="border: 0px">
-            <div class="col" style="border: 0px">
-                <span id="headerText" style="font-size: 10mm">GRIDSCAPE</span>
-            </div>
-        </div>
-    </div>
 
 </body>
 

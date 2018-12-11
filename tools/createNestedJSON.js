@@ -114,6 +114,7 @@ _.each(uData, function (d, i) {
         service: d.service,
         provider: d.provider,
         category: d.category,
+        providerIcon: d.providerIcon,
         description: d.description,
         img: d.img,
         dependencies: d.dependencies,

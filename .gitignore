@@ -11,3 +11,5 @@
 #npm
 /tools/package-lock.json
 /tools/node_modules
+/server/package-lock.json
+/server/node_modules

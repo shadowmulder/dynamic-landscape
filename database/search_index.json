@@ -4,6 +4,7 @@
     "service": "Amazon Athena",
     "provider": "Amazon",
     "category": "Analytics",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL. Athena is serverless, so there is no infrastructure to manage, and you pay only for the queries that you run.",
     "img": "./img/logos/AWS/Analytics/Analytics_AmazonAthena.svg",
     "dependencies": {
@@ -38,6 +39,7 @@
     "service": "Amazon EMR",
     "provider": "Amazon",
     "category": "Analytics",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon EMR provides a managed Hadoop framework that makes it easy, fast, and cost-effective to process vast amounts of data across dynamically scalable Amazon EC2 instances. ",
     "img": "./img/logos/AWS/Analytics/Analytics_AmazonEMR.svg",
     "dependencies": {
@@ -72,6 +74,7 @@
     "service": "Amazon CloudSearch",
     "provider": "Amazon",
     "category": "Analytics",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon CloudSearch is a managed service in the AWS Cloud that makes it simple and cost-effective to set up, manage, and scale a search solution for your website or application.",
     "img": "./img/logos/AWS/Analytics/Analytics_AmazonCloudSearch.svg",
     "dependencies": {
@@ -101,6 +104,7 @@
     "service": "Amazon Elasticsearch Service",
     "provider": "Amazon",
     "category": "Analytics",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Elasticsearch Service makes it easy to deploy, operate, and scale Elasticsearch for log analytics, full text search, application monitoring, and more.",
     "img": "./img/logos/AWS/General/General_AWScloud.svg",
     "dependencies": {
@@ -131,6 +135,7 @@
     "service": "Amazon Kinesis",
     "provider": "Amazon",
     "category": "Analytics",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Kinesis makes it easy to collect, process, and analyze real-time, streaming data so you can get timely insights and react quickly to new information. ",
     "img": "./img/logos/AWS/Analytics/Analytics_AmazonKinesis.svg",
     "dependencies": {
@@ -162,6 +167,7 @@
     "service": "Amazon Redshift",
     "provider": "Amazon",
     "category": "Analytics",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Redshift is a fast, fully managed data warehouse that makes it simple and cost-effective to analyze all your data using standard SQL and your existing Business Intelligence (BI) tools. ",
     "img": "./img/logos/AWS/Analytics/Analytics_AmazonRedshift.svg",
     "dependencies": {
@@ -195,6 +201,7 @@
     "service": "Amazon Redshift",
     "provider": "Amazon",
     "category": "Databases",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Redshift is a fast, fully managed data warehouse that makes it simple and cost-effective to analyze all your data using standard SQL and your existing Business Intelligence (BI) tools. ",
     "img": "./img/logos/AWS/Analytics/Analytics_AmazonRedshift.svg",
     "dependencies": {
@@ -228,6 +235,7 @@
     "service": "Amazon Quicksight",
     "provider": "Amazon",
     "category": "Analytics",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon QuickSight is a fast, cloud-powered business analytics service that makes it easy to build visualizations, perform ad-hoc analysis, and quickly get business insights from your data",
     "img": "./img/logos/AWS/Analytics/Analytics_AmazonQuickSight.svg",
     "dependencies": {
@@ -260,6 +268,7 @@
     "service": "AWS Data Pipeline",
     "provider": "Amazon",
     "category": "Analytics",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premise data sources, at specified intervals.",
     "img": "./img/logos/AWS/Analytics/Analytics_AWSDataPipeline.svg",
     "dependencies": {
@@ -296,6 +305,7 @@
     "service": "AWS Glue",
     "provider": "Amazon",
     "category": "Analytics",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy for customers to prepare and load their data for analytics.",
     "img": "./img/logos/AWS/Analytics/Analytics_AWSGlue.svg",
     "dependencies": {
@@ -327,6 +337,7 @@
     "service": "AWS Step Functions",
     "provider": "Amazon",
     "category": "Application Services",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "",
     "img": "./img/logos/AWS/Application Services/ApplicationServices_AWSStepFunctions.svg",
     "dependencies": {
@@ -348,6 +359,7 @@
     "service": "Amazon Elastic Transcoder",
     "provider": "Amazon",
     "category": "Application Services",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Elastic Transcoder is media transcoding in the cloud. It is designed to be a highly scalable, easy to use and a cost effective way for developers and businesses to convert (or ?transcode?) media files from their source format into versions that will playback on devices like smartphones, tablets and PCs.",
     "img": "./img/logos/AWS/Application Services/ApplicationServices_AmazonElasticTranscoder.svg",
     "dependencies": {
@@ -391,6 +403,7 @@
     "service": "Amazon Lex",
     "provider": "Amazon",
     "category": "Artifical Intelligence",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Lex is a service for building conversational interfaces into any application using voice and text. ",
     "img": "./img/logos/AWS/AI/AI_AmazonLex.svg",
     "dependencies": {
@@ -417,6 +430,7 @@
     "service": "Amazon Polly",
     "provider": "Amazon",
     "category": "Artifical Intelligence",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Polly is a service that turns text into lifelike speech, allowing you to create applications that talk, and build entirely new categories of speech-enabled products. ",
     "img": "./img/logos/AWS/AI/AI_AmazonPolly.svg",
     "dependencies": {
@@ -451,6 +465,7 @@
     "service": "Amazon Rekognition",
     "provider": "Amazon",
     "category": "Artifical Intelligence",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Rekognition is a service that makes it easy to add image analysis to your applications. With Rekognition, you can detect objects, scenes, faces; recognize celebrities; and identify inappropriate content in images.",
     "img": "./img/logos/AWS/AI/AI_AmazonRekognition.svg",
     "dependencies": {
@@ -486,6 +501,7 @@
     "service": "Amazon Maschine Learning",
     "provider": "Amazon",
     "category": "Artifical Intelligence",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Machine Learning is a service that makes it easy for developers of all skill levels to use machine learning technology.",
     "img": "./img/logos/AWS/AI/AI_AmazonMachineLearning.svg",
     "dependencies": {
@@ -514,6 +530,7 @@
     "service": "Amazon Deep Learning AMIs",
     "provider": "Amazon",
     "category": "Artifical Intelligence",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "The AWS Deep Learning AMIs equip data scientists, machine learning practitioners, and research scientists with the infrastructure and tools to accelerate work in deep learning, in the cloud, at any scale.",
     "img": "./img/logos/AWS/General/General_AWScloud.svg",
     "dependencies": {
@@ -550,6 +567,7 @@
     "service": "Apache MXNet on AWS",
     "provider": "Amazon",
     "category": "Artifical Intelligence",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Apache MXNet is a lean, flexible, and ultra-scalable deep learning framework that supports state of the art in deep learning models, including convolutional neural networks (CNNs) and long short-term memory networks (LSTMs)",
     "img": "./img/logos/AWS/General/General_AWScloud.svg",
     "dependencies": {
@@ -590,6 +608,7 @@
     "service": "TensorFlow on AWS",
     "provider": "Amazon",
     "category": "Artifical Intelligence",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "TensorFlow? enables developers to quickly and easily get started with deep learning in the cloud.",
     "img": "./img/logos/AWS/General/General_AWScloud.svg",
     "dependencies": {
@@ -619,6 +638,7 @@
     "service": "Amazon WorkDocs",
     "provider": "Amazon",
     "category": "Business Productivity",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon WorkDocs is a fully managed, secure enterprise storage and sharing service with strong administrative controls and feedback capabilities that improve user productivity.",
     "img": "./img/logos/AWS/Business Productivity/BusinessProductivity_AmazonWorkDocs.svg",
     "dependencies": {
@@ -652,6 +672,7 @@
     "service": "Amazon WorkMail",
     "provider": "Amazon",
     "category": "Business Productivity",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon WorkMail is a secure, managed business email and calendar service with support for existing desktop and mobile email client applications. ",
     "img": "./img/logos/AWS/Business Productivity/BusinessProductivity_AmazonWorkMail.svg",
     "dependencies": {
@@ -683,6 +704,7 @@
     "service": "Amazon Chime",
     "provider": "Amazon",
     "category": "Business Productivity",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Chime is a communications service that transforms online meetings with a secure, easy-to-use application that you can trust. ",
     "img": "./img/logos/AWS/Business Productivity/BusinessProductivity_AmazonChime.svg",
     "dependencies": {
@@ -711,6 +733,7 @@
     "service": "Amazon EC2",
     "provider": "Amazon",
     "category": "Compute",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud.",
     "img": "./img/logos/AWS/Compute/Compute_AmazonEC2.svg",
     "dependencies": {
@@ -738,6 +761,7 @@
     "service": "Amazon EC2 Container Registry",
     "provider": "Amazon",
     "category": "Compute",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon EC2 Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images.",
     "img": "./img/logos/AWS/Compute/Compute_AmazonECR_ECRRegistry.svg",
     "dependencies": {
@@ -768,6 +792,7 @@
     "service": "Amazon EC2 Container Service",
     "provider": "Amazon",
     "category": "Compute",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon EC2 Container Service (ECS) is a highly scalable, high performance container management service that supports Docker containers and allows you to easily run applications on a managed cluster of Amazon EC2 instances. ",
     "img": "./img/logos/AWS/Compute/Compute_AmazonECS.svg",
     "dependencies": {
@@ -806,6 +831,7 @@
     "service": "Amazon Lightsail",
     "provider": "Amazon",
     "category": "Compute",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Lightsail is the easiest way to get started with AWS for developers who just need virtual private servers. Lightsail includes everything you need to launch your project quickly",
     "img": "./img/logos/AWS/Compute/Compute_AmazonLightsail.svg",
     "dependencies": {
@@ -839,6 +865,7 @@
     "service": "Amazon VPC",
     "provider": "Amazon",
     "category": "Compute",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Virtual Private Cloud (Amazon VPC) lets you provision a logically isolated section of the Amazon Web Services (AWS) cloud where you can launch AWS resources in a virtual network that you define. ",
     "img": "./img/logos/AWS/Compute/Compute_AmazonVPC.svg",
     "dependencies": {
@@ -875,6 +902,7 @@
     "service": "Amazon VPC",
     "provider": "Amazon",
     "category": "Network & Content Delivery",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Virtual Private Cloud (Amazon VPC) lets you provision a logically isolated section of the Amazon Web Services (AWS) cloud where you can launch AWS resources in a virtual network that you define. ",
     "img": "./img/logos/AWS/Compute/Compute_AmazonVPC.svg",
     "dependencies": {
@@ -914,6 +942,7 @@
     "service": "AWS Batch",
     "provider": "Amazon",
     "category": "Compute",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Batch dynamically provisions the optimal quantity and type of compute resources (e.g., CPU or memory optimized instances) based on the volume and specific resource requirements of the batch jobs submitted.",
     "img": "./img/logos/AWS/Compute/Compute_AWSBatch.svg",
     "dependencies": {
@@ -952,6 +981,7 @@
     "service": "AWS Elastic Beanstalk",
     "provider": "Amazon",
     "category": "Compute",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "You can simply upload your code and Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring. ",
     "img": "./img/logos/AWS/Compute/Compute_AWSElasticBeanstalk.svg",
     "dependencies": {
@@ -1015,6 +1045,7 @@
     "service": "AWS Lambda",
     "provider": "Amazon",
     "category": "Compute",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume - there is no charge when your code is not running. With Lambda, you can run code for virtually any type of application or backend service - all with zero administration. ",
     "img": "./img/logos/AWS/Compute/Compute_AWSLambda.svg",
     "dependencies": {
@@ -1135,6 +1166,7 @@
     "service": "Auto Scaling",
     "provider": "Amazon",
     "category": "Compute",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Auto Scaling helps you maintain application availability and allows you to dynamically scale your Amazon EC2 capacity up or down automatically according to conditions you define.",
     "img": "./img/logos/AWS/Compute/Compute_AmazonEC2_AutoScaling.svg",
     "dependencies": {
@@ -1167,6 +1199,7 @@
     "service": "Amazon Connect",
     "provider": "Amazon",
     "category": "Contact Center",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Connect is a self-service, cloud-based contact center service that makes it easy for any business to deliver better customer service at lower cost.",
     "img": "./img/logos/AWS/Contact Center/ContactCenter_AmazonConnect.svg",
     "dependencies": {
@@ -1197,6 +1230,7 @@
     "service": "Amazon Aurora",
     "provider": "Amazon",
     "category": "Databases",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Aurora is a MySQL and PostgreSQL-compatible relational database engine that combines the speed and availability of high-end commercial databases with the simplicity and cost-effectiveness of open source databases.",
     "img": "./img/logos/AWS/Database/Database_AmazonRDS.svg",
     "dependencies": {
@@ -1229,6 +1263,7 @@
     "service": "Amazon RDS",
     "provider": "Amazon",
     "category": "Databases",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud. ",
     "img": "./img/logos/AWS/Database/Database_AmazonRDS.svg",
     "dependencies": {
@@ -1256,6 +1291,7 @@
     "service": "Amazon DynamoDB",
     "provider": "Amazon",
     "category": "Databases",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon DynamoDB is a fast and flexible NoSQL databaseservice for all applications that need consistent, single-digit millisecond latency at any scale.",
     "img": "./img/logos/AWS/Database/Database_AmazonDynamoDB.svg",
     "dependencies": {
@@ -1284,6 +1320,7 @@
     "service": "Amazon DynamoDB Accelerator (DAX)",
     "provider": "Amazon",
     "category": "Databases",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon DynamoDB Accelerator (DAX) is a fully managed, highly available, in-memory cache for DynamoDB that delivers up to a 10x performance improvement",
     "img": "./img/logos/AWS/Database/Database_AmazonDynamoDBAccelerator.svg",
     "dependencies": {
@@ -1314,6 +1351,7 @@
     "service": "Amazon ElastiCache",
     "provider": "Amazon",
     "category": "Databases",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon ElastiCache is a web service that makes it easy to deploy, operate, and scale an in-memory data store or cache in the cloud. ",
     "img": "./img/logos/AWS/Database/Database_AmazonElasticCache.svg",
     "dependencies": {
@@ -1343,6 +1381,7 @@
     "service": "AWS Database Migration Service",
     "provider": "Amazon",
     "category": "Databases",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Database Migration Service helps you migrate databases to AWS quickly and securely.",
     "img": "./img/logos/AWS/Migration/Migration_AWSDMS.svg",
     "dependencies": {
@@ -1369,6 +1408,7 @@
     "service": "AWS Database Migration Service",
     "provider": "Amazon",
     "category": "Migration",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Database Migration Service helps you migrate databases to AWS quickly and securely.",
     "img": "./img/logos/AWS/Migration/Migration_AWSDMS.svg",
     "dependencies": {
@@ -1394,6 +1434,7 @@
     "service": "Amazon WorkSpaces",
     "provider": "Amazon",
     "category": "Desktop & App Streaming",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon WorkSpaces is a fully managed, secure Desktop-as-a-Service (DaaS) solution which runs on AWS. ",
     "img": "./img/logos/AWS/Desktop & App Streaming/DesktopAppStreaming_AmazonWorkSpaces.svg",
     "dependencies": {
@@ -1424,6 +1465,7 @@
     "service": "Amazon AppStream 2.0",
     "provider": "Amazon",
     "category": "Desktop & App Streaming",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon AppStream 2.0 is a fully managed, secure application streaming service that allows you to stream desktop applications from AWS to any device running a web browser, without rewriting them. ",
     "img": "./img/logos/AWS/Desktop & App Streaming/DesktopAppStreaming_AmazonAppStream2.0.svg",
     "dependencies": {
@@ -1465,6 +1507,7 @@
     "service": "AWS CodeStar",
     "provider": "Amazon",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS CodeStar enables you to quickly develop, build, and deploy applications on AWS. AWS CodeStar provides a unified user interface, enabling you to easily manage your software development activities in one place. ",
     "img": "./img/logos/AWS/Developer Tools/DeveloperTools_AWSCodeStar.svg",
     "dependencies": {
@@ -1503,6 +1546,7 @@
     "service": "AWS CodeCommit",
     "provider": "Amazon",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS CodeCommit is a fully-managed source control service that makes it easy for companies to host secure and highly scalable private Git repositories. ",
     "img": "./img/logos/AWS/Developer Tools/DeveloperTools_AWSCodeCommit.svg",
     "dependencies": {
@@ -1536,6 +1580,7 @@
     "service": "AWS CodeBuild",
     "provider": "Amazon",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS CodeBuild is a fully managed build service that compiles source code, runs tests, and produces software packages that are ready to deploy. ",
     "img": "./img/logos/AWS/Developer Tools/DeveloperTools_AWSCodeBuild.svg",
     "dependencies": {
@@ -1571,6 +1616,7 @@
     "service": "AWS CodeDeploy",
     "provider": "Amazon",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS CodeDeploy is a service that automates code deployments to any instance, including Amazon EC2 instances and instances running on-premises.",
     "img": "./img/logos/AWS/Developer Tools/DeveloperTools_AWSCodeDeploy.svg",
     "dependencies": {
@@ -1600,6 +1646,7 @@
     "service": "AWS CodePipeline",
     "provider": "Amazon",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS CodePipeline is a continuous integration and continuous delivery service for fast and reliable application and infrastructure updates.",
     "img": "./img/logos/AWS/Developer Tools/DeveloperTools_AWSCodePipeline.svg",
     "dependencies": {
@@ -1628,6 +1675,7 @@
     "service": "AWS X-Ray",
     "provider": "Amazon",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture. ",
     "img": "./img/logos/AWS/Developer Tools/DeveloperTools_AWSX-Ray.svg",
     "dependencies": {
@@ -1661,6 +1709,7 @@
     "service": "AWS Command Line Interface",
     "provider": "Amazon",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services. ",
     "img": "./img/logos/AWS/SDKs/SDKs_AWSCLI.svg",
     "dependencies": {
@@ -1689,6 +1738,7 @@
     "service": "Amazon GameLift",
     "provider": "Amazon",
     "category": "Game Development",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon GameLift is a managed service for deploying, operating, and scaling dedicated game servers for session-based multiplayer games. Amazon GameLift makes it easy to manage server infrastructure, scale capacity to lower latency and cost, match players into available game sessions, and defend from distributed denial-of-service (DDoS) attacks. ",
     "img": "./img/logos/AWS/Game Development/GameDevelopment_AmazonGameLift.svg",
     "dependencies": {
@@ -1737,6 +1787,7 @@
     "service": "Amazon Lumberyard",
     "provider": "Amazon",
     "category": "Game Development",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Lumberyard is a free AAA game engine deeply integrated with AWS and Twitch ? with full source.",
     "img": "./img/logos/AWS/_/Lumberyard_Logo.png",
     "dependencies": {
@@ -1766,6 +1817,7 @@
     "service": "AWS IoT Platform",
     "provider": "Amazon",
     "category": "Internet of Things",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS IoT is a managed cloud platform that lets connected devices easily and securely interact with cloud applications and other devices. ",
     "img": "./img/logos/AWS/Internet Of Things/InternetOfThings_AWSIoT.svg",
     "dependencies": {
@@ -1799,6 +1851,7 @@
     "service": "AWS Greengrass",
     "provider": "Amazon",
     "category": "Internet of Things",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Greengrass is software that lets you run local compute, messaging & data caching for connected devices in a secure way.",
     "img": "./img/logos/AWS/Internet Of Things/InternetOfThings_AWSIoT_AWSGreengrass.svg",
     "dependencies": {
@@ -1832,6 +1885,7 @@
     "service": "AWS IoT Button",
     "provider": "Amazon",
     "category": "Internet of Things",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "The AWS IoT Button is a programmable button based on the Amazon Dash Button hardware. ",
     "img": "./img/logos/AWS/General/General_AWScloud.svg",
     "dependencies": {
@@ -1860,6 +1914,7 @@
     "service": "Amazon CloudWatch",
     "provider": "Amazon",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon CloudWatch is a monitoring service for AWS cloud resources and the applications you run on AWS.",
     "img": "./img/logos/AWS/Management Tools/ManagementTools_AmazonCloudWatch.svg",
     "dependencies": {
@@ -1885,6 +1940,7 @@
     "service": "AWS CloudFormation",
     "provider": "Amazon",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS CloudFormation gives developers and systems administrators an easy way to create and manage a collection of related AWS resources, provisioning and updating them in an orderly and predictable fashion",
     "img": "./img/logos/AWS/Management Tools/ManagementTools_AWSCloudFormation.svg",
     "dependencies": {
@@ -1921,6 +1977,7 @@
     "service": "AWS CloudTrail",
     "provider": "Amazon",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS CloudTrail is a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account. With CloudTrail, you can log, continuously monitor, and retain account activity related to actions across your AWS infrastructure",
     "img": "./img/logos/AWS/Management Tools/ManagementTools_AWSCloudTrail.svg",
     "dependencies": {
@@ -1958,6 +2015,7 @@
     "service": "AWS Config",
     "provider": "Amazon",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Config is a service that enables you to assess, audit, and evaluate the configurations of your AWS resources",
     "img": "./img/logos/AWS/Management Tools/ManagementTools_AWSConfig.svg",
     "dependencies": {
@@ -1984,6 +2042,7 @@
     "service": "AWS OpsWorks",
     "provider": "Amazon",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS OpsWorks is a configuration management service that uses Chef, an automation platform that treats server configurations as code.",
     "img": "./img/logos/AWS/Management Tools/ManagementTools_AWSOpsWorks.svg",
     "dependencies": {
@@ -2014,6 +2073,7 @@
     "service": "AWS Service Catalog",
     "provider": "Amazon",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Service Catalog allows organizations to create and manage catalogs of IT services that are approved for use on AWS.",
     "img": "./img/logos/AWS/Management Tools/ManagementTools_AWSServiceCatalog.svg",
     "dependencies": {
@@ -2043,6 +2103,7 @@
     "service": "AWS Trusted Advisor",
     "provider": "Amazon",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "An online resource to help you reduce cost, increase performance, and improve security by optimizing your AWS environment, Trusted Advisor provides real time guidance to help you provision your resources following AWS best practices.",
     "img": "./img/logos/AWS/Management Tools/ManagementTools_AWSTrustedAdvisor.svg",
     "dependencies": {
@@ -2084,6 +2145,7 @@
     "service": "Amazon EC2 Systems Manager",
     "provider": "Amazon",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon EC2 Systems Manager is a management service that helps you automatically collect software inventory, apply OS patches, create system images, and configure Windows and Linux operating systems.",
     "img": "./img/logos/AWS/Management Tools/ManagementTools_AmazonEC2SystemsManager.svg",
     "dependencies": {
@@ -2122,6 +2184,7 @@
     "service": "AWS Personal Health Dashboard",
     "provider": "Amazon",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Personal Health Dashboard provides alerts and remediation guidance when AWS is experiencing events that may impact you. While the Service Health Dashboard displays the general status of AWS services, Personal Health Dashboard gives you a personalized view into the performance and availability of the AWS services underlying your AWS resources.",
     "img": "./img/logos/AWS/General/General_AWScloud.svg",
     "dependencies": {
@@ -2164,6 +2227,7 @@
     "service": "Amazon Simple Queue Service",
     "provider": "Amazon",
     "category": "Messaging",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Simple Queue Service (SQS) is a fully managed message queuing service that makes it easy to decouple and scale microservices, distributed systems, and serverless applications.",
     "img": "./img/logos/AWS/Messaging/Messaging_AmazonSQS.svg",
     "dependencies": {
@@ -2197,6 +2261,7 @@
     "service": "Amazon Simple Notification Service",
     "provider": "Amazon",
     "category": "Messaging",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Simple Notification Service (SNS) is a flexible, fully managed pub/sub messaging and mobile notifications service for coordinating the delivery of messages to subscribing endpoints and clients.",
     "img": "./img/logos/AWS/Messaging/Messaging_AmazonSNS.svg",
     "dependencies": {
@@ -2231,6 +2296,7 @@
     "service": "Amazon Simple Email Service",
     "provider": "Amazon",
     "category": "Messaging",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Pinpoint makes it easy to message users directly from your application or backend service, or run targeted campaigns to drive user engagement.",
     "img": "./img/logos/AWS/Messaging/Messaging_AmazonSES.svg",
     "dependencies": {
@@ -2264,6 +2330,7 @@
     "service": "Amazon Pinpoint",
     "provider": "Amazon",
     "category": "Messaging",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Simple Email Service (Amazon SES) evolved from the email platform that Amazon.com created to communicate with its own customers. ",
     "img": "./img/logos/AWS/Messaging/Messaging_AmazonPinpoint.svg",
     "dependencies": {
@@ -2295,6 +2362,7 @@
     "service": "Amazon Pinpoint",
     "provider": "Amazon",
     "category": "Mobile Services",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Simple Email Service (Amazon SES) evolved from the email platform that Amazon.com created to communicate with its own customers. ",
     "img": "./img/logos/AWS/Messaging/Messaging_AmazonPinpoint.svg",
     "dependencies": {
@@ -2327,6 +2395,7 @@
     "service": "AWS Application Discovery Service",
     "provider": "Amazon",
     "category": "Migration",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Application Discovery Service helps enterprise customers plan migration projects by gathering information about their on-premises data centers.",
     "img": "./img/logos/AWS/Migration/Migration_AWSApplicationDiscoveryService.svg",
     "dependencies": {
@@ -2360,6 +2429,7 @@
     "service": "AWS Migration Hub",
     "provider": "Amazon",
     "category": "Migration",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Migration Hub provides a single location to track the progress of application migrations across multiple AWS and partner solutions.",
     "img": "./img/logos/AWS/Migration/Migration_AWSMigrationHub.svg",
     "dependencies": {
@@ -2389,6 +2459,7 @@
     "service": "AWS Server Migration Service",
     "provider": "Amazon",
     "category": "Migration",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Server Migration Service (SMS) is an agentless service which makes it easier and faster for you to migrate thousands of on-premises workloads to AWS.",
     "img": "./img/logos/AWS/Migration/Migration_AWSSMS.svg",
     "dependencies": {
@@ -2418,6 +2489,7 @@
     "service": "AWS Snowbball",
     "provider": "Amazon",
     "category": "Migration",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Snowball is a petabyte-scale data transport solution that uses secure appliances to transfer large amounts of data into and out of the AWS cloud. ",
     "img": "./img/logos/AWS/Storage/Storage_AWSSnowball.svg",
     "dependencies": {
@@ -2450,6 +2522,7 @@
     "service": "AWS Snowbball",
     "provider": "Amazon",
     "category": "Storage",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Snowball is a petabyte-scale data transport solution that uses secure appliances to transfer large amounts of data into and out of the AWS cloud. ",
     "img": "./img/logos/AWS/Storage/Storage_AWSSnowball.svg",
     "dependencies": {
@@ -2482,6 +2555,7 @@
     "service": "AWS Snowball Edge",
     "provider": "Amazon",
     "category": "Migration",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Snowball Edge is a 100TB data transfer device with on-board storage and compute capabilities.",
     "img": "./img/logos/AWS/General/General_AWScloud.svg",
     "dependencies": {
@@ -2509,6 +2583,7 @@
     "service": "AWS Snowball Edge",
     "provider": "Amazon",
     "category": "Storage",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Snowball Edge is a 100TB data transfer device with on-board storage and compute capabilities.",
     "img": "./img/logos/AWS/General/General_AWScloud.svg",
     "dependencies": {
@@ -2536,6 +2611,7 @@
     "service": "AWS Snowmobile",
     "provider": "Amazon",
     "category": "Migration",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Snowmobile is an Exabyte-scale data transfer service used to move extremely large amounts of data to AWS.",
     "img": "./img/logos/AWS/General/General_AWScloud.svg",
     "dependencies": {
@@ -2563,6 +2639,7 @@
     "service": "AWS Snowmobile",
     "provider": "Amazon",
     "category": "Storage",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Snowmobile is an Exabyte-scale data transfer service used to move extremely large amounts of data to AWS.",
     "img": "./img/logos/AWS/General/General_AWScloud.svg",
     "dependencies": {
@@ -2590,6 +2667,7 @@
     "service": "AWS Mobile Hub",
     "provider": "Amazon",
     "category": "Mobile Services",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS provides a range of services to help you develop mobile apps that can scale to hundreds of millions of users, and reach global audiences.",
     "img": "./img/logos/AWS/Mobile Services/MobileServices_AWSMobileHub.svg",
     "dependencies": {
@@ -2623,6 +2701,7 @@
     "service": "Amazon Cognito",
     "provider": "Amazon",
     "category": "Mobile Services",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. ",
     "img": "./img/logos/AWS/Mobile Services/MobileServices_AmazonCognito.svg",
     "dependencies": {
@@ -2656,6 +2735,7 @@
     "service": "AWS Device Farm",
     "provider": "Amazon",
     "category": "Mobile Services",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and web apps.",
     "img": "./img/logos/AWS/Mobile Services/MobileServices_AWSDeviceFarm.svg",
     "dependencies": {
@@ -2686,6 +2766,7 @@
     "service": "AWS Mobile SDK",
     "provider": "Amazon",
     "category": "Mobile Services",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "The AWS Mobile SDK helps you build high quality mobile apps quickly and easily. ",
     "img": "./img/logos/AWS/Mobile Services/General_AWScloud.svg",
     "dependencies": {
@@ -2715,6 +2796,7 @@
     "service": "Amazon API Gateway",
     "provider": "Amazon",
     "category": "Mobile Services",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. ",
     "img": "./img/logos/AWS/Mobile Services/MobileServices_AmazonAPIGateway.svg",
     "dependencies": {
@@ -2747,6 +2829,7 @@
     "service": "Amazon API Gateway",
     "provider": "Amazon",
     "category": "Application Services",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. ",
     "img": "./img/logos/AWS/Mobile Services/MobileServices_AmazonAPIGateway.svg",
     "dependencies": {
@@ -2779,6 +2862,7 @@
     "service": "Amazon CloudFront",
     "provider": "Amazon",
     "category": "Network & Content Delivery",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon CloudFront is a global content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to your viewers with low latency and high transfer speeds",
     "img": "./img/logos/AWS/Networking & Content Delivery/NetworkingContentDelivery_AmazonCloudFront.svg",
     "dependencies": {
@@ -2817,6 +2901,7 @@
     "service": "Amazon Direct Connect",
     "provider": "Amazon",
     "category": "Network & Content Delivery",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Direct Connect makes it easy to establish a dedicated network connection from your premises to AWS.",
     "img": "./img/logos/AWS/Networking & Content Delivery/NetworkingContentDelivery_AWSDirectConnect.svg",
     "dependencies": {
@@ -2845,6 +2930,7 @@
     "service": "Amazon Route 53",
     "provider": "Amazon",
     "category": "Network & Content Delivery",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS)web service. ",
     "img": "./img/logos/AWS/Networking & Content Delivery/NetworkingContentDelivery_AmazonRoute53.svg",
     "dependencies": {
@@ -2876,6 +2962,7 @@
     "service": "Elastic Load Balancing",
     "provider": "Amazon",
     "category": "Compute",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, and IP addresses.",
     "img": "./img/logos/AWS/Compute/Compute_ElasticLoadBalancing.svg",
     "dependencies": {
@@ -2909,6 +2996,7 @@
     "service": "Elastic Load Balancing",
     "provider": "Amazon",
     "category": "Network & Content Delivery",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, and IP addresses.",
     "img": "./img/logos/AWS/Compute/Compute_ElasticLoadBalancing.svg",
     "dependencies": {
@@ -2945,6 +3033,7 @@
     "service": "Amazon Cloud Directory",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Cloud Directory enables you to build flexible cloud-native directories for organizing hierarchies of data along multiple dimensions. ",
     "img": "./img/logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AmazonCloudDirectory.svg",
     "dependencies": {
@@ -2978,6 +3067,7 @@
     "service": "AWS Identity & Access Management",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Identity and Access Management (IAM) enables you to securely control access to AWS services and resources for your users. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources. ",
     "img": "./img/logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_IAM.svg",
     "dependencies": {
@@ -3017,6 +3107,7 @@
     "service": "Amazon Inspector",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS. ",
     "img": "./img/logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AmazonInspector.svg",
     "dependencies": {
@@ -3048,6 +3139,7 @@
     "service": "Amazon Macie",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Macie is a security service that uses machine learning to automatically discover, classify, and protect sensitive data in AWS.",
     "img": "./img/logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AmazonMacie.svg",
     "dependencies": {
@@ -3080,6 +3172,7 @@
     "service": "AWS Certificate Manager",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Certificate Manager is a service that lets you easily provision, manage, and deploy Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates for use with AWS services.",
     "img": "./img/logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSCertificateManager.svg",
     "dependencies": {
@@ -3116,6 +3209,7 @@
     "service": "AWS Cloud HSM",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS CloudHSM is a cloud-based hardware security module (HSM) that enables you to easily generate and use your own encryption keys on the AWS Cloud. With CloudHSM, you can manage your own encryption keys using FIPS 140-2 Level 3 validated HSMs.",
     "img": "./img/logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSCloudHSM.svg",
     "dependencies": {
@@ -3157,6 +3251,7 @@
     "service": "AWS Directory Service",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Directory Service for Microsoft Active Directory (Enterprise Edition), also known as AWS Microsoft AD, enables your directory-aware workloads and AWS resources to use managed Active Directory in the AWS Cloud.",
     "img": "./img/logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSDirectoryService.svg",
     "dependencies": {
@@ -3192,6 +3287,7 @@
     "service": "AWS Key Management Service",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Key Management Service (KMS) is a managed service that makes it easy for you to create and control the encryption keys used to encrypt your data, and uses Hardware Security Modules (HSMs) to protect the security of your keys.",
     "img": "./img/logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSKMS.svg",
     "dependencies": {
@@ -3233,6 +3329,7 @@
     "service": "AWS Organizations",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Organizations offers policy-based management for multiple AWS accounts.",
     "img": "./img/logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSOrganizations.svg",
     "dependencies": {
@@ -3259,6 +3356,7 @@
     "service": "AWS Shield",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards web applications running on AWS.",
     "img": "./img/logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSShield.svg",
     "dependencies": {
@@ -3291,6 +3389,7 @@
     "service": "AWS WAF",
     "provider": "Amazon",
     "category": "Security, Identity & Compliance",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS WAF is a web application firewall that helps protect your web applications from common web exploits that could affect application availability, compromise security, or consume excessive resources. AWS WAF gives you control over which traffic to allow or block to your web applications by defining customizable web security rules.",
     "img": "./img/logos/AWS/Security Identity & Compliance/SecurityIdentityCompliance_AWSWAF.svg",
     "dependencies": {
@@ -3338,6 +3437,7 @@
     "service": "Amazon S3",
     "provider": "Amazon",
     "category": "Storage",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon S3 is a object storage built to store and retrieve any amount of data from anywhere",
     "img": "./img/logos/AWS/Storage/Storage_AmazonS3.svg",
     "dependencies": {
@@ -3363,6 +3463,7 @@
     "service": "Amazon EBS",
     "provider": "Amazon",
     "category": "Storage",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Elastic Block Store (Amazon EBS) provides persistent block storage volumes for use with Amazon EC2 instances in the AWS Cloud.",
     "img": "./img/logos/AWS/Storage/Storage_AmazonEBS.svg",
     "dependencies": {
@@ -3392,6 +3493,7 @@
     "service": "Amazon EFS",
     "provider": "Amazon",
     "category": "Storage",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Elastic File System (Amazon EFS) provides simple, scalable file storage for use with Amazon EC2 instances in the AWS Cloud.",
     "img": "./img/logos/AWS/Storage/Storage_AmazonEFS.svg",
     "dependencies": {
@@ -3421,6 +3523,7 @@
     "service": "Amazon Glacier",
     "provider": "Amazon",
     "category": "Storage",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "Amazon Glacier is a secure, durable, and extremely low-cost cloud storage service for data archiving and long-term backup. ",
     "img": "./img/logos/AWS/Storage/Storage_AmazonGlacier.svg",
     "dependencies": {
@@ -3450,6 +3553,7 @@
     "service": "AWS Storage Gateway",
     "provider": "Amazon",
     "category": "Storage",
+    "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "description": "AWS Storage Gateway is a hybrid storage service that enables your on-premises applications to seamlessly use AWS cloud storage. ",
     "img": "./img/logos/AWS/Storage/Storage_AWSStorageGateway.svg",
     "dependencies": {
@@ -3477,6 +3581,7 @@
     "service": "Apigee API Platform",
     "provider": "Google",
     "category": "API Platform and Ecosystem",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Apigee is a full lifecycle API management platform that enables API providers to design, secure, deploy, monitor, and scale APIs",
     "img": "./img/logos/Google/API Platform & Ecosystems/Apigee API Platform.svg",
     "dependencies": {
@@ -3509,6 +3614,7 @@
     "service": "API Monetization",
     "provider": "Google",
     "category": "API Platform and Ecosystem",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "API monetization is a key way to unlock value from your API programs and increase API adoption",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -3537,6 +3643,7 @@
     "service": "API Analytics",
     "provider": "Google",
     "category": "API Platform and Ecosystem",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Gain end-to-end visibility across APIs programs with the operational, developer engagement, and business metrics required to monitor, measure, and manage API programs",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -3572,6 +3679,7 @@
     "service": "Apigee Sense",
     "provider": "Google",
     "category": "API Platform and Ecosystem",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Apigee Sense works in conjunction with the Apigee Edge API Management Platform to give API teams a powerful weapon to protect APIs from attacks",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -3604,6 +3712,7 @@
     "service": "Cloud Endpoints",
     "provider": "Google",
     "category": "API Platform and Ecosystem",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Develop, deploy, protect and monitor your APIs with Google Cloud Endpoints.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -3630,6 +3739,7 @@
     "service": "BigQuery",
     "provider": "Google",
     "category": "BigData",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "BigQuery is Google's fully managed, petabyte scale, low cost enterprise data warehouse for analytics.BigQuery is serverless. ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -3660,6 +3770,7 @@
     "service": "Cloud Dataflow",
     "provider": "Google",
     "category": "BigData",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Cloud Dataflow is a fully-managed service for transforming and enriching data in stream (real time) and batch (historical) modes with equal reliability and expressiveness",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -3692,6 +3803,7 @@
     "service": "Cloud Dataproc",
     "provider": "Google",
     "category": "BigData",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Cloud Dataproc is a fast, easy-to-use, fully-managed cloud service for running Apache Spark and Apache Hadoop clusters in a simpler, more cost-efficient way. ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -3725,6 +3837,7 @@
     "service": "Cloud Datalab",
     "provider": "Google",
     "category": "BigData",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Cloud Datalab is a powerful interactive tool created to explore, analyze, transform and visualize data and build machine learning models on Google Cloud Platform.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -3757,6 +3870,7 @@
     "service": "Cloud Dataprep",
     "provider": "Google",
     "category": "BigData",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Cloud Dataprep is an intelligent data service for visually exploring, cleaning, and preparing structured and unstructured data for analysis",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -3785,6 +3899,7 @@
     "service": "Cloud Pub/Sub",
     "provider": "Google",
     "category": "BigData",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Cloud Pub/Sub is a simple, reliable, scalable foundation for stream analytics and event-driven computing systems. ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -3814,6 +3929,7 @@
     "service": "Genomics",
     "provider": "Google",
     "category": "BigData",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Genomics helps the life science community organize the world?s genomic information and make it accessible and useful. ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -3843,6 +3959,7 @@
     "service": "Google Data Studio",
     "provider": "Google",
     "category": "BigData",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Data Studio turns your data into informative dashboards and reports that are easy to read, easy to share, and fully customizable.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -3872,6 +3989,7 @@
     "service": "Cloud Services",
     "provider": "Google",
     "category": "Compute",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Azure Cloud Services removes the need to manage server infrastructure. With web and worker roles, it lets you quickly build, deploy, and manage modern applications.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -3906,6 +4024,7 @@
     "service": "Compute Engine",
     "provider": "Google",
     "category": "Compute",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Compute Engine delivers virtual machines running in Google's innovative data centers and worldwide fiber network. Compute Engine's tooling and workflow support enable scaling from single instances to global, load-balanced cloud computing.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -3946,6 +4065,7 @@
     "service": "App Engine",
     "provider": "Google",
     "category": "Compute",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google App Engine is a fully managed platform that completely abstracts away infrastructure so you focus only on code.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -3974,6 +4094,7 @@
     "service": "Container Engine",
     "provider": "Google",
     "category": "Compute",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Container Engine is a managed environment for deploying containerized applications. It brings our latest innovations in developer productivity, resource efficiency, automated operations, and open source flexibility to accelerate your time to market.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4013,6 +4134,7 @@
     "service": "Cloud Functions",
     "provider": "Google",
     "category": "Compute",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Cloud computing has made possible fully serverless models of computing where logic can be spun up on-demand in response to events originating from anywhere.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4045,6 +4167,7 @@
     "service": "Cloud SDK",
     "provider": "Google",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "The Cloud SDK is a set of tools for Cloud Platform. It contains gcloud, gsutil, and bq, which you can use to access Google Compute Engine, Google Cloud Storage, Google BigQuery, and other products and services from the command-line. ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4082,6 +4205,7 @@
     "service": "Container Registry",
     "provider": "Google",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Store your private Docker container images on Cloud Platform for fast, scalable retrieval and deployment.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4112,6 +4236,7 @@
     "service": "Container Builder",
     "provider": "Google",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Run your container image builds in a fast, consistent, and reliable environment on Google Cloud Platform. Build in any language and package your build artifacts into Docker containers for deployment. ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4150,6 +4275,7 @@
     "service": "Cloud Source repositories",
     "provider": "Google",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Cloud Source Repositories provides Git version control to support collaborative development of any application or service, including those that run on Google App Engine and Google Compute Engine.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4186,6 +4312,7 @@
     "service": "Cloud Tools for IntelliJ",
     "provider": "Google",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Using Cloud Tools for IntelliJ you can easily deploy Java backends for your cloud apps to the Google App Engine standard and flexible environments",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4218,6 +4345,7 @@
     "service": "Cloud Tools for Powershell",
     "provider": "Google",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Cloud Tools for PowerShell lets you script, automate, and manage your Windows workloads running on Cloud Platform",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4247,6 +4375,7 @@
     "service": "Cloud Tools for Visual Studio",
     "provider": "Google",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Cloud Tools for Visual Studio is a powerful environment to build Windows and .NET applications and deploy them to Cloud Platform directly from your favorite IDE",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4280,6 +4409,7 @@
     "service": "Cloud Tools for Eclipse",
     "provider": "Google",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Cloud Tools for Eclipse is a Google-sponsored open source plugin that supports the App Engine standard environment inside the Eclipse IDE.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4311,6 +4441,7 @@
     "service": "Gradle App Engine Plugin",
     "provider": "Google",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4333,6 +4464,7 @@
     "service": "Maven App Engine Plugin",
     "provider": "Google",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4355,6 +4487,7 @@
     "service": "Cloud Test Lab",
     "provider": "Google",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4376,6 +4509,7 @@
     "service": "Cloud IAM",
     "provider": "Google",
     "category": "Identity and Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Cloud Identity & Access Management (IAM) lets administrators authorize who can take action on specific resources, giving you full control and visibility to manage cloud resources centrally",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4414,6 +4548,7 @@
     "service": "Cloud Identity Aware Proxy",
     "provider": "Google",
     "category": "Identity and Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Cloud Identity-Aware Proxy (Cloud IAP) controls access to your cloud applications running on Google Cloud Platform.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4443,6 +4578,7 @@
     "service": "Cloud Data Loss Prevention API",
     "provider": "Google",
     "category": "Identity and Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "The DLP API lets you understand and manage sensitive data. It provides fast, scalable classification and optional redaction for sensitive data elements like credit card numbers, names, social security numbers, passport numbers, US and selected international driver?s license numbers, phone numbers, and more. ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4495,6 +4631,7 @@
     "service": "Cloud Key Management Service",
     "provider": "Google",
     "category": "Identity and Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Cloud KMS is a cloud-hosted key management service that lets you manage encryption for your cloud services the same way you do on-premises",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4531,6 +4668,7 @@
     "service": "Cloud Resource Manager",
     "provider": "Google",
     "category": "Identity and Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Cloud Platform provides resource containers such as Organizations, Folders, and Projects, that allow you to group and hierarchically organize other Cloud Platform resources",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4566,6 +4704,7 @@
     "service": "Cloud Security Scanner",
     "provider": "Google",
     "category": "Identity and Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Cloud Security Scanner is a web security scanner for common vulnerabilities in Google App Engine applications. It can automatically scan and detect four common vulnerabilities, including cross-site-scripting (XSS), Flash injection, mixed content (HTTP in HTTPS), and outdated/insecure libraries",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4609,6 +4748,7 @@
     "service": "Cloud Platform Security Overview",
     "provider": "Google",
     "category": "Identity and Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "The Google security model is an end-to-end process, built on over 15 years of experience focused on keeping customers safe on Google applications like Gmail, Search and other Apps",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4649,6 +4789,7 @@
     "service": "Cloud IoT Core",
     "provider": "Google",
     "category": "Internet of Things",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Cloud IoT Core is a fully managed service that allows you to easily and securely connect, manage, and ingest data from millions of globally dispersed devices. ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4685,6 +4826,7 @@
     "service": "Cloud Machine Learning Engine",
     "provider": "Google",
     "category": "Machine Learning",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Cloud Machine Learning Engine is a managed service that enables you to easily build machine learning models that work on any type of data, of any size.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4716,6 +4858,7 @@
     "service": "Cloud Jobs API",
     "provider": "Google",
     "category": "Machine Learning",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Cloud Jobs API is proud to be part of Google for Jobs - a broader commitment to help people find jobs more easily.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4747,6 +4890,7 @@
     "service": "Cloud Natural Language API",
     "provider": "Google",
     "category": "Machine Learning",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Cloud Natural Language API reveals the structure and meaning of text by offering powerful machine learning models in an easy to use REST API. ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4780,6 +4924,7 @@
     "service": "Cloud Speech API",
     "provider": "Google",
     "category": "Machine Learning",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Cloud Speech API enables developers to convert audio to text by applying powerful neural network models in an easy to use API. ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4812,6 +4957,7 @@
     "service": "Cloud Translation API",
     "provider": "Google",
     "category": "Machine Learning",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Cloud Translation API provides a simple programmatic interface for translating an arbitrary string into any supported language using state-of-the-art Neural Machine Translation. ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4844,6 +4990,7 @@
     "service": "Cloud Vision API",
     "provider": "Google",
     "category": "Machine Learning",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Cloud Vision API enables developers to understand the content of an image by encapsulating powerful machine learning models in an easy to use REST API",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4876,6 +5023,7 @@
     "service": "Cloud Video Intelligence API",
     "provider": "Google",
     "category": "Machine Learning",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Cloud Video Intelligence API makes videos searchable, and discoverable, by extracting metadata with an easy to use REST API. ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4905,6 +5053,7 @@
     "service": "Stackdriver Overview",
     "provider": "Google",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Stackdriver provides powerful monitoring, logging, and diagnostics. It equips you with insight into the health, performance, and availability of cloud-powered applications, enabling you to find and fix issues faster.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4941,6 +5090,7 @@
     "service": "Monitoring",
     "provider": "Google",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Stackdriver Monitoring provides visibility into the performance, uptime, and overall health of cloud-powered applications. ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -4969,6 +5119,7 @@
     "service": "Logging",
     "provider": "Google",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Stackdriver Logging allows you to store, search, analyze, monitor, and alert on log data and events from Google Cloud Platform and Amazon Web Services (AWS). ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -5004,6 +5155,7 @@
     "service": "Error Reporting",
     "provider": "Google",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Stackdriver Error Reporting counts, analyzes and aggregates the crashes in your running cloud services. A centralized error management interface displays the results with sorting and filtering capabilities. A dedicated view shows the error details: time chart, occurrences, affected user count, first and last seen dates and a cleaned exception stack trace. Opt-in to receive email and mobile alerts on new errors.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -5066,6 +5218,7 @@
     "service": "Trace",
     "provider": "Google",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Stackdriver Trace is a distributed tracing system that collects latency data from your applications and displays it in the Google Cloud Platform Console.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -5096,6 +5249,7 @@
     "service": "Debugger",
     "provider": "Google",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Stackdriver Debugger is a feature of the Google Cloud Platform that lets you inspect the state of an application at any code location without using logging statements and without stopping or slowing down your applications.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -5131,6 +5285,7 @@
     "service": "Cloud Deployment Manager",
     "provider": "Google",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Cloud Deployment Manager allows you to specify all the resources needed for your application in a declarative format using yaml. ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -5160,6 +5315,7 @@
     "service": "Cloud Console",
     "provider": "Google",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Manage and get insights into everything that powers your cloud application -- including web applications, data analysis, virtual machines, datastore, databases, networking, and developer services. ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -5198,6 +5354,7 @@
     "service": "Cloud Shell",
     "provider": "Google",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Cloud Shell provides you with command-line access to your cloud resources directly from your browser.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -5224,6 +5381,7 @@
     "service": "Cloud Mobile App",
     "provider": "Google",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "The Google Cloud Console mobile app gives you a convenient way to discover, understand, and respond to production issues. Monitor and make changes to Cloud Platform resources from your iOS and Android device. ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -5265,6 +5423,7 @@
     "service": "Cloud Billing API",
     "provider": "Google",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "The Google Cloud Billing API provides methods that you can use to programmatically manage billing for your projects in the Google Cloud Platform. ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -5294,6 +5453,7 @@
     "service": "Cloud APIs",
     "provider": "Google",
     "category": "Management Tools",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Access Google Cloud Platform products from your code.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -5317,6 +5477,7 @@
     "service": "Virtual Private Cloud",
     "provider": "Google",
     "category": "Networking",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "With Google Cloud Platform (GCP) VPC, you can provision your GCP resources, connect them to each other, and isolate them from one another in a Virtual Private Cloud (VPC). ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -5350,6 +5511,7 @@
     "service": "Cloud Load Balancing",
     "provider": "Google",
     "category": "Networking",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Scale your applications on Google Compute Engine from zero to full-throttle with Google Cloud Load Balancing, with no pre-warming needed.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -5377,6 +5539,7 @@
     "service": "Cloud CDN",
     "provider": "Google",
     "category": "Networking",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Cloud CDN leverages Google's globally distributed edge points of presence to accelerate content delivery for websites and applications served out of Google Compute Engine and Google Cloud Storage. ",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -5413,6 +5576,7 @@
     "service": "Cloud Interconnect",
     "provider": "Google",
     "category": "Networking",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Options to connect your infrastructure to Google Cloud Platform (GCP)",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -5436,6 +5600,7 @@
     "service": "Cloud DNS",
     "provider": "Google",
     "category": "Networking",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Cloud DNS is a scalable, reliable and managed authoritative Domain Name System (DNS) service running on the same infrastructure as Google.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -5465,6 +5630,7 @@
     "service": "Network Service Tiers",
     "provider": "Google",
     "category": "Networking",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "With Network Service Tiers, GCP is the first major public cloud to offer a tiered cloud network.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -5493,6 +5659,7 @@
     "service": "Cloud Storage",
     "provider": "Google",
     "category": "Storage and Databases",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Cloud Storage is unified object storage for developers and enterprises, from live data serving to data analytics/ML to data archiving.",
     "img": "./img/logos/Google/Storage & Databases/Cloud Storage.svg",
     "dependencies": {
@@ -5522,6 +5689,7 @@
     "service": "Cloud SQL",
     "provider": "Google",
     "category": "Storage and Databases",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Cloud SQL is a fully-managed database service that makes it easy to set up, maintain, manage, and administer your relational PostgreSQL BETA and MySQL databases in the cloud. ",
     "img": "./img/logos/Google/Storage & Databases/Cloud SQL.svg",
     "dependencies": {
@@ -5556,6 +5724,7 @@
     "service": "Cloud Bigtable",
     "provider": "Google",
     "category": "Storage and Databases",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Cloud Bigtable is Google's NoSQL Big Data database service. It's the same database that powers many core Google services, including Search, Analytics, Maps, and Gmail.",
     "img": "./img/logos/Google/Storage & Databases/Cloud Bigtable.svg",
     "dependencies": {
@@ -5593,6 +5762,7 @@
     "service": "Cloud Spanner",
     "provider": "Google",
     "category": "Storage and Databases",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Cloud Spanner is the world?s first fully managed relational database service to offer both strong consistency and horizontal scalability for mission-critical online transaction processing (OLTP) applications.",
     "img": "./img/logos/Google/Storage & Databases/Cloud Spanner.svg",
     "dependencies": {
@@ -5632,6 +5802,7 @@
     "service": "Cloud Datastore",
     "provider": "Google",
     "category": "Storage and Databases",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Cloud Datastore is a highly-scalable NoSQL database for your applications. Cloud Datastore automatically handles sharding and replication, providing you with a highly available and durable database that scales automatically to handle your applications' load. ",
     "img": "./img/logos/Google/Storage & Databases/Cloud Datastore.svg",
     "dependencies": {
@@ -5669,6 +5840,7 @@
     "service": "Persistent Disk",
     "provider": "Google",
     "category": "Storage and Databases",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Google Persistent Disk is durable and high performance block storage for the Google Cloud Platform. Persistent Disk provides SSD and HDD storage which can be attached to instances running in either Google Compute Engine or Google Container Engine. Storage volumes can be transparently resized, quickly backed up, and offer the ability to support simultaneous readers.",
     "img": "./img/logos/Google/Storage & Databases/Persistent Disk.svg",
     "dependencies": {
@@ -5717,6 +5889,7 @@
     "service": "Data Transfer",
     "provider": "Google",
     "category": "Storage and Databases",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Whether you are in Denver or Denmark; with 50 Gigabytes or 50 Petabytes; access to a T1 line or 10 Gbps; Google offers solutions to meet your unique data transfer requirements and get your data to the cloud quickly and securely.",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -5759,6 +5932,7 @@
     "service": "Data Transfer",
     "provider": "Google",
     "category": "Storage and Databases",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "Cloud Memorystore for Redis provides a fully managed in-memory data store service built on scalable, secure, and highly available infrastructure managed by Google. Use Cloud Memorystore to build application caches that provides sub-millisecond data access. Cloud Memorystore is compatible with the Redis protocol, allowing easy migration with zero code changes.",
     "img": "./img/logos/Google/Storage & Databases/Cloud Memorystore.svg",
     "dependencies": {
@@ -5809,6 +5983,7 @@
     "service": "Google App Engine",
     "provider": "Google",
     "category": "Web & Mobile",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -5830,6 +6005,7 @@
     "service": "Security Key Enforcement",
     "provider": "Google",
     "category": "Identity and Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "description": "2-step verification with a security key uses cryptography to provide two-way verification: it makes sure you're logging into the service you originally registered the security key with, and the service verifies that it's the correct security key as well",
     "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "dependencies": {
@@ -5868,6 +6044,7 @@
     "service": "Cognitive Services",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "A portfolio of APIs and SDKs that enable developers to easily add intelligent services, such as vision, speech, language, knowledge and search capabilities, to their solutions.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Cognative Services.svg",
     "dependencies": {
@@ -5907,6 +6084,7 @@
     "service": "Text Analytics API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Easily evaluate sentiment and topics to understand what users want",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -5938,6 +6116,7 @@
     "service": "Recommendations API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Predict and recommend items your customers want",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -5965,6 +6144,7 @@
     "service": "Academic Knowledge API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Tap into the wealth of academic content in the Microsoft Academic Graph",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -5993,6 +6173,7 @@
     "service": "Computer Vision API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Distill actionable information from images",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6020,6 +6201,7 @@
     "service": "Content Moderator",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Automated image, text, and video moderation",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6047,6 +6229,7 @@
     "service": "Emotion API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Personalize user experiences with emotion recognition",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6074,6 +6257,7 @@
     "service": "Face API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Detect, identify, analyze, organize, and tag faces in photos",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6103,6 +6287,7 @@
     "service": "Bing Speech API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Convert speech to text and back again to understand user intent",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6134,6 +6319,7 @@
     "service": "Web Language Model API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Use the power of predictive language models trained on web-scale data",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6166,6 +6352,7 @@
     "service": "Language Understanding Intelligent Service",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Teach your apps to understand commands from your users",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6195,6 +6382,7 @@
     "service": "Speaker Recoognition API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Use speech to identify and authenticate individual speakers",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6224,6 +6412,7 @@
     "service": "Custom Speech Service",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Overcome speech recognition barriers like speaking style, background noise, and vocabulary",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6256,6 +6445,7 @@
     "service": "Bing Autosuggest API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Give your app intelligent autosuggest options for searches",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6285,6 +6475,7 @@
     "service": "Bing Spell Check API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Detect and correct spelling mistakes in your app",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6314,6 +6505,7 @@
     "service": "Translator Speech API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Easily conduct real-time speech translation with a simple REST API call",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6345,6 +6537,7 @@
     "service": "Translator Text API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Easily conduct machine translation with a simple REST API call",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6375,6 +6568,7 @@
     "service": "Bing Custom Search",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "An easy-to-use, ad-free, commercial-grade search tool that lets you deliver the results you want",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6408,6 +6602,7 @@
     "service": "Bing Entitiy Search API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Enrich your experiences by identifying and augmenting entity information from the web",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6439,6 +6634,7 @@
     "service": "Bing Web Search API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Get enhanced search details from billions of web documents",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6470,6 +6666,7 @@
     "service": "Bing Video Search API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Search for videos and get comprehensive results",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6497,6 +6694,7 @@
     "service": "Bing News Search API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Search for news and get comprehensive results",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6524,6 +6722,7 @@
     "service": "Custom Decision Service",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "A cloud-based, contextual decision-making API that sharpens with experience",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6554,6 +6753,7 @@
     "service": "QnA Maker API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Distill information into conversational, easy-to-navigate answers",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6582,6 +6782,7 @@
     "service": "Knowledge Exploration Service",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Enable interactive search experiences over structured data via natural language inputs",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6616,6 +6817,7 @@
     "service": "Entity Linking Intelligence Service API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Power your app's data links with named entity recognition and disambiguation",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6648,6 +6850,7 @@
     "service": "Linguistic Analysis API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Simplify complex language concepts and parse text with the Linguistic Analysis API",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6677,6 +6880,7 @@
     "service": "Video Indexer",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Unlock video insights",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6702,6 +6906,7 @@
     "service": "Video API",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Intelligent video processing",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6727,6 +6932,7 @@
     "service": "Customer Vision Service",
     "provider": "Microsoft",
     "category": "Artifical Intelligence and Cognitive Services",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Easily customize your own state-of-the-art computer vision models for your unique use case",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6759,6 +6965,7 @@
     "service": "Virtual Machines",
     "provider": "Microsoft",
     "category": "Compute",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Virtual Machines lets you deploy a Windows Server or Linux image in the cloud. You can select images from a marketplace or use your own customized images.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6791,6 +6998,7 @@
     "service": "Virtual Machine Scale Sets",
     "provider": "Microsoft",
     "category": "Compute",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "VM Scale sets make it easy to build highly scalable applications by allowing you to easily deploy and manage identical VMs as a set. Built on the Azure Resource Manager deployment model, VM Scale sets are fully integrated with Azure load balancing and autoscale, and support Windows, Linux, custom images, and extensions.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6843,6 +7051,7 @@
     "service": "App Service",
     "provider": "Microsoft",
     "category": "Compute",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure App Service lets you create apps faster with a one-of-a kind cloud service to quickly and easily create enterprise-ready web and mobile apps for any platform or device and deploy them on a scalable and reliable cloud infrastructure.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6882,6 +7091,7 @@
     "service": "Azure Functions",
     "provider": "Microsoft",
     "category": "Compute",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Functions is an event driven, compute-on-demand experience. You can leverage Azure Functions to build HTTP endpoints accessible by mobile and IoT devices.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6913,6 +7123,7 @@
     "service": "Azure Batch",
     "provider": "Microsoft",
     "category": "Compute",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Batch makes it easy to run large-scale parallel and high-performance computing (HPC) workloads in Azure. Use Batch to scale out parallel workloads, manage the execution of tasks in a queue, and cloud-enable applications to offload compute jobs to the cloud.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6952,6 +7163,7 @@
     "service": "Service Fabric",
     "provider": "Microsoft",
     "category": "Compute",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Service Fabric is a microservices platform used to build scalable, reliable, and easily managed applications for the cloud. Addressing the significant challenges in developing and managing cloud applications, Service Fabric allows developers and administrators to avoid solving complex infrastructure problems and focus instead on implementing mission-critical, demanding workloads.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -6999,6 +7211,7 @@
     "service": "App Services",
     "provider": "Microsoft",
     "category": "Container",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure App Service lets you create apps faster with a one-of-a kind cloud service to quickly and easily create enterprise-ready web and mobile apps for any platform or device and deploy them on a scalable and reliable cloud infrastructure.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7039,6 +7252,7 @@
     "service": "Batch",
     "provider": "Microsoft",
     "category": "Container",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Batch makes it easy to run large-scale parallel and high-performance computing (HPC) workloads in Azure. Use Batch to scale out parallel workloads, manage the execution of tasks in a queue, and cloud-enable applications to offload compute jobs to the cloud.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7078,6 +7292,7 @@
     "service": "Container Registry",
     "provider": "Microsoft",
     "category": "Container",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Container Registry is a place to store and manage container images for all types of container deployments (Mesosphere DC/OS, Docker Swarm, Kubernetes, App Service, Service Fabric, Azure Batch). The Azure Container Registry provides local, network-close storage of your container images. You can benefit from using familiar and open source Docker CLI tools to push and pull images from Azure Container registry.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7127,6 +7342,7 @@
     "service": "Container Instances",
     "provider": "Microsoft",
     "category": "Container",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Easily run containers with a single command. With Azure Container Instances, get started in seconds and lower your infrastructure costs by taking advantage of per-second billing. There are no container orchestration tools for you to learn?just your application, in a container, running in the cloud.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7169,6 +7385,7 @@
     "service": "Service Fabric",
     "provider": "Microsoft",
     "category": "Container",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Service Fabric is a microservices platform used to build scalable, reliable, and easily managed applications for the cloud. Addressing the significant challenges in developing and managing cloud applications, Service Fabric allows developers and administrators to avoid solving complex infrastructure problems and focus instead on implementing mission-critical, demanding workloads.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7216,6 +7433,7 @@
     "service": "Container Service",
     "provider": "Microsoft",
     "category": "Container",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Container Service is a container hosting environment optimized for Azure that lets you deploy, scale, and orchestrate container-based applications using Docker Swarm and Apache Mesos?popular, open source tools you?re already familiar with.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7254,6 +7472,7 @@
     "service": "HDInsight",
     "provider": "Microsoft",
     "category": "Data and Analytics",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure HDInsight is a Hadoop-based service that brings an Apache Hadoop solution to the cloud. Gain the full value of big data with a cloud-based data platform that manages data of any type and size.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7291,6 +7510,7 @@
     "service": "Machine Learning",
     "provider": "Microsoft",
     "category": "Data and Analytics",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Machine Learning lets you easily design, test, operationalize, and manage predictive analytics solutions in the cloud.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7322,6 +7542,7 @@
     "service": "Stream Analytics",
     "provider": "Microsoft",
     "category": "Data and Analytics",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Stream Analytics is an event-processing engine that helps you gain insights from devices, sensors, cloud infrastructure, and existing data properties in real-time. It's integrated out of the box with Event Hubs, and the combined solution can both ingest millions of events and do analytics to help you better understand patterns, power a dashboard, detect anomalies, or kick off an action while data is being streamed in real time.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7385,6 +7606,7 @@
     "service": "Azure Bot Service",
     "provider": "Microsoft",
     "category": "Data and Analytics",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Bot Service enables rapid intelligent bot development, bringing together the power of the Microsoft Bot Framework and Azure Functions. Build, connect, deploy and manage intelligent bots that interact naturally wherever your users are talking. Allow your bots to scale based on-demand and you pay only for the resources you consume.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7435,6 +7657,7 @@
     "service": "Data Lake Analytics",
     "provider": "Microsoft",
     "category": "Data and Analytics",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "The Data Lake analytics service is a new distributed analytics service built on Apache YARN that dynamically scales so you can focus on your business goals, not on distributed infrastructure. Instead of deploying, configuring and tuning hardware, you write queries to transform your data and extract valuable insights. The analytics service can handle jobs of any scale instantly by simply setting the dial for how much power you need.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7491,6 +7714,7 @@
     "service": "Data Lake Store",
     "provider": "Microsoft",
     "category": "Data and Analytics",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "The Data Lake store provides a single repository where you can capture data of any size type and speed simply without forcing changes to your application as the data scales. In the store, data can be shared for collaboration with enterprise-grade security. It is also designed for high-performance processing and analytics from HDFS applications (ie. Azure HDInsight, Data Lake analytics service, Hortonworks, Cloudera, MapR) and tools, including support for low latency workloads.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7553,6 +7777,7 @@
     "service": "Data Factory",
     "provider": "Microsoft",
     "category": "Data and Analytics",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Data Factory is a managed service that lets you produce trusted information from raw data in cloud or on-premises sources. Easily create, orchestrate, and schedule highly-available, fault-tolerant work flows of data movement and transformation activities. Monitor service health and all of your data pipelines at a glance with a rich visual experience offered through the Azure portal.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7605,6 +7830,7 @@
     "service": "Power BI Embedded",
     "provider": "Microsoft",
     "category": "Data and Analytics",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Power BI Embedded provides stunning, fully interactive data visualizations in your customer-facing apps without the time and expense of having to build it from the ground up.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7640,6 +7866,7 @@
     "service": "Data Catalog",
     "provider": "Microsoft",
     "category": "Data and Analytics",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Data Catalog is a fully managed service that serves as a system of registration and system of discovery for enterprise data sources. It lets users?from analysts to data scientists to developers?register, discover, understand, and consume data sources. Use crowdsourced annotations and metadata to capture tribal knowledge within your organization, shine light on hidden data, and get more value from your enterprise data sources.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7692,6 +7919,7 @@
     "service": "Log Analytics",
     "provider": "Microsoft",
     "category": "Data and Analytics",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Log Analytics lets you collect, correlate and visualize all your machine data, such as event logs, network logs, performance data, and much more, from both your on-premises and cloud assets.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7729,6 +7957,7 @@
     "service": "Apache Spark for Azure HDInsight",
     "provider": "Microsoft",
     "category": "Data and Analytics",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Apache Spark in the cloud for mission critical deployments",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7756,6 +7985,7 @@
     "service": "Text Analytics API",
     "provider": "Microsoft",
     "category": "Data and Analytics",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Easily evaluate sentiment and topics to understand what users want",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7784,6 +8014,7 @@
     "service": "Azure Analysis Services",
     "provider": "Microsoft",
     "category": "Data and Analytics",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Enterprise grade analytics engine as a service",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7810,6 +8041,7 @@
     "service": "Dynamics 365 for Customer Insights",
     "provider": "Microsoft",
     "category": "Data and Analytics",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Transform your customer data into actionable insights",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7838,6 +8070,7 @@
     "service": "Custom Speech Service",
     "provider": "Microsoft",
     "category": "Data and Analytics",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Overcome speech recognition barriers like speaking style, background noise, and vocabulary",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7868,6 +8101,7 @@
     "service": "SQL Database",
     "provider": "Microsoft",
     "category": "Databases",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure SQL Database is a relational database service that lets you rapidly create, extend, and scale relational applications into the cloud.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7897,6 +8131,7 @@
     "service": "Azure Database for MySQL",
     "provider": "Microsoft",
     "category": "Databases",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Database for MySQL provides a managed database service for app development and deployment that allows you to stand up a MySQL database in minutes and scale on the fly ? on the cloud you trust most.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7933,6 +8168,7 @@
     "service": "Azure Database for PostgreSQL",
     "provider": "Microsoft",
     "category": "Databases",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Database for PostgreSQL provides a managed database service for app development and deployment that allows you to stand up a PostgreSQL database in minutes and scale on the fly ? on the cloud you trust most.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -7969,6 +8205,7 @@
     "service": "SQL Data Warehouse",
     "provider": "Microsoft",
     "category": "Databases",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure SQL Data Warehouse is an elastic data warehouse as a service with enterprise-grade features based on the massively parallel SQL Server processing architecture. It lets you scale data, either on-premises or in our cloud. It?s the first cloud data warehouse that can dynamically grow or shrink, so you pay only for the query performance that you need, when you need it, up to petabyte-scale. SQL Data Warehouse lets you use your existing Transact-SQL (T-SQL) skills to integrate queries across structured and unstructured data. ",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8029,6 +8266,7 @@
     "service": "SQL Server Stretch Database",
     "provider": "Microsoft",
     "category": "Databases",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "With SQL Server Stretch Database, you can dynamically stretch warm and cold transactional data from Microsoft SQL Server to Azure. Unlike typical cold data storage, your data is always at hand. Stretch Database lets you provide longer data retention times than typical enterprise storage without breaking the bank. Depending on how often you?ll access the data, choose the appropriate level of service, then scale up or down as needed. Using Stretch Database doesn?t require any application changes.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8089,6 +8327,7 @@
     "service": "Azure Cosmos DB",
     "provider": "Microsoft",
     "category": "Databases",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Cosmos DB is a fully-managed NoSQL document database service that offers querying and transaction-processing over schema-free data, predictable and reliable performance, and rapid development.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8124,6 +8363,7 @@
     "service": "Redis Cache",
     "provider": "Microsoft",
     "category": "Databases",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Redis Cache?based on the popular open source Redis cache?gives you access to a secure, dedicated cache for your Azure applications.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8153,6 +8393,7 @@
     "service": "Data Factory",
     "provider": "Microsoft",
     "category": "Databases",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Data Factory is a managed service that lets you produce trusted information from raw data in cloud or on-premises sources. Easily create, orchestrate, and schedule highly-available, fault-tolerant work flows of data movement and transformation activities. Monitor service health and all of your data pipelines at a glance with a rich visual experience offered through the Azure portal.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8204,6 +8445,7 @@
     "service": "Visual Studio Team",
     "provider": "Microsoft",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Visual Studio Team Services is a cloud-based application lifecycle management (ALM) solution for everything from hosted-code repositories and issue-tracking to load-testing and automated builds. It's accessible from nearly anywhere, and you can create an account for free. Visual Studio Team Services is licensed separately from Azure services.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8249,6 +8491,7 @@
     "service": "Azure DevTest Labs",
     "provider": "Microsoft",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure DevTest Labs makes it easy to quickly create environments to deploy and test applications. Use reusable templates and artifacts to build Windows and Linux environments while minimalizing waste and controlling costs.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8288,6 +8531,7 @@
     "service": "Application Insights",
     "provider": "Microsoft",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Detect, triage, and diagnose issues in your web apps and services",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8314,6 +8558,7 @@
     "service": "API Management",
     "provider": "Microsoft",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure API Management lets you publish APIs to developers, partners, and employees securely and at scale.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8342,6 +8587,7 @@
     "service": "Hockey App",
     "provider": "Microsoft",
     "category": "Developer Tools",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "HockeyApp lets you distribute beta versions, collect live crash reports, and get feedback from real users ? all to enable you to build the world?s best mobile apps.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8380,6 +8626,7 @@
     "service": "Logic Apps",
     "provider": "Microsoft",
     "category": "Enterprise Integration",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Automate the access and use of data across clouds without writing code",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8407,6 +8654,7 @@
     "service": "Service Bus",
     "provider": "Microsoft",
     "category": "Enterprise Integration",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Service Bus is a messaging infrastructure that sits between applications allowing them to exchange messages for improved scale and resiliency.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8439,6 +8687,7 @@
     "service": "API Management",
     "provider": "Microsoft",
     "category": "Enterprise Integration",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure API Management lets you publish APIs to developers, partners, and employees securely and at scale.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8467,6 +8716,7 @@
     "service": "StorSimple",
     "provider": "Microsoft",
     "category": "Enterprise Integration",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure StorSimple is a unique hybrid cloud storage solution for primary storage, archiving, and disaster recovery. StorSimple optimizes total storage costs and data protection. Note that the StorSimple 8000 Series is licensed separately from Azure services.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8506,6 +8756,7 @@
     "service": "SQL Server Stretch Database",
     "provider": "Microsoft",
     "category": "Enterprise Integration",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "With SQL Server Stretch Database, you can dynamically stretch warm and cold transactional data from Microsoft SQL Server to Azure. Unlike typical cold data storage, your data is always at hand. Stretch Database lets you provide longer data retention times than typical enterprise storage without breaking the bank. Depending on how often you?ll access the data, choose the appropriate level of service, then scale up or down as needed. Using Stretch Database doesn?t require any application changes. And you can use Stretch Database with new Always Encrypted technology, which helps protect your data at rest and in motion?extending data in a more secured manner for greater peace of mind.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8583,6 +8834,7 @@
     "service": "Data Catalog",
     "provider": "Microsoft",
     "category": "Enterprise Integration",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Data Catalog is a fully managed service that serves as a system of registration and system of discovery for enterprise data sources. It lets users?from analysts to data scientists to developers?register, discover, understand, and consume data sources. Use crowdsourced annotations and metadata to capture tribal knowledge within your organization, shine light on hidden data, and get more value from your enterprise data sources.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8635,6 +8887,7 @@
     "service": "Data Factory",
     "provider": "Microsoft",
     "category": "Enterprise Integration",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Data Factory is a managed service that lets you produce trusted information from raw data in cloud or on-premises sources. Easily create, orchestrate, and schedule highly-available, fault-tolerant work flows of data movement and transformation activities. Monitor service health and all of your data pipelines at a glance with a rich visual experience offered through the Azure portal.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8687,6 +8940,7 @@
     "service": "Event Grid",
     "provider": "Microsoft",
     "category": "Enterprise Integration",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Build reactive, event-driven apps with a fully managed event routing service. Create richer app scenarios by connecting serverless logic to events from multiple sources.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8725,6 +8979,7 @@
     "service": "IoT Hub",
     "provider": "Microsoft",
     "category": "Internet of Things",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Connect, monitor, and control billions of IoT assets running on a broad set of operating systems and protocols. Establish reliable, bi-directional communication with these assets, even if they?re intermittently connected, and analyze?and act on?incoming telemetry data. Enhance the security of your IoT solutions by using per-device authentication to communicate with devices that have the appropriate credentials. Revoke access rights to specific devices to maintain the integrity of your system.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8787,6 +9042,7 @@
     "service": "Event Hubs",
     "provider": "Microsoft",
     "category": "Internet of Things",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Event Hubs enables elastic-scale telemetry and event ingestion with durable buffering and sub-second end-to-end latency for millions of devices and events.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8821,6 +9077,7 @@
     "service": "Stream Analytics",
     "provider": "Microsoft",
     "category": "Internet of Things",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Stream Analytics is an event-processing engine that helps you gain insights from devices, sensors, cloud infrastructure, and existing data properties in real-time. It's integrated out of the box with Event Hubs, and the combined solution can both ingest millions of events and do analytics to help you better understand patterns, power a dashboard, detect anomalies, or kick off an action while data is being streamed in real time.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8885,6 +9142,7 @@
     "service": "Maschine Learning",
     "provider": "Microsoft",
     "category": "Internet of Things",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Machine Learning lets you easily design, test, operationalize, and manage predictive analytics solutions in the cloud.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8917,6 +9175,7 @@
     "service": "Notification Hubs",
     "provider": "Microsoft",
     "category": "Internet of Things",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "A scalable, push notification engine for quickly sending millions of messages",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8946,6 +9205,7 @@
     "service": "Time Series Insights",
     "provider": "Microsoft",
     "category": "Internet of Things",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Instantly explore and analyze time-series data in IoT solutions",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -8974,6 +9234,7 @@
     "service": "Azure Cosmos DB",
     "provider": "Microsoft",
     "category": "Internet of Things",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Cosmos DB is a fully-managed NoSQL document database service that offers querying and transaction-processing over schema-free data, predictable and reliable performance, and rapid development.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9011,6 +9272,7 @@
     "service": "Azure Advisor",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Advisor is a personalized recommendation engine that helps you follow Azure best practices. It analyzes your Azure resource configuration and usage telemetry, then provides recommendations that can reduce costs and improve the performance, security, and reliability of your applications.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9053,6 +9315,7 @@
     "service": "Microsoft Azure portal",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Build, manage, and monitor all Azure products in a single, unified console",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9080,6 +9343,7 @@
     "service": "Azure mobile App",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9102,6 +9366,7 @@
     "service": "Azure Resource Manager",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Simplify how you manage your app resources",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9127,6 +9392,7 @@
     "service": "Application Insights",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Detect, triage, and diagnose issues in your web apps and services",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9154,6 +9420,7 @@
     "service": "Log analytics",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Log Analytics lets you collect, correlate and visualize all your machine data, such as event logs, network logs, performance data, and much more, from both your on-premises and cloud assets.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9193,6 +9460,7 @@
     "service": "Automation",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Automation lets you create, deploy, monitor, and maintain resources in your Azure environment automatically by using a highly scalable and reliable workflow execution engine.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9227,6 +9495,7 @@
     "service": "Backup",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "On your corporate laptops, Azure Backup protects Windows client data and shared files and folders. In your datacenter, integrated with System Center Data Protection Manager (DPM), Backup protects Microsoft SharePoint, Exchange, SQL Server, Hyper-V virtual machines, and other applications.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9275,6 +9544,7 @@
     "service": "Site Recovery",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Site Recovery helps you protect important applications by coordinating the replication and recovery of private clouds for simple, cost-effective disaster recovery",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9308,6 +9578,7 @@
     "service": "Sheduler",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Scheduler lets you invoke actions that call HTTP/S endpoints or post messages to a storage queue on any schedule. Create jobs that reliably call services either inside or outside of Azure and run those jobs right away, on a regular or irregular schedule, or at a future date.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9355,6 +9626,7 @@
     "service": "Traffic Manager",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Traffic Manager lets you route incoming traffic across multiple hosted Azure services, whether they?re running in the same datacenter or in different datacenters around the world.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9393,6 +9665,7 @@
     "service": "Azure Monitor",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Highly granular and real-time monitoring data for any Azure resource",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9418,6 +9691,7 @@
     "service": "Security & Compliance",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Enable threat detection and prevention through advanced cloud security",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9446,6 +9720,7 @@
     "service": "Protection & Recovery",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Ensure application availability and data protection",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9471,6 +9746,7 @@
     "service": "Automation & Control",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Centrally manage all automation and configuration assets",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9496,6 +9772,7 @@
     "service": "Insight & analytics",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Easily search, correlate, and analyze data from the cloud",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9522,6 +9799,7 @@
     "service": "Network Watcher",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Network Watcher is a service that will enable you to monitor and diagnose conditions at a network scenario level. Network diagnostic and visualization tools available with Network Watcher will enable you to take packet captures on a VM, help you understand if an IP flow is allowed or denied on your Virtual Machine, find where your packet will be routed from a VM and gain insights to your network topology.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9573,6 +9851,7 @@
     "service": "Cloud Shell",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Cloud Shell is a browser-based shell experience running in the cloud to help manage your Azure resources. Cloud Shell includes support for popular command-line tools and programming languages in a shell that Microsoft maintains and updates, and you can persist files with attached Azure File storage. When used alongside Azure portal?s familiar GUI experience, Cloud Shell adds the power of an authenticated shell experience for greater flexibility. Cloud Shell saves you the trouble of configuring and maintaining an admin machine of your own by providing a clean, ready-to-use shell experience every time from virtually anywhere.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9641,6 +9920,7 @@
     "service": "Azure Service Health",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Get personalized guidance and support for when issues in Azure services affect you.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9670,6 +9950,7 @@
     "service": "Event Grid",
     "provider": "Microsoft",
     "category": "Monitor & Management",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Build reactive, event-driven apps with a fully managed event routing service. Create richer app scenarios by connecting serverless logic to events from multiple sources.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9709,6 +9990,7 @@
     "service": "Virtual Network",
     "provider": "Microsoft",
     "category": "Networking",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Virtual Network lets you create private networks in the cloud with full control over IP addresses, DNS servers, security rules, and traffic flows. Securely connect a virtual network to on-premises networks by using a VPN tunnel, or connect privately by using the ExpressRoute service.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9754,6 +10036,7 @@
     "service": "Load Balancer",
     "provider": "Microsoft",
     "category": "Networking",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Load Balancer distributes Internet and private network traffic among healthy service instances in cloud services or virtual machines. It lets you achieve greater reliability and seamlessly add more capacity to your applications.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9795,6 +10078,7 @@
     "service": "Application Gateway",
     "provider": "Microsoft",
     "category": "Networking",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Application Gateway is an Azure-managed layer-7 solution providing HTTP load balancing, SSL termination, and session-based cookie affinity to Internet-facing or internal web applications.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9830,6 +10114,7 @@
     "service": "VPN Gateway",
     "provider": "Microsoft",
     "category": "Networking",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure VPN Gateway lets you establish secure, cross-premises connections between your virtual network within Azure and on-premises IT infrastructure.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9861,6 +10146,7 @@
     "service": "Azure DNS",
     "provider": "Microsoft",
     "category": "Networking",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure DNS lets you host your DNS domains alongside your Azure apps and manage DNS records by using your existing Azure subscription. Microsoft?s global network of name servers has the reach, scale, and redundancy to ensure ultra-fast DNS responses and ultra-high availability for your domains. With Azure DNS, you can be sure your DNS will always be fast and available.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9906,6 +10192,7 @@
     "service": "Content Delivery Network",
     "provider": "Microsoft",
     "category": "Networking",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Content Delivery Network lets you deliver high-bandwidth content to users around the world with low latency and high availability via a robust network of global data centers.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9943,6 +10230,7 @@
     "service": "Traffic Manager",
     "provider": "Microsoft",
     "category": "Networking",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Traffic Manager lets you route incoming traffic across multiple hosted Azure services, whether they?re running in the same datacenter or in different datacenters around the world.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -9979,6 +10267,7 @@
     "service": "Express Route",
     "provider": "Microsoft",
     "category": "Networking",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure ExpressRoute lets you create private connections between Azure datacenters and infrastructure that?s on your premises or in a colocation environment.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10010,6 +10299,7 @@
     "service": "Network Watcher",
     "provider": "Microsoft",
     "category": "Networking",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Network Watcher is a service that will enable you to monitor and diagnose conditions at a network scenario level. Network diagnostic and visualization tools available with Network Watcher will enable you to take packet captures on a VM, help you understand if an IP flow is allowed or denied on your Virtual Machine, find where your packet will be routed from a VM and gain insights to your network topology.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10059,6 +10349,7 @@
     "service": "Security Center",
     "provider": "Microsoft",
     "category": "Security  & Identity",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Security Center helps you prevent, detect, and respond to threats with increased visibility and control over the security of all of your Azure resources. It provides a central view of security across your subscriptions and lets you set policies and monitor security configurations. Policy-driven recommendations guide resource owners through the process of implementing security controls and enable the rapid deployment of integrated Microsoft and partner solutions. Using Microsoft global threat intelligence, security-related events from across your Azure deployments are automatically collected and analyzed to identify actual threats and reduce false alarms. The resulting alerts offer insights into the attack and suggest ways to remediate issues.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10141,6 +10432,7 @@
     "service": "Key Vault",
     "provider": "Microsoft",
     "category": "Security  & Identity",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Key Vault offers an easy, cost-effective way to safeguard keys and other secrets in the cloud by using hardware security modules (HSMs). Protect cryptographic keys and small secrets like passwords with keys stored in HSMs. For added assurance, import or generate your keys in HSMs that are certified to FIPS 140-2 level 2 and Common Criteria EAL4+ standards, so that your keys stay within the HSM boundary. Key Vault is designed so that Microsoft does not see or extract your keys. Create new keys for Dev-Test in minutes and migrate seamlessly to production keys managed by security operations. Key Vault scales to meet the demands of your cloud applications without the hassle required to provision, deploy, and manage HSMs and key management software.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10227,6 +10519,7 @@
     "service": "Azure Active Directory",
     "provider": "Microsoft",
     "category": "Security  & Identity",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Active Directory provides identity management and access control for your cloud applications. To simply user access to cloud applications, you can synchronize on-premises identities, and enable single sign-on. Azure Active Directory comes in 3 editions: Free, Basic, and Premium.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10271,6 +10564,7 @@
     "service": "Azure Active Directory B2C",
     "provider": "Microsoft",
     "category": "Security  & Identity",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Active Directory, the cloud service with the proven ability to handle billions of authentications per day, extends its capabilities to manage consumer identities with a new service: Azure Active Directory B2C, now in public preview. Azure Active Directory B2C is a comprehensive, identity management solution for your consumer-facing applications that can be easily integrated to any platform, and accessible from any device. The service will be free during the public preview period.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10328,6 +10622,7 @@
     "service": "Azure Active Directory Domain Services",
     "provider": "Microsoft",
     "category": "Security  & Identity",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Active Directory Domain Services provide scalable, high-performance, managed domain services such as domain-join, LDAP, Kerberos, Windows Integrated Authentication and Group Policy support. With the click of a button, administrators can enable managed domain services for virtual machines and directory-aware applications deployed in Azure Infrastructure Services. Built on the same underlying technology as Windows Server Active Directory, Azure Active Directory Domain Services provide an easy way to migrate traditional on-premises applications to the cloud.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10390,6 +10685,7 @@
     "service": "Multi Factor Authentication",
     "provider": "Microsoft",
     "category": "Security  & Identity",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Multi-Factor Authentication helps prevent unauthorized access to on-premises and cloud applications by providing an additional layer of authentication. Follow organizational security and compliance standards while also addressing user demand for convenient access.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10436,6 +10732,7 @@
     "service": "Azure Blob Storage",
     "provider": "Microsoft",
     "category": "Storage",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "REST-based object storage for unstructured data",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10459,6 +10756,7 @@
     "service": "Azure Queue Storage",
     "provider": "Microsoft",
     "category": "Storage",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Effectively scale apps according to traffic",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10482,6 +10780,7 @@
     "service": "Azure File Storage",
     "provider": "Microsoft",
     "category": "Storage",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "File shares that use the standard SMB 3.0 protocol",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10505,6 +10804,7 @@
     "service": "Azure Disk Storage",
     "provider": "Microsoft",
     "category": "Storage",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Persistent, secured disk options supporting virtual machines",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10530,6 +10830,7 @@
     "service": "Azure Data Lake Storage",
     "provider": "Microsoft",
     "category": "Storage",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "The Data Lake store provides a single repository where you can capture data of any size type and speed simply without forcing changes to your application as the data scales. In the store, data can be shared for collaboration with enterprise-grade security. It is also designed for high-performance processing and analytics from HDFS applications (ie. Azure HDInsight, Data Lake analytics service, Hortonworks, Cloudera, MapR) and tools, including support for low latency workloads.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10590,6 +10891,7 @@
     "service": "Azure StoreSimple",
     "provider": "Microsoft",
     "category": "Storage",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure StorSimple is a unique hybrid cloud storage solution for primary storage, archiving, and disaster recovery. StorSimple optimizes total storage costs and data protection.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10623,6 +10925,7 @@
     "service": "Azure Backup",
     "provider": "Microsoft",
     "category": "Storage",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "On your corporate laptops, Azure Backup protects Windows client data and shared files and folders. In your datacenter, integrated with System Center Data Protection Manager (DPM), Backup protects Microsoft SharePoint, Exchange, SQL Server, Hyper-V virtual machines, and other applications.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10669,6 +10972,7 @@
     "service": "Azure Site Recovery",
     "provider": "Microsoft",
     "category": "Storage",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Site Recovery helps you protect important applications by coordinating the replication and recovery of private clouds for simple, cost-effective disaster recovery.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10700,6 +11004,7 @@
     "service": "IoT Suite",
     "provider": "Microsoft",
     "category": "Suites",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10719,6 +11024,7 @@
     "service": "Operations Management Suite",
     "provider": "Microsoft",
     "category": "Suites",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10739,6 +11045,7 @@
     "service": "App Services",
     "provider": "Microsoft",
     "category": "Web & Mobile",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure App Service lets you create apps faster with a one-of-a kind cloud service to quickly and easily create enterprise-ready web and mobile apps for any platform or device and deploy them on a scalable and reliable cloud infrastructure.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10781,6 +11088,7 @@
     "service": "Web Apps",
     "provider": "Microsoft",
     "category": "Web & Mobile",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Quickly create and deploy mission critical Web apps at scale",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10807,6 +11115,7 @@
     "service": "Mobile Apps",
     "provider": "Microsoft",
     "category": "Web & Mobile",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Build and host the backend for any mobile app",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10831,6 +11140,7 @@
     "service": "Logic Apps",
     "provider": "Microsoft",
     "category": "Web & Mobile",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Automate the access and use of data across clouds without writing code",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10859,6 +11169,7 @@
     "service": "API Apps",
     "provider": "Microsoft",
     "category": "Web & Mobile",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Easily build and consume Cloud APIs",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10884,6 +11195,7 @@
     "service": "Content Delivery Network",
     "provider": "Microsoft",
     "category": "Web & Mobile",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Content Delivery Network lets you deliver high-bandwidth content to users around the world with low latency and high availability via a robust network of global data centers.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10923,6 +11235,7 @@
     "service": "Media Services",
     "provider": "Microsoft",
     "category": "Web & Mobile",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Media Services offers cloud-based media solutions, including ingest, encoding, format conversion, content protection, and both on-demand and live-streaming capabilities.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10959,6 +11272,7 @@
     "service": "Azure Search",
     "provider": "Microsoft",
     "category": "Web & Mobile",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure Search is a fully-managed service for adding sophisticated search capabilities to web and mobile applications without the typical complexities of full-text search.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -10992,6 +11306,7 @@
     "service": "API Management",
     "provider": "Microsoft",
     "category": "Web & Mobile",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Azure API Management lets you publish APIs to developers, partners, and employees securely and at scale.",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -11021,6 +11336,7 @@
     "service": "Notification Hubs",
     "provider": "Microsoft",
     "category": "Web & Mobile",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "A scalable, push notification engine for quickly sending millions of messages",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -11050,6 +11366,7 @@
     "service": "Live and On-Demand Streaming",
     "provider": "Microsoft",
     "category": "Web & Mobile",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Deliver content to virtually all devices with scale to meet business needs",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -11080,6 +11397,7 @@
     "service": "Azure Media Player",
     "provider": "Microsoft",
     "category": "Web & Mobile",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "A single layer for all your playback needs",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -11106,6 +11424,7 @@
     "service": "Content Protection",
     "provider": "Microsoft",
     "category": "Web & Mobile",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Securely deliver content using AES, PlayReady, Widevine, and Fairplay",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
@@ -11133,6 +11452,7 @@
     "service": "Media Analytics",
     "provider": "Microsoft",
     "category": "Web & Mobile",
+    "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "description": "Uncover insights from video files with speech and vision services",
     "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "dependencies": {
