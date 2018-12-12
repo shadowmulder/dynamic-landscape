@@ -1108,82 +1108,82 @@
         "category": "AI",
         "members": [
           {
-            "id": "AI_418_0",
+            "id": "AI_414_0",
             "service": "AI and machine learning",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "AI_419_0",
+            "id": "AI_415_0",
             "service": "AI Hub",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_420_0",
+            "id": "Clo_416_0",
             "service": "Cloud AutoML",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_421_0",
+            "id": "Clo_417_0",
             "service": "Cloud TPU",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_422_0",
+            "id": "Clo_418_0",
             "service": "Cloud Machine Learning Engine",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_423_0",
+            "id": "Clo_419_0",
             "service": "Cloud Talent Solution",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Dia_424_0",
+            "id": "Dia_420_0",
             "service": "Dialogflow Enterprise Edition",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_425_0",
+            "id": "Clo_421_0",
             "service": "Cloud Natural Language",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_426_0",
+            "id": "Clo_422_0",
             "service": "Cloud Speech-to-Text",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_427_0",
+            "id": "Clo_423_0",
             "service": "Cloud Text-to-Speech",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_428_0",
+            "id": "Clo_424_0",
             "service": "Cloud Translation",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_429_0",
+            "id": "Clo_425_0",
             "service": "Cloud Vision",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_430_0",
+            "id": "Clo_426_0",
             "service": "Cloud Video Intelligence",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_431_0",
+            "id": "Clo_427_0",
             "service": "Cloud Inference API",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Fir_432_0",
+            "id": "Fir_428_0",
             "service": "Firebase Predictions",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_433_0",
+            "id": "Clo_429_0",
             "service": "Cloud Deep Learning VM Image",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
@@ -1197,47 +1197,47 @@
         "category": "APIs",
         "members": [
           {
-            "id": "Api_357_0",
+            "id": "Api_356_0",
             "service": "Apigee API Platform",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "API_358_0",
+            "id": "API_357_0",
             "service": "API Analytics",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "API_359_0",
+            "id": "API_358_0",
             "service": "API Monetization",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Api_360_0",
+            "id": "Api_359_0",
             "service": "Apigee Sense",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_361_0",
+            "id": "Clo_360_0",
             "service": "Cloud Endpoints",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Dev_362_0",
+            "id": "Dev_361_0",
             "service": "Developer Portal",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Api_363_0",
+            "id": "Api_362_0",
             "service": "Apigee Healthcare APIx",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Api_364_0",
+            "id": "Api_363_0",
             "service": "Apigee Open Banking APIx",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_365_0",
+            "id": "Clo_364_0",
             "service": "Cloud Healthcare API",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
@@ -1333,62 +1333,57 @@
         "category": "Data Analysis",
         "members": [
           {
-            "id": "Dat_406_0",
-            "service": "Data analytics",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Big_407_0",
+            "id": "Big_403_0",
             "service": "BigQuery",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_408_0",
+            "id": "Clo_404_0",
             "service": "Cloud Dataflow",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_409_0",
+            "id": "Clo_405_0",
             "service": "Cloud Dataproc",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_410_0",
+            "id": "Clo_406_0",
             "service": "Cloud Datalab",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_411_0",
+            "id": "Clo_407_0",
             "service": "Cloud Dataprep",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_412_0",
+            "id": "Clo_408_0",
             "service": "Cloud Pub/Sub",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_413_0",
+            "id": "Clo_409_0",
             "service": "Cloud Composer",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Gen_414_0",
+            "id": "Gen_410_0",
             "service": "Genomics",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Goo_415_0",
+            "id": "Goo_411_0",
             "service": "Google Analytics 360 Suite*",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Goo_416_0",
+            "id": "Goo_412_0",
             "service": "Google Data Studio*",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Fir_417_0",
+            "id": "Fir_413_0",
             "service": "Firebase Performance Monitoring",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
@@ -1398,27 +1393,22 @@
         "category": "Data Transfer",
         "members": [
           {
-            "id": "Clo_371_0",
-            "service": "Cloud Data Transfer",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Tra_372_0",
+            "id": "Tra_370_0",
             "service": "Transfer Appliance",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_373_0",
+            "id": "Clo_371_0",
             "service": "Cloud Storage Transfer Service",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Big_374_0",
+            "id": "Big_372_0",
             "service": "BigQuery Data Transfer Service",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Vel_375_0",
+            "id": "Vel_373_0",
             "service": "Velostrata",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
@@ -1476,77 +1466,72 @@
         "category": "Dev Tools",
         "members": [
           {
-            "id": "Dev_386_0",
-            "service": "Developer tools",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Clo_387_0",
+            "id": "Clo_384_0",
             "service": "Cloud SDK",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Con_388_0",
+            "id": "Con_385_0",
             "service": "Container Registry",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_389_0",
+            "id": "Clo_386_0",
             "service": "Cloud Build",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_390_0",
+            "id": "Clo_387_0",
             "service": "Cloud Source Repositories",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_391_0",
+            "id": "Clo_388_0",
             "service": "Cloud Scheduler",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_392_0",
+            "id": "Clo_389_0",
             "service": "Cloud Tasks",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_393_0",
+            "id": "Clo_390_0",
             "service": "Cloud Tools for IntelliJ",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_394_0",
+            "id": "Clo_391_0",
             "service": "Cloud Tools for PowerShell",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_395_0",
+            "id": "Clo_392_0",
             "service": "Cloud Tools for Visual Studio",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_396_0",
+            "id": "Clo_393_0",
             "service": "Cloud Tools for Eclipse",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Gra_397_0",
+            "id": "Gra_394_0",
             "service": "Gradle App Engine Plugin",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Mav_398_0",
+            "id": "Mav_395_0",
             "service": "Maven App Engine Plugin",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_399_0",
+            "id": "Clo_396_0",
             "service": "Cloud Test Lab",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Fir_400_0",
+            "id": "Fir_397_0",
             "service": "Firebase Crashlytics",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
@@ -1588,17 +1573,17 @@
         "category": "IoT",
         "members": [
           {
-            "id": "Clo_401_0",
+            "id": "Clo_398_0",
             "service": "Cloud IoT Core",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Edg_402_0",
+            "id": "Edg_399_0",
             "service": "Edge TPU",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_403_0",
+            "id": "Clo_400_0",
             "service": "Cloud IoT Edge",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
@@ -1612,82 +1597,77 @@
         "category": "Management",
         "members": [
           {
-            "id": "Man_341_0",
-            "service": "Management tools",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Sta_342_0",
+            "id": "Sta_341_0",
             "service": "Stackdriver",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Mon_343_0",
+            "id": "Mon_342_0",
             "service": "Monitoring",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Ser_344_0",
+            "id": "Ser_343_0",
             "service": "Service Monitoring",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Log_345_0",
+            "id": "Log_344_0",
             "service": "Logging",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Err_346_0",
+            "id": "Err_345_0",
             "service": "Error Reporting",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Tra_347_0",
+            "id": "Tra_346_0",
             "service": "Trace",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Deb_348_0",
+            "id": "Deb_347_0",
             "service": "Debugger",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Pro_349_0",
+            "id": "Pro_348_0",
             "service": "Profiler",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Tra_350_0",
+            "id": "Tra_349_0",
             "service": "Transparent Service Level Indicators",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_351_0",
+            "id": "Clo_350_0",
             "service": "Cloud Deployment Manager",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_352_0",
+            "id": "Clo_351_0",
             "service": "Cloud Console",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_353_0",
+            "id": "Clo_352_0",
             "service": "Cloud Shell",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_354_0",
+            "id": "Clo_353_0",
             "service": "Cloud Mobile App",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Cos_355_0",
+            "id": "Cos_354_0",
             "service": "Cost Management",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_356_0",
+            "id": "Clo_355_0",
             "service": "Cloud APIs",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
@@ -1705,12 +1685,12 @@
         "category": "Media",
         "members": [
           {
-            "id": "Anv_404_0",
+            "id": "Anv_401_0",
             "service": "Anvato",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Zyn_405_0",
+            "id": "Zyn_402_0",
             "service": "Zync Render",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
@@ -1732,52 +1712,52 @@
         "category": "Networking",
         "members": [
           {
-            "id": "Vir_376_0",
+            "id": "Vir_374_0",
             "service": "Virtual Private Cloud (VPC)",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_377_0",
+            "id": "Clo_375_0",
             "service": "Cloud Load Balancing",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_378_0",
+            "id": "Clo_376_0",
             "service": "Cloud Armor",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_379_0",
+            "id": "Clo_377_0",
             "service": "Cloud CDN",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_380_0",
+            "id": "Clo_378_0",
             "service": "Cloud NAT",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_381_0",
+            "id": "Clo_379_0",
             "service": "Cloud Interconnect",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_382_0",
+            "id": "Clo_380_0",
             "service": "Cloud VPN",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_383_0",
+            "id": "Clo_381_0",
             "service": "Cloud DNS",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Net_384_0",
+            "id": "Net_382_0",
             "service": "Network Service Tiers",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Net_385_0",
+            "id": "Net_383_0",
             "service": "Network Telemetry",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
@@ -1797,7 +1777,83 @@
       },
       {
         "category": "Security",
-        "members": []
+        "members": [
+          {
+            "id": "Clo_430_0",
+            "service": "Cloud IAM",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Clo_431_0",
+            "service": "Cloud Identity for Customers  and Partners",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Fir_432_0",
+            "service": "Firebase Authentication",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Clo_433_0",
+            "service": "Cloud Identity-Aware Proxy",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Clo_434_0",
+            "service": "Cloud Data Loss Prevention API",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Sec_435_0",
+            "service": "Security Key Enforcement",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Tit_436_0",
+            "service": "Titan Security Key",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Clo_437_0",
+            "service": "Cloud HSM",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "VPC_438_0",
+            "service": "VPC Service Controls",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Clo_439_0",
+            "service": "Cloud Key Management Service",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Res_440_0",
+            "service": "Resource Manager",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Clo_441_0",
+            "service": "Cloud Security Command Center",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Clo_442_0",
+            "service": "Cloud Security Scanner",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Acc_443_0",
+            "service": "Access Transparency",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Bin_444_0",
+            "service": "Binary Authorization",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          }
+        ]
       },
       {
         "category": "Security, Identity, & Compliance",
@@ -1807,27 +1863,27 @@
         "category": "Storage",
         "members": [
           {
-            "id": "Clo_366_0",
+            "id": "Clo_365_0",
             "service": "Cloud Storage",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Per_367_0",
+            "id": "Per_366_0",
             "service": "Persistent Disk",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_368_0",
+            "id": "Clo_367_0",
             "service": "Cloud Storage for Firebase",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_369_0",
+            "id": "Clo_368_0",
             "service": "Cloud Filestore",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Dri_370_0",
+            "id": "Dri_369_0",
             "service": "Drive Enterprise",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }

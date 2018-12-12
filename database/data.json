@@ -5120,21 +5120,6 @@
       "category": [
          "Management"
       ],
-      "service": "Management tools",
-      "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-      "description": "Stackdriver delivers real time monitoring and logging across GCP and AWS, plus useful diagnostic tools. Manage your apps on GCP with our web-based console, mobile app, or Cloud Shell -- instant command line access through your browser. You can access all Google APIs, including GCP\u2019s Billing API, through these interfaces. Use Deployment Manager templates to simplify your life. Use Cloud Endpoints to manage your APIs. Get started now with our cloud-native management tools.",
-      "keywords": [],
-      "dependencies": {
-         "in": [],
-         "out": []
-      }
-   },
-   {
-      "provider": "Google",
-      "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-      "category": [
-         "Management"
-      ],
       "service": "Stackdriver",
       "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
       "description": "Stackdriver aggregates metrics, logs, and events from infrastructure, giving developers\n            and operators a rich set of observable signals that speed root-cause analysis and\n            reduce mean time to resolution (MTTR). Stackdriver doesn\u2019t require extensive\n            integration or multiple \u201cpanes of glass,\u201d and it won\u2019t lock developers into using a\n            particular cloud provider.",
@@ -5570,21 +5555,6 @@
       "category": [
          "Data Transfer"
       ],
-      "service": "Cloud Data Transfer",
-      "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-      "description": "Whether you are in Denver, Colorado or Denmark, whether you have 50 Gigabytes or 50\n            Petabytes of data, whether you have access to a T1 line or a 10 Gbps network connection,\n            Google offers solutions to meet your unique data transfer needs and get your data on the\n            cloud quickly and securely.",
-      "keywords": [],
-      "dependencies": {
-         "in": [],
-         "out": []
-      }
-   },
-   {
-      "provider": "Google",
-      "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-      "category": [
-         "Data Transfer"
-      ],
       "service": "Transfer Appliance",
       "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
       "description": "Transfer Appliance is a rackable high capacity storage\n            server that you set up in your datacenter. You fill it\n            with data and ship it to an ingest location where the\n            data is uploaded to Google Cloud Storage. Choose from\n            100TB or 480TB\u2019s of raw capacity per appliance to move\n            your data to Google Cloud quickly.",
@@ -5783,21 +5753,6 @@
       "service": "Network Telemetry",
       "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
       "description": "",
-      "keywords": [],
-      "dependencies": {
-         "in": [],
-         "out": []
-      }
-   },
-   {
-      "provider": "Google",
-      "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-      "category": [
-         "Dev Tools"
-      ],
-      "service": "Developer tools",
-      "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-      "description": "Google Cloud Platform provides a collection of tools and libraries that help you develop\n            quicker. We\u2019re developers too and we love tools that make us more productive, so we\u2019re\n            happy to offer these for use on GCP. Whether you\u2019re looking to manage your resources\n            from the command line, need better ways to debug source code in production, need a\n            solution for running API backends or just want intuitive integration into your favorite\n            IDE, we\u2019re constantly working on tooling to make your life easier.",
       "keywords": [],
       "dependencies": {
          "in": [],
@@ -6083,21 +6038,6 @@
       "service": "Zync Render",
       "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
       "description": "",
-      "keywords": [],
-      "dependencies": {
-         "in": [],
-         "out": []
-      }
-   },
-   {
-      "provider": "Google",
-      "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-      "category": [
-         "Data Analysis"
-      ],
-      "service": "Data analytics",
-      "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-      "description": "BigQuery is Google's fully managed, low cost, serverless data warehouse that scales with your storage and computing power needs. With BigQuery, you get a columnar and ANSI SQL database that can analyze petabytes of data in seconds. REST-based APIs integrate with existing applications and developers can even create new apps using familiar programming languages like Java and Ruby. Analyze Geographic Information Systems (GIS) with SQL and BigQuery GIS Beta  data in BigQuery. And quickly build and operationalize ML models on planet-scale structured or semi-structured data using simple SQL with BigQuery ML. Plus, BigQuery offers data transferring services, flexible data ingestion, and pay-for-what-you-use pricing.\n              \nVIEW BIGQUERY",
       "keywords": [],
       "dependencies": {
          "in": [],
@@ -6507,6 +6447,321 @@
       "dependencies": {
          "in": [],
          "out": []
+      }
+   },
+   {  
+      "provider":"Google",
+      "providerIcon":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "category":[  
+         "Security"
+      ],
+      "service":"Cloud IAM",
+      "img":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "description":"Cloud Identity & Access Management (Cloud IAM) lets administrators authorize who\n            can take action on specific resources, giving you full control and visibility to manage\n            cloud resources centrally. For established enterprises with complex organizational\n            structures, hundreds of workgroups, and potentially many more projects, Cloud IAM\n            provides a unified view into security policy across your entire organization,\n            with built-in auditing to ease compliance processes.",
+      "keywords":[  
+
+      ],
+      "dependencies":{  
+         "in":[  
+
+         ],
+         "out":[  
+
+         ]
+      }
+   },
+   {  
+      "provider":"Google",
+      "providerIcon":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "category":[  
+         "Security"
+      ],
+      "service":"Cloud Identity for Customers  and Partners",
+      "img":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "description":"",
+      "keywords":[  
+
+      ],
+      "dependencies":{  
+         "in":[  
+
+         ],
+         "out":[  
+
+         ]
+      }
+   },
+   {  
+      "provider":"Google",
+      "providerIcon":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "category":[  
+         "Security"
+      ],
+      "service":"Firebase Authentication",
+      "img":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "description":"",
+      "keywords":[  
+
+      ],
+      "dependencies":{  
+         "in":[  
+
+         ],
+         "out":[  
+
+         ]
+      }
+   },
+   {  
+      "provider":"Google",
+      "providerIcon":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "category":[  
+         "Security"
+      ],
+      "service":"Cloud Identity-Aware Proxy",
+      "img":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "description":"Cloud Identity-Aware Proxy (Cloud IAP) controls access to your cloud applications running on Google Cloud Platform.\n              Cloud IAP works by verifying user identity and context of the request to determine if a user should be\n              allowed to access the application. Cloud IAP is a building block toward BeyondCorp, an enterprise\n              security model that enables every employee to work from untrusted networks without the use of a VPN.",
+      "keywords":[  
+
+      ],
+      "dependencies":{  
+         "in":[  
+
+         ],
+         "out":[  
+
+         ]
+      }
+   },
+   {  
+      "provider":"Google",
+      "providerIcon":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "category":[  
+         "Security"
+      ],
+      "service":"Cloud Data Loss Prevention API",
+      "img":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "description":"The DLP API helps you better understand and manage sensitive data.\n              It provides fast, scalable classification and redaction for sensitive data\n              elements like credit card numbers, names, social security numbers, US and\n              selected international identifier numbers, phone numbers and GCP credentials.\n              The API classifies this data using more than 90 predefined detectors to\n              identify patterns, formats, and checksums, and even understands contextual clues.\n              You can optionally redact data as well using techniques like masking, secure hashing,\n              bucketing, and format-preserving encryption. Try the DLP API in this\n              demo application.",
+      "keywords":[  
+
+      ],
+      "dependencies":{  
+         "in":[  
+
+         ],
+         "out":[  
+
+         ]
+      }
+   },
+   {  
+      "provider":"Google",
+      "providerIcon":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "category":[  
+         "Security"
+      ],
+      "service":"Security Key Enforcement",
+      "img":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "description":"2-step verification with a security key uses cryptography to provide two-way\n            verification: it makes sure you're logging into the service you originally\n            registered the security key with, and the service verifies that it's the correct\n            security key as well. This provides superior protection to text-message verification.",
+      "keywords":[  
+
+      ],
+      "dependencies":{  
+         "in":[  
+
+         ],
+         "out":[  
+
+         ]
+      }
+   },
+   {  
+      "provider":"Google",
+      "providerIcon":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "category":[  
+         "Security"
+      ],
+      "service":"Titan Security Key",
+      "img":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "description":"",
+      "keywords":[  
+
+      ],
+      "dependencies":{  
+         "in":[  
+
+         ],
+         "out":[  
+
+         ]
+      }
+   },
+   {  
+      "provider":"Google",
+      "providerIcon":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "category":[  
+         "Security"
+      ],
+      "service":"Cloud HSM",
+      "img":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "description":"",
+      "keywords":[  
+
+      ],
+      "dependencies":{  
+         "in":[  
+
+         ],
+         "out":[  
+
+         ]
+      }
+   },
+   {  
+      "provider":"Google",
+      "providerIcon":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "category":[  
+         "Security"
+      ],
+      "service":"VPC Service Controls",
+      "img":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "description":"VPC Service Controls allow users to define a security perimeter around Google Cloud\n            Platform resources such as Cloud Storage buckets, Bigtable instances, and\n            BigQuery datasets to constrain data within a VPC and help mitigate data exfiltration\n            risks. With VPC Service Controls, enterprises can keep their sensitive data private\n            as they take advantage of the fully managed storage and data processing capabilities\n            of Google Cloud Platform.",
+      "keywords":[  
+
+      ],
+      "dependencies":{  
+         "in":[  
+
+         ],
+         "out":[  
+
+         ]
+      }
+   },
+   {  
+      "provider":"Google",
+      "providerIcon":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "category":[  
+         "Security"
+      ],
+      "service":"Cloud Key Management Service",
+      "img":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "description":"Cloud KMS is a cloud-hosted key management service that lets you manage\n            cryptographic keys for your cloud services the same way you do on premises. You can\n            generate, use, rotate, and destroy AES256, RSA 2048, RSA 3072, RSA 4096, EC P256,\n            and EC P384 cryptographic keys. Cloud KMS is integrated with Cloud IAM and Cloud Audit\n            Logging so that you can manage permissions on individual keys and monitor how these\n            are used. Use Cloud KMS to protect secrets and other sensitive data that you need to\n            store in Google Cloud Platform.",
+      "keywords":[  
+
+      ],
+      "dependencies":{  
+         "in":[  
+
+         ],
+         "out":[  
+
+         ]
+      }
+   },
+   {  
+      "provider":"Google",
+      "providerIcon":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "category":[  
+         "Security"
+      ],
+      "service":"Resource Manager",
+      "img":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "description":"Google Cloud Platform provides resource containers such as Organizations, Folders,\n            and Projects, that allow you to group and hierarchically organize other Cloud Platform\n            resources. This hierarchical organization lets you easily manage common aspects of your\n            resources such as access control and configuration settings. Resource Manager enables\n            you to programmatically manage these resource containers.",
+      "keywords":[  
+
+      ],
+      "dependencies":{  
+         "in":[  
+
+         ],
+         "out":[  
+
+         ]
+      }
+   },
+   {  
+      "provider":"Google",
+      "providerIcon":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "category":[  
+         "Security"
+      ],
+      "service":"Cloud Security Command Center",
+      "img":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "description":"Cloud Security Command Center helps security teams gather data, identify threats, and act on them before they result in business damage or loss. It offers deep insight into application and data risk so that you can quickly mitigate threats to your cloud resources and evaluate overall health. With Cloud Security Command Center, you can view and monitor an inventory of your cloud assets, scan storage systems for sensitive data, detect common web vulnerabilities, and review access rights to your critical resources, all from a single, centralized dashboard.",
+      "keywords":[  
+
+      ],
+      "dependencies":{  
+         "in":[  
+
+         ],
+         "out":[  
+
+         ]
+      }
+   },
+   {  
+      "provider":"Google",
+      "providerIcon":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "category":[  
+         "Security"
+      ],
+      "service":"Cloud Security Scanner",
+      "img":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "description":"Cloud Security Scanner is a web security scanner for common\n            vulnerabilities in Google App Engine applications. It can automatically scan and detect\n            four common vulnerabilities, including cross-site-scripting (XSS), Flash injection,\n            mixed content (HTTP in HTTPS), and outdated/insecure libraries. It enables early\n            identification and delivers very low false positive rates. You can easily setup, run,\n            schedule, and manage security scans and it is free for Google Cloud Platform users.",
+      "keywords":[  
+
+      ],
+      "dependencies":{  
+         "in":[  
+
+         ],
+         "out":[  
+
+         ]
+      }
+   },
+   {  
+      "provider":"Google",
+      "providerIcon":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "category":[  
+         "Security"
+      ],
+      "service":"Access Transparency",
+      "img":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "description":"Access Transparency gives you near real-time logs when Google Cloud Platform\n            administrators access your content. GCP\u2019s Cloud Audit Logs already provide visibility\n            into the actions of your own administrators. However, this audit trail typically\n            stops once your cloud provider\u2019s support or engineering team is engaged. For example,\n            prior to Access Transparency logging, if you opened a ticket with Google Support\n            that would require data access, it would not have been reflected in a Cloud Audit\n            Log. Access Transparency closes that gap, capturing near real-time logs of manual,\n            targeted accesses by either support or engineering.",
+      "keywords":[  
+
+      ],
+      "dependencies":{  
+         "in":[  
+
+         ],
+         "out":[  
+
+         ]
+      }
+   },
+   {  
+      "provider":"Google",
+      "providerIcon":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "category":[  
+         "Security"
+      ],
+      "service":"Binary Authorization",
+      "img":"./img/logos/Google/Extras/Google Cloud Platform.svg",
+      "description":"",
+      "keywords":[  
+
+      ],
+      "dependencies":{  
+         "in":[  
+
+         ],
+         "out":[  
+
+         ]
       }
    }
 ]

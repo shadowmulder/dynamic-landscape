@@ -17275,74 +17275,7 @@
     ]
   },
   {
-    "id": "Man_341_0",
-    "service": "Management tools",
-    "provider": "Google",
-    "category": "Management",
-    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-    "description": "Stackdriver delivers real time monitoring and logging across GCP and AWS, plus useful diagnostic tools. Manage your apps on GCP with our web-based console, mobile app, or Cloud Shell -- instant command line access through your browser. You can access all Google APIs, including GCP’s Billing API, through these interfaces. Use Deployment Manager templates to simplify your life. Use Cloud Endpoints to manage your APIs. Get started now with our cloud-native management tools.",
-    "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-    "dependencies": {
-      "in": [],
-      "out": []
-    },
-    "keywords": [
-      "google",
-      "management",
-      "tools",
-      "stackdriver",
-      "delivers",
-      "real",
-      "time",
-      "monitoring",
-      "logging",
-      "across",
-      "gcp",
-      "aws",
-      "plus",
-      "useful",
-      "diagnostic",
-      "manage",
-      "apps",
-      "our",
-      "webbased",
-      "console",
-      "mobile",
-      "app",
-      "cloud",
-      "shell",
-      "",
-      "instant",
-      "command",
-      "line",
-      "access",
-      "through",
-      "browser",
-      "you",
-      "apis",
-      "including",
-      "gcp’s",
-      "billing",
-      "api",
-      "these",
-      "interfaces",
-      "use",
-      "deployment",
-      "manager",
-      "templates",
-      "simplify",
-      "life",
-      "endpoints",
-      "manage",
-      "get",
-      "started",
-      "now",
-      "cloudnative",
-      "management"
-    ]
-  },
-  {
-    "id": "Sta_342_0",
+    "id": "Sta_341_0",
     "service": "Stackdriver",
     "provider": "Google",
     "category": "Management",
@@ -17395,7 +17328,7 @@
     ]
   },
   {
-    "id": "Mon_343_0",
+    "id": "Mon_342_0",
     "service": "Monitoring",
     "provider": "Google",
     "category": "Management",
@@ -17465,7 +17398,7 @@
     ]
   },
   {
-    "id": "Ser_344_0",
+    "id": "Ser_343_0",
     "service": "Service Monitoring",
     "provider": "Google",
     "category": "Management",
@@ -17485,7 +17418,7 @@
     ]
   },
   {
-    "id": "Log_345_0",
+    "id": "Log_344_0",
     "service": "Logging",
     "provider": "Google",
     "category": "Management",
@@ -17541,7 +17474,7 @@
     ]
   },
   {
-    "id": "Err_346_0",
+    "id": "Err_345_0",
     "service": "Error Reporting",
     "provider": "Google",
     "category": "Management",
@@ -17605,7 +17538,7 @@
     ]
   },
   {
-    "id": "Tra_347_0",
+    "id": "Tra_346_0",
     "service": "Trace",
     "provider": "Google",
     "category": "Management",
@@ -17665,7 +17598,7 @@
     ]
   },
   {
-    "id": "Deb_348_0",
+    "id": "Deb_347_0",
     "service": "Debugger",
     "provider": "Google",
     "category": "Management",
@@ -17722,7 +17655,7 @@
     ]
   },
   {
-    "id": "Pro_349_0",
+    "id": "Pro_348_0",
     "service": "Profiler",
     "provider": "Google",
     "category": "Management",
@@ -17794,7 +17727,7 @@
     ]
   },
   {
-    "id": "Tra_350_0",
+    "id": "Tra_349_0",
     "service": "Transparent Service Level Indicators",
     "provider": "Google",
     "category": "Management",
@@ -17816,7 +17749,7 @@
     ]
   },
   {
-    "id": "Clo_351_0",
+    "id": "Clo_350_0",
     "service": "Cloud Deployment Manager",
     "provider": "Google",
     "category": "Management",
@@ -17867,7 +17800,7 @@
     ]
   },
   {
-    "id": "Clo_352_0",
+    "id": "Clo_351_0",
     "service": "Cloud Console",
     "provider": "Google",
     "category": "Management",
@@ -17939,7 +17872,7 @@
     ]
   },
   {
-    "id": "Clo_353_0",
+    "id": "Clo_352_0",
     "service": "Cloud Shell",
     "provider": "Google",
     "category": "Management",
@@ -17989,7 +17922,7 @@
     ]
   },
   {
-    "id": "Clo_354_0",
+    "id": "Clo_353_0",
     "service": "Cloud Mobile App",
     "provider": "Google",
     "category": "Management",
@@ -18047,7 +17980,7 @@
     ]
   },
   {
-    "id": "Cos_355_0",
+    "id": "Cos_354_0",
     "service": "Cost Management",
     "provider": "Google",
     "category": "Management",
@@ -18066,7 +17999,7 @@
     ]
   },
   {
-    "id": "Clo_356_0",
+    "id": "Clo_355_0",
     "service": "Cloud APIs",
     "provider": "Google",
     "category": "Management",
@@ -18109,7 +18042,7 @@
     ]
   },
   {
-    "id": "Api_357_0",
+    "id": "Api_356_0",
     "service": "Apigee API Platform",
     "provider": "Google",
     "category": "APIs",
@@ -18171,7 +18104,7 @@
     ]
   },
   {
-    "id": "API_358_0",
+    "id": "API_357_0",
     "service": "API Analytics",
     "provider": "Google",
     "category": "APIs",
@@ -18227,7 +18160,7 @@
     ]
   },
   {
-    "id": "API_359_0",
+    "id": "API_358_0",
     "service": "API Monetization",
     "provider": "Google",
     "category": "APIs",
@@ -18279,7 +18212,7 @@
     ]
   },
   {
-    "id": "Api_360_0",
+    "id": "Api_359_0",
     "service": "Apigee Sense",
     "provider": "Google",
     "category": "APIs",
@@ -18336,7 +18269,7 @@
     ]
   },
   {
-    "id": "Clo_361_0",
+    "id": "Clo_360_0",
     "service": "Cloud Endpoints",
     "provider": "Google",
     "category": "APIs",
@@ -18391,7 +18324,7 @@
     ]
   },
   {
-    "id": "Dev_362_0",
+    "id": "Dev_361_0",
     "service": "Developer Portal",
     "provider": "Google",
     "category": "APIs",
@@ -18449,7 +18382,7 @@
     ]
   },
   {
-    "id": "Api_363_0",
+    "id": "Api_362_0",
     "service": "Apigee Healthcare APIx",
     "provider": "Google",
     "category": "APIs",
@@ -18470,7 +18403,7 @@
     ]
   },
   {
-    "id": "Api_364_0",
+    "id": "Api_363_0",
     "service": "Apigee Open Banking APIx",
     "provider": "Google",
     "category": "APIs",
@@ -18492,7 +18425,7 @@
     ]
   },
   {
-    "id": "Clo_365_0",
+    "id": "Clo_364_0",
     "service": "Cloud Healthcare API",
     "provider": "Google",
     "category": "APIs",
@@ -18513,7 +18446,7 @@
     ]
   },
   {
-    "id": "Clo_366_0",
+    "id": "Clo_365_0",
     "service": "Cloud Storage",
     "provider": "Google",
     "category": "Storage",
@@ -18532,7 +18465,7 @@
     ]
   },
   {
-    "id": "Per_367_0",
+    "id": "Per_366_0",
     "service": "Persistent Disk",
     "provider": "Google",
     "category": "Storage",
@@ -18583,7 +18516,7 @@
     ]
   },
   {
-    "id": "Clo_368_0",
+    "id": "Clo_367_0",
     "service": "Cloud Storage for Firebase",
     "provider": "Google",
     "category": "Storage",
@@ -18604,7 +18537,7 @@
     ]
   },
   {
-    "id": "Clo_369_0",
+    "id": "Clo_368_0",
     "service": "Cloud Filestore",
     "provider": "Google",
     "category": "Storage",
@@ -18660,7 +18593,7 @@
     ]
   },
   {
-    "id": "Dri_370_0",
+    "id": "Dri_369_0",
     "service": "Drive Enterprise",
     "provider": "Google",
     "category": "Storage",
@@ -18680,56 +18613,7 @@
     ]
   },
   {
-    "id": "Clo_371_0",
-    "service": "Cloud Data Transfer",
-    "provider": "Google",
-    "category": "Data Transfer",
-    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-    "description": "Whether you are in Denver, Colorado or Denmark, whether you have 50 Gigabytes or 50\n            Petabytes of data, whether you have access to a T1 line or a 10 Gbps network connection,\n            Google offers solutions to meet your unique data transfer needs and get your data on the\n            cloud quickly and securely.",
-    "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-    "dependencies": {
-      "in": [],
-      "out": []
-    },
-    "keywords": [
-      "google",
-      "data",
-      "transfer",
-      "cloud",
-      "whether",
-      "are",
-      "denver",
-      "colorado",
-      "denmark",
-      "whether",
-      "have",
-      "50",
-      "gigabytes",
-      "50\n",
-      "",
-      "petabytes",
-      "data",
-      "access",
-      "t1",
-      "line",
-      "10",
-      "gbps",
-      "network",
-      "connection\n",
-      "offers",
-      "solutions",
-      "meet",
-      "unique",
-      "transfer",
-      "needs",
-      "the\n",
-      "cloud",
-      "quickly",
-      "securely"
-    ]
-  },
-  {
-    "id": "Tra_372_0",
+    "id": "Tra_370_0",
     "service": "Transfer Appliance",
     "provider": "Google",
     "category": "Data Transfer",
@@ -18776,7 +18660,7 @@
     ]
   },
   {
-    "id": "Clo_373_0",
+    "id": "Clo_371_0",
     "service": "Cloud Storage Transfer Service",
     "provider": "Google",
     "category": "Data Transfer",
@@ -18798,7 +18682,7 @@
     ]
   },
   {
-    "id": "Big_374_0",
+    "id": "Big_372_0",
     "service": "BigQuery Data Transfer Service",
     "provider": "Google",
     "category": "Data Transfer",
@@ -18851,7 +18735,7 @@
     ]
   },
   {
-    "id": "Vel_375_0",
+    "id": "Vel_373_0",
     "service": "Velostrata",
     "provider": "Google",
     "category": "Data Transfer",
@@ -18871,7 +18755,7 @@
     ]
   },
   {
-    "id": "Vir_376_0",
+    "id": "Vir_374_0",
     "service": "Virtual Private Cloud (VPC)",
     "provider": "Google",
     "category": "Networking",
@@ -18919,7 +18803,7 @@
     ]
   },
   {
-    "id": "Clo_377_0",
+    "id": "Clo_375_0",
     "service": "Cloud Load Balancing",
     "provider": "Google",
     "category": "Networking",
@@ -18980,7 +18864,7 @@
     ]
   },
   {
-    "id": "Clo_378_0",
+    "id": "Clo_376_0",
     "service": "Cloud Armor",
     "provider": "Google",
     "category": "Networking",
@@ -19016,7 +18900,7 @@
     ]
   },
   {
-    "id": "Clo_379_0",
+    "id": "Clo_377_0",
     "service": "Cloud CDN",
     "provider": "Google",
     "category": "Networking",
@@ -19069,7 +18953,7 @@
     ]
   },
   {
-    "id": "Clo_380_0",
+    "id": "Clo_378_0",
     "service": "Cloud NAT",
     "provider": "Google",
     "category": "Networking",
@@ -19089,7 +18973,7 @@
     ]
   },
   {
-    "id": "Clo_381_0",
+    "id": "Clo_379_0",
     "service": "Cloud Interconnect",
     "provider": "Google",
     "category": "Networking",
@@ -19109,7 +18993,7 @@
     ]
   },
   {
-    "id": "Clo_382_0",
+    "id": "Clo_380_0",
     "service": "Cloud VPN",
     "provider": "Google",
     "category": "Networking",
@@ -19129,7 +19013,7 @@
     ]
   },
   {
-    "id": "Clo_383_0",
+    "id": "Clo_381_0",
     "service": "Cloud DNS",
     "provider": "Google",
     "category": "Networking",
@@ -19197,7 +19081,7 @@
     ]
   },
   {
-    "id": "Net_384_0",
+    "id": "Net_382_0",
     "service": "Network Service Tiers",
     "provider": "Google",
     "category": "Networking",
@@ -19218,7 +19102,7 @@
     ]
   },
   {
-    "id": "Net_385_0",
+    "id": "Net_383_0",
     "service": "Network Telemetry",
     "provider": "Google",
     "category": "Networking",
@@ -19238,81 +19122,7 @@
     ]
   },
   {
-    "id": "Dev_386_0",
-    "service": "Developer tools",
-    "provider": "Google",
-    "category": "Dev Tools",
-    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-    "description": "Google Cloud Platform provides a collection of tools and libraries that help you develop\n            quicker. We’re developers too and we love tools that make us more productive, so we’re\n            happy to offer these for use on GCP. Whether you’re looking to manage your resources\n            from the command line, need better ways to debug source code in production, need a\n            solution for running API backends or just want intuitive integration into your favorite\n            IDE, we’re constantly working on tooling to make your life easier.",
-    "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-    "dependencies": {
-      "in": [],
-      "out": []
-    },
-    "keywords": [
-      "google",
-      "dev",
-      "tools",
-      "developer",
-      "tools",
-      "cloud",
-      "platform",
-      "provides",
-      "collection",
-      "libraries",
-      "help",
-      "develop\n",
-      "",
-      "quicker",
-      "we’re",
-      "developers",
-      "too",
-      "we",
-      "love",
-      "make",
-      "us",
-      "more",
-      "productive",
-      "we’re\n",
-      "happy",
-      "offer",
-      "these",
-      "gcp",
-      "whether",
-      "you’re",
-      "looking",
-      "manage",
-      "resources\n",
-      "command",
-      "line",
-      "need",
-      "better",
-      "ways",
-      "debug",
-      "source",
-      "code",
-      "production",
-      "a\n",
-      "solution",
-      "running",
-      "api",
-      "backends",
-      "just",
-      "want",
-      "intuitive",
-      "integration",
-      "favorite\n",
-      "ide",
-      "we’re",
-      "constantly",
-      "working",
-      "tooling",
-      "life",
-      "easier"
-    ]
-  },
-  {
-    "id": "Clo_387_0",
+    "id": "Clo_384_0",
     "service": "Cloud SDK",
     "provider": "Google",
     "category": "Dev Tools",
@@ -19356,7 +19166,7 @@
     ]
   },
   {
-    "id": "Con_388_0",
+    "id": "Con_385_0",
     "service": "Container Registry",
     "provider": "Google",
     "category": "Dev Tools",
@@ -19377,7 +19187,7 @@
     ]
   },
   {
-    "id": "Clo_389_0",
+    "id": "Clo_386_0",
     "service": "Cloud Build",
     "provider": "Google",
     "category": "Dev Tools",
@@ -19398,7 +19208,7 @@
     ]
   },
   {
-    "id": "Clo_390_0",
+    "id": "Clo_387_0",
     "service": "Cloud Source Repositories",
     "provider": "Google",
     "category": "Dev Tools",
@@ -19420,7 +19230,7 @@
     ]
   },
   {
-    "id": "Clo_391_0",
+    "id": "Clo_388_0",
     "service": "Cloud Scheduler",
     "provider": "Google",
     "category": "Dev Tools",
@@ -19441,7 +19251,7 @@
     ]
   },
   {
-    "id": "Clo_392_0",
+    "id": "Clo_389_0",
     "service": "Cloud Tasks",
     "provider": "Google",
     "category": "Dev Tools",
@@ -19483,7 +19293,7 @@
     ]
   },
   {
-    "id": "Clo_393_0",
+    "id": "Clo_390_0",
     "service": "Cloud Tools for IntelliJ",
     "provider": "Google",
     "category": "Dev Tools",
@@ -19543,7 +19353,7 @@
     ]
   },
   {
-    "id": "Clo_394_0",
+    "id": "Clo_391_0",
     "service": "Cloud Tools for PowerShell",
     "provider": "Google",
     "category": "Dev Tools",
@@ -19585,7 +19395,7 @@
     ]
   },
   {
-    "id": "Clo_395_0",
+    "id": "Clo_392_0",
     "service": "Cloud Tools for Visual Studio",
     "provider": "Google",
     "category": "Dev Tools",
@@ -19640,7 +19450,7 @@
     ]
   },
   {
-    "id": "Clo_396_0",
+    "id": "Clo_393_0",
     "service": "Cloud Tools for Eclipse",
     "provider": "Google",
     "category": "Dev Tools",
@@ -19662,7 +19472,7 @@
     ]
   },
   {
-    "id": "Gra_397_0",
+    "id": "Gra_394_0",
     "service": "Gradle App Engine Plugin",
     "provider": "Google",
     "category": "Dev Tools",
@@ -19685,7 +19495,7 @@
     ]
   },
   {
-    "id": "Mav_398_0",
+    "id": "Mav_395_0",
     "service": "Maven App Engine Plugin",
     "provider": "Google",
     "category": "Dev Tools",
@@ -19708,7 +19518,7 @@
     ]
   },
   {
-    "id": "Clo_399_0",
+    "id": "Clo_396_0",
     "service": "Cloud Test Lab",
     "provider": "Google",
     "category": "Dev Tools",
@@ -19730,7 +19540,7 @@
     ]
   },
   {
-    "id": "Fir_400_0",
+    "id": "Fir_397_0",
     "service": "Firebase Crashlytics",
     "provider": "Google",
     "category": "Dev Tools",
@@ -19751,7 +19561,7 @@
     ]
   },
   {
-    "id": "Clo_401_0",
+    "id": "Clo_398_0",
     "service": "Cloud IoT Core",
     "provider": "Google",
     "category": "IoT",
@@ -19805,7 +19615,7 @@
     ]
   },
   {
-    "id": "Edg_402_0",
+    "id": "Edg_399_0",
     "service": "Edge TPU",
     "provider": "Google",
     "category": "IoT",
@@ -19825,7 +19635,7 @@
     ]
   },
   {
-    "id": "Clo_403_0",
+    "id": "Clo_400_0",
     "service": "Cloud IoT Edge",
     "provider": "Google",
     "category": "IoT",
@@ -19845,7 +19655,7 @@
     ]
   },
   {
-    "id": "Anv_404_0",
+    "id": "Anv_401_0",
     "service": "Anvato",
     "provider": "Google",
     "category": "Media",
@@ -19864,7 +19674,7 @@
     ]
   },
   {
-    "id": "Zyn_405_0",
+    "id": "Zyn_402_0",
     "service": "Zync Render",
     "provider": "Google",
     "category": "Media",
@@ -19884,90 +19694,7 @@
     ]
   },
   {
-    "id": "Dat_406_0",
-    "service": "Data analytics",
-    "provider": "Google",
-    "category": "Data Analysis",
-    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-    "description": "BigQuery is Google's fully managed, low cost, serverless data warehouse that scales with your storage and computing power needs. With BigQuery, you get a columnar and ANSI SQL database that can analyze petabytes of data in seconds. REST-based APIs integrate with existing applications and developers can even create new apps using familiar programming languages like Java and Ruby. Analyze Geographic Information Systems (GIS) with SQL and BigQuery GIS Beta  data in BigQuery. And quickly build and operationalize ML models on planet-scale structured or semi-structured data using simple SQL with BigQuery ML. Plus, BigQuery offers data transferring services, flexible data ingestion, and pay-for-what-you-use pricing.\n              \nVIEW BIGQUERY",
-    "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-    "dependencies": {
-      "in": [],
-      "out": []
-    },
-    "keywords": [
-      "google",
-      "data",
-      "analysis",
-      "analytics",
-      "bigquery",
-      "google's",
-      "fully",
-      "managed",
-      "low",
-      "cost",
-      "serverless",
-      "data",
-      "warehouse",
-      "scales",
-      "storage",
-      "computing",
-      "power",
-      "needs",
-      "with",
-      "columnar",
-      "ansi",
-      "sql",
-      "database",
-      "analyze",
-      "petabytes",
-      "seconds",
-      "restbased",
-      "apis",
-      "integrate",
-      "existing",
-      "applications",
-      "developers",
-      "even",
-      "create",
-      "new",
-      "apps",
-      "familiar",
-      "programming",
-      "languages",
-      "java",
-      "ruby",
-      "analyze",
-      "geographic",
-      "information",
-      "systems",
-      "gis",
-      "beta",
-      "",
-      "and",
-      "quickly",
-      "build",
-      "operationalize",
-      "ml",
-      "models",
-      "planetscale",
-      "structured",
-      "semistructured",
-      "simple",
-      "plus",
-      "offers",
-      "transferring",
-      "services",
-      "flexible",
-      "ingestion",
-      "payforwhatyouuse",
-      "pricing\n",
-      "\nview",
-      "bigquery"
-    ]
-  },
-  {
-    "id": "Big_407_0",
+    "id": "Big_403_0",
     "service": "BigQuery",
     "provider": "Google",
     "category": "Data Analysis",
@@ -20015,7 +19742,7 @@
     ]
   },
   {
-    "id": "Clo_408_0",
+    "id": "Clo_404_0",
     "service": "Cloud Dataflow",
     "provider": "Google",
     "category": "Data Analysis",
@@ -20078,7 +19805,7 @@
     ]
   },
   {
-    "id": "Clo_409_0",
+    "id": "Clo_405_0",
     "service": "Cloud Dataproc",
     "provider": "Google",
     "category": "Data Analysis",
@@ -20144,7 +19871,7 @@
     ]
   },
   {
-    "id": "Clo_410_0",
+    "id": "Clo_406_0",
     "service": "Cloud Datalab",
     "provider": "Google",
     "category": "Data Analysis",
@@ -20192,7 +19919,7 @@
     ]
   },
   {
-    "id": "Clo_411_0",
+    "id": "Clo_407_0",
     "service": "Cloud Dataprep",
     "provider": "Google",
     "category": "Data Analysis",
@@ -20234,7 +19961,7 @@
     ]
   },
   {
-    "id": "Clo_412_0",
+    "id": "Clo_408_0",
     "service": "Cloud Pub/Sub",
     "provider": "Google",
     "category": "Data Analysis",
@@ -20295,7 +20022,7 @@
     ]
   },
   {
-    "id": "Clo_413_0",
+    "id": "Clo_409_0",
     "service": "Cloud Composer",
     "provider": "Google",
     "category": "Data Analysis",
@@ -20348,7 +20075,7 @@
     ]
   },
   {
-    "id": "Gen_414_0",
+    "id": "Gen_410_0",
     "service": "Genomics",
     "provider": "Google",
     "category": "Data Analysis",
@@ -20408,7 +20135,7 @@
     ]
   },
   {
-    "id": "Goo_415_0",
+    "id": "Goo_411_0",
     "service": "Google Analytics 360 Suite*",
     "provider": "Google",
     "category": "Data Analysis",
@@ -20430,7 +20157,7 @@
     ]
   },
   {
-    "id": "Goo_416_0",
+    "id": "Goo_412_0",
     "service": "Google Data Studio*",
     "provider": "Google",
     "category": "Data Analysis",
@@ -20450,7 +20177,7 @@
     ]
   },
   {
-    "id": "Fir_417_0",
+    "id": "Fir_413_0",
     "service": "Firebase Performance Monitoring",
     "provider": "Google",
     "category": "Data Analysis",
@@ -20472,7 +20199,7 @@
     ]
   },
   {
-    "id": "AI_418_0",
+    "id": "AI_414_0",
     "service": "AI and machine learning",
     "provider": "Google",
     "category": "AI",
@@ -20541,7 +20268,7 @@
     ]
   },
   {
-    "id": "AI_419_0",
+    "id": "AI_415_0",
     "service": "AI Hub",
     "provider": "Google",
     "category": "AI",
@@ -20560,7 +20287,7 @@
     ]
   },
   {
-    "id": "Clo_420_0",
+    "id": "Clo_416_0",
     "service": "Cloud AutoML",
     "provider": "Google",
     "category": "AI",
@@ -20604,7 +20331,7 @@
     ]
   },
   {
-    "id": "Clo_421_0",
+    "id": "Clo_417_0",
     "service": "Cloud TPU",
     "provider": "Google",
     "category": "AI",
@@ -20683,7 +20410,7 @@
     ]
   },
   {
-    "id": "Clo_422_0",
+    "id": "Clo_418_0",
     "service": "Cloud Machine Learning Engine",
     "provider": "Google",
     "category": "AI",
@@ -20746,7 +20473,7 @@
     ]
   },
   {
-    "id": "Clo_423_0",
+    "id": "Clo_419_0",
     "service": "Cloud Talent Solution",
     "provider": "Google",
     "category": "AI",
@@ -20767,7 +20494,7 @@
     ]
   },
   {
-    "id": "Dia_424_0",
+    "id": "Dia_420_0",
     "service": "Dialogflow Enterprise Edition",
     "provider": "Google",
     "category": "AI",
@@ -20827,7 +20554,7 @@
     ]
   },
   {
-    "id": "Clo_425_0",
+    "id": "Clo_421_0",
     "service": "Cloud Natural Language",
     "provider": "Google",
     "category": "AI",
@@ -20870,7 +20597,7 @@
     ]
   },
   {
-    "id": "Clo_426_0",
+    "id": "Clo_422_0",
     "service": "Cloud Speech-to-Text",
     "provider": "Google",
     "category": "AI",
@@ -20930,7 +20657,7 @@
     ]
   },
   {
-    "id": "Clo_427_0",
+    "id": "Clo_423_0",
     "service": "Cloud Text-to-Speech",
     "provider": "Google",
     "category": "AI",
@@ -20987,7 +20714,7 @@
     ]
   },
   {
-    "id": "Clo_428_0",
+    "id": "Clo_424_0",
     "service": "Cloud Translation",
     "provider": "Google",
     "category": "AI",
@@ -21021,7 +20748,7 @@
     ]
   },
   {
-    "id": "Clo_429_0",
+    "id": "Clo_425_0",
     "service": "Cloud Vision",
     "provider": "Google",
     "category": "AI",
@@ -21055,7 +20782,7 @@
     ]
   },
   {
-    "id": "Clo_430_0",
+    "id": "Clo_426_0",
     "service": "Cloud Video Intelligence",
     "provider": "Google",
     "category": "AI",
@@ -21120,7 +20847,7 @@
     ]
   },
   {
-    "id": "Clo_431_0",
+    "id": "Clo_427_0",
     "service": "Cloud Inference API",
     "provider": "Google",
     "category": "AI",
@@ -21141,7 +20868,7 @@
     ]
   },
   {
-    "id": "Fir_432_0",
+    "id": "Fir_428_0",
     "service": "Firebase Predictions",
     "provider": "Google",
     "category": "AI",
@@ -21161,7 +20888,7 @@
     ]
   },
   {
-    "id": "Clo_433_0",
+    "id": "Clo_429_0",
     "service": "Cloud Deep Learning VM Image",
     "provider": "Google",
     "category": "AI",
@@ -21180,6 +20907,744 @@
       "learning",
       "vm",
       "image",
+      ""
+    ]
+  },
+  {
+    "id": "Clo_430_0",
+    "service": "Cloud IAM",
+    "provider": "Google",
+    "category": "Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "description": "Cloud Identity & Access Management (Cloud IAM) lets administrators authorize who\n            can take action on specific resources, giving you full control and visibility to manage\n            cloud resources centrally. For established enterprises with complex organizational\n            structures, hundreds of workgroups, and potentially many more projects, Cloud IAM\n            provides a unified view into security policy across your entire organization,\n            with built-in auditing to ease compliance processes.",
+    "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "security",
+      "cloud",
+      "iam",
+      "identity",
+      "",
+      "access",
+      "management",
+      "lets",
+      "administrators",
+      "authorize",
+      "who\n",
+      "take",
+      "action",
+      "specific",
+      "resources",
+      "giving",
+      "full",
+      "control",
+      "visibility",
+      "manage\n",
+      "cloud",
+      "centrally",
+      "for",
+      "established",
+      "enterprises",
+      "complex",
+      "organizational\n",
+      "structures",
+      "hundreds",
+      "workgroups",
+      "potentially",
+      "many",
+      "more",
+      "projects",
+      "iam\n",
+      "provides",
+      "unified",
+      "view",
+      "security",
+      "policy",
+      "across",
+      "entire",
+      "organization\n",
+      "builtin",
+      "auditing",
+      "ease",
+      "compliance",
+      "processes"
+    ]
+  },
+  {
+    "id": "Clo_431_0",
+    "service": "Cloud Identity for Customers  and Partners",
+    "provider": "Google",
+    "category": "Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "description": "",
+    "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "security",
+      "cloud",
+      "identity",
+      "for",
+      "customers",
+      "",
+      "and",
+      "partners"
+    ]
+  },
+  {
+    "id": "Fir_432_0",
+    "service": "Firebase Authentication",
+    "provider": "Google",
+    "category": "Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "description": "",
+    "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "security",
+      "firebase",
+      "authentication",
+      ""
+    ]
+  },
+  {
+    "id": "Clo_433_0",
+    "service": "Cloud Identity-Aware Proxy",
+    "provider": "Google",
+    "category": "Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "description": "Cloud Identity-Aware Proxy (Cloud IAP) controls access to your cloud applications running on Google Cloud Platform.\n              Cloud IAP works by verifying user identity and context of the request to determine if a user should be\n              allowed to access the application. Cloud IAP is a building block toward BeyondCorp, an enterprise\n              security model that enables every employee to work from untrusted networks without the use of a VPN.",
+    "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "security",
+      "cloud",
+      "identity-aware",
+      "proxy",
+      "identityaware",
+      "iap",
+      "controls",
+      "access",
+      "cloud",
+      "applications",
+      "running",
+      "platform\n",
+      "",
+      "works",
+      "verifying",
+      "user",
+      "identity",
+      "context",
+      "request",
+      "determine",
+      "if",
+      "should",
+      "be\n",
+      "allowed",
+      "application",
+      "building",
+      "block",
+      "toward",
+      "beyondcorp",
+      "enterprise\n",
+      "security",
+      "model",
+      "enables",
+      "every",
+      "employee",
+      "work",
+      "untrusted",
+      "networks",
+      "without",
+      "vpn"
+    ]
+  },
+  {
+    "id": "Clo_434_0",
+    "service": "Cloud Data Loss Prevention API",
+    "provider": "Google",
+    "category": "Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "description": "The DLP API helps you better understand and manage sensitive data.\n              It provides fast, scalable classification and redaction for sensitive data\n              elements like credit card numbers, names, social security numbers, US and\n              selected international identifier numbers, phone numbers and GCP credentials.\n              The API classifies this data using more than 90 predefined detectors to\n              identify patterns, formats, and checksums, and even understands contextual clues.\n              You can optionally redact data as well using techniques like masking, secure hashing,\n              bucketing, and format-preserving encryption. Try the DLP API in this\n              demo application.",
+    "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "security",
+      "cloud",
+      "data",
+      "loss",
+      "prevention",
+      "api",
+      "the",
+      "dlp",
+      "helps",
+      "better",
+      "understand",
+      "manage",
+      "sensitive",
+      "data\n",
+      "",
+      "provides",
+      "fast",
+      "scalable",
+      "classification",
+      "redaction",
+      "elements",
+      "credit",
+      "card",
+      "numbers",
+      "names",
+      "social",
+      "security",
+      "us",
+      "and\n",
+      "selected",
+      "international",
+      "identifier",
+      "phone",
+      "gcp",
+      "credentials\n",
+      "classifies",
+      "this",
+      "data",
+      "more",
+      "than",
+      "90",
+      "predefined",
+      "detectors",
+      "to\n",
+      "identify",
+      "patterns",
+      "formats",
+      "checksums",
+      "even",
+      "understands",
+      "contextual",
+      "clues\n",
+      "you",
+      "optionally",
+      "redact",
+      "well",
+      "techniques",
+      "masking",
+      "secure",
+      "hashing\n",
+      "bucketing",
+      "formatpreserving",
+      "encryption",
+      "try",
+      "this\n",
+      "demo",
+      "application"
+    ]
+  },
+  {
+    "id": "Sec_435_0",
+    "service": "Security Key Enforcement",
+    "provider": "Google",
+    "category": "Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "description": "2-step verification with a security key uses cryptography to provide two-way\n            verification: it makes sure you're logging into the service you originally\n            registered the security key with, and the service verifies that it's the correct\n            security key as well. This provides superior protection to text-message verification.",
+    "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "security",
+      "key",
+      "enforcement",
+      "2step",
+      "verification",
+      "security",
+      "key",
+      "uses",
+      "cryptography",
+      "provide",
+      "twoway\n",
+      "",
+      "sure",
+      "you're",
+      "logging",
+      "service",
+      "originally\n",
+      "registered",
+      "verifies",
+      "it's",
+      "correct\n",
+      "well",
+      "this",
+      "provides",
+      "superior",
+      "protection",
+      "textmessage"
+    ]
+  },
+  {
+    "id": "Tit_436_0",
+    "service": "Titan Security Key",
+    "provider": "Google",
+    "category": "Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "description": "",
+    "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "security",
+      "titan",
+      "key",
+      ""
+    ]
+  },
+  {
+    "id": "Clo_437_0",
+    "service": "Cloud HSM",
+    "provider": "Google",
+    "category": "Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "description": "",
+    "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "security",
+      "cloud",
+      "hsm",
+      ""
+    ]
+  },
+  {
+    "id": "VPC_438_0",
+    "service": "VPC Service Controls",
+    "provider": "Google",
+    "category": "Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "description": "VPC Service Controls allow users to define a security perimeter around Google Cloud\n            Platform resources such as Cloud Storage buckets, Bigtable instances, and\n            BigQuery datasets to constrain data within a VPC and help mitigate data exfiltration\n            risks. With VPC Service Controls, enterprises can keep their sensitive data private\n            as they take advantage of the fully managed storage and data processing capabilities\n            of Google Cloud Platform.",
+    "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "security",
+      "vpc",
+      "service",
+      "controls",
+      "allow",
+      "users",
+      "define",
+      "security",
+      "perimeter",
+      "around",
+      "cloud\n",
+      "",
+      "platform",
+      "resources",
+      "such",
+      "cloud",
+      "storage",
+      "buckets",
+      "bigtable",
+      "instances",
+      "and\n",
+      "bigquery",
+      "datasets",
+      "constrain",
+      "data",
+      "within",
+      "help",
+      "mitigate",
+      "exfiltration\n",
+      "risks",
+      "with",
+      "enterprises",
+      "keep",
+      "their",
+      "sensitive",
+      "private\n",
+      "they",
+      "take",
+      "advantage",
+      "fully",
+      "managed",
+      "storage",
+      "processing",
+      "capabilities\n"
+    ]
+  },
+  {
+    "id": "Clo_439_0",
+    "service": "Cloud Key Management Service",
+    "provider": "Google",
+    "category": "Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "description": "Cloud KMS is a cloud-hosted key management service that lets you manage\n            cryptographic keys for your cloud services the same way you do on premises. You can\n            generate, use, rotate, and destroy AES256, RSA 2048, RSA 3072, RSA 4096, EC P256,\n            and EC P384 cryptographic keys. Cloud KMS is integrated with Cloud IAM and Cloud Audit\n            Logging so that you can manage permissions on individual keys and monitor how these\n            are used. Use Cloud KMS to protect secrets and other sensitive data that you need to\n            store in Google Cloud Platform.",
+    "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "security",
+      "cloud",
+      "key",
+      "management",
+      "service",
+      "kms",
+      "cloudhosted",
+      "key",
+      "management",
+      "service",
+      "lets",
+      "manage\n",
+      "",
+      "cryptographic",
+      "keys",
+      "cloud",
+      "services",
+      "same",
+      "way",
+      "do",
+      "premises",
+      "you",
+      "can\n",
+      "generate",
+      "rotate",
+      "destroy",
+      "aes256",
+      "rsa",
+      "2048",
+      "3072",
+      "4096",
+      "ec",
+      "p256\n",
+      "p384",
+      "integrated",
+      "iam",
+      "audit\n",
+      "logging",
+      "manage",
+      "permissions",
+      "individual",
+      "monitor",
+      "these\n",
+      "are",
+      "used",
+      "use",
+      "protect",
+      "secrets",
+      "other",
+      "sensitive",
+      "data",
+      "need",
+      "to\n",
+      "store",
+      "platform"
+    ]
+  },
+  {
+    "id": "Res_440_0",
+    "service": "Resource Manager",
+    "provider": "Google",
+    "category": "Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "description": "Google Cloud Platform provides resource containers such as Organizations, Folders,\n            and Projects, that allow you to group and hierarchically organize other Cloud Platform\n            resources. This hierarchical organization lets you easily manage common aspects of your\n            resources such as access control and configuration settings. Resource Manager enables\n            you to programmatically manage these resource containers.",
+    "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "security",
+      "resource",
+      "manager",
+      "cloud",
+      "platform",
+      "provides",
+      "resource",
+      "containers",
+      "such",
+      "organizations",
+      "folders\n",
+      "",
+      "projects",
+      "allow",
+      "group",
+      "hierarchically",
+      "organize",
+      "other",
+      "platform\n",
+      "resources",
+      "this",
+      "hierarchical",
+      "organization",
+      "lets",
+      "easily",
+      "manage",
+      "common",
+      "aspects",
+      "your\n",
+      "access",
+      "control",
+      "configuration",
+      "settings",
+      "enables\n",
+      "programmatically",
+      "these"
+    ]
+  },
+  {
+    "id": "Clo_441_0",
+    "service": "Cloud Security Command Center",
+    "provider": "Google",
+    "category": "Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "description": "Cloud Security Command Center helps security teams gather data, identify threats, and act on them before they result in business damage or loss. It offers deep insight into application and data risk so that you can quickly mitigate threats to your cloud resources and evaluate overall health. With Cloud Security Command Center, you can view and monitor an inventory of your cloud assets, scan storage systems for sensitive data, detect common web vulnerabilities, and review access rights to your critical resources, all from a single, centralized dashboard.",
+    "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "security",
+      "cloud",
+      "command",
+      "center",
+      "helps",
+      "security",
+      "teams",
+      "gather",
+      "data",
+      "identify",
+      "threats",
+      "act",
+      "them",
+      "before",
+      "they",
+      "result",
+      "business",
+      "damage",
+      "loss",
+      "offers",
+      "deep",
+      "insight",
+      "application",
+      "risk",
+      "quickly",
+      "mitigate",
+      "cloud",
+      "resources",
+      "evaluate",
+      "overall",
+      "health",
+      "with",
+      "view",
+      "monitor",
+      "inventory",
+      "assets",
+      "scan",
+      "storage",
+      "systems",
+      "sensitive",
+      "detect",
+      "common",
+      "web",
+      "vulnerabilities",
+      "review",
+      "access",
+      "rights",
+      "critical",
+      "single",
+      "centralized",
+      "dashboard"
+    ]
+  },
+  {
+    "id": "Clo_442_0",
+    "service": "Cloud Security Scanner",
+    "provider": "Google",
+    "category": "Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "description": "Cloud Security Scanner is a web security scanner for common\n            vulnerabilities in Google App Engine applications. It can automatically scan and detect\n            four common vulnerabilities, including cross-site-scripting (XSS), Flash injection,\n            mixed content (HTTP in HTTPS), and outdated/insecure libraries. It enables early\n            identification and delivers very low false positive rates. You can easily setup, run,\n            schedule, and manage security scans and it is free for Google Cloud Platform users.",
+    "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "security",
+      "cloud",
+      "scanner",
+      "web",
+      "security",
+      "scanner",
+      "common\n",
+      "",
+      "vulnerabilities",
+      "app",
+      "engine",
+      "applications",
+      "automatically",
+      "scan",
+      "detect\n",
+      "four",
+      "common",
+      "including",
+      "crosssitescripting",
+      "xss",
+      "flash",
+      "injection\n",
+      "mixed",
+      "content",
+      "http",
+      "https",
+      "outdatedinsecure",
+      "libraries",
+      "enables",
+      "early\n",
+      "identification",
+      "delivers",
+      "very",
+      "low",
+      "false",
+      "positive",
+      "rates",
+      "you",
+      "easily",
+      "setup",
+      "run\n",
+      "schedule",
+      "manage",
+      "scans",
+      "free",
+      "platform",
+      "users"
+    ]
+  },
+  {
+    "id": "Acc_443_0",
+    "service": "Access Transparency",
+    "provider": "Google",
+    "category": "Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "description": "Access Transparency gives you near real-time logs when Google Cloud Platform\n            administrators access your content. GCP’s Cloud Audit Logs already provide visibility\n            into the actions of your own administrators. However, this audit trail typically\n            stops once your cloud provider’s support or engineering team is engaged. For example,\n            prior to Access Transparency logging, if you opened a ticket with Google Support\n            that would require data access, it would not have been reflected in a Cloud Audit\n            Log. Access Transparency closes that gap, capturing near real-time logs of manual,\n            targeted accesses by either support or engineering.",
+    "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "security",
+      "access",
+      "transparency",
+      "gives",
+      "near",
+      "realtime",
+      "logs",
+      "when",
+      "cloud",
+      "platform\n",
+      "",
+      "administrators",
+      "access",
+      "content",
+      "gcp’s",
+      "audit",
+      "logs",
+      "already",
+      "provide",
+      "visibility\n",
+      "actions",
+      "own",
+      "however",
+      "this",
+      "audit",
+      "trail",
+      "typically\n",
+      "stops",
+      "once",
+      "cloud",
+      "provider’s",
+      "support",
+      "engineering",
+      "team",
+      "engaged",
+      "for",
+      "example\n",
+      "prior",
+      "logging",
+      "if",
+      "opened",
+      "ticket",
+      "support\n",
+      "would",
+      "require",
+      "data",
+      "not",
+      "have",
+      "been",
+      "reflected",
+      "audit\n",
+      "log",
+      "closes",
+      "gap",
+      "capturing",
+      "manual\n",
+      "targeted",
+      "accesses",
+      "either"
+    ]
+  },
+  {
+    "id": "Bin_444_0",
+    "service": "Binary Authorization",
+    "provider": "Google",
+    "category": "Security",
+    "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "description": "",
+    "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+    "dependencies": {
+      "in": [],
+      "out": []
+    },
+    "keywords": [
+      "google",
+      "security",
+      "binary",
+      "authorization",
       ""
     ]
   }
