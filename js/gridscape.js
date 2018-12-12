@@ -52,7 +52,7 @@
 
         createHeader();
         createFooter();
-
+        tooltip = d3.select("body").append("div").attr("class", "toolTip");
         /**
         * END STATIC BODY SECTION
         */
@@ -80,7 +80,7 @@
         });
 
     }
-
+    
     function createHeader() {
         d3.select("body").append("div").attr("id", "dpi");
         var pageHeader = d3.select("body")
@@ -282,7 +282,7 @@
 
         /**
          * Impress button
-         */
+         
         footer.append("div")
             .attr("class", "col")
             .append("button")
@@ -292,6 +292,7 @@
             })
             .append("span")
             .text("Impress");
+            */
     }
 
     var detailsActive = false;
@@ -305,7 +306,6 @@
         modalView.style("top", currentScrollOffset + "px")
         d3.select("body").style("overflow-y", "hidden")
         d3.select("#overlay").style("display", "block");
-        console.log("showDetails")
         detailsActive = true;
         depsActive = true;
         leavingDetails = false;
@@ -316,7 +316,6 @@
         modalView.attr("class", "null");
         d3.select("body").style("overflow-y", "auto")
         d3.select("#overlay").style("display", "none");
-        console.log("hideDetails")
         detailsActive = false;
         leavingDetails = true;
     }
@@ -324,10 +323,12 @@
 
     $(window).click(function () {
         if (cursorOutsideIcon) {
-            console.log("click-i")
+
             menu.close();
             if (leavingDetails) {
                 leavingDetails = false;
+                detailsActive = false;
+                depsActive = true;
                 return;
             }
         }
@@ -337,7 +338,7 @@
         }
 
         if (depsActive && cursorOutsideIcon && !(detailsActive || leavingDetails)) {
-            console.log("click-d")
+
             search();
             depsActive = false;
         }
@@ -810,10 +811,11 @@
             .append("div")
             .attr("class", "row master");
 
-
+        var gV = 0;
         data[0].categories.forEach(d => {
-            var gV = Math.random() / 10;
-            var bgA = "rgb(0,0,0," + gV + ")";
+            //var gV = Math.random() / 10;
+            gV = ((gV+1)%5);
+            var bgA = "rgb(0,0,0," + ((gV+1)/60) + ")";
             var bg = "linear-gradient(" + bgA + ", transparent)";
 
             var column = grid
@@ -869,6 +871,7 @@
                                 .style("top", d3.event.pageY - 70 + "px")
                                 .style("display", "inline-block")
                                 .text(m.service);
+
 
                             this.style.boxShadow = "0 0 10px rgba(0,0,0,0.5)";
                             cursorOutsideIcon = false;
@@ -1467,7 +1470,7 @@
 
         nodesToHighlight = nodesToHighlight.concat(con_in, con_out);
         adjustIconOpacityById(nodesToHighlight);
-        console.log("deps")
+
         depsActive = true;
     }
 
@@ -1487,9 +1490,10 @@
         createmodalView();
         menu = new BloomingMenu({
             itemsNum: 1,
-            radius: 30,
+            radius: 40,
             startAngle: 0,
-            endAngle: 180
+            endAngle: 180,
+            itemWidth: 50
         });
 
 

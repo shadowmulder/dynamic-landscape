@@ -3,7 +3,7 @@
 const fs = require('fs');
 const _ = require('lodash');
 
-var dataBaseFileName = "../database/cloud_services_flat_mc.json";
+var dataBaseFileName = "../database/data.json";
 var dictionaryFileName = '../database/dict.json';
 
 var searchIndexFileName = '../database/search_index.json';
@@ -36,21 +36,22 @@ var allKeyWordsList;
 _.each(data, function (d, i) {
     var ids = [];
     _.each(d.category, function (c, j) {
-        var id_prefix = d.service;
+        var id_prefix = (d.service).trim();
         id_prefix = id_prefix.substring(0, Math.min(3, id_prefix.length));
         var id = id_prefix + "_" + i + "_" + j;
+        id = id.replace(" ","");
         //_.assign(nd, { "id": id });
         ids.push(id);
        
 
         var newEntry = {
             id:id,
-            provider:d.provider,
+            provider:(d.provider).trim(),
             providerIcon: d.providerIcon,
             category:d.category[j],
-            service:d.service,
+            service:(d.service).trim(),
             img:d.img,
-            description:d.description,
+            description:(d.description).trim(),
             keywords:d.keywords,
             dependencies:d.dependencies
         }

@@ -94,8 +94,7 @@ html {
 	position: fixed;
 	width: 100%;
     /* max-height: var(--navHeighth); */
-
-    z-index: 4;
+    z-index: 5;
     padding-top: 4px;
 }
 
@@ -402,9 +401,16 @@ button {
 }
 
 #leftContainer{
-    max-width: 100px;
+	max-width: 100px;
+
 }
 
+
+
+#catColumn:hover{
+	background-color: rgb(0, 134, 136, .1);
+	transition: background-color .1s
+}
 
 input[type=number]
 {
