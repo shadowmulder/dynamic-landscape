@@ -35,7 +35,7 @@
     var modalViewFooter;
     var modalViewHeaderIcon;
     var mouseOnOverlay = false;
-    
+
 
 
 
@@ -295,6 +295,7 @@
     }
 
     var detailsActive = false;
+    var leavingDetails = false;
 
     function showDetails() {
         if (currentElementId === null) return;
@@ -307,6 +308,7 @@
         console.log("showDetails")
         detailsActive = true;
         depsActive = true;
+        leavingDetails = false;
     }
 
     function hideDetails() {
@@ -316,6 +318,7 @@
         d3.select("#overlay").style("display", "none");
         console.log("hideDetails")
         detailsActive = false;
+        leavingDetails = true;
     }
 
 
@@ -323,13 +326,17 @@
         if (cursorOutsideIcon) {
             console.log("click-i")
             menu.close();
+            if (leavingDetails) {
+                leavingDetails = false;
+                return;
+            }
         }
 
-        if(mouseOnOverlay){
+        if (mouseOnOverlay) {
             hideDetails();
         }
 
-        if(depsActive && cursorOutsideIcon && !detailsActive){
+        if (depsActive && cursorOutsideIcon && !(detailsActive || leavingDetails)) {
             console.log("click-d")
             search();
             depsActive = false;
@@ -775,10 +782,10 @@
         d3.select("body")
             .append("div")
             .attr("id", "overlay")
-            .on("mousemove", function(){
+            .on("mousemove", function () {
                 mouseOnOverlay = true;
             })
-            .on("mouseout", function(){
+            .on("mouseout", function () {
                 mouseOnOverlay = false;
             });
 
@@ -1225,7 +1232,6 @@
         d3.select("body").style("overflow-y", "hidden")
         d3.select("#overlay").style("display", "block");
 
-
     }
 
     function updatemodalView(id) {
@@ -1411,7 +1417,7 @@
     var depsActive = false;
     function showDependencies() {
         if (currentElementId === null) return;
-        
+
         jsPlumb.deleteEveryEndpoint();
         var dependencies = searchIndex.filter(node => node.id == currentElementId)[0].dependencies;
         var nodesToHighlight = [];
