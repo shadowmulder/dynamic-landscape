@@ -5066,7 +5066,7 @@
         "service": "Cognitive Services - Search APIs",
         "webLink": "https://azure.microsoft.com/en-us/services/cognitive-services/directory/search/",
         "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
-        "description": "Learn how Vision makes it possible for apps and services to accurately identify and analyze content within images and videos. Try any service free\u2014and quickly build computer vision-enabled apps and services with the following capabilities.",
+        "description": "Enable apps and services to harness the power of a Web-scale, ad-free search engine with Search. Use search services to find exactly what you’re looking for across billions of web pages, images, videos, and news search results. Try any service free—and quickly build Search-enabled apps and services with the following capabilities.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -5083,7 +5083,7 @@
         "service": "Cognitive Services - Language APIs",
         "webLink": "https://azure.microsoft.com/en-us/services/cognitive-services/directory/lang/",
         "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
-        "description": "Learn how Vision makes it possible for apps and services to accurately identify and analyze content within images and videos. Try any service free\u2014and quickly build computer vision-enabled apps and services with the following capabilities.",
+        "description": "Learn about language services that ensure apps and services can understand the meaning of unstructured text or recognize the intent behind a speaker’s utterances. Try any service free—and quickly build Language-enabled apps and services with the following capabilities.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -5117,7 +5117,7 @@
         "service": "Cognitive Services - Speech APIs",
         "webLink": "https://azure.microsoft.com/en-us/services/cognitive-services/directory/speech/",
         "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Cognative Services - Speech_COLOR.svg",
-        "description": "Learn how Vision makes it possible for apps and services to accurately identify and analyze content within images and videos. Try any service free\u2014and quickly build computer vision-enabled apps and services with the following capabilities.",
+        "description": "Discover how Speech enables the integration of speech processing capabilities into any app or service. Convert spoken language into text or produce natural sounding speech from text using standard (or customizable) voice fonts. Try any service free—and quickly build speech-enabled apps and services with the following capabilities.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -5134,7 +5134,7 @@
         "service": "Cognitive Services - Knowledge APIs",
         "webLink": "https://azure.microsoft.com/en-us/services/cognitive-services/directory/know/",
         "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
-        "description": "Learn how Vision makes it possible for apps and services to accurately identify and analyze content within images and videos. Try any service free\u2014and quickly build computer vision-enabled apps and services with the following capabilities.",
+        "description": "Leverage or create rich knowledge resources that can be integrated into apps and services with Knowledge services. Try these for free, and quickly build Knowledge-enabled apps and services with the following capabilities.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
