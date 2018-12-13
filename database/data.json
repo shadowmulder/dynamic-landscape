@@ -1,7 +1,7 @@
 [
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Analytics"
         ],
@@ -18,7 +18,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Analytics"
         ],
@@ -35,7 +35,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Analytics"
         ],
@@ -52,13 +52,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Analytics"
         ],
         "service": "Amazon Elasticsearch Service",
         "webLink": "https://aws.amazon.com/elasticsearch-service/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/Analytics/Analytics_AmazonES.svg",
         "description": "Amazon Elasticsearch Service, is a fully managed service that makes it easy for you to deploy, secure, operate, and scale Elasticsearch to search, analyze, and visualize data in real-time. With Amazon Elasticsearch Service you get easy-to-use APIs and real-time analytics capabilities to power use-cases such as log analytics, full-text search, application monitoring, and clickstream analytics, with enterprise-grade availability, scalability, and security.\u00a0The service offers integrations with open-source tools like Kibana\u00a0and\u00a0Logstash\u00a0for data ingestion and visualization. It also integrates seamlessly with other AWS services such as Amazon Virtual Private Cloud (VPC), AWS Key Management Service (KMS), Amazon Kinesis Data Firehose, AWS Lambda, AWS Identity and Access Management Service (IAM), Amazon Cognito, and Amazon CloudWatch, so you can go from data to actionable insights quickly and securely.",
         "keywords": [],
         "metadata": [],
@@ -69,7 +69,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Analytics"
         ],
@@ -86,7 +86,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Analytics"
         ],
@@ -103,7 +103,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Analytics"
         ],
@@ -120,7 +120,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Analytics"
         ],
@@ -137,13 +137,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Analytics"
         ],
         "service": "AWS Lake Formation",
         "webLink": "https://aws.amazon.com/lake-formation/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Lake Formation is a service that makes it easy to set up a secure data lake in days. A data lake is a centralized, curated, and secured repository that stores all your data, both in its original form and prepared for analysis. A data lake enables you to break down data silos and combine different types of analytics to gain insights and guide better business decisions.",
         "keywords": [],
         "metadata": [],
@@ -154,13 +154,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Application Integration"
         ],
         "service": "Amazon MQ",
         "webLink": "https://aws.amazon.com/amazon-mq/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon MQ is a managed message broker service for Apache ActiveMQ that makes it easy to set up and operate message brokers in the cloud. Message brokers allow different software systems\u2013often using different programming languages, and on different platforms\u2013to communicate and exchange information. Amazon MQ reduces your operational load by managing the provisioning, setup, and maintenance of ActiveMQ, a popular open-source message broker. Connecting your current applications to Amazon MQ is easy because it uses industry-standard APIs and protocols for messaging, including JMS, NMS, AMQP, STOMP, MQTT, and WebSocket. Using standards means that in most cases, there\u2019s no need to rewrite any messaging code when you migrate to AWS. ",
         "keywords": [],
         "metadata": [],
@@ -171,7 +171,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Application Integration"
         ],
@@ -188,7 +188,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Application Integration"
         ],
@@ -205,13 +205,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Application Integration"
         ],
         "service": "AWS AppSync",
         "webLink": "https://aws.amazon.com/appsync/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS AppSync is a serverless back-end for mobile, web, and enterprise applications.",
         "keywords": [],
         "metadata": [],
@@ -222,7 +222,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Application Integration"
         ],
@@ -239,13 +239,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "AR & VR"
         ],
         "service": "Amazon Sumerian",
         "webLink": "https://aws.amazon.com/sumerian/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Sumerian lets you create and run virtual reality (VR), augmented reality (AR), and 3D applications quickly and easily without requiring any specialized programming or 3D graphics expertise. With Sumerian, you can build highly immersive and interactive scenes that run on popular hardware such as Oculus Go, Oculus Rift, HTC Vive, HTC Vive Pro, Google Daydream, and Lenovo Mirage as well as Android and iOS mobile devices. For example, you can build a virtual classroom that lets you train new employees around the world, or you can build a virtual environment that enables people to tour a building remotely. Sumerian makes it easy to create all the building blocks needed to build highly immersive and interactive 3D experiences including adding objects (e.g. characters, furniture, and landscape), and designing, animating, and scripting environments. Sumerian does not require specialized expertise and you can design scenes directly from your browser.",
         "keywords": [],
         "metadata": [],
@@ -256,13 +256,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Cost Management"
         ],
         "service": "AWS Cost Explorer",
         "webLink": "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Cost Explorer lets you dive deeper into your cost and usage data to identify trends, pinpoint cost drivers, and detect anomalies. ",
         "keywords": [],
         "metadata": [],
@@ -273,13 +273,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Cost Management"
         ],
         "service": "AWS Budgets",
         "webLink": "https://aws.amazon.com/aws-cost-management/aws-budgets/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Set custom budgets that alert you when you exceed your budgeted thresholds.",
         "keywords": [],
         "metadata": [],
@@ -290,13 +290,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Cost Management"
         ],
         "service": "Reserved Instance Reporting",
         "webLink": "https://aws.amazon.com/aws-cost-management/reserved-instance-reporting/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS provides a number of RI-specific cost management solutions out-of-the-box to help you better understand and manage your RIs. Using the RI Utilization and Coverage reports available in AWS Cost Explorer, you can visualize your RI data at an aggregate level or inspect a particular RI subscription. To access the most detailed RI information available, you can leverage the AWS Cost & Usage Report. You can also set a custom RI utilization target via AWS Budgets and receive alerts when your utilization drops below the threshold you define. ",
         "keywords": [],
         "metadata": [],
@@ -307,13 +307,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Cost Management"
         ],
         "service": "AWS Cost and Usage Report",
         "webLink": "https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "The AWS Cost & Usage Report is a single location for accessing comprehensive information about your AWS costs and usage.",
         "keywords": [],
         "metadata": [],
@@ -324,13 +324,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Blockchain"
         ],
         "service": "Amazon Managed Blockchain",
         "webLink": "https://aws.amazon.com/managed-blockchain/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Managed Blockchain is a fully managed service that makes it easy to create and manage scalable blockchain networks using the popular open source frameworks Hyperledger Fabric and Ethereum*.",
         "keywords": [],
         "metadata": [],
@@ -341,13 +341,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Blockchain"
         ],
         "service": "Amazon Quantum Ledger Database (QLDB)",
         "webLink": "https://aws.amazon.com/qldb/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon QLDB is a fully managed ledger database that provides a transparent, immutable, and cryptographically verifiable transaction log \u200eowned by a central trusted authority. Amazon QLDB tracks each and every application data change and maintains a complete and verifiable history of changes over time.",
         "keywords": [],
         "metadata": [],
@@ -358,13 +358,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Business Applications"
         ],
         "service": "Alexa for Business",
         "webLink": "https://aws.amazon.com/alexaforbusiness/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Alexa for Business is a service that enables organizations and employees to use Alexa to get more work done. With Alexa for Business, employees can use Alexa as their intelligent assistant to be more productive in meeting rooms, at their desks, and even with the Alexa devices they already have at home. ",
         "keywords": [],
         "metadata": [],
@@ -375,7 +375,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Business Applications"
         ],
@@ -392,13 +392,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Business Applications"
         ],
         "service": "Amazon Workmail",
         "webLink": "https://aws.amazon.com/workmail/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/Business Productivity/BusinessProductivity_AmazonWorkMail.svg",
         "description": "Amazon WorkMail is a secure, managed business email and calendar service with support for existing desktop and mobile email client applications. Amazon WorkMail gives users the ability to seamlessly access their email, contacts, and calendars using the client application of their choice, including Microsoft Outlook, native iOS and Android email applications, any client application supporting the IMAP protocol, or directly through a web browser. You can integrate Amazon WorkMail with your existing corporate directory, use email journaling to meet compliance requirements, and control both the keys that encrypt your data and the location in which your data is stored. You can also set up interoperability with Microsoft Exchange Server, and programmatically manage users, groups, and resources using the Amazon WorkMail SDK.",
         "keywords": [],
         "metadata": [],
@@ -409,7 +409,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Business Applications"
         ],
@@ -426,7 +426,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Compute"
         ],
@@ -443,13 +443,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Compute"
         ],
         "service": "Amazon EC2 Auto Scaling",
         "webLink": "https://aws.amazon.com/ec2/autoscaling/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/Compute/Compute_AmazonEC2_AutoScaling.svg",
         "description": "Amazon EC2 Auto Scaling helps you maintain application availability and allows you to automatically add or remove EC2 instances according to conditions you define. You can use the fleet management features of EC2 Auto Scaling to maintain the health and availability of your fleet. You can also use the dynamic and predictive scaling features of EC2 Auto Scaling to add or remove EC2 instances. Dynamic scaling responds to changing demand and predictive scaling automatically schedules the right number of EC2 instances based on predicted demand. Dynamic scaling and predictive scaling can be used together to scale faster.\u00a0",
         "keywords": [],
         "metadata": [],
@@ -460,13 +460,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Compute"
         ],
         "service": "Amazon EC2 Container Registry",
         "webLink": "https://aws.amazon.com/ecr/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/Compute/Compute_AmazonECR.svg",
         "description": "Amazon Elastic Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images. Amazon ECR is integrated with Amazon Elastic Container Service (ECS), simplifying your development to production workflow. Amazon ECR eliminates the need to operate your own container repositories or worry about scaling the underlying infrastructure. Amazon ECR hosts your images in a highly available and scalable architecture, allowing you to reliably deploy containers for your applications. Integration with AWS Identity and Access Management (IAM) provides resource-level control of each repository. With Amazon ECR, there are no upfront fees or commitments. You pay only for the amount of data you store in your repositories and data transferred to the Internet. ",
         "keywords": [],
         "metadata": [],
@@ -477,13 +477,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Compute"
         ],
         "service": "Amazon Elastic Container Service",
         "webLink": "https://aws.amazon.com/ecs/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/Compute/Compute_AmazonECS.svg",
         "description": "Amazon Elastic Container Service (Amazon ECS) is a highly scalable, high-performance container orchestration service that supports Docker containers and allows you to easily run and scale containerized applications on AWS. Amazon ECS eliminates the need for you to install and operate your own container orchestration software, manage and scale a cluster of virtual machines, or schedule containers on those virtual machines.",
         "keywords": [],
         "metadata": [],
@@ -494,13 +494,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Compute"
         ],
         "service": "Amazon Elastic Container Service for Kubernetes",
         "webLink": "https://aws.amazon.com/eks/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Elastic Container Service for Kubernetes (Amazon EKS) makes it easy to deploy, manage, and scale containerized applications using Kubernetes on AWS.",
         "keywords": [],
         "metadata": [],
@@ -511,7 +511,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Compute"
         ],
@@ -528,7 +528,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Compute"
         ],
@@ -545,7 +545,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Compute"
         ],
@@ -580,13 +580,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Compute"
         ],
         "service": "AWS Fargate",
         "webLink": "https://aws.amazon.com/fargate/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Fargate is a compute engine for Amazon ECS that allows you to run containers without having to manage servers or clusters. With AWS Fargate, you no longer have to provision, configure, and scale clusters of virtual machines to run containers. This removes the need to choose server types, decide when to scale your clusters, or optimize cluster packing. AWS Fargate removes the need for you to interact with or think about servers or clusters. Fargate lets you focus on designing and building your applications instead of managing the infrastructure that runs them.",
         "keywords": [],
         "metadata": [],
@@ -597,7 +597,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Compute"
         ],
@@ -606,7 +606,16 @@
         "img": ".\\img\\logos\\AWS\\Compute\\Compute_AWSLambda.svg",
         "description": "AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume - there is no charge when your code is not running. ",
         "keywords": [],
-        "metadata": [],
+        "metadata": [
+            {
+                "title": "Associated use cases",
+                "type": "tags",
+                "content": [
+                    "Netflix",
+                    "Coca-Cola"
+                ]
+            }
+        ],
         "dependencies": {
             "in": [
                 {
@@ -664,13 +673,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Compute"
         ],
         "service": "AWS Outposts",
         "webLink": "https://aws.amazon.com/outposts/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Outposts bring native AWS services, infrastructure, and operating models to virtually any data center, co-location space, or on-premises facility. You\u00a0can use the same APIs, the same tools, the same hardware, and the same functionality across on-premises and the cloud to deliver a truly consistent hybrid experience. Outposts can be used to support workloads that need to remain on-premises due to low latency or local data processing needs.",
         "keywords": [],
         "metadata": [],
@@ -681,13 +690,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Compute"
         ],
         "service": "AWS Serverless Application Repository",
         "webLink": "https://aws.amazon.com/serverless/serverlessrepo/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "The AWS Serverless Application Repository is a managed repository for serverless applications. It enables teams, organizations, and individual developers to store and share reusable applications, and easily assemble and deploy serverless architectures in powerful new ways. Using the Serverless Application Repository, you don't need to clone, build, package, or publish source code to AWS before deploying it. Instead, you can use pre-built applications from the Serverless Application Repository in your serverless architectures, helping you and your teams reduce duplicated work, ensure organizational best practices, and get to market faster. Integration with AWS Identity and Access Management (IAM) provides resource-level control of each application, enabling you to publicly share applications with everyone or privately share them with specific AWS accounts. To share an application you've built, publish it to the AWS Serverless Application Repository.",
         "keywords": [],
         "metadata": [],
@@ -698,7 +707,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Compute"
         ],
@@ -715,13 +724,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Compute"
         ],
         "service": "VMware Cloud on AWS",
         "webLink": "https://aws.amazon.com/vmware/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "VMware Cloud on AWS is an integrated cloud offering jointly developed by AWS and VMware delivering a highly scalable, secure and innovative service that allows organizations to seamlessly migrate and extend their on-premises VMware vSphere-based environments to the AWS Cloud running on next-generation Amazon Elastic Compute Cloud (Amazon EC2) bare metal infrastructure. VMware Cloud on AWS is ideal for enterprise IT infrastructure and operations organizations looking to migrate their on-premises vSphere-based workloads to the public cloud, consolidate and extend their data center capacities, and optimize, simplify and modernize their disaster recovery solutions. VMware Cloud on AWS is delivered, sold, and supported globally by VMware and its partners with availability in the following AWS Regions: US East (N. Virginia), US East (Ohio), US West (N. California), US West (Oregon), Asia Pacific (Sydney),\u00a0Asia Pacific (Tokyo), Europe (Frankfurt), Europe (Ireland), Europe (London), and AWS GovCloud (US).\u00a0 With each release, VMware Cloud on AWS availability will expand into additional global regions. ",
         "keywords": [],
         "metadata": [],
@@ -732,7 +741,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Customer Engagement"
         ],
@@ -749,7 +758,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Customer Engagement"
         ],
@@ -766,13 +775,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Customer Engagement"
         ],
         "service": "Amazon Simple Email Service (SES)",
         "webLink": "https://aws.amazon.com/ses/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Simple Email Service (Amazon SES) is a cloud-based email sending service designed to help digital marketers and application developers send marketing, notification, and transactional emails. It is a reliable, cost-effective service for businesses of all sizes that use email to keep in contact with their customers.",
         "keywords": [],
         "metadata": [],
@@ -783,13 +792,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Databases"
         ],
         "service": "Amazon Aurora",
         "webLink": "https://aws.amazon.com/rds/aurora/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for the cloud, that combines the performance and availability of traditional enterprise databases with the simplicity and cost-effectiveness of open source databases.",
         "keywords": [],
         "metadata": [],
@@ -800,7 +809,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Databases"
         ],
@@ -817,13 +826,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Databases"
         ],
         "service": "Amazon ElastiCache",
         "webLink": "https://aws.amazon.com/elasticache/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon ElastiCache offers fully managed Redis and Memcached. Seamlessly deploy, run, and scale popular open source compatible in-memory data stores. Build data-intensive apps or improve the performance of your existing apps by retrieving data from high throughput and low latency in-memory data stores. Amazon ElastiCache is a popular choice for Gaming, Ad-Tech, Financial Services, Healthcare, and IoT apps.",
         "keywords": [],
         "metadata": [],
@@ -834,13 +843,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Databases"
         ],
         "service": "Amazon Neptune",
         "webLink": "https://aws.amazon.com/neptune/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Neptune is a fast, reliable, fully-managed graph database service that makes it easy to build and run applications that work with highly connected datasets. The core of Amazon Neptune is a purpose-built, high-performance graph database engine optimized for storing billions of relationships and querying the graph with milliseconds latency.\u00a0Amazon Neptune supports popular graph models Property Graph and W3C's RDF, and their respective query languages Apache TinkerPop Gremlin and SPARQL, allowing you to easily build queries that efficiently navigate highly connected datasets. Neptune powers graph use cases such as recommendation engines, fraud detection, knowledge graphs, drug discovery, and network security.",
         "keywords": [],
         "metadata": [],
@@ -851,13 +860,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Databases"
         ],
         "service": "Amazon Quantum Ledger Database (QLDB)",
         "webLink": "https://aws.amazon.com/qldb/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon QLDB is a fully managed ledger database that provides a transparent, immutable, and cryptographically verifiable transaction log \u200eowned by a central trusted authority. Amazon QLDB tracks each and every application data change and maintains a complete and verifiable history of changes over time.",
         "keywords": [],
         "metadata": [],
@@ -868,7 +877,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Databases"
         ],
@@ -885,13 +894,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Databases"
         ],
         "service": "Amazon RDS on VMware",
         "webLink": "https://aws.amazon.com/rds/vmware/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Relational Database Service (RDS) on VMware lets you deploy managed databases in on-premises VMware environments using the Amazon RDS technology enjoyed by hundreds of thousands of AWS customers. Amazon RDS provides cost-efficient and resizable capacity while automating time-consuming administration tasks including hardware provisioning, database setup, patching, and backups, freeing you to focus on your applications. RDS on VMware brings these same benefits to your on-premises deployments, making it easy to set up, operate, and scale databases in VMware vSphere private data centers, or to migrate them to AWS.",
         "keywords": [],
         "metadata": [],
@@ -902,7 +911,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Databases"
         ],
@@ -919,13 +928,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Databases"
         ],
         "service": "Amazon Timestream",
         "webLink": "https://aws.amazon.com/timestream/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Timestream is a fast, scalable, fully managed time series database service for IoT and operational applications that makes it easy to store and analyze trillions of events per day at 1/10th the cost of relational databases. Driven by the rise of IoT devices, IT systems, and smart industrial machines, time-series data \u2014 data that measures how things change over time \u2014 is one of the fastest growing data types. Time-series data has specific characteristics such as typically arriving in time order form, data is append-only, and queries are always over a time interval. While relational databases can store this data, they are inefficient at processing this data as they lack optimizations such as storing and retrieving data by time intervals.\u00a0Timestream is a purpose-built time series database that efficiently stores and processes this data by time intervals. With Timestream, you can easily store and analyze log data for DevOps, sensor data for IoT applications, and industrial telemetry data for equipment maintenance. As your data grows over time, Timestream\u2019s adaptive query processing engine understands its location and format, making your data simpler and faster to analyze.\u00a0Timestream also automates rollups, retention, tiering, and compression of data, so you can manage your data at the lowest possible cost.\u00a0Timestream is serverless, so there are no servers to manage. It manages time-consuming tasks such as server provisioning, software patching, setup, configuration, or data retention and tiering, freeing you to focus on building your applications.",
         "keywords": [],
         "metadata": [],
@@ -936,13 +945,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Databases"
         ],
         "service": "AWS Database Migration Service",
         "webLink": "https://aws.amazon.com/dms/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Database Migration Service helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. The AWS Database Migration Service can migrate your data to and from most widely used commercial and open-source databases.",
         "keywords": [],
         "metadata": [],
@@ -953,7 +962,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Desktop & App Streaming"
         ],
@@ -970,7 +979,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Desktop & App Streaming"
         ],
@@ -987,7 +996,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Developer Tools"
         ],
@@ -1004,13 +1013,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Developer Tools"
         ],
         "service": "Amazon Corretto",
         "webLink": "https://aws.amazon.com/corretto/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Corretto is a no-cost, multiplatform, production-ready distribution of the Open Java Development Kit (OpenJDK). Corretto comes with long-term support that will include performance enhancements and security fixes. Amazon runs Corretto internally on thousands of production services and Corretto is certified as compatible with the Java SE standard. With Corretto, you can develop and run Java applications on popular operating systems, including Amazon Linux 2, Windows, and macOS. Amazon Corretto 8 is in Preview. ",
         "keywords": [],
         "metadata": [],
@@ -1021,13 +1030,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Developer Tools"
         ],
         "service": "AWS Cloud9",
         "webLink": "https://aws.amazon.com/cloud9/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "A special announcement for c9.io customers. Read here.",
         "keywords": [],
         "metadata": [],
@@ -1038,7 +1047,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Developer Tools"
         ],
@@ -1055,7 +1064,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Developer Tools"
         ],
@@ -1072,7 +1081,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Developer Tools"
         ],
@@ -1089,7 +1098,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Developer Tools"
         ],
@@ -1106,13 +1115,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Developer Tools"
         ],
         "service": "AWS Command Line Interface",
         "webLink": "https://aws.amazon.com/cli/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/SDKs/SDKs_AWSCLI.svg",
         "description": "Get Started with AWS for Free",
         "keywords": [],
         "metadata": [],
@@ -1123,13 +1132,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Developer Tools"
         ],
         "service": "AWS Tools and SDKs",
         "webLink": "https://aws.amazon.com/getting-started/tools-sdks/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Web Services is Hiring.",
         "keywords": [],
         "metadata": [],
@@ -1140,7 +1149,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Developer Tools"
         ],
@@ -1157,7 +1166,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Game Tech"
         ],
@@ -1174,13 +1183,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Game Tech"
         ],
         "service": "Amazon Lumberyard",
         "webLink": "https://aws.amazon.com/lumberyard/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/_/Lumberyard_Logo.png",
         "description": "We believe game developers deserve another choice. That\u2019s why we\u2019re building Lumberyard: a game engine with no royalties or seat fees, frictionless integration with Twitch and AWS, plus much more on the horizon.\u00a0",
         "keywords": [],
         "metadata": [],
@@ -1191,13 +1200,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Internet of Things"
         ],
         "service": "AWS IoT Core",
         "webLink": "https://aws.amazon.com/iot-core/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS IoT Core is a managed cloud service that lets connected devices easily and securely interact with cloud applications and other devices. AWS IoT Core can support billions of devices and trillions of messages, and can process and route those messages to AWS endpoints and to other devices reliably and securely. With AWS IoT Core, your applications can keep track of and communicate with all your devices, all the time, even when they aren\u2019t connected.",
         "keywords": [],
         "metadata": [],
@@ -1208,13 +1217,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Internet of Things"
         ],
         "service": "Amazon FreeRTOS",
         "webLink": "https://aws.amazon.com/freertos/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon FreeRTOS (a:FreeRTOS) is an operating system for microcontrollers that makes small, low-power edge devices easy to program, deploy, secure, connect, and manage. Amazon FreeRTOS extends the FreeRTOS kernel, a popular open source operating system for microcontrollers, with software libraries that make it easy to securely connect your small, low-power devices to AWS cloud services like AWS IoT Core or to more powerful edge devices running AWS IoT Greengrass.",
         "keywords": [],
         "metadata": [],
@@ -1225,13 +1234,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Internet of Things"
         ],
         "service": "AWS Greengrass",
         "webLink": "https://aws.amazon.com/greengrass/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS IoT Greengrass seamlessly extends AWS to edge devices so they can act locally on the data they generate, while still using the cloud for management, analytics, and durable storage. With AWS IoT Greengrass, connected devices can run\u00a0AWS Lambda functions, execute predictions based on machine learning models, keep device data in sync, and communicate with other devices securely \u2013 even when not connected to the Internet.",
         "keywords": [],
         "metadata": [],
@@ -1242,13 +1251,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Internet of Things"
         ],
         "service": "AWS IoT 1-Click",
         "webLink": "https://aws.amazon.com/iot-1-click/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS IoT 1-Click is a service that enables simple devices to trigger AWS Lambda functions that can execute an action. AWS IoT 1-Click supported devices enable you to easily perform actions such as notifying technical support, tracking assets, and replenishing goods or services. AWS IoT 1-Click supported devices are ready for use right out of the box and eliminate the need for writing your own firmware or configuring them for secure connectivity. AWS IoT 1-Click supported devices can be easily managed. You can easily create device groups and associate them with a Lambda function that executes your desired action when triggered. You can also track device health and activity with the pre-built reports.",
         "keywords": [],
         "metadata": [],
@@ -1259,13 +1268,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Internet of Things"
         ],
         "service": "AWS IoT Analytics",
         "webLink": "https://aws.amazon.com/iot-analytics/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS IoT Analytics is a fully-managed service that makes it easy to run and operationalize sophisticated analytics on massive volumes of IoT data without having to worry about the cost and complexity typically required to build an IoT analytics platform. It is the easiest way to run analytics on IoT data and get insights to make better and more accurate decisions for IoT applications and machine learning use cases.",
         "keywords": [],
         "metadata": [],
@@ -1276,13 +1285,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Internet of Things"
         ],
         "service": "AWS IoT Button",
         "webLink": "https://aws.amazon.com/iotbutton/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "The AWS IoT Button is a programmable button based on the Amazon Dash Button hardware. This simple Wi-Fi device is easy to configure and designed for developers to get started with AWS IoT Core, AWS Lambda, Amazon DynamoDB, Amazon SNS, and many other Amazon Web Services without writing device-specific code.",
         "keywords": [],
         "metadata": [],
@@ -1293,13 +1302,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Internet of Things"
         ],
         "service": "AWS IoT Device Defender",
         "webLink": "https://aws.amazon.com/iot-device-defender/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS IoT Device Defender is a fully managed service that helps you secure your fleet of IoT devices. AWS IoT Device Defender continuously audits your IoT configurations to make sure that they aren\u2019t deviating from security best practices. A configuration is a set of technical controls you set to help keep information secure when devices are communicating with each other and the cloud. AWS IoT Device Defender makes it easy to maintain and enforce IoT configurations, such as ensuring device identity, authenticating and authorizing devices, and encrypting device data. AWS IoT Device Defender continuously audits the IoT configurations on your devices against a set of predefined security best practices. AWS IoT Device Defender sends an alert if there are any gaps in your IoT configuration that might create a security risk, such as identity certificates being shared across multiple devices or a device with a revoked identity certificate trying to connect to AWS IoT Core.",
         "keywords": [],
         "metadata": [],
@@ -1310,13 +1319,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Internet of Things"
         ],
         "service": "AWS IoT Device Management",
         "webLink": "https://aws.amazon.com/iot-device-management/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "As many IoT deployments consist of hundreds of thousands to millions of devices, it is essential to track, monitor, and manage connected device fleets. You need to ensure your IoT devices work properly and securely after they have been deployed. You also need to secure access to your devices, monitor health, detect and remotely troubleshoot problems, and manage software and firmware updates.",
         "keywords": [],
         "metadata": [],
@@ -1327,13 +1336,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Internet of Things"
         ],
         "service": "AWS IoT Events",
         "webLink": "https://aws.amazon.com/iot-events/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS IoT Events is a fully managed IoT service that makes it easy to detect and respond to events from IoT sensors and applications. Events are patterns of data identifying more complicated circumstances than expected, such as changes in equipment when a belt is stuck or connected motion detectors using movement signals to activate lights and security cameras. To detect events before AWS IoT Events, you had to build costly, custom applications to collect data, apply decision logic to detect an event, and then trigger another application to react to the event. Using AWS IoT Events, it\u2019s simple to detect events across thousands of IoT sensors sending different telemetry data, such as temperature from a freezer, humidity from respiratory equipment, and belt speed on a motor, and hundreds of equipment management applications. You simply select the relevant data sources to ingest, define the logic for each event using simple \u2018if-then-else\u2019 statements, and select the alert or custom action to trigger when an event occurs. AWS IoT Events continuously monitors data from multiple IoT sensors and applications, and it integrates with other services, such as AWS IoT Core and AWS IoT Analytics, to enable early detection and unique insights into events. AWS IoT Events automatically triggers alerts and actions in response to events based on the logic you define. This helps resolve issues quickly, reduce maintenance costs, and increase operational efficiency. ",
         "keywords": [],
         "metadata": [],
@@ -1344,13 +1353,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Internet of Things"
         ],
         "service": "AWS IoT SiteWise",
         "webLink": "https://aws.amazon.com/iot-sitewise/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS IoT SiteWise is a managed service that makes it easy to collect and organize data from industrial equipment at scale. You can easily monitor equipment across your industrial facilities to identify waste, such as breakdown of equipment and processes, production inefficiencies, and defects in products. Today, getting performance metrics from industrial equipment is tough because data is often locked into proprietary on-premises data stores and typically requires specialized expertise to retrieve it and put it in a format that is useful for searching and analysis. IoT SiteWise simplifies this process by providing software running on a gateway that resides in your facilities and automates the process of collecting and organizing industrial equipment data. This gateway securely connects to your on-premises data servers, collects data, and sends the data to the AWS Cloud. You can run the IoT SiteWise software on an AWS Snowball Edge gateway or install the IoT SiteWise software on popular third-party industrial gateways. These gateways are specifically designed for industrial environments that are likely already in your facilities connecting your industrial equipment.  You can use IoT SiteWise to monitor operations across facilities, quickly compute common industrial performance metrics, and build applications to analyze industrial equipment data, prevent costly equipment issues, and reduce production inefficiencies. With IoT SiteWise, you can focus on understanding and optimizing your operations, rather than building costly in-house data collection and management applications. ",
         "keywords": [],
         "metadata": [],
@@ -1361,13 +1370,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Internet of Things"
         ],
         "service": "AWS IoT Things Graph",
         "webLink": "https://aws.amazon.com/iot-things-graph/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS IoT Things Graph is a service that makes it easy to visually connect different devices and web services to build IoT applications.",
         "keywords": [],
         "metadata": [],
@@ -1378,13 +1387,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Internet of Things"
         ],
         "service": "AWS Partner Device Catalog",
         "webLink": "https://devices.amazonaws.com/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "",
         "keywords": [],
         "metadata": [],
@@ -1395,13 +1404,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "AI + Machine Learning"
         ],
         "service": "Amazon SageMaker",
         "webLink": "https://aws.amazon.com/sagemaker/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon SageMaker provides every developer and data scientist with the ability to build, train, and deploy machine learning models quickly. Amazon SageMaker is a fully-managed service that covers the entire machine learning workflow to label and prepare your data, choose an algorithm, train the algorithm, tune and optimize it for deployment, make predictions, and take action. Your models get to production faster with much less effort and lower cost.",
         "keywords": [],
         "metadata": [],
@@ -1412,13 +1421,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "AI + Machine Learning"
         ],
         "service": "Amazon Comprehend",
         "webLink": "https://aws.amazon.com/comprehend/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Comprehend is a natural language processing (NLP) service that uses machine learning to find insights and relationships in text. No machine learning experience required.",
         "keywords": [],
         "metadata": [],
@@ -1429,13 +1438,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "AI + Machine Learning"
         ],
         "service": "Amazon Elastic Inference",
         "webLink": "https://aws.amazon.com/machine-learning/elastic-inference/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Elastic Inference allows you to attach low-cost GPU-powered acceleration to Amazon EC2 and Amazon SageMaker instances to reduce the cost of running deep learning inference by up to 75%.\u00a0Amazon Elastic Inference supports TensorFlow, Apache MXNet, and ONNX models, with more frameworks coming soon.",
         "keywords": [],
         "metadata": [],
@@ -1446,13 +1455,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "AI + Machine Learning"
         ],
         "service": "Amazon Forecast",
         "webLink": "https://aws.amazon.com/forecast/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Forecast is a fully managed service that uses machine learning to deliver highly accurate forecasts. ",
         "keywords": [],
         "metadata": [],
@@ -1463,7 +1472,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "AI + Machine Learning"
         ],
@@ -1480,13 +1489,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "AI + Machine Learning"
         ],
         "service": "Amazon Personalize",
         "webLink": "https://aws.amazon.com/personalize/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Personalize is a machine learning service that makes it easy for developers to create individualized recommendations for customers using their applications.",
         "keywords": [],
         "metadata": [],
@@ -1497,7 +1506,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "AI + Machine Learning"
         ],
@@ -1514,7 +1523,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "AI + Machine Learning"
         ],
@@ -1531,13 +1540,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "AI + Machine Learning"
         ],
         "service": "Amazon SageMaker Ground Truth",
         "webLink": "https://aws.amazon.com/sagemaker/groundtruth/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon SageMaker Ground Truth helps you build highly accurate training datasets for machine learning quickly. SageMaker Ground Truth offers easy access to public and private human labelers and provides them with built-in workflows and interfaces for common labeling tasks. Additionally, SageMaker Ground Truth can lower your labeling costs by up to 70% using automatic labeling, which works by training Ground Truth from data labeled by humans so that the service learns to label data independently. ",
         "keywords": [],
         "metadata": [],
@@ -1548,13 +1557,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "AI + Machine Learning"
         ],
         "service": "Amazon Textract",
         "webLink": "https://aws.amazon.com/textract/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Textract is a service that automatically extracts text and data from scanned documents. Amazon Textract goes beyond simple optical character recognition (OCR) to also identify the contents of fields in forms and information stored in tables.",
         "keywords": [],
         "metadata": [],
@@ -1565,13 +1574,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "AI + Machine Learning"
         ],
         "service": "Amazon Translate",
         "webLink": "https://aws.amazon.com/translate/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Translate is a neural machine translation service that delivers fast, high-quality, and affordable language translation. Neural machine translation is a form of language translation automation that uses deep learning models to deliver more accurate and more natural sounding translation than traditional statistical and rule-based translation algorithms. Amazon Translate allows you to localize content - such as websites and applications - for international users, and to easily translate large volumes of text efficiently. ",
         "keywords": [],
         "metadata": [],
@@ -1582,13 +1591,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "AI + Machine Learning"
         ],
         "service": "Amazon Transcribe",
         "webLink": "https://aws.amazon.com/transcribe/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Transcribe is an automatic speech recognition (ASR) service that makes it easy for developers to add speech-to-text capability to their applications. Using the Amazon Transcribe API, you can analyze audio files stored in Amazon S3 and have the service return a text file of the transcribed speech.\u00a0You can also send a live audio stream to Amazon Transcribe and receive a stream of transcripts in real time.",
         "keywords": [],
         "metadata": [],
@@ -1599,13 +1608,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "AI + Machine Learning"
         ],
         "service": "AWS DeepLens",
         "webLink": "https://aws.amazon.com/deeplens/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS DeepLens helps put deep learning in the hands of developers, literally, with a fully programmable video camera, tutorials, code, and pre-trained models designed to expand deep learning skills.",
         "keywords": [],
         "metadata": [],
@@ -1616,13 +1625,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "AI + Machine Learning"
         ],
         "service": "AWS Deep Learning AMIs",
         "webLink": "https://aws.amazon.com/machine-learning/amis/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "The AWS Deep Learning AMIs provide machine learning practitioners and researchers with the infrastructure and tools to accelerate deep learning in the cloud, at any scale. You can quickly launch Amazon EC2 instances pre-installed with popular deep learning frameworks such as Apache MXNet and Gluon, TensorFlow, Microsoft Cognitive Toolkit, Caffe, Caffe2, Theano, Torch, PyTorch, Chainer, and Keras to train sophisticated, custom AI models, experiment with new algorithms, or to learn new skills and techniques.",
         "keywords": [],
         "metadata": [],
@@ -1633,13 +1642,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "AI + Machine Learning"
         ],
         "service": "AWS DeepRacer",
         "webLink": "https://aws.amazon.com/deepracer/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS DeepRacer is a 1/18th scale race car which gives you an interesting and fun way to get started with reinforcement learning (RL). RL is an advanced machine learning (ML) technique which takes a very different approach to training models than other machine learning methods. Its super power is that it learns very complex behaviors without requiring any labeled training data, and can make short term decisions while optimizing for a longer term goal.",
         "keywords": [],
         "metadata": [],
@@ -1650,13 +1659,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "AI + Machine Learning"
         ],
         "service": "AWS Inferentia",
         "webLink": "https://aws.amazon.com/machine-learning/inferentia/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Inferentia is a machine learning inference chip designed to deliver high performance at low cost. AWS Inferentia will support the TensorFlow, Apache MXNet, and PyTorch deep learning frameworks, as well as models that use the ONNX format. ",
         "keywords": [],
         "metadata": [],
@@ -1667,13 +1676,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "AI + Machine Learning"
         ],
         "service": "Apache MXNet on AWS",
         "webLink": "https://aws.amazon.com/mxnet/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Apache MXNet is a fast and scalable training and inference framework with an easy-to-use, concise API for machine learning.",
         "keywords": [],
         "metadata": [],
@@ -1684,13 +1693,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "AI + Machine Learning"
         ],
         "service": "TensorFlow on AWS",
         "webLink": "https://aws.amazon.com/tensorflow/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Deep learning in the cloud made simple.",
         "keywords": [],
         "metadata": [],
@@ -1701,7 +1710,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Management & Governance"
         ],
@@ -1718,13 +1727,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Management & Governance"
         ],
         "service": "AWS Auto Scaling",
         "webLink": "https://aws.amazon.com/autoscaling/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Auto Scaling monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost. Using AWS Auto Scaling, it\u2019s easy to setup application scaling for multiple resources across multiple services in minutes. The service provides a simple, powerful user interface that lets you build scaling plans for resources including Amazon EC2 instances and Spot Fleets, Amazon ECS tasks, Amazon DynamoDB tables and indexes, and Amazon Aurora Replicas. AWS Auto Scaling makes scaling simple with recommendations that allow you to optimize performance, costs, or balance between them. If you\u2019re already using Amazon EC2 Auto Scaling to dynamically scale your Amazon EC2 instances, you can now combine it with AWS Auto Scaling to scale additional resources for other AWS services. With AWS Auto Scaling, your applications always have the right resources at the right time.",
         "keywords": [],
         "metadata": [],
@@ -1735,7 +1744,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Management & Governance"
         ],
@@ -1752,7 +1761,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Management & Governance"
         ],
@@ -1769,13 +1778,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Management & Governance"
         ],
         "service": "AWS Command Line Interface",
         "webLink": "https://aws.amazon.com/cli/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Get Started with AWS for Free",
         "keywords": [],
         "metadata": [],
@@ -1786,7 +1795,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Management & Governance"
         ],
@@ -1803,13 +1812,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Management & Governance"
         ],
         "service": "AWS Control Tower",
         "webLink": "https://aws.amazon.com/controltower/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Control Tower automates the set-up of a baseline environment, or landing zone, that is a secure, well-architected multi-account AWS environment. The configuration of the landing zone is based on best practices that have been established by working with thousands of enterprise customers to create a secure environment that makes it easier to govern AWS workloads with rules for security, operations, and compliance.",
         "keywords": [],
         "metadata": [],
@@ -1820,13 +1829,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Management & Governance"
         ],
         "service": "AWS Console Mobile Application",
         "webLink": "https://aws.amazon.com/console/mobile/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "The AWS Console Mobile Application, provided by Amazon Web Services, lets customers view and manage a select set of resources to support incident response while on-the-go. ",
         "keywords": [],
         "metadata": [],
@@ -1837,13 +1846,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Management & Governance"
         ],
         "service": "AWS License Manager",
         "webLink": "https://aws.amazon.com/license-manager/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS License Manager makes it easier to manage licenses in AWS and on-premises servers from software vendors such as Microsoft, SAP, Oracle, and IBM. AWS License Manager lets administrators create customized licensing rules that emulate the terms of their licensing agreements, and then enforces these rules when an instance of EC2 gets launched. Administrators can use these rules to limit licensing violations, such as using more licenses than an agreement stipulates or reassigning licenses to different servers on a short-term basis. The rules in AWS License Manager enable you to limit a licensing breach by physically stopping the instance from launching or by notifying administrators about the infringement. Administrators gain control and visibility of all their licenses with the AWS License Manager dashboard and reduce the risk of non-compliance, misreporting, and additional costs due to licensing overages. ",
         "keywords": [],
         "metadata": [],
@@ -1854,7 +1863,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Management & Governance"
         ],
@@ -1871,7 +1880,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Management & Governance"
         ],
@@ -1888,7 +1897,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Management & Governance"
         ],
@@ -1905,13 +1914,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Management & Governance"
         ],
         "service": "AWS Personal Health Dashboard",
         "webLink": "https://aws.amazon.com/premiumsupport/phd/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Get Technical Help Now",
         "keywords": [],
         "metadata": [],
@@ -1922,7 +1931,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Management & Governance"
         ],
@@ -1939,13 +1948,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Management & Governance"
         ],
         "service": "AWS Systems Manager",
         "webLink": "https://aws.amazon.com/systems-manager/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Systems Manager gives you visibility and control of your infrastructure on AWS. Systems Manager provides a unified user interface so you can view operational data from multiple AWS services and allows you to automate operational tasks across your AWS resources. With Systems Manager, you can group resources, like Amazon EC2 instances, Amazon S3 buckets, or Amazon RDS instances, by application, view operational data for monitoring and troubleshooting, and take action on your groups of resources. Systems Manager simplifies resource and application management, shortens the time to detect and resolve operational problems, and makes it easy to operate and manage your infrastructure securely at scale.",
         "keywords": [],
         "metadata": [],
@@ -1956,7 +1965,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Management & Governance"
         ],
@@ -1973,7 +1982,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Media Services"
         ],
@@ -1990,13 +1999,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Media Services"
         ],
         "service": "Amazon Kinesis Video Streams",
         "webLink": "https://aws.amazon.com/kinesis/video-streams/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Kinesis Video Streams makes it easy to securely stream video from connected devices to AWS for analytics, machine learning (ML), playback, and other processing. Kinesis Video Streams automatically provisions and elastically scales all the infrastructure needed to ingest streaming video data from millions of devices. It also durably stores, encrypts, and indexes video data in your streams, and allows you to access your data through easy-to-use APIs. Kinesis Video Streams enables you to playback video for live and on-demand viewing, and quickly build applications that take advantage of computer vision and video analytics through integration with Amazon Recognition Video, and libraries for ML frameworks such as Apache MxNet, TensorFlow, and OpenCV.",
         "keywords": [],
         "metadata": [],
@@ -2007,13 +2016,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Media Services"
         ],
         "service": "AWS Elemental MediaConnect",
         "webLink": "https://aws.amazon.com/mediaconnect/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Learn more about AWS Elemental MediaConnect features and read the FAQ. ",
         "keywords": [],
         "metadata": [],
@@ -2024,13 +2033,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Media Services"
         ],
         "service": "AWS Elemental MediaConvert",
         "webLink": "https://aws.amazon.com/mediaconvert/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": " \u201cWorking with an agile partner like AWS Elemental that moves as fast as we do and comes up with new technologies and experiments all the time, allows us not only to survive but to lead the market.\u201d",
         "keywords": [],
         "metadata": [],
@@ -2041,13 +2050,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Media Services"
         ],
         "service": "AWS Elemental MediaLive",
         "webLink": "https://aws.amazon.com/medialive/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "\u201cWe've already seen pretty impressive results from what we have moved to the AWS environment and we're really enjoying all the benefits like scalability, redundancy, and performance that we get from being on the AWS platform.\u201d",
         "keywords": [],
         "metadata": [],
@@ -2058,13 +2067,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Media Services"
         ],
         "service": "AWS Elemental MediaPackage",
         "webLink": "https://aws.amazon.com/mediapackage/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Elemental MediaPackage reliably prepares and protects your video for delivery over the Internet. From a single video input, AWS Elemental MediaPackage creates video streams formatted to play on connected TVs, mobile phones, computers, tablets, and game consoles. It makes it easy to implement popular video features for viewers (start-over, pause, rewind, etc.), like those commonly found on DVRs. AWS Elemental MediaPackage can also protect your content using Digital Rights Management (DRM). AWS Elemental MediaPackage scales automatically in response to load, so your viewers will always get a great experience without you having to accurately predict in advance the capacity you\u2019ll need.",
         "keywords": [],
         "metadata": [],
@@ -2075,13 +2084,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Media Services"
         ],
         "service": "AWS Elemental MediaStore",
         "webLink": "https://aws.amazon.com/mediastore/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Elemental MediaStore is an AWS storage service optimized for media. It gives you the performance, consistency, and low latency required to deliver live streaming video content. AWS Elemental MediaStore acts as the origin store in your video workflow. Its high performance capabilities meet the needs of the most demanding media delivery workloads, combined with long-term, cost-effective storage.",
         "keywords": [],
         "metadata": [],
@@ -2092,13 +2101,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Media Services"
         ],
         "service": "AWS Elemental MediaTailor",
         "webLink": "https://aws.amazon.com/mediatailor/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Elemental MediaTailor lets video providers insert individually targeted advertising into their video streams without sacrificing broadcast-level quality-of-service. With AWS Elemental MediaTailor, viewers of your live or on-demand video each receive a stream that combines your content with ads personalized to them. But unlike other personalized ad solutions, with AWS Elemental MediaTailor your entire stream \u2013 video and ads \u2013 is delivered with broadcast-grade video quality to improve the experience for your viewers. AWS Elemental MediaTailor delivers automated reporting based on both client and server-side ad delivery metrics, making it easy to accurately measure ad impressions and viewer behavior. You can easily monetize unexpected high-demand viewing events with no up-front costs using AWS Elemental MediaTailor. It also improves ad delivery rates, helping you make more money from every video, and it works with a wider variety of content delivery networks, ad decision servers, and client devices.",
         "keywords": [],
         "metadata": [],
@@ -2109,7 +2118,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Migration & Transfer"
         ],
@@ -2126,7 +2135,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Migration & Transfer"
         ],
@@ -2143,13 +2152,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Migration & Transfer"
         ],
         "service": "AWS Database Migration Service",
         "webLink": "https://aws.amazon.com/dms/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/Database/Database_AWSDMS.svg",
         "description": "AWS Database Migration Service helps you migrate databases to AWS quickly and securely. The source database remains fully operational during the migration, minimizing downtime to applications that rely on the database. The AWS Database Migration Service can migrate your data to and from most widely used commercial and open-source databases.",
         "keywords": [],
         "metadata": [],
@@ -2160,13 +2169,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Migration & Transfer"
         ],
         "service": "AWS DataSync",
         "webLink": "https://aws.amazon.com/datasync/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS DataSync is a data transfer service that makes it easy for you to automate moving data between on-premises storage and Amazon S3 or Amazon Elastic File System (Amazon EFS). DataSync automatically handles many of the tasks related to data transfers that can slow down migrations or burden your IT operations, including running your own instances, handling encryption, managing scripts, network optimization, and data integrity validation. You can use DataSync to transfer data at speeds up to 10 times faster than open-source tools. DataSync uses an on-premises software agent to connect to your existing storage or file systems using the Network File System (NFS) protocol, so you don\u2019t have write scripts or modify your applications to work with AWS APIs. You can use DataSync to copy data over AWS Direct Connect or internet links to AWS. The service enables one-time data migrations, recurring data processing workflows, and automated replication for data protection and recovery. Getting started with DataSync is easy: Deploy the DataSync agent on premises, connect it to a file system or storage array, select Amazon EFS or S3 as your AWS storage, and start moving data. You pay only for the data you copy. ",
         "keywords": [],
         "metadata": [],
@@ -2177,13 +2186,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Migration & Transfer"
         ],
         "service": "AWS Server Migration Service",
         "webLink": "https://aws.amazon.com/server-migration-service/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Server Migration Service (SMS) is an agentless service which makes it easier and faster for you to migrate thousands of on-premises workloads to AWS. AWS SMS allows you to automate, schedule, and track incremental replications of live server volumes, making it easier for you to coordinate large-scale server migrations. ",
         "keywords": [],
         "metadata": [],
@@ -2194,13 +2203,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Migration & Transfer"
         ],
         "service": "AWS Snow Family",
         "webLink": "https://aws.amazon.com/snow/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Data is foundational for digital projects in the cloud, but customers tell us that moving large volumes of data is a serious challenge. A dedicated 1Gbps network connection theoretically moves 1PB of data in 100 days -- and in the real world, likely longer and at higher cost. Migrating data-intensive analytics environments, moving enterprise datacenters to the cloud, re-invigorating digital archives requires bulk data transport methods that are simple, affordable, secure and tamper-resistant. And for workloads at remote edge locations, data may also need to be pre-processed with onboard device computing power.",
         "keywords": [],
         "metadata": [],
@@ -2211,13 +2220,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Migration & Transfer"
         ],
         "service": "AWS Transfer for SFTP",
         "webLink": "https://aws.amazon.com/sftp/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": " AWS Transfer for SFTP is a fully managed service that enables the transfer of files directly into and out of Amazon S3 using the Secure File Transfer Protocol (SFTP)\u2014also known as Secure Shell (SSH) File Transfer Protocol. AWS helps you seamlessly migrate your file transfer workflows to AWS Transfer for SFTP\u2014by integrating with existing authentication systems, and providing DNS routing with Amazon Route 53\u2014so nothing changes for your customers and partners, or their applications. With your data in S3, you can use it with AWS services for processing, analytics, machine learning, and archiving. Getting started with AWS Transfer for SFTP (AWS SFTP) is easy; there is no infrastructure to buy and setup.\u00a0",
         "keywords": [],
         "metadata": [],
@@ -2228,13 +2237,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Mobile"
         ],
         "service": "AWS Amplify",
         "webLink": "https://aws.amazon.com/amplify/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Amplify makes it easy to create, configure, and implement scalable mobile applications powered by AWS. Amplify seamlessly provisions and manages your mobile backend and provides a simple framework to easily integrate your backend with your iOS, Android, Web, and React Native frontends. Amplify also automates the application release process of both your frontend and backend allowing you to deliver features faster.",
         "keywords": [],
         "metadata": [],
@@ -2245,7 +2254,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Mobile"
         ],
@@ -2262,7 +2271,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Mobile"
         ],
@@ -2279,13 +2288,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Mobile"
         ],
         "service": "AWS AppSync",
         "webLink": "https://aws.amazon.com/appsync/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS AppSync is a serverless back-end for mobile, web, and enterprise applications.",
         "keywords": [],
         "metadata": [],
@@ -2296,7 +2305,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Mobile"
         ],
@@ -2313,7 +2322,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Networking & Content Delivery"
         ],
@@ -2330,7 +2339,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Networking & Content Delivery"
         ],
@@ -2347,7 +2356,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Networking & Content Delivery"
         ],
@@ -2364,7 +2373,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Networking & Content Delivery"
         ],
@@ -2381,13 +2390,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Networking & Content Delivery"
         ],
         "service": "Amazon VPC PrivateLink",
         "webLink": "https://aws.amazon.com/privatelink/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS PrivateLink simplifies the security of data shared with cloud-based applications by eliminating the exposure of data to the public Internet. AWS PrivateLink provides private connectivity between VPCs, AWS services, and on-premises applications, securely on the Amazon network. AWS PrivateLink makes it easy to connect services across different accounts and VPCs to significantly simplify the network architecture.",
         "keywords": [],
         "metadata": [],
@@ -2398,13 +2407,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Networking & Content Delivery"
         ],
         "service": "AWS App Mesh",
         "webLink": "https://aws.amazon.com/app-mesh/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS App Mesh makes it easy to monitor and control microservices running on AWS. App Mesh standardizes how your microservices communicate, giving you end-to-end visibility and helping to ensure high-availability for your applications.",
         "keywords": [],
         "metadata": [],
@@ -2415,13 +2424,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Networking & Content Delivery"
         ],
         "service": "AWS Cloud Map",
         "webLink": "https://aws.amazon.com/cloud-map/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Cloud Map is a cloud resource discovery service. With Cloud Map, you can define custom names for your application resources, and it maintains the updated location of these dynamically changing resources. This increases your application availability because your web service always discovers the most up-to-date locations of its resources.",
         "keywords": [],
         "metadata": [],
@@ -2432,7 +2441,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Networking & Content Delivery"
         ],
@@ -2449,13 +2458,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Networking & Content Delivery"
         ],
         "service": "AWS Global Accelerator",
         "webLink": "https://aws.amazon.com/global-accelerator/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Global Accelerator is a networking service that improves the availability and performance of the applications that you offer to your global users.",
         "keywords": [],
         "metadata": [],
@@ -2466,13 +2475,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Networking & Content Delivery"
         ],
         "service": "AWS Transit Gateway",
         "webLink": "https://aws.amazon.com/transit-gateway/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Transit Gateway is a service that enables customers to connect their Amazon Virtual Private Clouds (VPCs) and their on-premises networks to a single gateway. As you grow the number of workloads running on AWS, you need to be able to scale your networks across multiple accounts and Amazon VPCs to keep up with the growth. Today, you can connect pairs of Amazon VPCs using peering. However, managing point-to-point connectivity across many Amazon VPCs, without the ability to centrally manage the connectivity policies, can be operationally costly and cumbersome. For on-premises connectivity, you need to attach your AWS VPN to each individual Amazon VPC. This solution can be time consuming to build and hard to manage when the number of VPCs grows into the hundreds.",
         "keywords": [],
         "metadata": [],
@@ -2483,13 +2492,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Robotics"
         ],
         "service": "AWS RoboMaker",
         "webLink": "https://aws.amazon.com/robomaker/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS RoboMaker is a service that makes it easy to develop, test, and deploy intelligent robotics applications at scale. RoboMaker extends the most widely used open-source robotics software framework, Robot Operating System (ROS), with connectivity to cloud services. This includes AWS machine learning services, monitoring services, and analytics services that enable a robot to stream data, navigate, communicate, comprehend, and learn. RoboMaker provides a robotics development environment for application development, a robotics simulation service to accelerate application testing, and a robotics fleet management service for remote application deployment, update, and management.",
         "keywords": [],
         "metadata": [],
@@ -2500,13 +2509,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Satellite"
         ],
         "service": "AWS Ground Station",
         "webLink": "https://aws.amazon.com/ground-station/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Ground Station is a fully managed service that lets you control satellite communications, downlink and process satellite data, and scale your satellite operations quickly, easily and cost-effectively without having to worry about building or managing your own ground station infrastructure. Satellites are used for a wide variety of use cases, including weather forecasting, surface imaging, communications, and video broadcasts. Ground stations are at the core of global satellite networks, which are facilities that provide communications between the ground and the satellites by using antennas to receive data and control systems to send radio signals to command and control the satellite. Today, you must either build your own ground stations and antennas, or obtain long-term leases with ground station providers, often in multiple countries to provide enough opportunities to contact the satellites as they orbit the globe. Once all this data is downloaded, you need servers, storage, and networking in close proximity to the antennas to process, store, and transport the data from the satellites. ",
         "keywords": [],
         "metadata": [],
@@ -2517,13 +2526,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Security, Identity, & Compliance"
         ],
         "service": "AWS Identity and Access Management (IAM)",
         "webLink": "https://aws.amazon.com/iam/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": " AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources.\u00a0",
         "keywords": [],
         "metadata": [],
@@ -2534,7 +2543,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Security, Identity, & Compliance"
         ],
@@ -2551,7 +2560,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Security, Identity, & Compliance"
         ],
@@ -2568,13 +2577,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Security, Identity, & Compliance"
         ],
         "service": "Amazon GuardDuty",
         "webLink": "https://aws.amazon.com/guardduty/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon GuardDuty is a threat detection service that continuously monitors for malicious or unauthorized behavior to help you protect your AWS accounts and workloads. It monitors for activity such as unusual API calls or potentially unauthorized deployments that indicate a possible account compromise. GuardDuty also detects potentially compromised instances or reconnaissance by attackers.",
         "keywords": [],
         "metadata": [],
@@ -2585,7 +2594,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Security, Identity, & Compliance"
         ],
@@ -2602,7 +2611,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Security, Identity, & Compliance"
         ],
@@ -2619,7 +2628,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Security, Identity, & Compliance"
         ],
@@ -2636,7 +2645,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Security, Identity, & Compliance"
         ],
@@ -2653,7 +2662,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Security, Identity, & Compliance"
         ],
@@ -2670,7 +2679,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Security, Identity, & Compliance"
         ],
@@ -2687,13 +2696,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Security, Identity, & Compliance"
         ],
         "service": "AWS Firewall Manager",
         "webLink": "https://aws.amazon.com/firewall-manager/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Firewall Manager is a security management service that makes it easier to centrally configure and manage AWS WAF rules across your accounts and applications. Using Firewall Manager, you can easily roll out AWS WAF rules for your Application Load Balancers and Amazon CloudFront distributions across accounts in AWS Organizations. As new applications are created, Firewall Manager also makes it easy to bring new applications and resources into compliance with a common set of security rules from day one. Now you have a single service to build firewall rules, create security policies, and enforce them in a consistent, hierarchical manner across your entire Application Load Balancers and Amazon CloudFront infrastructure.\u00a0",
         "keywords": [],
         "metadata": [],
@@ -2704,13 +2713,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Security, Identity, & Compliance"
         ],
         "service": "AWS Key Management Service",
         "webLink": "https://aws.amazon.com/kms/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Key Management Service (KMS) makes it easy for you to create and manage keys and control the use of encryption across a wide range of AWS services and in your applications. AWS KMS is a secure and resilient service that uses FIPS 140-2 validated hardware security modules to protect your keys. AWS KMS is integrated with AWS CloudTrail to provide you with logs of all key usage to help meet your regulatory and compliance needs. ",
         "keywords": [],
         "metadata": [],
@@ -2721,7 +2730,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Security, Identity, & Compliance"
         ],
@@ -2738,13 +2747,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Security, Identity, & Compliance"
         ],
         "service": "AWS Secrets Manager",
         "webLink": "https://aws.amazon.com/secrets-manager/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Secrets Manager helps you protect secrets needed to access your applications, services, and IT resources. The service enables you to easily rotate, manage, and retrieve database credentials, API keys, and other secrets throughout their lifecycle. Users and applications retrieve secrets with a call to Secrets Manager APIs, eliminating the need to hardcode sensitive information in plain text. Secrets Manager offers secret rotation with built-in integration for Amazon RDS for MySQL, PostgreSQL, and Amazon Aurora. Also, the service is extensible to other types of secrets, including API keys and OAuth tokens. In addition, Secrets Manager enables you to control access to secrets using fine-grained permissions and audit secret rotation centrally for resources in the AWS Cloud, third-party services, and on-premises. ",
         "keywords": [],
         "metadata": [],
@@ -2755,13 +2764,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Security, Identity, & Compliance"
         ],
         "service": "AWS Security Hub",
         "webLink": "https://aws.amazon.com/security-hub/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": " AWS Security Hub gives you a comprehensive view of your high-priority security alerts and compliance status across AWS accounts. There are a range of powerful security tools at your disposal, from firewalls and endpoint protection to vulnerability and compliance scanners. But oftentimes this leaves your team switching back-and-forth between these tools to deal with hundreds, and sometimes thousands, of security alerts every day. With Security Hub, you now have a single place that aggregates, organizes, and prioritizes your security alerts, or findings, from multiple AWS services, such as Amazon GuardDuty, Amazon Inspector, and Amazon Macie, as well as from AWS Partner solutions. Your findings are visually summarized on integrated dashboards with actionable graphs and tables. You can also continuously monitor your environment using automated compliance checks based on the AWS best practices and industry standards your organization follows. Get started with AWS Security Hub just a few clicks in the Management Console and once enabled, Security Hub will begin aggregating and prioritizing findings. ",
         "keywords": [],
         "metadata": [],
@@ -2772,7 +2781,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Security, Identity, & Compliance"
         ],
@@ -2789,13 +2798,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Security, Identity, & Compliance"
         ],
         "service": "AWS Single Sign-On",
         "webLink": "https://aws.amazon.com/single-sign-on/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "AWS Single Sign-On (SSO) is a cloud SSO service that makes it easy to centrally manage SSO access to multiple AWS accounts and business applications. With just a few clicks, you can enable a highly available SSO service without the upfront investment and on-going maintenance costs of operating your own SSO infrastructure. With AWS SSO, you can easily manage SSO access and user permissions to all of your accounts in AWS Organizations centrally. AWS SSO also includes built-in SAML integrations to many business applications, such as Salesforce, Box, and Office 365. Further, by using the AWS SSO application configuration wizard, you can create Security Assertion Markup Language (SAML) 2.0 integrations and extend SSO access to any of your SAML-enabled applications. Your users simply sign in to a user portal with credentials they configure in AWS SSO or using their existing corporate credentials to access all their assigned accounts and applications from one place.",
         "keywords": [],
         "metadata": [],
@@ -2806,7 +2815,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Security, Identity, & Compliance"
         ],
@@ -2823,7 +2832,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Storage"
         ],
@@ -2840,13 +2849,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Storage"
         ],
         "service": "Amazon Elastic Block Store (EBS)",
         "webLink": "https://aws.amazon.com/ebs/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Elastic Block Store (Amazon EBS) provides persistent block storage volumes for use with Amazon EC2 instances in the AWS Cloud. Each Amazon EBS volume is automatically replicated within its Availability Zone to protect you from component failure, offering high availability and durability. Amazon EBS volumes offer the consistent and low-latency performance needed to run your workloads. With Amazon EBS, you can scale your usage up or down within minutes \u2013 all while paying a low price for only what you provision.",
         "keywords": [],
         "metadata": [],
@@ -2857,13 +2866,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Storage"
         ],
         "service": "Amazon Elastic File System (EFS)",
         "webLink": "https://aws.amazon.com/efs/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon Elastic File System (Amazon EFS) provides a simple, scalable, elastic file system for Linux-based workloads for use with AWS Cloud services and on-premises resources. It is built to scale on demand to petabytes without disrupting applications, growing and shrinking automatically as you add and remove files, so your applications have the storage they need \u2013 when they need it. It is designed to provide massively parallel shared access to thousands of Amazon EC2 instances, enabling your applications to achieve high levels of aggregate throughput and IOPS with consistent low latencies. Amazon EFS is a fully managed service that requires no changes to your existing applications and tools, providing access through a standard file system interface for seamless integration. Amazon EFS is a regional service storing data within and across multiple Availability Zones (AZs) for high availability and durability. You can access your file systems\u00a0across AZs, regions, and VPCs and share files between thousands of Amazon EC2 instances and on-premises servers via AWS Direct Connect or AWS VPN.",
         "keywords": [],
         "metadata": [],
@@ -2874,13 +2883,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Storage"
         ],
         "service": "Amazon FSx for Lustre",
         "webLink": "https://aws.amazon.com/fsx/lustre/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon FSx for Lustre is a fully managed file system that is optimized for compute-intensive workloads, such as high performance computing, machine learning, and media data processing workflows. Many of these applications require the high-performance and low latencies of scale-out, parallel file systems. Operating these file systems typically requires specialized expertise and administrative overhead, requiring you to provision storage servers and tune complex performance parameters. With Amazon FSx, you can launch and run a Lustre file system that can process massive data sets at up to hundreds of gigabytes per second of throughput, millions of IOPS, and sub-millisecond latencies.",
         "keywords": [],
         "metadata": [],
@@ -2891,13 +2900,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Storage"
         ],
         "service": "Amazon FSx for Windows File Server",
         "webLink": "https://aws.amazon.com/fsx/windows/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Amazon FSx for Windows File Server provides a fully managed native Microsoft Windows file system so you can easily move your Windows-based applications that require file storage to AWS. Built on Windows Server, Amazon FSx provides shared file storage with the compatibility and features that your Windows-based applications rely on, including full support for the SMB protocol and Windows NTFS, Active Directory (AD) integration, and Distributed File System (DFS). Amazon FSx uses SSD storage to provide the fast performance your Windows applications and users expect, with high levels of throughput and IOPS, and consistent sub-millisecond latencies. This compatibility and performance is particularly important when moving workloads that require Windows shared file storage, like CRM, ERP, and .NET applications, as well as home directories. ",
         "keywords": [],
         "metadata": [],
@@ -2908,7 +2917,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Storage"
         ],
@@ -2925,13 +2934,13 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Storage"
         ],
         "service": "AWS Snow Family",
         "webLink": "https://aws.amazon.com/snow/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/General_AWScloud.svg",
+        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "description": "Data is foundational for digital projects in the cloud, but customers tell us that moving large volumes of data is a serious challenge. A dedicated 1Gbps network connection theoretically moves 1PB of data in 100 days -- and in the real world, likely longer and at higher cost. Migrating data-intensive analytics environments, moving enterprise datacenters to the cloud, re-invigorating digital archives requires bulk data transport methods that are simple, affordable, secure and tamper-resistant. And for workloads at remote edge locations, data may also need to be pre-processed with onboard device computing power.",
         "keywords": [],
         "metadata": [],
@@ -2942,7 +2951,7 @@
     },
     {
         "provider": "Amazon",
-        "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
+        "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
         "category": [
             "Storage"
         ],
@@ -4036,7 +4045,7 @@
         ],
         "service": "Virtual Private Cloud (VPC)",
         "webLink": "https://cloud.google.com/vpc/",
-        "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+        "img": "./img/logos/Google/Networking/Virtual Private Cloud.svg",
         "description": "Virtual Private Cloud (VPC) gives you the flexibility to scale and control how workloads connect regionally and globally. When you connect your on-premises or remote resources to GCP, you\u2019ll have global access to your VPCs without needing to replicate connectivity or administrative policies in each region.",
         "keywords": [],
         "metadata": [],
@@ -4223,7 +4232,7 @@
         ],
         "service": "Container Registry",
         "webLink": "https://cloud.google.com/container-registry/",
-        "img": ".\\img\\logos\\Google\\Developer Tools\\Container Registry.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Container Registry.svg",
         "description": "",
         "keywords": [],
         "metadata": [],
@@ -4988,7 +4997,7 @@
         ],
         "service": "Cognitive Services",
         "webLink": "https://azure.microsoft.com/en-us/services/cognitive-services/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Cognative Services.svg",
         "description": "Image-processing algorithms to smartly identify, caption and\r\nmoderate your pictures.",
         "keywords": [],
         "metadata": [],
@@ -5005,7 +5014,7 @@
         ],
         "service": "Azure Bot Service",
         "webLink": "https://azure.microsoft.com/en-us/services/bot-service/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Bot Services.svg",
         "description": "Azure Bot Service speeds up development by providing an integrated environment that\u2019s purpose-built for bot development with the Microsoft Bot Framework connectors and BotBuilder SDKs. Developers can get started in seconds with out-of-the-box templates for scenarios including basic, form, language understanding, question and answer, and proactive bots.",
         "keywords": [],
         "metadata": [],
@@ -5039,7 +5048,7 @@
         ],
         "service": "AI + Machine Learning",
         "webLink": "https://azure.microsoft.com/en-us/services/machine-learning-service/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Machine Learning.svg",
         "description": "Simplify and accelerate the building, training, and deployment of your machine learning models. Use automated machine learning to identify suitable algorithms and tune hyperparameters faster. Improve productivity and reduce costs with autoscaling compute and DevOps for machine learning. Seamlessly deploy to the cloud and the edge with one click. Access all these capabilities from your favorite Python environment using the latest open-source frameworks, such as PyTorch, TensorFlow, and scikit-learn.",
         "keywords": [],
         "metadata": [],
@@ -5090,7 +5099,7 @@
         ],
         "service": "Cognitive Services - Vision APIs",
         "webLink": "https://azure.microsoft.com/en-us/services/cognitive-services/directory/vision/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Cognative Services - Computer Vision_COLOR.svg",
         "description": "Learn how Vision makes it possible for apps and services to accurately identify and analyze content within images and videos. Try any service free\u2014and quickly build computer vision-enabled apps and services with the following capabilities.",
         "keywords": [],
         "metadata": [],
@@ -5107,7 +5116,7 @@
         ],
         "service": "Cognitive Services - Speech APIs",
         "webLink": "https://azure.microsoft.com/en-us/services/cognitive-services/directory/speech/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Cognative Services - Speech_COLOR.svg",
         "description": "Learn how Vision makes it possible for apps and services to accurately identify and analyze content within images and videos. Try any service free\u2014and quickly build computer vision-enabled apps and services with the following capabilities.",
         "keywords": [],
         "metadata": [],
@@ -5141,7 +5150,7 @@
         ],
         "service": "SQL Data Warehouse",
         "webLink": "https://azure.microsoft.com/en-us/services/sql-data-warehouse/",
-        "img": ".\\img\\logos\\Microsoft\\CnE_Deprecated\\SQL Data Warehouse.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Data Warehouse.svg",
         "description": "Unlock new insights from your data with Azure SQL Data Warehouse, a fully managed cloud data warehouse for enterprises of any size that combines lightning-fast query performance with industry-leading data security. Optimize workloads by elastically scaling your resources in minutes. Get unlimited storage, automated administration, and built-in auditing and threat detection. Integrate seamlessly with Azure Active Directory, Azure Data Factory, Azure Data Lake Storage, Azure Databricks, and Microsoft Power BI to provide a single holistic modern data warehouse solution for all your analytical workloads.",
         "keywords": [],
         "metadata": [],
@@ -5175,7 +5184,7 @@
         ],
         "service": "HDInsight",
         "webLink": "https://azure.microsoft.com/en-us/services/hdinsight/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure HDInsight.svg",
         "description": "Easily run popular open source frameworks\u2014including Apache Hadoop, Spark, and Kafka\u2014using Azure HDInsight, a cost-effective, enterprise-grade service for open source analytics. Effortlessly process massive amounts of data and get all the benefits of the broad open source ecosystem with the global scale of Azure.",
         "keywords": [],
         "metadata": [],
@@ -5192,7 +5201,7 @@
         ],
         "service": "Data Factory",
         "webLink": "https://azure.microsoft.com/en-us/services/data-factory/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Data Factory.svg",
         "description": "Create, schedule, and manage your data integration at scale with Azure Data Factory\u2014a hybrid data integration (ETL) service. Work with data wherever it lives, in the cloud or on-premises, with enterprise-grade security.",
         "keywords": [],
         "metadata": [],
@@ -5209,7 +5218,7 @@
         ],
         "service": "AI + Machine Learning",
         "webLink": "https://azure.microsoft.com/en-us/services/machine-learning-service/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Machine Learning.svg",
         "description": "Simplify and accelerate the building, training, and deployment of your machine learning models. Use automated machine learning to identify suitable algorithms and tune hyperparameters faster. Improve productivity and reduce costs with autoscaling compute and DevOps for machine learning. Seamlessly deploy to the cloud and the edge with one click. Access all these capabilities from your favorite Python environment using the latest open-source frameworks, such as PyTorch, TensorFlow, and scikit-learn.",
         "keywords": [],
         "metadata": [],
@@ -5226,7 +5235,7 @@
         ],
         "service": "Stream Analytics",
         "webLink": "https://azure.microsoft.com/en-us/services/stream-analytics/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Stream Analytics.svg",
         "description": "As more and more data is generated from a variety of connected devices and sensors, transforming this data into actionable insights and predictions in near real-time is now an operational necessity.",
         "keywords": [],
         "metadata": [],
@@ -5243,7 +5252,7 @@
         ],
         "service": "Azure Data Lake Storage",
         "webLink": "https://azure.microsoft.com/en-us/services/storage/data-lake-storage/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Data Lake.svg",
         "description": "Test models faster with a Hadoop-compatible file system that supports atomic file and folder operations and is optimized to execute jobs at lightning speed.",
         "keywords": [],
         "metadata": [],
@@ -5260,7 +5269,7 @@
         ],
         "service": "Azure Analysis Services",
         "webLink": "https://azure.microsoft.com/en-us/services/analysis-services/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Analysis Service.svg",
         "description": "Use Azure Resource Manager to create and deploy an Azure Analysis Services instance within seconds, and use backup restore to quickly move your existing models to Azure Analysis Services and take advantage of the scale, flexibility and management benefits of the cloud. Scale up, scale down, or pause the service and pay only for what you use.",
         "keywords": [],
         "metadata": [],
@@ -5277,7 +5286,7 @@
         ],
         "service": "Event Hubs",
         "webLink": "https://azure.microsoft.com/en-us/services/event-hubs/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Event Hubs.svg",
         "description": "Real-time data stream processing from millions of IoT devices",
         "keywords": [],
         "metadata": [],
@@ -5345,7 +5354,7 @@
         ],
         "service": "Functions",
         "webLink": "https://azure.microsoft.com/en-us/services/functions/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Functions.svg",
         "description": "Easily build the apps you need using simple, serverless functions that scale to meet demand. Use the programming language of your choice, and don\u2019t worry about servers or infrastructure.",
         "keywords": [],
         "metadata": [],
@@ -5362,7 +5371,7 @@
         ],
         "service": "Service Fabric",
         "webLink": "https://azure.microsoft.com/en-us/services/service-fabric/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Service Fabric.svg",
         "description": "Focus on building applications and business logic, and let Azure solve the hard distributed systems problems such as reliability, scalability, management, and latency. Service Fabric is an open source project and it powers core Azure infrastructure as well as other Microsoft services such as Skype for Business, Intune, Azure Event Hubs, Azure Data Factory, Azure Cosmos DB, Azure SQL Database, Dynamics 365, and Cortana. Designed to deliver highly available and durable services at cloud-scale, Azure Service Fabric intrinsically understands the available infrastructure and resource needs of applications, enabling automatic scale, rolling upgrades, and self-healing from faults when they occur.",
         "keywords": [],
         "metadata": [],
@@ -5379,7 +5388,7 @@
         ],
         "service": "App Service",
         "webLink": "https://azure.microsoft.com/en-us/services/app-service/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure App Service.svg",
         "description": "Quickly build powerful web, mobile, and API apps using .NET, .NET Core, Java, Ruby, Node.js, PHP, Python and Docker. Integrate Azure App Service into your existing frameworks, and get unparalleled developer productivity with cutting-edge capabilities such as continuous integration, live-site debugging, and the industry-leading Microsoft Visual Studio IDE. Plus, tap into an ecosystem of prebuilt apps, APIs, and connectors from Azure Marketplace. Deploy updates easily with integrated CI/CD capabilities with Visual Studio Team Services, Bitbucket, Docker Hub, and GitHub.",
         "keywords": [],
         "metadata": [],
@@ -5413,7 +5422,7 @@
         ],
         "service": "Batch",
         "webLink": "https://azure.microsoft.com/en-us/services/batch/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Batch.svg",
         "description": "Batch processing began with mainframe computers and punch cards. Today, it still plays a central role in business, engineering, science, and other areas that require running lots of automated tasks\u2014processing bills and payroll, calculating portfolio risk, designing new products, rendering animated films, testing software, searching for energy, predicting the weather, and finding new cures for disease. Previously, few people had access to the computing power for these scenarios. With Azure Batch, that power is available to you when you need it, without any capital investment.",
         "keywords": [],
         "metadata": [],
@@ -5481,7 +5490,7 @@
         ],
         "service": "Service Fabric",
         "webLink": "https://azure.microsoft.com/en-us/services/service-fabric/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Service Fabric.svg",
         "description": "Focus on building applications and business logic, and let Azure solve the hard distributed systems problems such as reliability, scalability, management, and latency. Service Fabric is an open source project and it powers core Azure infrastructure as well as other Microsoft services such as Skype for Business, Intune, Azure Event Hubs, Azure Data Factory, Azure Cosmos DB, Azure SQL Database, Dynamics 365, and Cortana. Designed to deliver highly available and durable services at cloud-scale, Azure Service Fabric intrinsically understands the available infrastructure and resource needs of applications, enabling automatic scale, rolling upgrades, and self-healing from faults when they occur.",
         "keywords": [],
         "metadata": [],
@@ -5498,7 +5507,7 @@
         ],
         "service": "Container Registry",
         "webLink": "https://azure.microsoft.com/en-us/services/container-registry/",
-        "img": ".\\img\\logos\\Google\\Developer Tools\\Container Registry.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Container Registry.svg",
         "description": "Azure Container Registry allows you to store images for all types of container deployments including DC/OS, Docker Swarm, Kubernetes, and Azure services such as App Service, Batch, Service Fabric, and others. Your DevOps team can manage the configuration of apps isolated from the configuration of the hosting environment.",
         "keywords": [],
         "metadata": [],
@@ -5515,7 +5524,7 @@
         ],
         "service": "App Service",
         "webLink": "https://azure.microsoft.com/en-us/services/app-service/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure App Service.svg",
         "description": "Quickly build powerful web, mobile, and API apps using .NET, .NET Core, Java, Ruby, Node.js, PHP, Python and Docker. Integrate Azure App Service into your existing frameworks, and get unparalleled developer productivity with cutting-edge capabilities such as continuous integration, live-site debugging, and the industry-leading Microsoft Visual Studio IDE. Plus, tap into an ecosystem of prebuilt apps, APIs, and connectors from Azure Marketplace. Deploy updates easily with integrated CI/CD capabilities with Visual Studio Team Services, Bitbucket, Docker Hub, and GitHub.",
         "keywords": [],
         "metadata": [],
@@ -5549,7 +5558,7 @@
         ],
         "service": "Batch",
         "webLink": "https://azure.microsoft.com/en-us/services/batch/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Batch.svg",
         "description": "Batch processing began with mainframe computers and punch cards. Today, it still plays a central role in business, engineering, science, and other areas that require running lots of automated tasks\u2014processing bills and payroll, calculating portfolio risk, designing new products, rendering animated films, testing software, searching for energy, predicting the weather, and finding new cures for disease. Previously, few people had access to the computing power for these scenarios. With Azure Batch, that power is available to you when you need it, without any capital investment.",
         "keywords": [],
         "metadata": [],
@@ -5668,7 +5677,7 @@
         ],
         "service": "SQL Data Warehouse",
         "webLink": "https://azure.microsoft.com/en-us/services/sql-data-warehouse/",
-        "img": ".\\img\\logos\\Microsoft\\CnE_Deprecated\\SQL Data Warehouse.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Data Warehouse.svg",
         "description": "Unlock new insights from your data with Azure SQL Data Warehouse, a fully managed cloud data warehouse for enterprises of any size that combines lightning-fast query performance with industry-leading data security. Optimize workloads by elastically scaling your resources in minutes. Get unlimited storage, automated administration, and built-in auditing and threat detection. Integrate seamlessly with Azure Active Directory, Azure Data Factory, Azure Data Lake Storage, Azure Databricks, and Microsoft Power BI to provide a single holistic modern data warehouse solution for all your analytical workloads.",
         "keywords": [],
         "metadata": [],
@@ -6076,7 +6085,7 @@
         ],
         "service": "Logic Apps",
         "webLink": "https://azure.microsoft.com/en-us/services/logic-apps/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Logic Apps.svg",
         "description": "",
         "keywords": [],
         "metadata": [],
@@ -6093,7 +6102,7 @@
         ],
         "service": "Service Bus",
         "webLink": "https://azure.microsoft.com/en-us/services/service-bus/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Service Bus.svg",
         "description": "Depend on Azure Service Bus when you need highly-reliable cloud messaging service between applications and services, even when one or more is offline. Available in every Azure region, this fully-managed service eliminates the burdens of server management and licensing. Asynchronous operations give you flexible, brokered messaging between client and server, along with structured first-in, first-out (FIFO) messaging, and publish/subscribe capabilities\u2014excellent for tasks like order processing.",
         "keywords": [],
         "metadata": [],
@@ -6110,7 +6119,7 @@
         ],
         "service": "API Management",
         "webLink": "https://azure.microsoft.com/en-us/services/api-management/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure API Management.svg",
         "description": "",
         "keywords": [],
         "metadata": [],
@@ -6127,7 +6136,7 @@
         ],
         "service": "Event Grid",
         "webLink": "https://azure.microsoft.com/en-us/services/event-grid/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/azure_event_grid.svg",
         "description": "Simplify your event-based apps with Event Grid, a single service for managing routing of all events from any source to any destination. Designed for high availability, consistent performance, and dynamic scale, Event Grid lets you focus on your app logic rather than infrastructure.",
         "keywords": [],
         "metadata": [],
@@ -6144,7 +6153,7 @@
         ],
         "service": "IoT Hub",
         "webLink": "https://azure.microsoft.com/en-us/services/iot-hub/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure IoT Hub.svg",
         "description": "Learn how IoT Hub features such as device management and provisioning allow you to scale to billions of devices using familiar tooling.",
         "keywords": [],
         "metadata": [],
@@ -6382,7 +6391,7 @@
         ],
         "service": "Azure Policy",
         "webLink": "https://azure.microsoft.com/en-us/services/azure-policy/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": "./img/logos/Microsoft/CnE_Intune/Policy.svg",
         "description": "",
         "keywords": [],
         "metadata": [],
@@ -6433,7 +6442,7 @@
         ],
         "service": "Scheduler",
         "webLink": "https://azure.microsoft.com/en-us/services/scheduler/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Scheduler.svg",
         "description": "Azure Scheduler lets you create jobs in the cloud that invoke services inside and outside of Azure\u2014such as calling HTTP/S endpoints or posting messages to Azure Storage queues, or Azure Service Bus queues or topics. Run jobs right away, on a recurring schedule, or at some point in the future.",
         "keywords": [],
         "metadata": [],
@@ -6450,7 +6459,7 @@
         ],
         "service": "Media Services",
         "webLink": "https://azure.microsoft.com/en-us/services/media-services/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Media Services.svg",
         "description": "Get studio-grade encoding at cloud scale",
         "keywords": [],
         "metadata": [],
@@ -6671,7 +6680,7 @@
         ],
         "service": "Notification Hubs",
         "webLink": "https://azure.microsoft.com/en-us/services/notification-hubs/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Notification Hubs.svg",
         "description": "",
         "keywords": [],
         "metadata": [],
@@ -6739,7 +6748,7 @@
         ],
         "service": "API Apps",
         "webLink": "https://azure.microsoft.com/en-us/services/app-service/api/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure App Service - Azure API Apps.svg",
         "description": "Use the API Apps feature of Microsoft Azure App Service to connect your favorite version control system to your API app, and automatically deploy commits, which makes code changes easier than ever. Move your API to production, run tests against a copy of your app provided by deployment slots, and then redirect traffic to the new version without downtime.",
         "keywords": [],
         "metadata": [],
@@ -6756,7 +6765,7 @@
         ],
         "service": "Virtual Network",
         "webLink": "https://azure.microsoft.com/en-us/services/virtual-network/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Virtual Network.svg",
         "description": "",
         "keywords": [],
         "metadata": [],
@@ -6773,7 +6782,7 @@
         ],
         "service": "Load Balancer",
         "webLink": "https://azure.microsoft.com/en-us/services/load-balancer/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": "./img/logos/Microsoft/CnE_Enterprise/Load balancer (Generic).svg",
         "description": "With built-in load balancing for cloud services and virtual machines, you can create highly-available and scalable applications in minutes. Azure Load Balancer supports TCP/UDP-based protocols such as HTTP, HTTPS, and SMTP, and protocols used for real-time voice and video messaging applications.",
         "keywords": [],
         "metadata": [],
@@ -6790,7 +6799,7 @@
         ],
         "service": "Application Gateway",
         "webLink": "https://azure.microsoft.com/en-us/services/application-gateway/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Application Gateway.svg",
         "description": "Azure Application Gateway gives you application-level routing and load balancing services that let you build a scalable and highly-available web front end in Azure. You control the size of the gateway and scale your deployment based on your needs.",
         "keywords": [],
         "metadata": [],
@@ -6807,7 +6816,7 @@
         ],
         "service": "VPN Gateway",
         "webLink": "https://azure.microsoft.com/en-us/services/vpn-gateway/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure VPN Gateway.svg",
         "description": "",
         "keywords": [],
         "metadata": [],
@@ -6841,7 +6850,7 @@
         ],
         "service": "Content Delivery Network",
         "webLink": "https://azure.microsoft.com/en-us/services/cdn/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Content Delivery Network (CDN).svg",
         "description": "In online content delivery, user experience is everything. Azure Content Delivery Network (CDN) lets you reduce load times, save bandwidth, and speed responsiveness\u2014whether you\u2019re developing or managing websites or mobile apps, or encoding and distributing streaming media, gaming software, firmware updates, or IoT endpoints.",
         "keywords": [],
         "metadata": [],
@@ -6875,7 +6884,7 @@
         ],
         "service": "Traffic Manager",
         "webLink": "https://azure.microsoft.com/en-us/services/traffic-manager/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Traffic Manager.svg",
         "description": "",
         "keywords": [],
         "metadata": [],
@@ -6909,7 +6918,7 @@
         ],
         "service": "Security Center",
         "webLink": "https://azure.microsoft.com/en-us/services/security-center/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Security Center.svg",
         "description": "Get a unified view of security across all of your on-premises and cloud workloads. Automatically discover and onboard new Azure resources, and apply security policies across your hybrid cloud workloads to ensure compliance with security standards. Collect, search, and analyze security data from a variety of sources, including firewalls and other partner solutions.",
         "keywords": [],
         "metadata": [],
@@ -6926,7 +6935,7 @@
         ],
         "service": "Key Vault",
         "webLink": "https://azure.microsoft.com/en-us/services/key-vault/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Key Vault.svg",
         "description": "Secure key management is essential to protect data in the cloud. Use Azure Key Vault to encrypt keys and small secrets like passwords that use keys stored in hardware security modules (HSMs). For more assurance, import or generate keys in HSMs, and Microsoft processes your keys in FIPS 140-2 Level 2 validated HSMs (hardware and firmware). With Key Vault, Microsoft doesn\u2019t see or extract your keys. Monitor and audit your key use with Azure logging\u2014pipe logs into Azure HDInsight or your security information and event management (SIEM) solution for more analysis and threat detection.",
         "keywords": [],
         "metadata": [],
@@ -6943,7 +6952,7 @@
         ],
         "service": "Application Gateway",
         "webLink": "https://azure.microsoft.com/en-us/services/application-gateway/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Application Gateway.svg",
         "description": "Azure Application Gateway gives you application-level routing and load balancing services that let you build a scalable and highly-available web front end in Azure. You control the size of the gateway and scale your deployment based on your needs.",
         "keywords": [],
         "metadata": [],
@@ -6977,7 +6986,7 @@
         ],
         "service": "VPN Gateway",
         "webLink": "https://azure.microsoft.com/en-us/services/vpn-gateway/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure VPN Gateway.svg",
         "description": "",
         "keywords": [],
         "metadata": [],
@@ -7062,7 +7071,7 @@
         ],
         "service": "Storage",
         "webLink": "https://azure.microsoft.com/en-us/services/storage/",
-        "img": ".\\img\\logos\\Microsoft\\CnE_Enterprise\\Storage.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Storage.svg",
         "description": "Simple, distributed, cross-platform file system",
         "keywords": [],
         "metadata": [],
@@ -7079,7 +7088,7 @@
         ],
         "service": "Blob Storage",
         "webLink": "https://azure.microsoft.com/en-us/services/storage/blobs/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Storage - Blob.svg",
         "description": "Store data in tiers according to how frequently it's accessed. Place frequently accessed data in Hot, infrequently accessed data in Cool, rarely accessed data in Archive, and data that requires low-latency access in the new Premium tier. Learn more about the new Premium Blob Storage.",
         "keywords": [],
         "metadata": [],
@@ -7113,7 +7122,7 @@
         ],
         "service": "Queue Storage",
         "webLink": "https://azure.microsoft.com/en-us/services/storage/queues/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Storage - Queue.svg",
         "description": "Use Azure Queue Storage to build flexible applications and separate functions for better durability across large workloads. When you design applications for scale, application components can be decoupled, so that they can scale independently. Queue storage gives you asynchronous message queueing for communication between application components, whether they are running in the cloud, on the desktop, on-premises, or on mobile devices.",
         "keywords": [],
         "metadata": [],
@@ -7130,7 +7139,7 @@
         ],
         "service": "File Storage",
         "webLink": "https://azure.microsoft.com/en-us/services/storage/files/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Storage - Files.svg",
         "description": "Take advantage of fully managed file shares in the cloud that are accessible via the industry standard Server Message Block (SMB) protocol. Azure File shares can be mounted concurrently by cloud or on-premises deployments of Windows, Linux, and macOS. Plus, cache Azure File shares on Windows Servers with Azure File Sync for fast access near where the data is being used.",
         "keywords": [],
         "metadata": [],
@@ -7232,7 +7241,7 @@
         ],
         "service": "API Management",
         "webLink": "https://azure.microsoft.com/en-us/services/api-management/",
-        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
+        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure API Management.svg",
         "description": "",
         "keywords": [],
         "metadata": [],

@@ -10,14 +10,14 @@ with open('./database/data.json') as f:
     data = json.load(f)
 
 found = 0
-"""
+
 for entry in data:
-    query = entry['service']+".svg"
+    query = "Azure "+ entry['service']+".svg"
     absolutePath = "NaN"
     for root, dirs, files in os.walk('.\\img\logos\\'):
         for file in files:
             #print(file)
-            if file == query:
+            if file.lower() == query.lower():
                 relativePath = os.path.join(root, file)
                 found += 1
                 entry['img'] = relativePath
@@ -40,7 +40,7 @@ for entry in data:
                     entry['img'] = relativePath
                     print(relativePath)
 
-
+"""
 print(found)
 
 with open('./database/data.json', 'w') as outfile:  

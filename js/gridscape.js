@@ -274,7 +274,7 @@
             .append("button")
             .attr("class", "footer-button")
             .on("click", function () {
-                //createFeedBackView();
+                createFeedBackView();
             })
             .append("span")
             .text("Feedback");
@@ -1223,12 +1223,21 @@
 
         modalViewBody.html("");
         modalViewHeaderIcon.html("");
+        modalViewFooter.html("");
+        modalViewFooter.append("button")
+            .text("Submit")
+            .on("click", hideDetails);
+        modalViewFooter.append("button")
+            .text("Close")
+            .on("click", hideDetails);
         var form = modalViewBody.append("form").attr("method", "post");
+        form.append("label").attr("for","user").text("Name or / and E-Mail");
+        form.append("input").attr("type","text").attr("id","userID").attr("name","usercontact");
+        form.append("label").attr("for","textArea").text("Feedback");
+        form.append("textarea").attr("id", "feedbackText").attr("placeholder", "Your feedback goes here").attr("name","textArea")
+            .style("height", modalViewBody._groups[0][0].clientHeight - 200 + "px")
+            .style("width", modalViewBody._groups[0][0].clientWidth - 30 + "px");
 
-        form.append("textarea").attr("id", "feedbackText").attr("placeholder", "Your feedback goes here")
-            .style("height", modalViewBody._groups[0][0].clientHeight + "px")
-            .style("width", modalViewBody._groups[0][0].clientWidth + "px");
-        form.append("input").attr("type", "submit").append("span").text("submit");
 
 
         modalView.style("top", currentScrollOffset + "px")
@@ -1251,6 +1260,11 @@
 
         modalViewBody.html("");
         modalViewHeaderIcon.html("");
+        modalViewFooter.html("");
+        modalViewFooter.append("button")
+            .text("Close")
+            .on("click", hideDetails);
+
         var imageColumn = modalViewBody.append("div").attr("class", "modalViewIcon");
 
         modalViewHeaderIcon.append("img")
@@ -1273,9 +1287,19 @@
         detailsText.append("h5").html("<b>Service: </b><i><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"" + item.webLink + "\">" + item.service + "</i>");
         detailsText.append("h5").style("margin-top", "10px").html("<b>Provider: </b><i>" + item.provider + "</a></i>");
         detailsText.append("h5").html("<b>Category: </b><i>" + item.category + "</i>");
-
         detailsText.append("h5").html("<b>Description</b>").style("margin-top", "50px");;
         detailsText.append("span").html("<i>" + item.description + "</i>");
+
+        item.metadata.forEach(md => {
+            if (md.type = "tags") {
+                detailsText.append("h5").html(md.title).style("margin-top", "50px");
+                md.content.forEach(tag => {
+                    detailsText.append("div").attr("class", "tag").text(tag);
+                })
+            }
+        })
+
+
 
 
     }
@@ -1321,11 +1345,11 @@
             .attr("id", "modalViewBody")
             .style("overflow-x", "hidden");
 
-        modalContent.append("div")
+        modalViewFooter = modalContent.append("div")
             .attr("class", "modal-footer")
-            .append("button")
-            .text("Close")
-            .on("click", hideDetails);
+
+
+
 
     }
 
@@ -1473,7 +1497,7 @@
         depsActive = true;
     }
 
-    
+
 
 
     $(window).ready(function () {

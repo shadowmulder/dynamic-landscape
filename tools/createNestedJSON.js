@@ -54,6 +54,7 @@ _.each(data, function (d, i) {
             img:d.img,
             description:(d.description).trim(),
             keywords:d.keywords,
+            metadata: d.metadata,
             dependencies:d.dependencies
         }
 
@@ -76,6 +77,15 @@ _.each(uData, function (d, i) {
     var keyWordsCategory = d.category.split(" ");
     var keyWordsService = d.service.split(" ");
     var keyWordsProvider = d.provider.split(" ");
+    var keyWordsMetaData = [];
+
+    _.each(d.metadata, function(md,i){
+        if (md.type = "tag") {
+            keyWordsMetaData = keyWordsMetaData.concat(keyWordsMetaData,md.content);
+        } else if (md.type == "text") {
+            keyWordsMetaData = keyWordsMetaData.concat(keyWordsMetaData, md.content.split(" "));
+        }
+    })
 
 
     // remove punctuation from description string
@@ -84,7 +94,7 @@ _.each(uData, function (d, i) {
         return !dictionary.includes(item);
     })
 
-    keyWordList = [...(new Set(keyWordList.concat(keyWordsProvider, keyWordsCategory, keyWordsService, keyWordsDescriptionFiltered)))];
+    keyWordList = [...(new Set(keyWordList.concat(keyWordsProvider, keyWordsCategory, keyWordsService, keyWordsDescriptionFiltered, keyWordsMetaData)))];
 
     _.each(keyWordList, function (w, i) {
         keyWordList[i] = w.toLowerCase();
@@ -121,7 +131,8 @@ _.each(uData, function (d, i) {
         description: d.description,
         img: d.img,
         dependencies: d.dependencies,
-        keywords: keyWordList
+        keywords: keyWordList,
+        metadata: d.metadata
     };
 
     _.each(keyWordList,function(w){
