@@ -4,12 +4,99 @@
     "providerIcon": "./img/logos/AWS/General/General_AWScloud.svg",
     "categories": [
       {
-        "category": "AI",
-        "members": []
-      },
-      {
         "category": "AI + Machine Learning",
-        "members": []
+        "members": [
+          {
+            "id": "Ama_78_0",
+            "service": "Amazon SageMaker",
+            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+          },
+          {
+            "id": "Ama_79_0",
+            "service": "Amazon Comprehend",
+            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+          },
+          {
+            "id": "Ama_80_0",
+            "service": "Amazon Elastic Inference",
+            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+          },
+          {
+            "id": "Ama_81_0",
+            "service": "Amazon Forecast",
+            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+          },
+          {
+            "id": "Ama_82_0",
+            "service": "Amazon Lex",
+            "img": ".\\img\\logos\\AWS\\AI\\AI_AmazonLex.svg"
+          },
+          {
+            "id": "Ama_83_0",
+            "service": "Amazon Personalize",
+            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+          },
+          {
+            "id": "Ama_84_0",
+            "service": "Amazon Polly",
+            "img": ".\\img\\logos\\AWS\\AI\\AI_AmazonPolly.svg"
+          },
+          {
+            "id": "Ama_85_0",
+            "service": "Amazon Rekognition",
+            "img": ".\\img\\logos\\AWS\\AI\\AI_AmazonRekognition.svg"
+          },
+          {
+            "id": "Ama_86_0",
+            "service": "Amazon SageMaker Ground Truth",
+            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+          },
+          {
+            "id": "Ama_87_0",
+            "service": "Amazon Textract",
+            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+          },
+          {
+            "id": "Ama_88_0",
+            "service": "Amazon Translate",
+            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+          },
+          {
+            "id": "Ama_89_0",
+            "service": "Amazon Transcribe",
+            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+          },
+          {
+            "id": "AWS_90_0",
+            "service": "AWS DeepLens",
+            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+          },
+          {
+            "id": "AWS_91_0",
+            "service": "AWS Deep Learning AMIs",
+            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+          },
+          {
+            "id": "AWS_92_0",
+            "service": "AWS DeepRacer",
+            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+          },
+          {
+            "id": "AWS_93_0",
+            "service": "AWS Inferentia",
+            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+          },
+          {
+            "id": "Apa_94_0",
+            "service": "Apache MXNet on AWS",
+            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+          },
+          {
+            "id": "Ten_95_0",
+            "service": "TensorFlow on AWS",
+            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+          }
+        ]
       },
       {
         "category": "APIs",
@@ -19,33 +106,8 @@
         "category": "AR & VR",
         "members": [
           {
-            "id": "Ama_23_0",
+            "id": "Ama_14_0",
             "service": "Amazon Sumerian",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          }
-        ]
-      },
-      {
-        "category": "AWS Cost Management",
-        "members": [
-          {
-            "id": "AWS_24_0",
-            "service": "AWS Cost Explorer",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "AWS_25_0",
-            "service": "AWS Budgets",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Res_26_0",
-            "service": "Reserved Instance Reporting",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "AWS_27_0",
-            "service": "AWS Cost and Usage Report",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           }
         ]
@@ -54,47 +116,47 @@
         "category": "Analytics",
         "members": [
           {
-            "id": "Ama_9_0",
+            "id": "Ama_0_0",
             "service": "Amazon Athena",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Analytics\\Analytics_AmazonAthena.svg"
           },
           {
-            "id": "Ama_10_0",
+            "id": "Ama_1_0",
             "service": "Amazon EMR",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Analytics\\Analytics_AmazonEMR.svg"
           },
           {
-            "id": "Ama_11_0",
+            "id": "Ama_2_0",
             "service": "Amazon CloudSearch",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Analytics\\Analytics_AmazonCloudSearch.svg"
           },
           {
-            "id": "Ama_12_0",
+            "id": "Ama_3_0",
             "service": "Amazon Elasticsearch Service",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_13_0",
+            "id": "Ama_4_0",
             "service": "Amazon Kinesis",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Analytics\\Analytics_AmazonKinesis.svg"
           },
           {
-            "id": "Ama_14_0",
+            "id": "Ama_5_0",
             "service": "Amazon Redshift",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Database\\Database_AmazonRedshift.svg"
           },
           {
-            "id": "Ama_15_0",
+            "id": "Ama_6_0",
             "service": "Amazon QuickSight",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Analytics\\Analytics_AmazonQuickSight.svg"
           },
           {
-            "id": "AWS_16_0",
+            "id": "AWS_7_0",
             "service": "AWS Glue",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Analytics\\Analytics_AWSGlue.svg"
           },
           {
-            "id": "AWS_17_0",
+            "id": "AWS_8_0",
             "service": "AWS Lake Formation",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           }
@@ -104,29 +166,29 @@
         "category": "Application Integration",
         "members": [
           {
-            "id": "Ama_18_0",
+            "id": "Ama_9_0",
             "service": "Amazon MQ",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_19_0",
+            "id": "Ama_10_0",
             "service": "Amazon Simple Queue Service (SQS)",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": "./img/logos/AWS/Messaging/Messaging_AmazonSQS.svg"
           },
           {
-            "id": "Ama_20_0",
+            "id": "Ama_11_0",
             "service": "Amazon Simple Notification Service (SNS)",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": "./img/logos/AWS/Messaging/Messaging_AmazonSNS.svg"
           },
           {
-            "id": "AWS_21_0",
+            "id": "AWS_12_0",
             "service": "AWS AppSync",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_22_0",
+            "id": "AWS_13_0",
             "service": "AWS Step Functions",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Application Services\\ApplicationServices_AWSStepFunctions.svg"
           }
         ]
       },
@@ -138,12 +200,12 @@
         "category": "Blockchain",
         "members": [
           {
-            "id": "Ama_28_0",
+            "id": "Ama_19_0",
             "service": "Amazon Managed Blockchain",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_29_0",
+            "id": "Ama_20_0",
             "service": "Amazon Quantum Ledger Database (QLDB)",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           }
@@ -153,24 +215,24 @@
         "category": "Business Applications",
         "members": [
           {
-            "id": "Ale_30_0",
+            "id": "Ale_21_0",
             "service": "Alexa for Business",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_31_0",
+            "id": "Ama_22_0",
             "service": "Amazon WorkDocs",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Business Productivity\\BusinessProductivity_AmazonWorkDocs.svg"
           },
           {
-            "id": "Ama_32_0",
+            "id": "Ama_23_0",
             "service": "Amazon Workmail",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_33_0",
+            "id": "Ama_24_0",
             "service": "Amazon Chime",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Business Productivity\\BusinessProductivity_AmazonChime.svg"
           }
         ]
       },
@@ -178,72 +240,72 @@
         "category": "Compute",
         "members": [
           {
-            "id": "Ama_34_0",
+            "id": "Ama_25_0",
             "service": "Amazon EC2",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Compute\\Compute_AmazonEC2.svg"
           },
           {
-            "id": "Ama_35_0",
+            "id": "Ama_26_0",
             "service": "Amazon EC2 Auto Scaling",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_36_0",
+            "id": "Ama_27_0",
             "service": "Amazon EC2 Container Registry",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_37_0",
+            "id": "Ama_28_0",
             "service": "Amazon Elastic Container Service",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_38_0",
+            "id": "Ama_29_0",
             "service": "Amazon Elastic Container Service for Kubernetes",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_39_0",
+            "id": "Ama_30_0",
             "service": "Amazon Lightsail",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Compute\\Compute_AmazonLightsail.svg"
           },
           {
-            "id": "AWS_40_0",
+            "id": "AWS_31_0",
             "service": "AWS Batch",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Compute\\Compute_AWSBatch.svg"
           },
           {
-            "id": "AWS_41_0",
+            "id": "AWS_32_0",
             "service": "AWS Elastic Beanstalk",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Compute\\Compute_AWSElasticBeanstalk.svg"
           },
           {
-            "id": "AWS_42_0",
+            "id": "AWS_33_0",
             "service": "AWS Fargate",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_43_0",
+            "id": "AWS_34_0",
             "service": "AWS Lambda",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Compute\\Compute_AWSLambda.svg"
           },
           {
-            "id": "AWS_44_0",
+            "id": "AWS_35_0",
             "service": "AWS Outposts",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_45_0",
+            "id": "AWS_36_0",
             "service": "AWS Serverless Application Repository",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ela_46_0",
+            "id": "Ela_37_0",
             "service": "Elastic Load Balancing",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Networking & Content Delivery\\NetworkingContentDelivery_ElasticLoadBalancing.svg"
           },
           {
-            "id": "VMw_47_0",
+            "id": "VMw_38_0",
             "service": "VMware Cloud on AWS",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           }
@@ -254,20 +316,45 @@
         "members": []
       },
       {
+        "category": "Cost Management",
+        "members": [
+          {
+            "id": "AWS_15_0",
+            "service": "AWS Cost Explorer",
+            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+          },
+          {
+            "id": "AWS_16_0",
+            "service": "AWS Budgets",
+            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+          },
+          {
+            "id": "Res_17_0",
+            "service": "Reserved Instance Reporting",
+            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+          },
+          {
+            "id": "AWS_18_0",
+            "service": "AWS Cost and Usage Report",
+            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+          }
+        ]
+      },
+      {
         "category": "Customer Engagement",
         "members": [
           {
-            "id": "Ama_48_0",
+            "id": "Ama_39_0",
             "service": "Amazon Connect",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Contact Center\\ContactCenter_AmazonConnect.svg"
           },
           {
-            "id": "Ama_49_0",
+            "id": "Ama_40_0",
             "service": "Amazon Pinpoint",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Mobile Services\\MobileServices_AmazonPinpoint.svg"
           },
           {
-            "id": "Ama_50_0",
+            "id": "Ama_41_0",
             "service": "Amazon Simple Email Service (SES)",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           }
@@ -282,82 +369,74 @@
         "members": []
       },
       {
-        "category": "Database",
+        "category": "Databases",
         "members": [
           {
-            "id": "Ama_51_0",
+            "id": "Ama_42_0",
             "service": "Amazon Aurora",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_52_0",
+            "id": "Ama_43_0",
             "service": "Amazon DynamoDB",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Database\\Database_AmazonDynamoDB.svg"
           },
           {
-            "id": "Ama_53_0",
+            "id": "Ama_44_0",
             "service": "Amazon ElastiCache",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_54_0",
+            "id": "Ama_45_0",
             "service": "Amazon Neptune",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_55_0",
+            "id": "Ama_46_0",
             "service": "Amazon Quantum Ledger Database (QLDB)",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_56_0",
+            "id": "Ama_47_0",
             "service": "Amazon RDS",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Database\\Database_AmazonRDS.svg"
           },
           {
-            "id": "Ama_57_0",
+            "id": "Ama_48_0",
             "service": "Amazon RDS on VMware",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_58_0",
+            "id": "Ama_49_0",
             "service": "Amazon Redshift",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Database\\Database_AmazonRedshift.svg"
           },
           {
-            "id": "Ama_59_0",
+            "id": "Ama_50_0",
             "service": "Amazon Timestream",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_60_0",
+            "id": "AWS_51_0",
             "service": "AWS Database Migration Service",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           }
         ]
       },
       {
-        "category": "Databases",
-        "members": []
-      },
-      {
         "category": "Desktop & App Streaming",
         "members": [
           {
-            "id": "Ama_61_0",
+            "id": "Ama_52_0",
             "service": "Amazon WorkSpaces",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Desktop & App Streaming\\DesktopAppStreaming_AmazonWorkSpaces.svg"
           },
           {
-            "id": "Ama_62_0",
+            "id": "Ama_53_0",
             "service": "Amazon AppStream 2.0",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Desktop & App Streaming\\DesktopAppStreaming_AmazonAppStream2.0.svg"
           }
         ]
-      },
-      {
-        "category": "Dev Tools",
-        "members": []
       },
       {
         "category": "DevOps",
@@ -367,108 +446,54 @@
         "category": "Developer Tools",
         "members": [
           {
-            "id": "AWS_63_0",
+            "id": "AWS_54_0",
             "service": "AWS CodeStar",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Developer Tools\\DeveloperTools_AWSCodeStar.svg"
           },
           {
-            "id": "Ama_64_0",
+            "id": "Ama_55_0",
             "service": "Amazon Corretto",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_65_0",
+            "id": "AWS_56_0",
             "service": "AWS Cloud9",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_66_0",
+            "id": "AWS_57_0",
             "service": "AWS CodeBuild",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Developer Tools\\DeveloperTools_AWSCodeBuild.svg"
           },
           {
-            "id": "AWS_67_0",
+            "id": "AWS_58_0",
             "service": "AWS CodeCommit",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Developer Tools\\DeveloperTools_AWSCodeCommit.svg"
           },
           {
-            "id": "AWS_68_0",
+            "id": "AWS_59_0",
             "service": "AWS CodeDeploy",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Developer Tools\\DeveloperTools_AWSCodeDeploy.svg"
           },
           {
-            "id": "AWS_69_0",
+            "id": "AWS_60_0",
             "service": "AWS CodePipeline",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Developer Tools\\DeveloperTools_AWSCodePipeline.svg"
           },
           {
-            "id": "AWS_70_0",
+            "id": "AWS_61_0",
             "service": "AWS Command Line Interface",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_71_0",
+            "id": "AWS_62_0",
             "service": "AWS Tools and SDKs",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_72_0",
+            "id": "AWS_63_0",
             "service": "AWS X-Ray",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          }
-        ]
-      },
-      {
-        "category": "Featured",
-        "members": []
-      },
-      {
-        "category": "Featured Services",
-        "members": [
-          {
-            "id": "Ama_0_0",
-            "service": "Amazon EC2",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Ama_1_0",
-            "service": "Amazon Simple Storage Service (S3)",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Ama_2_0",
-            "service": "Amazon Aurora",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Ama_3_0",
-            "service": "Amazon DynamoDB",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Ama_4_0",
-            "service": "Amazon RDS",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "AWS_5_0",
-            "service": "AWS Lambda",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Ama_6_0",
-            "service": "Amazon VPC",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Ama_7_0",
-            "service": "Amazon Lightsail",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Ama_8_0",
-            "service": "Amazon SageMaker",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Developer Tools\\DeveloperTools_AWSX-Ray.svg"
           }
         ]
       },
@@ -476,12 +501,12 @@
         "category": "Game Tech",
         "members": [
           {
-            "id": "Ama_73_0",
+            "id": "Ama_64_0",
             "service": "Amazon GameLift",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Game Development\\GameDevelopment_AmazonGameLift.svg"
           },
           {
-            "id": "Ama_74_0",
+            "id": "Ama_65_0",
             "service": "Amazon Lumberyard",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           }
@@ -499,162 +524,63 @@
         "category": "Internet of Things",
         "members": [
           {
-            "id": "AWS_75_0",
+            "id": "AWS_66_0",
             "service": "AWS IoT Core",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_76_0",
+            "id": "Ama_67_0",
             "service": "Amazon FreeRTOS",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_77_0",
+            "id": "AWS_68_0",
             "service": "AWS Greengrass",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_78_0",
+            "id": "AWS_69_0",
             "service": "AWS IoT 1-Click",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_79_0",
+            "id": "AWS_70_0",
             "service": "AWS IoT Analytics",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_80_0",
+            "id": "AWS_71_0",
             "service": "AWS IoT Button",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_81_0",
+            "id": "AWS_72_0",
             "service": "AWS IoT Device Defender",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_82_0",
+            "id": "AWS_73_0",
             "service": "AWS IoT Device Management",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_83_0",
+            "id": "AWS_74_0",
             "service": "AWS IoT Events",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_84_0",
+            "id": "AWS_75_0",
             "service": "AWS IoT SiteWise",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_85_0",
+            "id": "AWS_76_0",
             "service": "AWS IoT Things Graph",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_86_0",
+            "id": "AWS_77_0",
             "service": "AWS Partner Device Catalog",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          }
-        ]
-      },
-      {
-        "category": "IoT",
-        "members": []
-      },
-      {
-        "category": "Machine Learning",
-        "members": [
-          {
-            "id": "Ama_87_0",
-            "service": "Amazon SageMaker",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Ama_88_0",
-            "service": "Amazon Comprehend",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Ama_89_0",
-            "service": "Amazon Elastic Inference",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Ama_90_0",
-            "service": "Amazon Forecast",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Ama_91_0",
-            "service": "Amazon Lex",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Ama_92_0",
-            "service": "Amazon Personalize",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Ama_93_0",
-            "service": "Amazon Polly",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Ama_94_0",
-            "service": "Amazon Rekognition",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Ama_95_0",
-            "service": "Amazon SageMaker Ground Truth",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Ama_96_0",
-            "service": "Amazon Textract",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Ama_97_0",
-            "service": "Amazon Translate",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Ama_98_0",
-            "service": "Amazon Transcribe",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "AWS_99_0",
-            "service": "AWS DeepLens",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "AWS_100_0",
-            "service": "AWS Deep Learning AMIs",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "AWS_101_0",
-            "service": "AWS DeepRacer",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "AWS_102_0",
-            "service": "AWS Inferentia",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Apa_103_0",
-            "service": "Apache MXNet on AWS",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
-          },
-          {
-            "id": "Ten_104_0",
-            "service": "TensorFlow on AWS",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           }
         ]
@@ -667,90 +593,86 @@
         "category": "Management & Governance",
         "members": [
           {
-            "id": "Ama_105_0",
+            "id": "Ama_96_0",
             "service": "Amazon CloudWatch",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Management Tools\\ManagementTools_AmazonCloudWatch.svg"
           },
           {
-            "id": "AWS_106_0",
+            "id": "AWS_97_0",
             "service": "AWS Auto Scaling",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_107_0",
+            "id": "AWS_98_0",
             "service": "AWS CloudFormation",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Management Tools\\ManagementTools_AWSCloudFormation.svg"
           },
           {
-            "id": "AWS_108_0",
+            "id": "AWS_99_0",
             "service": "AWS CloudTrail",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Management Tools\\ManagementTools_AWSCloudTrail.svg"
           },
           {
-            "id": "AWS_109_0",
+            "id": "AWS_100_0",
             "service": "AWS Command Line Interface",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_110_0",
+            "id": "AWS_101_0",
             "service": "AWS Config",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Management Tools\\ManagementTools_AWSConfig.svg"
           },
           {
-            "id": "AWS_111_0",
+            "id": "AWS_102_0",
             "service": "AWS Control Tower",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_112_0",
+            "id": "AWS_103_0",
             "service": "AWS Console Mobile Application",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_113_0",
+            "id": "AWS_104_0",
             "service": "AWS License Manager",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_114_0",
+            "id": "AWS_105_0",
             "service": "AWS Management Console",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\General\\General_AWSManagementConsole.svg"
           },
           {
-            "id": "AWS_115_0",
+            "id": "AWS_106_0",
             "service": "AWS Managed Services",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Management Tools\\ManagementTools_AWSManagedServices.svg"
           },
           {
-            "id": "AWS_116_0",
+            "id": "AWS_107_0",
             "service": "AWS OpsWorks",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Management Tools\\ManagementTools_AWSOpsWorks.svg"
           },
           {
-            "id": "AWS_117_0",
+            "id": "AWS_108_0",
             "service": "AWS Personal Health Dashboard",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_118_0",
+            "id": "AWS_109_0",
             "service": "AWS Service Catalog",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Management Tools\\ManagementTools_AWSServiceCatalog.svg"
           },
           {
-            "id": "AWS_119_0",
+            "id": "AWS_110_0",
             "service": "AWS Systems Manager",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_120_0",
+            "id": "AWS_111_0",
             "service": "AWS Trusted Advisor",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Management Tools\\ManagementTools_AWSTrustedAdvisor.svg"
           }
         ]
-      },
-      {
-        "category": "Management and Governance",
-        "members": []
       },
       {
         "category": "Media",
@@ -760,42 +682,42 @@
         "category": "Media Services",
         "members": [
           {
-            "id": "Ama_121_0",
+            "id": "Ama_112_0",
             "service": "Amazon Elastic Transcoder",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Application Services\\ApplicationServices_AmazonElasticTranscoder.svg"
           },
           {
-            "id": "Ama_122_0",
+            "id": "Ama_113_0",
             "service": "Amazon Kinesis Video Streams",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_123_0",
+            "id": "AWS_114_0",
             "service": "AWS Elemental MediaConnect",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_124_0",
+            "id": "AWS_115_0",
             "service": "AWS Elemental MediaConvert",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_125_0",
+            "id": "AWS_116_0",
             "service": "AWS Elemental MediaLive",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_126_0",
+            "id": "AWS_117_0",
             "service": "AWS Elemental MediaPackage",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_127_0",
+            "id": "AWS_118_0",
             "service": "AWS Elemental MediaStore",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_128_0",
+            "id": "AWS_119_0",
             "service": "AWS Elemental MediaTailor",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           }
@@ -805,37 +727,37 @@
         "category": "Migration & Transfer",
         "members": [
           {
-            "id": "AWS_129_0",
+            "id": "AWS_120_0",
             "service": "AWS Migration Hub",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Migration\\Migration_AWSMigrationHub.svg"
           },
           {
-            "id": "AWS_130_0",
+            "id": "AWS_121_0",
             "service": "AWS Application Discovery Service",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Migration\\Migration_AWSApplicationDiscoveryService.svg"
           },
           {
-            "id": "AWS_131_0",
+            "id": "AWS_122_0",
             "service": "AWS Database Migration Service",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_132_0",
+            "id": "AWS_123_0",
             "service": "AWS DataSync",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_133_0",
+            "id": "AWS_124_0",
             "service": "AWS Server Migration Service",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_134_0",
+            "id": "AWS_125_0",
             "service": "AWS Snow Family",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_135_0",
+            "id": "AWS_126_0",
             "service": "AWS Transfer for SFTP",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           }
@@ -845,29 +767,29 @@
         "category": "Mobile",
         "members": [
           {
-            "id": "AWS_136_0",
+            "id": "AWS_127_0",
             "service": "AWS Amplify",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_137_0",
+            "id": "Ama_128_0",
             "service": "Amazon API Gateway",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Mobile Services\\MobileServices_AmazonAPIGateway.svg"
           },
           {
-            "id": "Ama_138_0",
+            "id": "Ama_129_0",
             "service": "Amazon Pinpoint",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Mobile Services\\MobileServices_AmazonPinpoint.svg"
           },
           {
-            "id": "AWS_139_0",
+            "id": "AWS_130_0",
             "service": "AWS AppSync",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_140_0",
+            "id": "AWS_131_0",
             "service": "AWS Device Farm",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Mobile Services\\MobileServices_AWSDeviceFarm.svg"
           }
         ]
       },
@@ -879,52 +801,52 @@
         "category": "Networking & Content Delivery",
         "members": [
           {
-            "id": "Ama_141_0",
+            "id": "Ama_132_0",
             "service": "Amazon VPC",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Networking & Content Delivery\\NetworkingContentDelivery_AmazonVPC.svg"
           },
           {
-            "id": "Ama_142_0",
+            "id": "Ama_133_0",
             "service": "Amazon API Gateway",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Mobile Services\\MobileServices_AmazonAPIGateway.svg"
           },
           {
-            "id": "Ama_143_0",
+            "id": "Ama_134_0",
             "service": "Amazon CloudFront",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Networking & Content Delivery\\NetworkingContentDelivery_AmazonCloudFront.svg"
           },
           {
-            "id": "Ama_144_0",
+            "id": "Ama_135_0",
             "service": "Amazon Route 53",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Networking & Content Delivery\\NetworkingContentDelivery_AmazonRoute53.svg"
           },
           {
-            "id": "Ama_145_0",
+            "id": "Ama_136_0",
             "service": "Amazon VPC PrivateLink",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_146_0",
+            "id": "AWS_137_0",
             "service": "AWS App Mesh",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_147_0",
+            "id": "AWS_138_0",
             "service": "AWS Cloud Map",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_148_0",
+            "id": "AWS_139_0",
             "service": "AWS Direct Connect",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Networking & Content Delivery\\NetworkingContentDelivery_AWSDirectConnect.svg"
           },
           {
-            "id": "AWS_149_0",
+            "id": "AWS_140_0",
             "service": "AWS Global Accelerator",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_150_0",
+            "id": "AWS_141_0",
             "service": "AWS Transit Gateway",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           }
@@ -934,7 +856,7 @@
         "category": "Robotics",
         "members": [
           {
-            "id": "AWS_151_0",
+            "id": "AWS_142_0",
             "service": "AWS RoboMaker",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           }
@@ -944,7 +866,7 @@
         "category": "Satellite",
         "members": [
           {
-            "id": "AWS_152_0",
+            "id": "AWS_143_0",
             "service": "AWS Ground Station",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           }
@@ -958,94 +880,94 @@
         "category": "Security, Identity, & Compliance",
         "members": [
           {
-            "id": "AWS_153_0",
+            "id": "AWS_144_0",
             "service": "AWS Identity and Access Management (IAM)",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_154_0",
+            "id": "Ama_145_0",
             "service": "Amazon Cloud Directory",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Security Identity & Compliance\\SecurityIdentityCompliance_AmazonCloudDirectory.svg"
           },
           {
-            "id": "Ama_155_0",
+            "id": "Ama_146_0",
             "service": "Amazon Cognito",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Mobile Services\\MobileServices_AmazonCognito.svg"
           },
           {
-            "id": "Ama_156_0",
+            "id": "Ama_147_0",
             "service": "Amazon GuardDuty",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_157_0",
+            "id": "Ama_148_0",
             "service": "Amazon Inspector",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Security Identity & Compliance\\SecurityIdentityCompliance_AmazonInspector.svg"
           },
           {
-            "id": "Ama_158_0",
+            "id": "Ama_149_0",
             "service": "Amazon Macie",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Security Identity & Compliance\\SecurityIdentityCompliance_AmazonMacie.svg"
           },
           {
-            "id": "AWS_159_0",
+            "id": "AWS_150_0",
             "service": "AWS Artifact",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Security Identity & Compliance\\SecurityIdentityCompliance_AWSArtifact.svg"
           },
           {
-            "id": "AWS_160_0",
+            "id": "AWS_151_0",
             "service": "AWS Certificate Manager",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Security Identity & Compliance\\SecurityIdentityCompliance_AWSCertificateManager.svg"
           },
           {
-            "id": "AWS_161_0",
+            "id": "AWS_152_0",
             "service": "AWS CloudHSM",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Security Identity & Compliance\\SecurityIdentityCompliance_AWSCloudHSM.svg"
           },
           {
-            "id": "AWS_162_0",
+            "id": "AWS_153_0",
             "service": "AWS Directory Service",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Security Identity & Compliance\\SecurityIdentityCompliance_AWSDirectoryService.svg"
           },
           {
-            "id": "AWS_163_0",
+            "id": "AWS_154_0",
             "service": "AWS Firewall Manager",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_164_0",
+            "id": "AWS_155_0",
             "service": "AWS Key Management Service",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_165_0",
+            "id": "AWS_156_0",
             "service": "AWS Organizations",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Security Identity & Compliance\\SecurityIdentityCompliance_AWSOrganizations.svg"
           },
           {
-            "id": "AWS_166_0",
+            "id": "AWS_157_0",
             "service": "AWS Secrets Manager",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_167_0",
+            "id": "AWS_158_0",
             "service": "AWS Security Hub",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_168_0",
+            "id": "AWS_159_0",
             "service": "AWS Shield",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Security Identity & Compliance\\SecurityIdentityCompliance_AWSShield.svg"
           },
           {
-            "id": "AWS_169_0",
+            "id": "AWS_160_0",
             "service": "AWS Single Sign-On",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_170_0",
+            "id": "AWS_161_0",
             "service": "AWS WAF",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Security Identity & Compliance\\SecurityIdentityCompliance_AWSWAF.svg"
           }
         ]
       },
@@ -1053,44 +975,44 @@
         "category": "Storage",
         "members": [
           {
-            "id": "Ama_171_0",
+            "id": "Ama_162_0",
             "service": "Amazon Simple Storage Service (S3)",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": "./img/logos/AWS/Storage/Storage_AmazonS3.svg"
           },
           {
-            "id": "Ama_172_0",
+            "id": "Ama_163_0",
             "service": "Amazon Elastic Block Store (EBS)",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_173_0",
+            "id": "Ama_164_0",
             "service": "Amazon Elastic File System (EFS)",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_174_0",
+            "id": "Ama_165_0",
             "service": "Amazon FSx for Lustre",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_175_0",
+            "id": "Ama_166_0",
             "service": "Amazon FSx for Windows File Server",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "Ama_176_0",
+            "id": "Ama_167_0",
             "service": "Amazon Glacier",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Storage\\Storage_AmazonGlacier.svg"
           },
           {
-            "id": "AWS_177_0",
+            "id": "AWS_168_0",
             "service": "AWS Snow Family",
             "img": "./img/logos/AWS/General/General_AWScloud.svg"
           },
           {
-            "id": "AWS_178_0",
+            "id": "AWS_169_0",
             "service": "AWS Storage Gateway",
-            "img": "./img/logos/AWS/General/General_AWScloud.svg"
+            "img": ".\\img\\logos\\AWS\\Storage\\Storage_AWSStorageGateway.svg"
           }
         ]
       },
@@ -1105,139 +1027,135 @@
     "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
     "categories": [
       {
-        "category": "AI",
+        "category": "AI + Machine Learning",
         "members": [
           {
-            "id": "AI_414_0",
+            "id": "AI_273_0",
             "service": "AI and machine learning",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "AI_415_0",
+            "id": "AI_274_0",
             "service": "AI Hub",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_416_0",
+            "id": "Clo_275_0",
             "service": "Cloud AutoML",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Cloud AI\\Cloud AutoML.svg"
           },
           {
-            "id": "Clo_417_0",
+            "id": "Clo_276_0",
             "service": "Cloud TPU",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Cloud AI\\Cloud TPU.svg"
           },
           {
-            "id": "Clo_418_0",
+            "id": "Clo_277_0",
             "service": "Cloud Machine Learning Engine",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_419_0",
+            "id": "Clo_278_0",
             "service": "Cloud Talent Solution",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Dia_420_0",
+            "id": "Dia_279_0",
             "service": "Dialogflow Enterprise Edition",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Cloud AI\\Dialogflow Enterprise Edition.svg"
           },
           {
-            "id": "Clo_421_0",
+            "id": "Clo_280_0",
             "service": "Cloud Natural Language",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_422_0",
+            "id": "Clo_281_0",
             "service": "Cloud Speech-to-Text",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_423_0",
+            "id": "Clo_282_0",
             "service": "Cloud Text-to-Speech",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Cloud AI\\Cloud Text-to-Speech.svg"
           },
           {
-            "id": "Clo_424_0",
+            "id": "Clo_283_0",
             "service": "Cloud Translation",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_425_0",
+            "id": "Clo_284_0",
             "service": "Cloud Vision",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_426_0",
+            "id": "Clo_285_0",
             "service": "Cloud Video Intelligence",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_427_0",
+            "id": "Clo_286_0",
             "service": "Cloud Inference API",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Fir_428_0",
+            "id": "Fir_287_0",
             "service": "Firebase Predictions",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_429_0",
+            "id": "Clo_288_0",
             "service": "Cloud Deep Learning VM Image",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
         ]
       },
       {
-        "category": "AI + Machine Learning",
-        "members": []
-      },
-      {
         "category": "APIs",
         "members": [
           {
-            "id": "Api_356_0",
+            "id": "Api_216_0",
             "service": "Apigee API Platform",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\API Platform & Ecosystems\\Apigee API Platform.svg"
           },
           {
-            "id": "API_357_0",
+            "id": "API_217_0",
             "service": "API Analytics",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\API Platform & Ecosystems\\API Analytics.svg"
           },
           {
-            "id": "API_358_0",
+            "id": "API_218_0",
             "service": "API Monetization",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\API Platform & Ecosystems\\API Monetization.svg"
           },
           {
-            "id": "Api_359_0",
+            "id": "Api_219_0",
             "service": "Apigee Sense",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\API Platform & Ecosystems\\Apigee Sense.svg"
           },
           {
-            "id": "Clo_360_0",
+            "id": "Clo_220_0",
             "service": "Cloud Endpoints",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\API Platform & Ecosystems\\Cloud Endpoints.svg"
           },
           {
-            "id": "Dev_361_0",
+            "id": "Dev_221_0",
             "service": "Developer Portal",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\API Platform & Ecosystems\\Developer Portal.svg"
           },
           {
-            "id": "Api_362_0",
+            "id": "Api_222_0",
             "service": "Apigee Healthcare APIx",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Api_363_0",
+            "id": "Api_223_0",
             "service": "Apigee Open Banking APIx",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_364_0",
+            "id": "Clo_224_0",
             "service": "Cloud Healthcare API",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
@@ -1245,10 +1163,6 @@
       },
       {
         "category": "AR & VR",
-        "members": []
-      },
-      {
-        "category": "AWS Cost Management",
         "members": []
       },
       {
@@ -1275,47 +1189,47 @@
         "category": "Compute",
         "members": [
           {
-            "id": "Com_325_0",
+            "id": "Com_185_0",
             "service": "Compute Engine",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Compute\\Compute Engine.svg"
           },
           {
-            "id": "App_326_0",
+            "id": "App_186_0",
             "service": "App Engine",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Compute\\App Engine.svg"
           },
           {
-            "id": "Kub_327_0",
+            "id": "Kub_187_0",
             "service": "Kubernetes Engine",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "GKE_328_0",
+            "id": "GKE_188_0",
             "service": "GKE On-Prem",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_329_0",
+            "id": "Clo_189_0",
             "service": "Cloud Functions",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Compute\\Cloud Functions.svg"
           },
           {
-            "id": "Kna_330_0",
+            "id": "Kna_190_0",
             "service": "Knative",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Shi_331_0",
+            "id": "Shi_191_0",
             "service": "Shielded VMs",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Con_332_0",
+            "id": "Con_192_0",
             "service": "Container Security",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Gra_333_0",
+            "id": "Gra_193_0",
             "service": "Graphics Processing Unit (GPU)",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
@@ -1326,6 +1240,10 @@
         "members": []
       },
       {
+        "category": "Cost Management",
+        "members": []
+      },
+      {
         "category": "Customer Engagement",
         "members": []
       },
@@ -1333,57 +1251,57 @@
         "category": "Data Analysis",
         "members": [
           {
-            "id": "Big_403_0",
+            "id": "Big_262_0",
             "service": "BigQuery",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Big Data\\BigQuery.svg"
           },
           {
-            "id": "Clo_404_0",
+            "id": "Clo_263_0",
             "service": "Cloud Dataflow",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Big Data\\Cloud Dataflow.svg"
           },
           {
-            "id": "Clo_405_0",
+            "id": "Clo_264_0",
             "service": "Cloud Dataproc",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Big Data\\Cloud Dataproc.svg"
           },
           {
-            "id": "Clo_406_0",
+            "id": "Clo_265_0",
             "service": "Cloud Datalab",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Big Data\\Cloud Datalab.svg"
           },
           {
-            "id": "Clo_407_0",
+            "id": "Clo_266_0",
             "service": "Cloud Dataprep",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Big Data\\Cloud Dataprep.svg"
           },
           {
-            "id": "Clo_408_0",
+            "id": "Clo_267_0",
             "service": "Cloud Pub/Sub",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_409_0",
+            "id": "Clo_268_0",
             "service": "Cloud Composer",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Big Data\\Cloud Composer.svg"
           },
           {
-            "id": "Gen_410_0",
+            "id": "Gen_269_0",
             "service": "Genomics",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Big Data\\Genomics.svg"
           },
           {
-            "id": "Goo_411_0",
+            "id": "Goo_270_0",
             "service": "Google Analytics 360 Suite*",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Goo_412_0",
+            "id": "Goo_271_0",
             "service": "Google Data Studio*",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Fir_413_0",
+            "id": "Fir_272_0",
             "service": "Firebase Performance Monitoring",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
@@ -1393,66 +1311,62 @@
         "category": "Data Transfer",
         "members": [
           {
-            "id": "Tra_370_0",
+            "id": "Tra_229_0",
             "service": "Transfer Appliance",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Data Transfer\\Transfer Appliance.svg"
           },
           {
-            "id": "Clo_371_0",
+            "id": "Clo_230_0",
             "service": "Cloud Storage Transfer Service",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Big_372_0",
+            "id": "Big_231_0",
             "service": "BigQuery Data Transfer Service",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Vel_373_0",
+            "id": "Vel_232_0",
             "service": "Velostrata",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
         ]
       },
       {
-        "category": "Database",
-        "members": []
-      },
-      {
         "category": "Databases",
         "members": [
           {
-            "id": "Clo_334_0",
+            "id": "Clo_194_0",
             "service": "Cloud SQL",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Storage & Databases\\Cloud SQL.svg"
           },
           {
-            "id": "Clo_335_0",
+            "id": "Clo_195_0",
             "service": "Cloud Bigtable",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Storage & Databases\\Cloud Bigtable.svg"
           },
           {
-            "id": "Clo_336_0",
+            "id": "Clo_196_0",
             "service": "Cloud Spanner",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Storage & Databases\\Cloud Spanner.svg"
           },
           {
-            "id": "Clo_337_0",
+            "id": "Clo_197_0",
             "service": "Cloud Datastore",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Storage & Databases\\Cloud Datastore.svg"
           },
           {
-            "id": "Clo_338_0",
+            "id": "Clo_198_0",
             "service": "Cloud Memorystore",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Storage & Databases\\Cloud Memorystore.svg"
           },
           {
-            "id": "Clo_339_0",
+            "id": "Clo_199_0",
             "service": "Cloud Firestore",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Fir_340_0",
+            "id": "Fir_200_0",
             "service": "Firebase Realtime Database",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
@@ -1463,95 +1377,83 @@
         "members": []
       },
       {
-        "category": "Dev Tools",
-        "members": [
-          {
-            "id": "Clo_384_0",
-            "service": "Cloud SDK",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Con_385_0",
-            "service": "Container Registry",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Clo_386_0",
-            "service": "Cloud Build",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Clo_387_0",
-            "service": "Cloud Source Repositories",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Clo_388_0",
-            "service": "Cloud Scheduler",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Clo_389_0",
-            "service": "Cloud Tasks",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Clo_390_0",
-            "service": "Cloud Tools for IntelliJ",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Clo_391_0",
-            "service": "Cloud Tools for PowerShell",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Clo_392_0",
-            "service": "Cloud Tools for Visual Studio",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Clo_393_0",
-            "service": "Cloud Tools for Eclipse",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Gra_394_0",
-            "service": "Gradle App Engine Plugin",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Mav_395_0",
-            "service": "Maven App Engine Plugin",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Clo_396_0",
-            "service": "Cloud Test Lab",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Fir_397_0",
-            "service": "Firebase Crashlytics",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          }
-        ]
-      },
-      {
         "category": "DevOps",
         "members": []
       },
       {
         "category": "Developer Tools",
-        "members": []
-      },
-      {
-        "category": "Featured",
-        "members": []
-      },
-      {
-        "category": "Featured Services",
-        "members": []
+        "members": [
+          {
+            "id": "Clo_243_0",
+            "service": "Cloud SDK",
+            "img": ".\\img\\logos\\Google\\Developer Tools\\Cloud SDK.svg"
+          },
+          {
+            "id": "Con_244_0",
+            "service": "Container Registry",
+            "img": ".\\img\\logos\\Google\\Developer Tools\\Container Registry.svg"
+          },
+          {
+            "id": "Clo_245_0",
+            "service": "Cloud Build",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Clo_246_0",
+            "service": "Cloud Source Repositories",
+            "img": ".\\img\\logos\\Google\\Developer Tools\\Cloud Source Repositories.svg"
+          },
+          {
+            "id": "Clo_247_0",
+            "service": "Cloud Scheduler",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Clo_248_0",
+            "service": "Cloud Tasks",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Clo_249_0",
+            "service": "Cloud Tools for IntelliJ",
+            "img": ".\\img\\logos\\Google\\Developer Tools\\Cloud Tools for IntelliJ.svg"
+          },
+          {
+            "id": "Clo_250_0",
+            "service": "Cloud Tools for PowerShell",
+            "img": ".\\img\\logos\\Google\\Developer Tools\\Cloud Tools for PowerShell.svg"
+          },
+          {
+            "id": "Clo_251_0",
+            "service": "Cloud Tools for Visual Studio",
+            "img": ".\\img\\logos\\Google\\Developer Tools\\Cloud Tools for Visual Studio.svg"
+          },
+          {
+            "id": "Clo_252_0",
+            "service": "Cloud Tools for Eclipse",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Gra_253_0",
+            "service": "Gradle App Engine Plugin",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Mav_254_0",
+            "service": "Maven App Engine Plugin",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Clo_255_0",
+            "service": "Cloud Test Lab",
+            "img": ".\\img\\logos\\Google\\Developer Tools\\Cloud Test Lab.svg"
+          },
+          {
+            "id": "Fir_256_0",
+            "service": "Firebase Crashlytics",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          }
+        ]
       },
       {
         "category": "Game Tech",
@@ -1567,109 +1469,101 @@
       },
       {
         "category": "Internet of Things",
-        "members": []
-      },
-      {
-        "category": "IoT",
         "members": [
           {
-            "id": "Clo_398_0",
+            "id": "Clo_257_0",
             "service": "Cloud IoT Core",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Internet of Things\\Cloud IoT Core.svg"
           },
           {
-            "id": "Edg_399_0",
+            "id": "Edg_258_0",
             "service": "Edge TPU",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_400_0",
+            "id": "Clo_259_0",
             "service": "Cloud IoT Edge",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
         ]
       },
       {
-        "category": "Machine Learning",
-        "members": []
-      },
-      {
         "category": "Management",
         "members": [
           {
-            "id": "Sta_341_0",
+            "id": "Sta_201_0",
             "service": "Stackdriver",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Management Tools\\Stackdriver.svg"
           },
           {
-            "id": "Mon_342_0",
+            "id": "Mon_202_0",
             "service": "Monitoring",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Management Tools\\Monitoring.svg"
           },
           {
-            "id": "Ser_343_0",
+            "id": "Ser_203_0",
             "service": "Service Monitoring",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Log_344_0",
+            "id": "Log_204_0",
             "service": "Logging",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Management Tools\\Logging.svg"
           },
           {
-            "id": "Err_345_0",
+            "id": "Err_205_0",
             "service": "Error Reporting",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Management Tools\\Error Reporting.svg"
           },
           {
-            "id": "Tra_346_0",
+            "id": "Tra_206_0",
             "service": "Trace",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Management Tools\\Trace.svg"
           },
           {
-            "id": "Deb_347_0",
+            "id": "Deb_207_0",
             "service": "Debugger",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Management Tools\\Debugger.svg"
           },
           {
-            "id": "Pro_348_0",
+            "id": "Pro_208_0",
             "service": "Profiler",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Tra_349_0",
+            "id": "Tra_209_0",
             "service": "Transparent Service Level Indicators",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_350_0",
+            "id": "Clo_210_0",
             "service": "Cloud Deployment Manager",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Management Tools\\Cloud Deployment Manager.svg"
           },
           {
-            "id": "Clo_351_0",
+            "id": "Clo_211_0",
             "service": "Cloud Console",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Management Tools\\Cloud Console.svg"
           },
           {
-            "id": "Clo_352_0",
+            "id": "Clo_212_0",
             "service": "Cloud Shell",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Management Tools\\Cloud Shell.svg"
           },
           {
-            "id": "Clo_353_0",
+            "id": "Clo_213_0",
             "service": "Cloud Mobile App",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Management Tools\\Cloud Mobile App.svg"
           },
           {
-            "id": "Cos_354_0",
+            "id": "Cos_214_0",
             "service": "Cost Management",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_355_0",
+            "id": "Clo_215_0",
             "service": "Cloud APIs",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Management Tools\\Cloud APIs.svg"
           }
         ]
       },
@@ -1678,19 +1572,15 @@
         "members": []
       },
       {
-        "category": "Management and Governance",
-        "members": []
-      },
-      {
         "category": "Media",
         "members": [
           {
-            "id": "Anv_401_0",
+            "id": "Anv_260_0",
             "service": "Anvato",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Zyn_402_0",
+            "id": "Zyn_261_0",
             "service": "Zync Render",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
@@ -1712,52 +1602,52 @@
         "category": "Networking",
         "members": [
           {
-            "id": "Vir_374_0",
+            "id": "Vir_233_0",
             "service": "Virtual Private Cloud (VPC)",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_375_0",
+            "id": "Clo_234_0",
             "service": "Cloud Load Balancing",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Networking\\Cloud Load Balancing.svg"
           },
           {
-            "id": "Clo_376_0",
+            "id": "Clo_235_0",
             "service": "Cloud Armor",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Networking\\Cloud Armor.svg"
           },
           {
-            "id": "Clo_377_0",
+            "id": "Clo_236_0",
             "service": "Cloud CDN",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Networking\\Cloud CDN.svg"
           },
           {
-            "id": "Clo_378_0",
+            "id": "Clo_237_0",
             "service": "Cloud NAT",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_379_0",
+            "id": "Clo_238_0",
             "service": "Cloud Interconnect",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_380_0",
+            "id": "Clo_239_0",
             "service": "Cloud VPN",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Networking\\Cloud VPN.svg"
           },
           {
-            "id": "Clo_381_0",
+            "id": "Clo_240_0",
             "service": "Cloud DNS",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Networking\\Cloud DNS.svg"
           },
           {
-            "id": "Net_382_0",
+            "id": "Net_241_0",
             "service": "Network Service Tiers",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Net_383_0",
+            "id": "Net_242_0",
             "service": "Network Telemetry",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
@@ -1779,77 +1669,77 @@
         "category": "Security",
         "members": [
           {
-            "id": "Clo_430_0",
+            "id": "Clo_170_0",
             "service": "Cloud IAM",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Identity & Security\\Cloud IAM.svg"
           },
           {
-            "id": "Clo_431_0",
+            "id": "Clo_171_0",
             "service": "Cloud Identity for Customers  and Partners",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Fir_432_0",
+            "id": "Fir_172_0",
             "service": "Firebase Authentication",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_433_0",
+            "id": "Clo_173_0",
             "service": "Cloud Identity-Aware Proxy",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_434_0",
+            "id": "Clo_174_0",
             "service": "Cloud Data Loss Prevention API",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Sec_435_0",
+            "id": "Sec_175_0",
             "service": "Security Key Enforcement",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Identity & Security\\Security Key Enforcement.svg"
           },
           {
-            "id": "Tit_436_0",
+            "id": "Tit_176_0",
             "service": "Titan Security Key",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_437_0",
+            "id": "Clo_177_0",
             "service": "Cloud HSM",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "VPC_438_0",
+            "id": "VPC_178_0",
             "service": "VPC Service Controls",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_439_0",
+            "id": "Clo_179_0",
             "service": "Cloud Key Management Service",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Res_440_0",
+            "id": "Res_180_0",
             "service": "Resource Manager",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_441_0",
+            "id": "Clo_181_0",
             "service": "Cloud Security Command Center",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Identity & Security\\Cloud Security Command Center.svg"
           },
           {
-            "id": "Clo_442_0",
+            "id": "Clo_182_0",
             "service": "Cloud Security Scanner",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Identity & Security\\Cloud Security Scanner.svg"
           },
           {
-            "id": "Acc_443_0",
+            "id": "Acc_183_0",
             "service": "Access Transparency",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Bin_444_0",
+            "id": "Bin_184_0",
             "service": "Binary Authorization",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
@@ -1863,27 +1753,22 @@
         "category": "Storage",
         "members": [
           {
-            "id": "Clo_365_0",
-            "service": "Cloud Storage",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Per_366_0",
+            "id": "Per_225_0",
             "service": "Persistent Disk",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Storage & Databases\\Persistent Disk.svg"
           },
           {
-            "id": "Clo_367_0",
+            "id": "Clo_226_0",
             "service": "Cloud Storage for Firebase",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_368_0",
+            "id": "Clo_227_0",
             "service": "Cloud Filestore",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Dri_369_0",
+            "id": "Dri_228_0",
             "service": "Drive Enterprise",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
@@ -1900,54 +1785,50 @@
     "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
     "categories": [
       {
-        "category": "AI",
-        "members": []
-      },
-      {
         "category": "AI + Machine Learning",
         "members": [
           {
-            "id": "Cog_189_0",
+            "id": "Cog_289_0",
             "service": "Cognitive Services",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_190_0",
+            "id": "Azu_290_0",
             "service": "Azure Bot Service",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_191_0",
+            "id": "Azu_291_0",
             "service": "Azure Databricks",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Mac_192_0",
-            "service": "Machine Learning",
+            "id": "AI_292_0",
+            "service": "AI + Machine Learning",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Cog_193_0",
+            "id": "Cog_293_0",
             "service": "Cognitive Services - Search APIs",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Cog_194_0",
+            "id": "Cog_294_0",
             "service": "Cognitive Services - Language APIs",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Cog_195_0",
+            "id": "Cog_295_0",
             "service": "Cognitive Services - Vision APIs",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Cog_196_0",
+            "id": "Cog_296_0",
             "service": "Cognitive Services - Speech APIs",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Cog_197_0",
+            "id": "Cog_297_0",
             "service": "Cognitive Services - Knowledge APIs",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -1962,54 +1843,50 @@
         "members": []
       },
       {
-        "category": "AWS Cost Management",
-        "members": []
-      },
-      {
         "category": "Analytics",
         "members": [
           {
-            "id": "SQL_198_0",
+            "id": "SQL_298_0",
             "service": "SQL Data Warehouse",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+            "img": ".\\img\\logos\\Microsoft\\CnE_Deprecated\\SQL Data Warehouse.svg"
           },
           {
-            "id": "Azu_199_0",
+            "id": "Azu_299_0",
             "service": "Azure Databricks",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "HDI_200_0",
+            "id": "HDI_300_0",
             "service": "HDInsight",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Dat_201_0",
+            "id": "Dat_301_0",
             "service": "Data Factory",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Mac_202_0",
-            "service": "Machine Learning",
+            "id": "AI_302_0",
+            "service": "AI + Machine Learning",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Str_203_0",
+            "id": "Str_303_0",
             "service": "Stream Analytics",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_204_0",
+            "id": "Azu_304_0",
             "service": "Azure Data Lake Storage",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_205_0",
+            "id": "Azu_305_0",
             "service": "Azure Analysis Services",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Eve_206_0",
+            "id": "Eve_306_0",
             "service": "Event Hubs",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2023,27 +1900,27 @@
         "category": "Azure migration center",
         "members": [
           {
-            "id": "Azu_282_0",
+            "id": "Azu_382_0",
             "service": "Azure Migrate",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_283_0",
+            "id": "Azu_383_0",
             "service": "Azure Site Recovery",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+            "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Site Recovery.svg"
           },
           {
-            "id": "Azu_284_0",
+            "id": "Azu_384_0",
             "service": "Azure Database Migration Service",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Dat_285_0",
+            "id": "Dat_385_0",
             "service": "Data Box",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Cos_286_0",
+            "id": "Cos_386_0",
             "service": "Cost Management",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2061,47 +1938,47 @@
         "category": "Compute",
         "members": [
           {
-            "id": "Vir_207_0",
+            "id": "Vir_307_0",
             "service": "Virtual Machines",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Vir_208_0",
+            "id": "Vir_308_0",
             "service": "Virtual Machine Scale Sets",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_209_0",
+            "id": "Azu_309_0",
             "service": "Azure Kubernetes Service (AKS)",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Fun_210_0",
+            "id": "Fun_310_0",
             "service": "Functions",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Ser_211_0",
+            "id": "Ser_311_0",
             "service": "Service Fabric",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "App_212_0",
+            "id": "App_312_0",
             "service": "App Service",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Con_213_0",
+            "id": "Con_313_0",
             "service": "Container Instances",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Bat_214_0",
+            "id": "Bat_314_0",
             "service": "Batch",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_215_0",
+            "id": "Azu_315_0",
             "service": "Azure Batch AI",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2111,41 +1988,45 @@
         "category": "Containers",
         "members": [
           {
-            "id": "Azu_216_0",
+            "id": "Azu_316_0",
             "service": "Azure Kubernetes Service (AKS)",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Con_217_0",
+            "id": "Con_317_0",
             "service": "Container Instances",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Ser_218_0",
+            "id": "Ser_318_0",
             "service": "Service Fabric",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Con_219_0",
+            "id": "Con_319_0",
             "service": "Container Registry",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+            "img": ".\\img\\logos\\Google\\Developer Tools\\Container Registry.svg"
           },
           {
-            "id": "App_220_0",
+            "id": "App_320_0",
             "service": "App Service",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Web_221_0",
+            "id": "Web_321_0",
             "service": "Web App for Containers",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Bat_222_0",
+            "id": "Bat_322_0",
             "service": "Batch",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
         ]
+      },
+      {
+        "category": "Cost Management",
+        "members": []
       },
       {
         "category": "Customer Engagement",
@@ -2160,54 +2041,50 @@
         "members": []
       },
       {
-        "category": "Database",
-        "members": []
-      },
-      {
         "category": "Databases",
         "members": [
           {
-            "id": "Azu_223_0",
+            "id": "Azu_323_0",
             "service": "Azure Cosmos DB",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_224_0",
+            "id": "Azu_324_0",
             "service": "Azure SQL Database",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+            "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure SQL Database.svg"
           },
           {
-            "id": "Azu_225_0",
+            "id": "Azu_325_0",
             "service": "Azure Database for MySQL",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_226_0",
+            "id": "Azu_326_0",
             "service": "Azure Database for PostgreSQL",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_227_0",
+            "id": "Azu_327_0",
             "service": "Azure Database for MariaDB",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "SQL_228_0",
+            "id": "SQL_328_0",
             "service": "SQL Server on Virtual Machines",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "SQL_229_0",
+            "id": "SQL_329_0",
             "service": "SQL Data Warehouse",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+            "img": ".\\img\\logos\\Microsoft\\CnE_Deprecated\\SQL Data Warehouse.svg"
           },
           {
-            "id": "Azu_230_0",
+            "id": "Azu_330_0",
             "service": "Azure Database Migration Service",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_231_0",
+            "id": "Azu_331_0",
             "service": "Azure Cache for Redis",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2218,49 +2095,45 @@
         "members": []
       },
       {
-        "category": "Dev Tools",
-        "members": []
-      },
-      {
         "category": "DevOps",
         "members": [
           {
-            "id": "Azu_241_0",
+            "id": "Azu_341_0",
             "service": "Azure DevOps",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_242_0",
+            "id": "Azu_342_0",
             "service": "Azure Pipelines",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_243_0",
+            "id": "Azu_343_0",
             "service": "Azure Boards",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_244_0",
+            "id": "Azu_344_0",
             "service": "Azure Repos",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_245_0",
+            "id": "Azu_345_0",
             "service": "Azure Artifacts",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_246_0",
+            "id": "Azu_346_0",
             "service": "Azure Test Plans",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_247_0",
+            "id": "Azu_347_0",
             "service": "Azure DevTest Labs",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+            "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure DevTest Labs.svg"
           },
           {
-            "id": "Dev_248_0",
+            "id": "Dev_348_0",
             "service": "DevOps tool integrations",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2270,110 +2143,51 @@
         "category": "Developer Tools",
         "members": [
           {
-            "id": "Vis_232_0",
+            "id": "Vis_332_0",
             "service": "Visual Studio",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Vis_233_0",
+            "id": "Vis_333_0",
             "service": "Visual Studio Code",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "SDK_234_0",
+            "id": "SDK_334_0",
             "service": "SDKs",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_235_0",
+            "id": "Azu_335_0",
             "service": "Azure DevOps",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "CLI_236_0",
+            "id": "CLI_336_0",
             "service": "CLIs",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_237_0",
+            "id": "Azu_337_0",
             "service": "Azure Pipelines",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_238_0",
+            "id": "Azu_338_0",
             "service": "Azure Lab Services",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_239_0",
+            "id": "Azu_339_0",
             "service": "Azure DevTest Labs",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+            "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure DevTest Labs.svg"
           },
           {
-            "id": "Dev_240_0",
+            "id": "Dev_340_0",
             "service": "Developer tool integrations",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
         ]
-      },
-      {
-        "category": "Featured",
-        "members": [
-          {
-            "id": "Vir_179_0",
-            "service": "Virtual Machines",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
-          },
-          {
-            "id": "Win_180_0",
-            "service": "Windows Virtual Desktop",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
-          },
-          {
-            "id": "Azu_181_0",
-            "service": "Azure SQL Database",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
-          },
-          {
-            "id": "App_182_0",
-            "service": "App Service",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
-          },
-          {
-            "id": "Azu_183_0",
-            "service": "Azure Cosmos DB",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
-          },
-          {
-            "id": "Mac_184_0",
-            "service": "Machine Learning",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
-          },
-          {
-            "id": "Azu_185_0",
-            "service": "Azure Kubernetes Service (AKS)",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
-          },
-          {
-            "id": "Fun_186_0",
-            "service": "Functions",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
-          },
-          {
-            "id": "Cog_187_0",
-            "service": "Cognitive Services",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
-          },
-          {
-            "id": "Blo_188_0",
-            "service": "Blockchain Workbench",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
-          }
-        ]
-      },
-      {
-        "category": "Featured Services",
-        "members": []
       },
       {
         "category": "Game Tech",
@@ -2383,22 +2197,22 @@
         "category": "Identity",
         "members": [
           {
-            "id": "Azu_249_0",
+            "id": "Azu_349_0",
             "service": "Azure Active Directory",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+            "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Active Directory.svg"
           },
           {
-            "id": "Azu_250_0",
+            "id": "Azu_350_0",
             "service": "Azure Active Directory B2C",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_251_0",
+            "id": "Azu_351_0",
             "service": "Azure Active Directory Domain Services",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_252_0",
+            "id": "Azu_352_0",
             "service": "Azure Information Protection",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2408,22 +2222,22 @@
         "category": "Integration",
         "members": [
           {
-            "id": "Log_253_0",
+            "id": "Log_353_0",
             "service": "Logic Apps",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Ser_254_0",
+            "id": "Ser_354_0",
             "service": "Service Bus",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "API_255_0",
+            "id": "API_355_0",
             "service": "API Management",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Eve_256_0",
+            "id": "Eve_356_0",
             "service": "Event Grid",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2433,59 +2247,51 @@
         "category": "Internet of Things",
         "members": [
           {
-            "id": "IoT_257_0",
+            "id": "IoT_357_0",
             "service": "IoT Hub",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "IoT_258_0",
+            "id": "IoT_358_0",
             "service": "IoT Edge",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "IoT_259_0",
+            "id": "IoT_359_0",
             "service": "IoT Central",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "IoT_260_0",
+            "id": "IoT_360_0",
             "service": "IoT solution accelerators",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_261_0",
+            "id": "Azu_361_0",
             "service": "Azure Sphere",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_262_0",
+            "id": "Azu_362_0",
             "service": "Azure Digital Twins",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Tim_263_0",
+            "id": "Tim_363_0",
             "service": "Time Series Insights",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_264_0",
+            "id": "Azu_364_0",
             "service": "Azure Maps",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Eve_265_0",
+            "id": "Eve_365_0",
             "service": "Event Grid",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
         ]
-      },
-      {
-        "category": "IoT",
-        "members": []
-      },
-      {
-        "category": "Machine Learning",
-        "members": []
       },
       {
         "category": "Management",
@@ -2493,53 +2299,49 @@
       },
       {
         "category": "Management & Governance",
-        "members": []
-      },
-      {
-        "category": "Management and Governance",
         "members": [
           {
-            "id": "Mic_266_0",
+            "id": "Mic_366_0",
             "service": "Microsoft Azure portal",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Clo_267_0",
+            "id": "Clo_367_0",
             "service": "Cloud Shell",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+            "img": ".\\img\\logos\\Google\\Management Tools\\Cloud Shell.svg"
           },
           {
-            "id": "Azu_268_0",
+            "id": "Azu_368_0",
             "service": "Azure Advisor",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+            "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Advisor.svg"
           },
           {
-            "id": "Azu_269_0",
+            "id": "Azu_369_0",
             "service": "Azure Backup",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+            "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Backup.svg"
           },
           {
-            "id": "Cos_270_0",
+            "id": "Cos_370_0",
             "service": "Cost Management",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_271_0",
+            "id": "Azu_371_0",
             "service": "Azure Policy",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_272_0",
+            "id": "Azu_372_0",
             "service": "Azure Monitor",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+            "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Monitor.svg"
           },
           {
-            "id": "Azu_273_0",
+            "id": "Azu_373_0",
             "service": "Azure Site Recovery",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+            "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Site Recovery.svg"
           },
           {
-            "id": "Sch_274_0",
+            "id": "Sch_374_0",
             "service": "Scheduler",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2549,37 +2351,37 @@
         "category": "Media",
         "members": [
           {
-            "id": "Med_275_0",
+            "id": "Med_375_0",
             "service": "Media Services",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Enc_276_0",
+            "id": "Enc_376_0",
             "service": "Encoding",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_277_0",
+            "id": "Azu_377_0",
             "service": "Azure Media Player",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Liv_278_0",
+            "id": "Liv_378_0",
             "service": "Live and On-Demand Streaming",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Med_279_0",
+            "id": "Med_379_0",
             "service": "Media Analytics",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Con_280_0",
+            "id": "Con_380_0",
             "service": "Content Protection",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Vid_281_0",
+            "id": "Vid_381_0",
             "service": "Video Indexer",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2597,32 +2399,32 @@
         "category": "Mobile",
         "members": [
           {
-            "id": "Mob_287_0",
+            "id": "Mob_387_0",
             "service": "Mobile Apps",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Not_288_0",
+            "id": "Not_388_0",
             "service": "Notification Hubs",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Vis_289_0",
+            "id": "Vis_389_0",
             "service": "Visual Studio App Center",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Xam_290_0",
+            "id": "Xam_390_0",
             "service": "Xamarin",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+            "img": ".\\img\\logos\\AWS\\SDKs\\SDKs_Xamarin.svg"
           },
           {
-            "id": "Azu_291_0",
+            "id": "Azu_391_0",
             "service": "Azure Maps",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "API_292_0",
+            "id": "API_392_0",
             "service": "API Apps",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2632,47 +2434,47 @@
         "category": "Networking",
         "members": [
           {
-            "id": "Vir_293_0",
+            "id": "Vir_393_0",
             "service": "Virtual Network",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Loa_294_0",
+            "id": "Loa_394_0",
             "service": "Load Balancer",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "App_295_0",
+            "id": "App_395_0",
             "service": "Application Gateway",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "VPN_296_0",
+            "id": "VPN_396_0",
             "service": "VPN Gateway",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_297_0",
+            "id": "Azu_397_0",
             "service": "Azure DNS",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+            "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure DNS.svg"
           },
           {
-            "id": "Con_298_0",
+            "id": "Con_398_0",
             "service": "Content Delivery Network",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_299_0",
+            "id": "Azu_399_0",
             "service": "Azure DDoS Protection",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Tra_300_0",
+            "id": "Tra_400_0",
             "service": "Traffic Manager",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_301_0",
+            "id": "Azu_401_0",
             "service": "Azure Front Door Service",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2694,47 +2496,47 @@
         "category": "Security",
         "members": [
           {
-            "id": "Sec_302_0",
+            "id": "Sec_402_0",
             "service": "Security Center",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Key_303_0",
+            "id": "Key_403_0",
             "service": "Key Vault",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "App_304_0",
+            "id": "App_404_0",
             "service": "Application Gateway",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_305_0",
+            "id": "Azu_405_0",
             "service": "Azure Information Protection",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "VPN_306_0",
+            "id": "VPN_406_0",
             "service": "VPN Gateway",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_307_0",
+            "id": "Azu_407_0",
             "service": "Azure Active Directory",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+            "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Active Directory.svg"
           },
           {
-            "id": "Azu_308_0",
+            "id": "Azu_408_0",
             "service": "Azure DDoS Protection",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_309_0",
+            "id": "Azu_409_0",
             "service": "Azure Advanced Threat Protection",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_310_0",
+            "id": "Azu_410_0",
             "service": "Azure Dedicated HSM",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2748,47 +2550,47 @@
         "category": "Storage",
         "members": [
           {
-            "id": "Sto_311_0",
+            "id": "Sto_411_0",
             "service": "Storage",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+            "img": ".\\img\\logos\\Microsoft\\CnE_Enterprise\\Storage.svg"
           },
           {
-            "id": "Blo_312_0",
+            "id": "Blo_412_0",
             "service": "Blob Storage",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Arc_313_0",
+            "id": "Arc_413_0",
             "service": "Archive Storage",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Que_314_0",
+            "id": "Que_414_0",
             "service": "Queue Storage",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Fil_315_0",
+            "id": "Fil_415_0",
             "service": "File Storage",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Dis_316_0",
+            "id": "Dis_416_0",
             "service": "Disk Storage",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_317_0",
+            "id": "Azu_417_0",
             "service": "Azure Data Lake Storage",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Dat_318_0",
+            "id": "Dat_418_0",
             "service": "Data Box",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Sto_319_0",
+            "id": "Sto_419_0",
             "service": "Storage Explorer",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2798,27 +2600,27 @@
         "category": "Web",
         "members": [
           {
-            "id": "Web_320_0",
+            "id": "Web_420_0",
             "service": "Web Apps",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "API_321_0",
+            "id": "API_421_0",
             "service": "API Management",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Con_322_0",
+            "id": "Con_422_0",
             "service": "Content Delivery Network",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_323_0",
+            "id": "Azu_423_0",
             "service": "Azure Search",
-            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+            "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Search.svg"
           },
           {
-            "id": "Azu_324_0",
+            "id": "Azu_424_0",
             "service": "Azure SignalR Service",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }

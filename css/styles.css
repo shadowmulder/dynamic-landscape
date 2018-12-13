@@ -379,7 +379,6 @@ button {
 .iconImg {
 	position: relative !important;
 	float: right;
-	height: auto;
 }
 
 #printHeader {

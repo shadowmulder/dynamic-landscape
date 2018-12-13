@@ -50,6 +50,7 @@ _.each(data, function (d, i) {
             providerIcon: d.providerIcon,
             category:d.category[j],
             service:(d.service).trim(),
+            webLink:d.webLink,
             img:d.img,
             description:(d.description).trim(),
             keywords:d.keywords,
@@ -113,6 +114,7 @@ _.each(uData, function (d, i) {
     {
         id: d.id,
         service: d.service,
+        webLink: d.webLink,
         provider: d.provider,
         category: d.category,
         providerIcon: d.providerIcon,
