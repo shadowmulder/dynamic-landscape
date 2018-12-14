@@ -526,7 +526,7 @@
           {
             "id": "AWS_66_0",
             "service": "AWS IoT Core",
-            "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg"
+            "img": "./img/logos/AWS/Internet Of Things/InternetOfThings_AWSIoT.svg"
           },
           {
             "id": "Ama_67_0",
@@ -536,7 +536,7 @@
           {
             "id": "AWS_68_0",
             "service": "AWS Greengrass",
-            "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg"
+            "img": "./img/logos/AWS/Internet Of Things/InternetOfThings_AWSIoT_AWSGreengrass.svg"
           },
           {
             "id": "AWS_69_0",
@@ -982,12 +982,12 @@
           {
             "id": "Ama_163_0",
             "service": "Amazon Elastic Block Store (EBS)",
-            "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg"
+            "img": "./img/logos/AWS/Storage/Storage_AmazonEBS.svg"
           },
           {
             "id": "Ama_164_0",
             "service": "Amazon Elastic File System (EFS)",
-            "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg"
+            "img": "./img/logos/AWS/Storage/Storage_AmazonEFS.svg"
           },
           {
             "id": "Ama_165_0",
@@ -1031,81 +1031,76 @@
         "members": [
           {
             "id": "AI_273_0",
-            "service": "AI and machine learning",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "AI_274_0",
             "service": "AI Hub",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_275_0",
+            "id": "Clo_274_0",
             "service": "Cloud AutoML",
             "img": ".\\img\\logos\\Google\\Cloud AI\\Cloud AutoML.svg"
           },
           {
-            "id": "Clo_276_0",
+            "id": "Clo_275_0",
             "service": "Cloud TPU",
             "img": ".\\img\\logos\\Google\\Cloud AI\\Cloud TPU.svg"
           },
           {
-            "id": "Clo_277_0",
+            "id": "Clo_276_0",
             "service": "Cloud Machine Learning Engine",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_278_0",
+            "id": "Clo_277_0",
             "service": "Cloud Talent Solution",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Dia_279_0",
+            "id": "Dia_278_0",
             "service": "Dialogflow Enterprise Edition",
             "img": ".\\img\\logos\\Google\\Cloud AI\\Dialogflow Enterprise Edition.svg"
           },
           {
-            "id": "Clo_280_0",
+            "id": "Clo_279_0",
             "service": "Cloud Natural Language",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Cloud AI\\Cloud Natural Language API.svg"
           },
           {
-            "id": "Clo_281_0",
+            "id": "Clo_280_0",
             "service": "Cloud Speech-to-Text",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_282_0",
+            "id": "Clo_281_0",
             "service": "Cloud Text-to-Speech",
             "img": ".\\img\\logos\\Google\\Cloud AI\\Cloud Text-to-Speech.svg"
           },
           {
-            "id": "Clo_283_0",
+            "id": "Clo_282_0",
             "service": "Cloud Translation",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Cloud AI\\Cloud Translation API.svg"
+          },
+          {
+            "id": "Clo_283_0",
+            "service": "Cloud Vision",
+            "img": ".\\img\\logos\\Google\\Cloud AI\\Cloud Vision API.svg"
           },
           {
             "id": "Clo_284_0",
-            "service": "Cloud Vision",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "service": "Cloud Video Intelligence",
+            "img": ".\\img\\logos\\Google\\Cloud AI\\Cloud Video Intelligence API.svg"
           },
           {
             "id": "Clo_285_0",
-            "service": "Cloud Video Intelligence",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Clo_286_0",
             "service": "Cloud Inference API",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Fir_287_0",
+            "id": "Fir_286_0",
             "service": "Firebase Predictions",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
-            "id": "Clo_288_0",
+            "id": "Clo_287_0",
             "service": "Cloud Deep Learning VM Image",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           }
@@ -1292,12 +1287,12 @@
           },
           {
             "id": "Goo_270_0",
-            "service": "Google Analytics 360 Suite*",
+            "service": "Google Analytics 360 Suite",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
             "id": "Goo_271_0",
-            "service": "Google Data Studio*",
+            "service": "Google Data Studio",
             "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
           },
           {
@@ -1629,7 +1624,7 @@
           {
             "id": "Clo_238_0",
             "service": "Cloud Interconnect",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": "./img/logos/Google/Networking/Partner Interconnect.svg"
           },
           {
             "id": "Clo_239_0",
@@ -1686,12 +1681,12 @@
           {
             "id": "Clo_173_0",
             "service": "Cloud Identity-Aware Proxy",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": "./img/logos/Google/Identity & Security/Identity-Aware Proxy.svg"
           },
           {
             "id": "Clo_174_0",
             "service": "Cloud Data Loss Prevention API",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": "./img/logos/Google/Identity & Security/Data Loss Prevention API.svg"
           },
           {
             "id": "Sec_175_0",
@@ -1716,12 +1711,12 @@
           {
             "id": "Clo_179_0",
             "service": "Cloud Key Management Service",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": "./img/logos/Google/Identity & Security/Key Management Service.svg"
           },
           {
             "id": "Res_180_0",
             "service": "Resource Manager",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+            "img": ".\\img\\logos\\Google\\Identity & Security\\Cloud Resource Manager.svg"
           },
           {
             "id": "Clo_181_0",
@@ -1788,47 +1783,47 @@
         "category": "AI + Machine Learning",
         "members": [
           {
-            "id": "Cog_289_0",
+            "id": "Cog_288_0",
             "service": "Cognitive Services",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Cognative Services.svg"
           },
           {
-            "id": "Azu_290_0",
+            "id": "Azu_289_0",
             "service": "Azure Bot Service",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Bot Services.svg"
           },
           {
-            "id": "Azu_291_0",
+            "id": "Azu_290_0",
             "service": "Azure Databricks",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "AI_292_0",
+            "id": "AI_291_0",
             "service": "AI + Machine Learning",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Machine Learning.svg"
           },
           {
-            "id": "Cog_293_0",
+            "id": "Cog_292_0",
             "service": "Cognitive Services - Search APIs",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Cog_294_0",
+            "id": "Cog_293_0",
             "service": "Cognitive Services - Language APIs",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Cog_295_0",
+            "id": "Cog_294_0",
             "service": "Cognitive Services - Vision APIs",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Cognative Services - Computer Vision_COLOR.svg"
           },
           {
-            "id": "Cog_296_0",
+            "id": "Cog_295_0",
             "service": "Cognitive Services - Speech APIs",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Cognative Services - Speech_COLOR.svg"
           },
           {
-            "id": "Cog_297_0",
+            "id": "Cog_296_0",
             "service": "Cognitive Services - Knowledge APIs",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -1846,47 +1841,47 @@
         "category": "Analytics",
         "members": [
           {
-            "id": "SQL_298_0",
+            "id": "SQL_297_0",
             "service": "SQL Data Warehouse",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Data Warehouse.svg"
           },
           {
-            "id": "Azu_299_0",
+            "id": "Azu_298_0",
             "service": "Azure Databricks",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "HDI_300_0",
+            "id": "HDI_299_0",
             "service": "HDInsight",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure HDInsight.svg"
           },
           {
-            "id": "Dat_301_0",
+            "id": "Dat_300_0",
             "service": "Data Factory",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Data Factory.svg"
           },
           {
-            "id": "AI_302_0",
+            "id": "AI_301_0",
             "service": "AI + Machine Learning",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Machine Learning.svg"
           },
           {
-            "id": "Str_303_0",
+            "id": "Str_302_0",
             "service": "Stream Analytics",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Stream Analytics.svg"
           },
           {
-            "id": "Azu_304_0",
+            "id": "Azu_303_0",
             "service": "Azure Data Lake Storage",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Data Lake.svg"
           },
           {
-            "id": "Azu_305_0",
+            "id": "Azu_304_0",
             "service": "Azure Analysis Services",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Analysis Service.svg"
           },
           {
-            "id": "Eve_306_0",
+            "id": "Eve_305_0",
             "service": "Event Hubs",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Event Hubs.svg"
           }
@@ -1900,27 +1895,27 @@
         "category": "Azure migration center",
         "members": [
           {
-            "id": "Azu_382_0",
+            "id": "Azu_381_0",
             "service": "Azure Migrate",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_383_0",
+            "id": "Azu_382_0",
             "service": "Azure Site Recovery",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Site Recovery.svg"
           },
           {
-            "id": "Azu_384_0",
+            "id": "Azu_383_0",
             "service": "Azure Database Migration Service",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Dat_385_0",
+            "id": "Dat_384_0",
             "service": "Data Box",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Cos_386_0",
+            "id": "Cos_385_0",
             "service": "Cost Management",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -1938,47 +1933,47 @@
         "category": "Compute",
         "members": [
           {
-            "id": "Vir_307_0",
+            "id": "Vir_306_0",
             "service": "Virtual Machines",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Vir_308_0",
+            "id": "Vir_307_0",
             "service": "Virtual Machine Scale Sets",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_309_0",
+            "id": "Azu_308_0",
             "service": "Azure Kubernetes Service (AKS)",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Fun_310_0",
+            "id": "Fun_309_0",
             "service": "Functions",
-            "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Functions.svg"
+            "img": ".\\img\\logos\\Google\\Compute\\Cloud Functions.svg"
           },
           {
-            "id": "Ser_311_0",
+            "id": "Ser_310_0",
             "service": "Service Fabric",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Service Fabric.svg"
           },
           {
-            "id": "App_312_0",
+            "id": "App_311_0",
             "service": "App Service",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure App Service.svg"
           },
           {
-            "id": "Con_313_0",
+            "id": "Con_312_0",
             "service": "Container Instances",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Bat_314_0",
+            "id": "Bat_313_0",
             "service": "Batch",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Batch.svg"
           },
           {
-            "id": "Azu_315_0",
+            "id": "Azu_314_0",
             "service": "Azure Batch AI",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -1988,37 +1983,37 @@
         "category": "Containers",
         "members": [
           {
-            "id": "Azu_316_0",
+            "id": "Azu_315_0",
             "service": "Azure Kubernetes Service (AKS)",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Con_317_0",
+            "id": "Con_316_0",
             "service": "Container Instances",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Ser_318_0",
+            "id": "Ser_317_0",
             "service": "Service Fabric",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Service Fabric.svg"
           },
           {
-            "id": "Con_319_0",
+            "id": "Con_318_0",
             "service": "Container Registry",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Container Registry.svg"
           },
           {
-            "id": "App_320_0",
+            "id": "App_319_0",
             "service": "App Service",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure App Service.svg"
           },
           {
-            "id": "Web_321_0",
+            "id": "Web_320_0",
             "service": "Web App for Containers",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Bat_322_0",
+            "id": "Bat_321_0",
             "service": "Batch",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Batch.svg"
           }
@@ -2044,47 +2039,47 @@
         "category": "Databases",
         "members": [
           {
-            "id": "Azu_323_0",
+            "id": "Azu_322_0",
             "service": "Azure Cosmos DB",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_324_0",
+            "id": "Azu_323_0",
             "service": "Azure SQL Database",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure SQL Database.svg"
           },
           {
-            "id": "Azu_325_0",
+            "id": "Azu_324_0",
             "service": "Azure Database for MySQL",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_326_0",
+            "id": "Azu_325_0",
             "service": "Azure Database for PostgreSQL",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_327_0",
+            "id": "Azu_326_0",
             "service": "Azure Database for MariaDB",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "SQL_328_0",
+            "id": "SQL_327_0",
             "service": "SQL Server on Virtual Machines",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "SQL_329_0",
+            "id": "SQL_328_0",
             "service": "SQL Data Warehouse",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Data Warehouse.svg"
           },
           {
-            "id": "Azu_330_0",
+            "id": "Azu_329_0",
             "service": "Azure Database Migration Service",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_331_0",
+            "id": "Azu_330_0",
             "service": "Azure Cache for Redis",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2098,42 +2093,42 @@
         "category": "DevOps",
         "members": [
           {
-            "id": "Azu_341_0",
+            "id": "Azu_340_0",
             "service": "Azure DevOps",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_342_0",
+            "id": "Azu_341_0",
             "service": "Azure Pipelines",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_343_0",
+            "id": "Azu_342_0",
             "service": "Azure Boards",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_344_0",
+            "id": "Azu_343_0",
             "service": "Azure Repos",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_345_0",
+            "id": "Azu_344_0",
             "service": "Azure Artifacts",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_346_0",
+            "id": "Azu_345_0",
             "service": "Azure Test Plans",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_347_0",
+            "id": "Azu_346_0",
             "service": "Azure DevTest Labs",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure DevTest Labs.svg"
           },
           {
-            "id": "Dev_348_0",
+            "id": "Dev_347_0",
             "service": "DevOps tool integrations",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2143,47 +2138,47 @@
         "category": "Developer Tools",
         "members": [
           {
-            "id": "Vis_332_0",
+            "id": "Vis_331_0",
             "service": "Visual Studio",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Vis_333_0",
+            "id": "Vis_332_0",
             "service": "Visual Studio Code",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "SDK_334_0",
+            "id": "SDK_333_0",
             "service": "SDKs",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_335_0",
+            "id": "Azu_334_0",
             "service": "Azure DevOps",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "CLI_336_0",
+            "id": "CLI_335_0",
             "service": "CLIs",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_337_0",
+            "id": "Azu_336_0",
             "service": "Azure Pipelines",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_338_0",
+            "id": "Azu_337_0",
             "service": "Azure Lab Services",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_339_0",
+            "id": "Azu_338_0",
             "service": "Azure DevTest Labs",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure DevTest Labs.svg"
           },
           {
-            "id": "Dev_340_0",
+            "id": "Dev_339_0",
             "service": "Developer tool integrations",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2197,22 +2192,22 @@
         "category": "Identity",
         "members": [
           {
-            "id": "Azu_349_0",
+            "id": "Azu_348_0",
             "service": "Azure Active Directory",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Active Directory.svg"
           },
           {
-            "id": "Azu_350_0",
+            "id": "Azu_349_0",
             "service": "Azure Active Directory B2C",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_351_0",
+            "id": "Azu_350_0",
             "service": "Azure Active Directory Domain Services",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_352_0",
+            "id": "Azu_351_0",
             "service": "Azure Information Protection",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2222,22 +2217,22 @@
         "category": "Integration",
         "members": [
           {
-            "id": "Log_353_0",
+            "id": "Log_352_0",
             "service": "Logic Apps",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Logic Apps.svg"
           },
           {
-            "id": "Ser_354_0",
+            "id": "Ser_353_0",
             "service": "Service Bus",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Service Bus.svg"
           },
           {
-            "id": "API_355_0",
+            "id": "API_354_0",
             "service": "API Management",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure API Management.svg"
           },
           {
-            "id": "Eve_356_0",
+            "id": "Eve_355_0",
             "service": "Event Grid",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/azure_event_grid.svg"
           }
@@ -2247,47 +2242,47 @@
         "category": "Internet of Things",
         "members": [
           {
-            "id": "IoT_357_0",
+            "id": "IoT_356_0",
             "service": "IoT Hub",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure IoT Hub.svg"
           },
           {
-            "id": "IoT_358_0",
+            "id": "IoT_357_0",
             "service": "IoT Edge",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "IoT_359_0",
+            "id": "IoT_358_0",
             "service": "IoT Central",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "IoT_360_0",
+            "id": "IoT_359_0",
             "service": "IoT solution accelerators",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_361_0",
+            "id": "Azu_360_0",
             "service": "Azure Sphere",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_362_0",
+            "id": "Azu_361_0",
             "service": "Azure Digital Twins",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Tim_363_0",
+            "id": "Tim_362_0",
             "service": "Time Series Insights",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_364_0",
+            "id": "Azu_363_0",
             "service": "Azure Maps",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Eve_365_0",
+            "id": "Eve_364_0",
             "service": "Event Grid",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2301,47 +2296,47 @@
         "category": "Management & Governance",
         "members": [
           {
-            "id": "Mic_366_0",
+            "id": "Mic_365_0",
             "service": "Microsoft Azure portal",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Clo_367_0",
+            "id": "Clo_366_0",
             "service": "Cloud Shell",
             "img": ".\\img\\logos\\Google\\Management Tools\\Cloud Shell.svg"
           },
           {
-            "id": "Azu_368_0",
+            "id": "Azu_367_0",
             "service": "Azure Advisor",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Advisor.svg"
           },
           {
-            "id": "Azu_369_0",
+            "id": "Azu_368_0",
             "service": "Azure Backup",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Backup.svg"
           },
           {
-            "id": "Cos_370_0",
+            "id": "Cos_369_0",
             "service": "Cost Management",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_371_0",
+            "id": "Azu_370_0",
             "service": "Azure Policy",
             "img": "./img/logos/Microsoft/CnE_Intune/Policy.svg"
           },
           {
-            "id": "Azu_372_0",
+            "id": "Azu_371_0",
             "service": "Azure Monitor",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Monitor.svg"
           },
           {
-            "id": "Azu_373_0",
+            "id": "Azu_372_0",
             "service": "Azure Site Recovery",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Site Recovery.svg"
           },
           {
-            "id": "Sch_374_0",
+            "id": "Sch_373_0",
             "service": "Scheduler",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Scheduler.svg"
           }
@@ -2351,37 +2346,37 @@
         "category": "Media",
         "members": [
           {
-            "id": "Med_375_0",
+            "id": "Med_374_0",
             "service": "Media Services",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Media Services.svg"
           },
           {
-            "id": "Enc_376_0",
+            "id": "Enc_375_0",
             "service": "Encoding",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_377_0",
+            "id": "Azu_376_0",
             "service": "Azure Media Player",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Liv_378_0",
+            "id": "Liv_377_0",
             "service": "Live and On-Demand Streaming",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Med_379_0",
+            "id": "Med_378_0",
             "service": "Media Analytics",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Con_380_0",
+            "id": "Con_379_0",
             "service": "Content Protection",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Vid_381_0",
+            "id": "Vid_380_0",
             "service": "Video Indexer",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2399,32 +2394,32 @@
         "category": "Mobile",
         "members": [
           {
-            "id": "Mob_387_0",
+            "id": "Mob_386_0",
             "service": "Mobile Apps",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Not_388_0",
+            "id": "Not_387_0",
             "service": "Notification Hubs",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Notification Hubs.svg"
           },
           {
-            "id": "Vis_389_0",
+            "id": "Vis_388_0",
             "service": "Visual Studio App Center",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Xam_390_0",
+            "id": "Xam_389_0",
             "service": "Xamarin",
-            "img": ".\\img\\logos\\AWS\\SDKs\\SDKs_Xamarin.svg"
+            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_391_0",
+            "id": "Azu_390_0",
             "service": "Azure Maps",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "API_392_0",
+            "id": "API_391_0",
             "service": "API Apps",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure App Service - Azure API Apps.svg"
           }
@@ -2434,47 +2429,47 @@
         "category": "Networking",
         "members": [
           {
-            "id": "Vir_393_0",
+            "id": "Vir_392_0",
             "service": "Virtual Network",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Virtual Network.svg"
           },
           {
-            "id": "Loa_394_0",
+            "id": "Loa_393_0",
             "service": "Load Balancer",
             "img": "./img/logos/Microsoft/CnE_Enterprise/Load balancer (Generic).svg"
           },
           {
-            "id": "App_395_0",
+            "id": "App_394_0",
             "service": "Application Gateway",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Application Gateway.svg"
           },
           {
-            "id": "VPN_396_0",
+            "id": "VPN_395_0",
             "service": "VPN Gateway",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure VPN Gateway.svg"
           },
           {
-            "id": "Azu_397_0",
+            "id": "Azu_396_0",
             "service": "Azure DNS",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure DNS.svg"
           },
           {
-            "id": "Con_398_0",
+            "id": "Con_397_0",
             "service": "Content Delivery Network",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Content Delivery Network (CDN).svg"
           },
           {
-            "id": "Azu_399_0",
+            "id": "Azu_398_0",
             "service": "Azure DDoS Protection",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Tra_400_0",
+            "id": "Tra_399_0",
             "service": "Traffic Manager",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Traffic Manager.svg"
           },
           {
-            "id": "Azu_401_0",
+            "id": "Azu_400_0",
             "service": "Azure Front Door Service",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2496,47 +2491,47 @@
         "category": "Security",
         "members": [
           {
-            "id": "Sec_402_0",
+            "id": "Sec_401_0",
             "service": "Security Center",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Security Center.svg"
           },
           {
-            "id": "Key_403_0",
+            "id": "Key_402_0",
             "service": "Key Vault",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Key Vault.svg"
           },
           {
-            "id": "App_404_0",
+            "id": "App_403_0",
             "service": "Application Gateway",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Application Gateway.svg"
           },
           {
-            "id": "Azu_405_0",
+            "id": "Azu_404_0",
             "service": "Azure Information Protection",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "VPN_406_0",
+            "id": "VPN_405_0",
             "service": "VPN Gateway",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure VPN Gateway.svg"
           },
           {
-            "id": "Azu_407_0",
+            "id": "Azu_406_0",
             "service": "Azure Active Directory",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Active Directory.svg"
           },
           {
-            "id": "Azu_408_0",
+            "id": "Azu_407_0",
             "service": "Azure DDoS Protection",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_409_0",
+            "id": "Azu_408_0",
             "service": "Azure Advanced Threat Protection",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_410_0",
+            "id": "Azu_409_0",
             "service": "Azure Dedicated HSM",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2550,47 +2545,47 @@
         "category": "Storage",
         "members": [
           {
-            "id": "Sto_411_0",
+            "id": "Sto_410_0",
             "service": "Storage",
-            "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Storage.svg"
+            "img": ".\\img\\logos\\Google\\Storage & Databases\\Cloud Storage.svg"
           },
           {
-            "id": "Blo_412_0",
+            "id": "Blo_411_0",
             "service": "Blob Storage",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Storage - Blob.svg"
           },
           {
-            "id": "Arc_413_0",
+            "id": "Arc_412_0",
             "service": "Archive Storage",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Que_414_0",
+            "id": "Que_413_0",
             "service": "Queue Storage",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Storage - Queue.svg"
           },
           {
-            "id": "Fil_415_0",
+            "id": "Fil_414_0",
             "service": "File Storage",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Storage - Files.svg"
           },
           {
-            "id": "Dis_416_0",
+            "id": "Dis_415_0",
             "service": "Disk Storage",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_417_0",
+            "id": "Azu_416_0",
             "service": "Azure Data Lake Storage",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Dat_418_0",
+            "id": "Dat_417_0",
             "service": "Data Box",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Sto_419_0",
+            "id": "Sto_418_0",
             "service": "Storage Explorer",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
@@ -2600,27 +2595,27 @@
         "category": "Web",
         "members": [
           {
-            "id": "Web_420_0",
+            "id": "Web_419_0",
             "service": "Web Apps",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "API_421_0",
+            "id": "API_420_0",
             "service": "API Management",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure API Management.svg"
           },
           {
-            "id": "Con_422_0",
+            "id": "Con_421_0",
             "service": "Content Delivery Network",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           },
           {
-            "id": "Azu_423_0",
+            "id": "Azu_422_0",
             "service": "Azure Search",
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Search.svg"
           },
           {
-            "id": "Azu_424_0",
+            "id": "Azu_423_0",
             "service": "Azure SignalR Service",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }

@@ -1,28 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 792 612" enable-background="new 0 0 792 612" xml:space="preserve">
-<g id="Layer_1_1_">
-	<g id="File_x2C__general">
-		<title>Sheet.1071</title>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 439.99999 440"
+   enable-background="new 0 0 792 612"
+   xml:space="preserve"
+   sodipodi:docname="Load balancer (Generic).svg"
+   width="440"
+   height="440"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata395"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs393" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1536"
+   inkscape:window-height="801"
+   id="namedview391"
+   showgrid="false"
+   inkscape:zoom="0.98366013"
+   inkscape:cx="158.8"
+   inkscape:cy="214.1"
+   inkscape:window-x="-8"
+   inkscape:window-y="1192"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="Layer_1_1_"
+   transform="translate(-237.2,-80.100006)">
+	<g
+   id="File_x2C__general">
+		<title
+   id="title378">Sheet.1071</title>
 	</g>
 </g>
-<g id="Access_control">
+<g
+   id="Access_control"
+   transform="translate(-237.2,-80.100006)">
 </g>
-<g id="Azure_active_directory">
+<g
+   id="Azure_active_directory"
+   transform="translate(-237.2,-80.100006)">
 </g>
-<g id="Generic_code">
+<g
+   id="Generic_code"
+   transform="translate(-237.2,-80.100006)">
 </g>
-<g id="Laptop">
+<g
+   id="Laptop"
+   transform="translate(-237.2,-80.100006)">
 </g>
-<path fill="#2A3282" d="M541.9,294.4c-6.9,0-12.9,6-12.9,12.9v48.1L408,233.5v-62.7c16.3-5.2,28.3-20.6,28.3-38.6
-	c0-22.3-18-41.2-41.2-41.2c-22.3,0-41.2,18-41.2,41.2c0,18,12,33.5,28.3,38.6v62.7L263,351.9v-44.6c0-6.9-6-12.9-12.9-12.9
-	s-12.9,6-12.9,12.9v89.3h89.3c6.9,0,12.9-6,12.9-12.9s-6-12.9-12.9-12.9H281l101.3-101.3v201.7l-32.6-32.6c-5.2-5.2-12.9-5.2-18,0
-	c-2.6,2.6-3.4,6-3.4,9.4s0.9,6.9,3.4,9.4l62.7,62.7l62.7-62.7c5.2-5.2,5.2-12.9,0-18s-12.9-5.2-18,0L408,470.4V269.5l100.4,100.4
-	h-42.1c-6.9,0-12.9,6-12.9,12.9s6,12.9,12.9,12.9h89.3v-88.4C554.8,299.6,548.8,294.4,541.9,294.4z"/>
-<g id="symbols">
+<path
+   d="m 365.5,208.85 c -6.9,0 -12.9,6 -12.9,12.9 v 48.1 l -121,-121.9 V 85.250002 c 16.3,-5.2 28.3,-20.6 28.3,-38.6 0,-22.3 -18,-41.2 -41.2,-41.2 -22.3,0 -41.2,18 -41.2,41.2 0,18 12,33.5 28.3,38.6 V 147.95 L 86.6,266.35 v -44.6 c 0,-6.9 -6,-12.9 -12.9,-12.9 -6.9,0 -12.9,6 -12.9,12.9 v 89.3 h 89.3 c 6.9,0 12.9,-6 12.9,-12.9 0,-6.9 -6,-12.9 -12.9,-12.9 h -45.5 l 101.3,-101.3 v 201.7 l -32.6,-32.6 c -5.2,-5.2 -12.9,-5.2 -18,0 -2.6,2.6 -3.4,6 -3.4,9.4 0,3.4 0.9,6.9 3.4,9.4 l 62.7,62.7 62.7,-62.7 c 5.2,-5.2 5.2,-12.9 0,-18 -5.2,-5.1 -12.9,-5.2 -18,0 l -31.1,31 V 183.95 L 332,284.35 h -42.1 c -6.9,0 -12.9,6 -12.9,12.9 0,6.9 6,12.9 12.9,12.9 h 89.3 v -88.4 c -0.8,-7.7 -6.8,-12.9 -13.7,-12.9 z"
+   id="path386"
+   inkscape:connector-curvature="0"
+   style="fill:#2a3282" />
+<g
+   id="symbols"
+   transform="translate(-237.2,-80.100006)">
 </g>
-<g id="slices">
+<g
+   id="slices"
+   transform="translate(-237.2,-80.100006)">
 </g>
 </svg>

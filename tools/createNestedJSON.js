@@ -81,7 +81,12 @@ _.each(uData, function (d, i) {
 
     _.each(d.metadata, function(md,i){
         if (md.type = "tag") {
-            keyWordsMetaData = keyWordsMetaData.concat(keyWordsMetaData,md.content);
+            _.each(md.content, function(entry,i){
+
+                keyWordsMetaData = keyWordsMetaData.concat(keyWordsMetaData, entry.text.split(" "));
+
+            })
+
         } else if (md.type == "text") {
             keyWordsMetaData = keyWordsMetaData.concat(keyWordsMetaData, md.content.split(" "));
         }
@@ -97,6 +102,7 @@ _.each(uData, function (d, i) {
     keyWordList = [...(new Set(keyWordList.concat(keyWordsProvider, keyWordsCategory, keyWordsService, keyWordsDescriptionFiltered, keyWordsMetaData)))];
 
     _.each(keyWordList, function (w, i) {
+        //console.log(keyWordList[i]);
         keyWordList[i] = w.toLowerCase();
     });
 

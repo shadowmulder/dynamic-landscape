@@ -611,8 +611,14 @@
                 "title": "Associated use cases",
                 "type": "tags",
                 "content": [
-                    "Netflix",
-                    "Coca-Cola"
+                    {
+                        "text": "Netflix",
+                        "link": "https://www.netflix.com"
+                    },
+                    {
+                        "text": "Coca-Cola",
+                        "link": "https://www.coca-cola.com/global/"
+                    }
                 ]
             }
         ],
@@ -1206,7 +1212,7 @@
         ],
         "service": "AWS IoT Core",
         "webLink": "https://aws.amazon.com/iot-core/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
+        "img": "./img/logos/AWS/Internet Of Things/InternetOfThings_AWSIoT.svg",
         "description": "AWS IoT Core is a managed cloud service that lets connected devices easily and securely interact with cloud applications and other devices. AWS IoT Core can support billions of devices and trillions of messages, and can process and route those messages to AWS endpoints and to other devices reliably and securely. With AWS IoT Core, your applications can keep track of and communicate with all your devices, all the time, even when they aren\u2019t connected.",
         "keywords": [],
         "metadata": [],
@@ -1240,7 +1246,7 @@
         ],
         "service": "AWS Greengrass",
         "webLink": "https://aws.amazon.com/greengrass/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
+        "img": "./img/logos/AWS/Internet Of Things/InternetOfThings_AWSIoT_AWSGreengrass.svg",
         "description": "AWS IoT Greengrass seamlessly extends AWS to edge devices so they can act locally on the data they generate, while still using the cloud for management, analytics, and durable storage. With AWS IoT Greengrass, connected devices can run\u00a0AWS Lambda functions, execute predictions based on machine learning models, keep device data in sync, and communicate with other devices securely \u2013 even when not connected to the Internet.",
         "keywords": [],
         "metadata": [],
@@ -2855,7 +2861,7 @@
         ],
         "service": "Amazon Elastic Block Store (EBS)",
         "webLink": "https://aws.amazon.com/ebs/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
+        "img": "./img/logos/AWS/Storage/Storage_AmazonEBS.svg",
         "description": "Amazon Elastic Block Store (Amazon EBS) provides persistent block storage volumes for use with Amazon EC2 instances in the AWS Cloud. Each Amazon EBS volume is automatically replicated within its Availability Zone to protect you from component failure, offering high availability and durability. Amazon EBS volumes offer the consistent and low-latency performance needed to run your workloads. With Amazon EBS, you can scale your usage up or down within minutes \u2013 all while paying a low price for only what you provision.",
         "keywords": [],
         "metadata": [],
@@ -2872,7 +2878,7 @@
         ],
         "service": "Amazon Elastic File System (EFS)",
         "webLink": "https://aws.amazon.com/efs/?nc2=h_mo",
-        "img": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
+        "img": "./img/logos/AWS/Storage/Storage_AmazonEFS.svg",
         "description": "Amazon Elastic File System (Amazon EFS) provides a simple, scalable, elastic file system for Linux-based workloads for use with AWS Cloud services and on-premises resources. It is built to scale on demand to petabytes without disrupting applications, growing and shrinking automatically as you add and remove files, so your applications have the storage they need \u2013 when they need it. It is designed to provide massively parallel shared access to thousands of Amazon EC2 instances, enabling your applications to achieve high levels of aggregate throughput and IOPS with consistent low latencies. Amazon EFS is a fully managed service that requires no changes to your existing applications and tools, providing access through a standard file system interface for seamless integration. Amazon EFS is a regional service storing data within and across multiple Availability Zones (AZs) for high availability and durability. You can access your file systems\u00a0across AZs, regions, and VPCs and share files between thousands of Amazon EC2 instances and on-premises servers via AWS Direct Connect or AWS VPN.",
         "keywords": [],
         "metadata": [],
@@ -3025,7 +3031,7 @@
         ],
         "service": "Cloud Identity-Aware Proxy",
         "webLink": "https://cloud.google.com/iap/",
-        "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+        "img": "./img/logos/Google/Identity & Security/Identity-Aware Proxy.svg",
         "description": "Cloud Identity-Aware Proxy (Cloud IAP) controls access to your cloud applications running on Google Cloud Platform.\n              Cloud IAP works by verifying user identity and context of the request to determine if a user should be\n              allowed to access the application. Cloud IAP is a building block toward BeyondCorp, an enterprise\n              security model that enables every employee to work from untrusted networks without the use of a VPN.",
         "keywords": [],
         "metadata": [],
@@ -3042,7 +3048,7 @@
         ],
         "service": "Cloud Data Loss Prevention API",
         "webLink": "https://cloud.google.com/dlp/",
-        "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+        "img": "./img/logos/Google/Identity & Security/Data Loss Prevention API.svg",
         "description": "The DLP API helps you better understand and manage sensitive data.\n              It provides fast, scalable classification and redaction for sensitive data\n              elements like credit card numbers, names, social security numbers, US and\n              selected international identifier numbers, phone numbers and GCP credentials.\n              The API classifies this data using more than 90 predefined detectors to\n              identify patterns, formats, and checksums, and even understands contextual clues.\n              You can optionally redact data as well using techniques like masking, secure hashing,\n              bucketing, and format-preserving encryption. Try the DLP API in this\n              demo application.",
         "keywords": [],
         "metadata": [],
@@ -3112,7 +3118,11 @@
         "webLink": "https://cloud.google.com/vpc-service-controls/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
         "description": "VPC Service Controls allow users to define a security perimeter around Google Cloud\n            Platform resources such as Cloud Storage buckets, Bigtable instances, and\n            BigQuery datasets to constrain data within a VPC and help mitigate data exfiltration\n            risks. With VPC Service Controls, enterprises can keep their sensitive data private\n            as they take advantage of the fully managed storage and data processing capabilities\n            of Google Cloud Platform.",
-        "keywords": [],
+        "keywords": [
+            "virtual",
+            "private",
+            "cloud"
+        ],
         "metadata": [],
         "dependencies": {
             "in": [],
@@ -3127,7 +3137,7 @@
         ],
         "service": "Cloud Key Management Service",
         "webLink": "https://cloud.google.com/kms/",
-        "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+        "img": "./img/logos/Google/Identity & Security/Key Management Service.svg",
         "description": "Cloud KMS is a cloud-hosted key management service that lets you manage\n            cryptographic keys for your cloud services the same way you do on premises. You can\n            generate, use, rotate, and destroy AES256, RSA 2048, RSA 3072, RSA 4096, EC P256,\n            and EC P384 cryptographic keys. Cloud KMS is integrated with Cloud IAM and Cloud Audit\n            Logging so that you can manage permissions on individual keys and monitor how these\n            are used. Use Cloud KMS to protect secrets and other sensitive data that you need to\n            store in Google Cloud Platform.",
         "keywords": [],
         "metadata": [],
@@ -3144,7 +3154,7 @@
         ],
         "service": "Resource Manager",
         "webLink": "https://cloud.google.com/resource-manager/",
-        "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+        "img": ".\\img\\logos\\Google\\Identity & Security\\Cloud Resource Manager.svg",
         "description": "Google Cloud Platform provides resource containers such as Organizations, Folders,\n            and Projects, that allow you to group and hierarchically organize other Cloud Platform\n            resources. This hierarchical organization lets you easily manage common aspects of your\n            resources such as access control and configuration settings. Resource Manager enables\n            you to programmatically manage these resource containers.",
         "keywords": [],
         "metadata": [],
@@ -3281,7 +3291,7 @@
         "service": "GKE On-Prem",
         "webLink": "https://cloud.google.com/gke-on-prem/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Mit GKE On-Prem erleben Sie Google Kubernetes Engine (GKE) direkt in Ihrem Rechenzentrum. Hierzu muss nur eine schnelle und einfache Aktualisierung installiert werden, die von Google validiert und getestet wurde. GKE On-Prem registriert Ihren Cluster außerdem in der Google Cloud Console, damit Sie all Ihre Cluster über eine Konsole verwalten können. Mit den in Google Kubernetes Engine und GKE On-Prem integrierten Abstraktionsschichten können Sie Ihre Anwendungen in Ihrem eigenen Tempo cloudfähig machen und in die Cloud verschieben. Gleichzeitig entwickeln Sie übertragbare operative Fähigkeiten.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -3315,7 +3325,7 @@
         "service": "Knative",
         "webLink": "https://cloud.google.com/knative/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Knative provides a set of middleware components that are essential to build modern, source-centric, and container-based applications that can run anywhere: on premises, in the cloud, or even in a third-party data center. Knative components are built on Kubernetes and codify the best practices shared by successful real-world Kubernetes-based frameworks. It enables developers to focus just on writing interesting code, without worrying about the “boring but difficult” parts of building, deploying, and managing an application.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -3332,7 +3342,7 @@
         "service": "Shielded VMs",
         "webLink": "https://cloud.google.com/shielded-vm/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Shielded VMs are virtual machines (VMs) on Google Cloud Platform hardened by a set of security controls that help defend against rootkits and bootkits. Using Shielded VMs helps protect enterprise workloads from threats like remote attacks, privilege escalation, and malicious insiders. Shielded VMs leverage advanced platform security capabilities such as secure and measured boot, a virtual trusted platform module (vTPM), UEFI firmware, and integrity monitoring.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -3349,7 +3359,7 @@
         "service": "Container Security",
         "webLink": "https://cloud.google.com/containers/security/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "Explore more information specific to container security.",
+        "description": "Containerization allows development teams to move fast, deploy software efficiently, and operate at an unprecedented scale. As enterprises create more containerized workloads, security must be integrated at each stage of the build and deploy lifecycle. Learn how to secure your container environment on GCP in three critical areas.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -3468,7 +3478,7 @@
         "service": "Cloud Firestore",
         "webLink": "https://cloud.google.com/firestore/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Cloud Firestore (beta) is a fast, fully managed, serverless, cloud-native NoSQL document database that simplifies storing, syncing, and querying data for your mobile, web, and IoT apps at global scale. Its client libraries provide live synchronization and offline support, while its security features and integrations with Firebase and Google Cloud Platform (GCP) accelerate building truly serverless apps.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -3485,7 +3495,7 @@
         "service": "Firebase Realtime Database",
         "webLink": "https://firebase.google.com/products/realtime-database/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "The Firebase Realtime Database is a cloud-hosted NoSQL database that lets you store and sync data between your users in realtime.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -3859,7 +3869,7 @@
         "service": "Apigee Healthcare APIx",
         "webLink": "https://apigee.com/about/solutions/apigee-health-apix",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "The Apigee Healthcare APIx solution delivers FHIR (Fast Healthcare Interoperability Resources) API-based app and data interoperability to healthcare teams, which can be deployed in days instead of months. With Apigee Healthcare APIx, hospitals and other healthcare providers can quickly close innovation gaps and move faster to the digital world. This solution is built on Apigee, an enterprise-grade platform for managing, securing, and scaling APIs. It is FHIR-server agnostic, enabling healthcare companies to easily ingest healthcare data from internal, external, or open-source FHIR-ready partners.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -3876,7 +3886,7 @@
         "service": "Apigee Open Banking APIx",
         "webLink": "https://apigee.com/about/solutions/apigee-open-banking-apix",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "The Apigee Open Banking APIx solution simplifies and accelerates secure delivery of PSD2-compliant APIs. Pre-configured proxies for banking APIs according to CMA's Open Banking Specification. Open ID Connect FAPI support. PISP-and AISP-specific workflows, and API product monetization. An integrated OAuth security framework to support various access models. Support for the XS2A rule via end-user authentication with OpenID Connect. A banking-specific developer portal with API docs, tools, and an API Sandbox with test cases",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -3893,7 +3903,7 @@
         "service": "Cloud Healthcare API",
         "webLink": "https://cloud.google.com/healthcare-api/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "The Cloud Healthcare API bridges the gap between care systems and applications built on Google Cloud. By supporting standards-driven data formats and protocols of existing healthcare technologies, the Cloud Healthcare API connects your data to advanced Google Cloud capabilities, including data processing with Cloud Dataproc, scalable analytics with BigQuery, and machine learning with Cloud ML Engine, while also simplifying application development and device integration. The Cloud Healthcare API accelerates digital transformation for organizations with existing clinical systems and enables new entrants to easily integrate with care networks.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -3995,7 +4005,7 @@
         "service": "Cloud Storage Transfer Service",
         "webLink": "https://cloud.google.com/storage/transfer/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Storage Transfer Service allows you to quickly import online data into Cloud Storage. You can also set up a repeating schedule for transferring data, as well as transfer data within Cloud Storage, from one bucket to another.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4029,7 +4039,7 @@
         "service": "Velostrata",
         "webLink": "https://cloud.google.com/velostrata/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Velostrata gets enterprise applications running in Google Cloud within minutes, while data migrates transparently in the background. Whether you’re migrating from on-premises or other clouds, Velostrata accelerates and simplifies mass migration projects with support for hundreds of migrations per sprint. With Velostrata, enterprises can validate, run, and migrate applications into Google Cloud without rewriting them, modifying the image, or changing management processes. Getting to Google Cloud is fast and simple.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4130,7 +4140,7 @@
         ],
         "service": "Cloud Interconnect",
         "webLink": "https://cloud.google.com/hybrid-connectivity/",
-        "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+        "img": "./img/logos/Google/Networking/Partner Interconnect.svg",
         "description": "",
         "keywords": [],
         "metadata": [],
@@ -4233,7 +4243,7 @@
         "service": "Container Registry",
         "webLink": "https://cloud.google.com/container-registry/",
         "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Container Registry.svg",
-        "description": "",
+        "description": "Container Registry is a single place for your team to manage Docker images, perform vulnerability analysis, and decide who can access what with fine-grained access control. Existing CI/CD integrations let you set up fully automated Docker pipelines to get fast feedback.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4250,7 +4260,7 @@
         "service": "Cloud Build",
         "webLink": "https://cloud.google.com/cloud-build/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Cloud Build lets you build software quickly across all languages. Get complete control over defining custom workflows for building, testing, and deploying across multiple environments such as VMs, serverless, Kubernetes, or Firebase.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4267,7 +4277,7 @@
         "service": "Cloud Source Repositories",
         "webLink": "https://cloud.google.com/source-repositories/",
         "img": ".\\img\\logos\\Google\\Developer Tools\\Cloud Source Repositories.svg",
-        "description": "",
+        "description": "Collaborate easily and securely manage your code on a fully featured, scalable, private Git repository. Extend your Git workflow by connecting to other GCP tools, including Cloud Build, App Engine, Stackdriver, and Cloud Pub/Sub. Get access to fast, indexed powerful code search across all your owned repositories to save time.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4284,7 +4294,7 @@
         "service": "Cloud Scheduler",
         "webLink": "https://cloud.google.com/scheduler/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Cloud Scheduler is a fully managed enterprise-grade cron job scheduler. It allows you to schedule virtually any job, including batch, big data jobs, cloud infrastructure operations, and more. You can automate everything, including retries in case of failure to reduce manual toil and intervention. Cloud Scheduler even acts as a single pane of glass, allowing you to manage all your automation tasks from one place.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4369,7 +4379,7 @@
         "service": "Cloud Tools for Eclipse",
         "webLink": "https://cloud.google.com/eclipse/docs/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Cloud Tools for Eclipse is a Google-sponsored open source plugin that supports Google Cloud Platform development inside the Eclipse IDE.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4386,7 +4396,7 @@
         "service": "Gradle App Engine Plugin",
         "webLink": "https://github.com/GoogleCloudPlatform/app-gradle-plugin",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "This Gradle plugin provides tasks to build and deploy Google App Engine applications.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4403,7 +4413,7 @@
         "service": "Maven App Engine Plugin",
         "webLink": "https://github.com/GoogleCloudPlatform/app-maven-plugin",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "This Maven plugin provides goals to build and deploy Google App Engine applications.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4420,7 +4430,7 @@
         "service": "Cloud Test Lab",
         "webLink": "https://firebase.google.com/docs/test-lab/",
         "img": ".\\img\\logos\\Google\\Developer Tools\\Cloud Test Lab.svg",
-        "description": "",
+        "description": "Test your app on devices hosted in a Google data center. Firebase Test Lab is a cloud-based app-testing infrastructure. With one operation, you can test your Android or iOS app across a wide variety of devices and device configurations, and see the results—including logs, videos, and screenshots—in the Firebase console.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4437,7 +4447,7 @@
         "service": "Firebase Crashlytics",
         "webLink": "https://firebase.google.com/products/crashlytics/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Firebase Crashlytics helps you track, prioritize, and fix stability issues that erode app quality, in realtime. Spend less time triaging and troubleshooting crashes and more time building app features that delight users.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4471,7 +4481,7 @@
         "service": "Edge TPU",
         "webLink": "https://cloud.google.com/edge-tpu/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Google’s purpose-built ASIC designed to run inference at the edge. AI is pervasive today, from consumer to enterprise applications. With the explosive growth of connected devices, combined with a demand for privacy/confidentiality, low latency and bandwidth constraints, AI models trained in the cloud increasingly need to be run at the edge. Edge TPU is Google’s purpose-built ASIC designed to run AI at the edge. It delivers high performance in a small physical and power footprint, enabling the deployment of high-accuracy AI at the edge.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4488,7 +4498,7 @@
         "service": "Cloud IoT Edge",
         "webLink": "https://cloud.google.com/iot-edge/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Cloud IoT Edge extends Google Cloud’s powerful data processing and machine learning to billions of edge devices, such as robotic arms, wind turbines, and oil rigs, so they can act on the data from their sensors in real time and predict outcomes locally. Cloud IoT Edge can run on Linux-based operating systems. Cloud IoT Edge is composed of two runtime components, Edge Connect and Edge ML, and also takes advantage of Google’s purpose-built hardware accelerator ASIC chip, Edge TPU",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4505,7 +4515,7 @@
         "service": "Anvato",
         "webLink": "https://www.anvato.com/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Anvato Media Content Platform (MCP) is the leading video platform where flexibility meets powerful end-to-end video publishing and monetization. We are the only turnkey solution for media companies and programmers who need to fully automate video encoding, editing, publishing and secure syndication to multiple business partners on multiple platforms. Our cloud-based dynamic, server-side ad insertion technology creates unmatched monetization opportunities on all mobile and connected devices.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4522,7 +4532,7 @@
         "service": "Zync Render",
         "webLink": "https://www.zyncrender.com/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Zync Render gives studios the computational power and global reach of Google’s infrastructure, directly from the 3D modeling tools artists already use. Unlock unprecedented scale and cost savings when your project needs it most.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4672,10 +4682,10 @@
         "category": [
             "Data Analysis"
         ],
-        "service": "Google Analytics 360 Suite*",
-        "webLink": "https://www.google.com/analytics/360-suite/#?modal_active=none",
+        "service": "Google Analytics 360 Suite",
+        "webLink": "https://support.google.com/marketingplatform/answer/6292532?hl=en",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "The Google Analytics 360 Suite is a set of integrated data-and-marketing analysis products that are designed specifically for marketers who operate at the enterprise level. This suite of products lets you analyze consumer behavior, develop relevant insights, and then provide a more engaging brand experience.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4689,10 +4699,10 @@
         "category": [
             "Data Analysis"
         ],
-        "service": "Google Data Studio*",
-        "webLink": "https://marketingplatform.google.com/about/data-studio/",
+        "service": "Google Data Studio",
+        "webLink": "https://datastudio.google.com/overview",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Unlock the power of your data with interactive dashboards and beautiful reports that inspire smarter business decisions. It's easy and free.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4709,24 +4719,7 @@
         "service": "Firebase Performance Monitoring",
         "webLink": "https://firebase.google.com/products/performance/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
-        "keywords": [],
-        "metadata": [],
-        "dependencies": {
-            "in": [],
-            "out": []
-        }
-    },
-    {
-        "provider": "Google",
-        "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "category": [
-            "AI + Machine Learning"
-        ],
-        "service": "AI and machine learning",
-        "webLink": "https://cloud.google.com/products/machine-learning/",
-        "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "Cloud AI provides modern machine learning services, with pre-trained models and a service to generate\n            your own tailored models. Our neural-net-based ML service has better training performance and increased accuracy\n            compared to other deep learning systems. Our services are fast, scalable, and easy to use.\n            Major Google applications use Cloud machine learning, including Photos (image search), Translate, Inbox\n            (Smart Reply), and the Google app (voice search). Our platform is now available as a cloud service to bring\n            unmatched scale and speed to your business applications.",
+        "description": "Keep your app fast and responsive. Get insights into how your app performs from your users’ point of view, with automatic and customized performance tracing.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4743,7 +4736,7 @@
         "service": "AI Hub",
         "webLink": "https://cloud.google.com/ai-hub/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Google Cloud’s Artificial Intelligence (AI) Hub is a catalog of plug-and-play AI components, including end-to-end AI pipelines and out-of-the-box algorithms. AI Hub provides enterprise-grade sharing capabilities for organizations to privately host their AI content as well as to foster reuse and collaboration on everything AI. Users can also access unique Google Cloud AI and Google AI technologies that can be easily deployed for experimentation but also all the way to production on Google Cloud and on hybrid infrastructures.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4811,7 +4804,7 @@
         "service": "Cloud Talent Solution",
         "webLink": "https://cloud.google.com/solutions/talent-solution/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Erweitern Sie mit Cloud Talent Solution die Möglichkeiten der Jobsuche und bieten Sie Bewerbern passendere Stellen an. Diese KI-Lösung wurde entwickelt, um die in Unternehmen bestehenden Technologien zur Talentgewinnung zu unterstützen. Dementsprechend passt sie sich auch an steigende Anforderungen an. Mit Funktionen wie der Suche in Abhängigkeit von der Anfahrtszeit und der Profilsuche wird der Prozess der Personalrekrutierung für Bewerber und Arbeitgeber optimiert.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4844,7 +4837,7 @@
         ],
         "service": "Cloud Natural Language",
         "webLink": "https://cloud.google.com/natural-language/",
-        "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+        "img": ".\\img\\logos\\Google\\Cloud AI\\Cloud Natural Language API.svg",
         "description": "Google Cloud Natural Language reveals the structure and meaning of text both through\n            powerful pretrained machine learning models in an easy to use REST API and through\n            custom models that are easy to build with AutoML Natural LanguageBeta. Learn\n            more about Cloud AutoML.",
         "keywords": [],
         "metadata": [],
@@ -4895,7 +4888,7 @@
         ],
         "service": "Cloud Translation",
         "webLink": "https://cloud.google.com/translate/",
-        "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+        "img": ".\\img\\logos\\Google\\Cloud AI\\Cloud Translation API.svg",
         "description": "Cloud Translation offers both an API that uses pretrained models\n            and the ability to build custom models specific to your needs, using\n            AutoML Translation.",
         "keywords": [],
         "metadata": [],
@@ -4912,7 +4905,7 @@
         ],
         "service": "Cloud Vision",
         "webLink": "https://cloud.google.com/vision/",
-        "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+        "img": ".\\img\\logos\\Google\\Cloud AI\\Cloud Vision API.svg",
         "description": "Cloud Vision offers both pretrained models via an API and the ability to build custom\n            models using AutoML Vision to provide flexibility depending on your use case.",
         "keywords": [],
         "metadata": [],
@@ -4929,7 +4922,7 @@
         ],
         "service": "Cloud Video Intelligence",
         "webLink": "https://cloud.google.com/video-intelligence/",
-        "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
+        "img": ".\\img\\logos\\Google\\Cloud AI\\Cloud Video Intelligence API.svg",
         "description": "Google Cloud Video Intelligence makes videos searchable, and discoverable, by\n            extracting metadata with an easy to use REST API. You can now search every moment of\n            every video file in your catalog.\n            It quickly annotates videos stored in Google Cloud Storage, and\n            helps you identify key entities (nouns) within your video; and when they occur within the\n            video. Separate signals from noise, by retrieving relevant information within the entire video,\n            shot-by-shot, -or per frame.",
         "keywords": [],
         "metadata": [],
@@ -4947,7 +4940,7 @@
         "service": "Cloud Inference API",
         "webLink": "https://cloud.google.com/inference/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Time-series analysis is essential for day-to-day operation of many companies. Most popular use cases include analyzing foot traffic and conversion for retailers, detecting data anomalies, identifying correlations in real time over sensor data, or generating high-quality recommendations. With Cloud Inference API Alpha, you can gather insights in real time from your typed time-series datasets.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4964,7 +4957,7 @@
         "service": "Firebase Predictions",
         "webLink": "https://firebase.google.com/products/predictions/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Firebase Predictions applies the power of Google’s machine learning to your app analytics data to create user segments based on predicted behavior. Without requiring anyone on your app team to have ML expertise, Predictions can give you insight into which segments of users are likely to churn or spend (or complete another conversion event) so you can make informed product decisions.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -4981,7 +4974,7 @@
         "service": "Cloud Deep Learning VM Image",
         "webLink": "https://cloud.google.com/deep-learning-vm-image/",
         "img": "./img/logos/Google/Extras/Google Cloud Platform.svg",
-        "description": "",
+        "description": "Provision a VM quickly and effortlessly, with everything you need to get your deep learning project started on Google Cloud. Cloud Deep Learning VM Image Beta makes it easy and fast to instantiate a VM image containing the most popular deep learning and machine learning frameworks on a Google Compute Engine instance. You can launch Compute Engine instances pre-installed with popular ML frameworks like TensorFlow, PyTorch, or scikit-learn. You can also add Cloud TPU and GPU support with a single click. You can either instantiate the image using the Google Cloud Platform (GCP) Cloud Marketplace UI or through Cloud SDK from the command line.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -5066,7 +5059,7 @@
         "service": "Cognitive Services - Search APIs",
         "webLink": "https://azure.microsoft.com/en-us/services/cognitive-services/directory/search/",
         "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
-        "description": "Enable apps and services to harness the power of a Web-scale, ad-free search engine with Search. Use search services to find exactly what you’re looking for across billions of web pages, images, videos, and news search results. Try any service free—and quickly build Search-enabled apps and services with the following capabilities.",
+        "description": "Enable apps and services to harness the power of a Web-scale, ad-free search engine with Search. Use search services to find exactly what you\u00e2\u20ac\u2122re looking for across billions of web pages, images, videos, and news search results. Try any service free\u00e2\u20ac\u201dand quickly build Search-enabled apps and services with the following capabilities.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -5083,7 +5076,7 @@
         "service": "Cognitive Services - Language APIs",
         "webLink": "https://azure.microsoft.com/en-us/services/cognitive-services/directory/lang/",
         "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
-        "description": "Learn about language services that ensure apps and services can understand the meaning of unstructured text or recognize the intent behind a speaker’s utterances. Try any service free—and quickly build Language-enabled apps and services with the following capabilities.",
+        "description": "Learn about language services that ensure apps and services can understand the meaning of unstructured text or recognize the intent behind a speaker\u00e2\u20ac\u2122s utterances. Try any service free\u00e2\u20ac\u201dand quickly build Language-enabled apps and services with the following capabilities.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -5117,7 +5110,7 @@
         "service": "Cognitive Services - Speech APIs",
         "webLink": "https://azure.microsoft.com/en-us/services/cognitive-services/directory/speech/",
         "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Cognative Services - Speech_COLOR.svg",
-        "description": "Discover how Speech enables the integration of speech processing capabilities into any app or service. Convert spoken language into text or produce natural sounding speech from text using standard (or customizable) voice fonts. Try any service free—and quickly build speech-enabled apps and services with the following capabilities.",
+        "description": "Discover how Speech enables the integration of speech processing capabilities into any app or service. Convert spoken language into text or produce natural sounding speech from text using standard (or customizable) voice fonts. Try any service free\u00e2\u20ac\u201dand quickly build speech-enabled apps and services with the following capabilities.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -5354,7 +5347,7 @@
         ],
         "service": "Functions",
         "webLink": "https://azure.microsoft.com/en-us/services/functions/",
-        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Functions.svg",
+        "img": ".\\img\\logos\\Google\\Compute\\Cloud Functions.svg",
         "description": "Easily build the apps you need using simple, serverless functions that scale to meet demand. Use the programming language of your choice, and don\u2019t worry about servers or infrastructure.",
         "keywords": [],
         "metadata": [],
@@ -5644,7 +5637,7 @@
         "service": "Azure Database for MariaDB",
         "webLink": "https://azure.microsoft.com/en-us/services/mariadb/",
         "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
-        "description": "",
+        "description": "Azure Database for MariaDB works with popular open-source frameworks and languages, and features tight integration with Azure Web Apps. Use it with popular content management apps, such as WordPress and Drupal, for a fully integrated experience that supports your specific application development needs.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -5695,7 +5688,7 @@
         "service": "Azure Database Migration Service",
         "webLink": "https://azure.microsoft.com/en-us/services/database-migration/",
         "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
-        "description": "",
+        "description": "Reduce the complexity of your cloud migration by using a single comprehensive service instead of multiple tools. Azure Database Migration Service is designed as a seamless, end-to-end solution for moving on-premises SQL Server databases to the cloud. Use the Database Migration Guide for recommendations, step-by-step guidance, and expert tips on your specific database migration.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -6086,7 +6079,7 @@
         "service": "Logic Apps",
         "webLink": "https://azure.microsoft.com/en-us/services/logic-apps/",
         "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Logic Apps.svg",
-        "description": "",
+        "description": "Connect your business-critical apps and services with Azure Logic Apps, automating your workflows without writing a single line of code.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -6120,7 +6113,7 @@
         "service": "API Management",
         "webLink": "https://azure.microsoft.com/en-us/services/api-management/",
         "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure API Management.svg",
-        "description": "",
+        "description": "Use Azure API Management as a turnkey solution for publishing APIs to external and internal customers. Quickly create consistent and modern API gateways for existing back-end services hosted anywhere. Expose, publish, and manage microservices architectures as APIs. Better understand and optimize your APIs. Choose from a dedicated usage model, with a developer portal and preallocated and isolated underlying resources, or a serverless consumption-based usage model, with instant provisioning, automated scaling, built-in high availability, and pay-per-action pricing.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -6392,7 +6385,7 @@
         "service": "Azure Policy",
         "webLink": "https://azure.microsoft.com/en-us/services/azure-policy/",
         "img": "./img/logos/Microsoft/CnE_Intune/Policy.svg",
-        "description": "",
+        "description": "Azure Policy is a service in Azure that you use to create, assign and, manage policies. These policies enforce different rules and effects over your resources, so those resources stay compliant with your corporate standards and service level agreements. Azure Policy meets this need by evaluating your resources for non-compliance with assigned policies. For example, you can have a policy to allow only a certain SKU size of virtual machines in your environment. Once this policy is implemented, new and existing resources are evaluated for compliance. With the right type of policy, existing resources can be brought into compliance. Later in this documentation, we'll go over more details on how to create and implement policies with Azure Policy.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -6409,7 +6402,7 @@
         "service": "Azure Monitor",
         "webLink": "https://azure.microsoft.com/en-us/services/monitor/",
         "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Monitor.svg",
-        "description": "",
+        "description": "Azure Policy is a service in Azure that you use to create, assign and, manage policies. These policies enforce different rules and effects over your resources, so those resources stay compliant with your corporate standards and service level agreements. Azure Policy meets this need by evaluating your resources for non-compliance with assigned policies. For example, you can have a policy to allow only a certain SKU size of virtual machines in your environment. Once this policy is implemented, new and existing resources are evaluated for compliance. With the right type of policy, existing resources can be brought into compliance. Later in this documentation, we'll go over more details on how to create and implement policies with Azure Policy.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -6528,7 +6521,7 @@
         "service": "Media Analytics",
         "webLink": "https://azure.microsoft.com/en-us/services/media-services/media-analytics/",
         "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
-        "description": "",
+        "description": "Extract advanced metadata using deep-learning based analysis.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -6613,7 +6606,7 @@
         "service": "Azure Database Migration Service",
         "webLink": "https://azure.microsoft.com/en-us/services/database-migration/",
         "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
-        "description": "",
+        "description": "Reduce the complexity of your cloud migration by using a single comprehensive service instead of multiple tools. Azure Database Migration Service is designed as a seamless, end-to-end solution for moving on-premises SQL Server databases to the cloud. Use the Database Migration Guide for recommendations, step-by-step guidance, and expert tips on your specific database migration.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -6681,7 +6674,7 @@
         "service": "Notification Hubs",
         "webLink": "https://azure.microsoft.com/en-us/services/notification-hubs/",
         "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Notification Hubs.svg",
-        "description": "",
+        "description": "Azure Notification Hubs is a massively scalable mobile push notification engine for quickly sending millions of notifications to iOS, Android, Windows, or Kindle devices, working with APNs (Apple Push Notification service), GCM (Google Cloud Messaging), WNS (Windows Push Notification Service), MPNS (Microsoft Push Notification Service), and more. Tailor your notifications to specific customers—or entire audiences—with just a few lines of code, and do it across any platform.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -6714,7 +6707,7 @@
         ],
         "service": "Xamarin",
         "webLink": "https://azure.microsoft.com/en-us/features/xamarin/",
-        "img": ".\\img\\logos\\AWS\\SDKs\\SDKs_Xamarin.svg",
+        "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
         "description": "Build beautiful, fully-native Android, iOS, and Windows apps, tapping into the backend building blocks that you need to scale and grow.\nWatch how Xamarin and Azure help you build powerful mobile apps.",
         "keywords": [],
         "metadata": [],
@@ -6766,7 +6759,7 @@
         "service": "Virtual Network",
         "webLink": "https://azure.microsoft.com/en-us/services/virtual-network/",
         "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Virtual Network.svg",
-        "description": "",
+        "description": "Azure Virtual Network gives you an isolated and highly-secure environment to run your virtual machines and applications. Use your private IP addresses and define subnets, access control policies, and more. Use Virtual Network to treat Azure the same as you would your own datacenter.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -6817,7 +6810,7 @@
         "service": "VPN Gateway",
         "webLink": "https://azure.microsoft.com/en-us/services/vpn-gateway/",
         "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure VPN Gateway.svg",
-        "description": "",
+        "description": "Azure VPN Gateway connects your on-premises networks to Azure through Site-to-Site VPNs in a similar way that you set up and connect to a remote branch office. The connectivity is secure and uses the industry-standard protocols Internet Protocol Security (IPsec) and Internet Key Exchange (IKE).",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -6868,7 +6861,7 @@
         "service": "Azure DDoS Protection",
         "webLink": "https://azure.microsoft.com/en-us/services/ddos-protection/",
         "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
-        "description": "",
+        "description": "Backed by the Microsoft global network, DDoS Protection brings massive DDoS mitigation capacity to every Azure region. Scrub traffic at the Azure network edge before it can impact the availability of your service.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -6885,7 +6878,7 @@
         "service": "Traffic Manager",
         "webLink": "https://azure.microsoft.com/en-us/services/traffic-manager/",
         "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Traffic Manager.svg",
-        "description": "",
+        "description": "Azure Traffic Manager operates at the DNS layer to quickly and efficiently direct incoming DNS requests based on the routing method of your choice. An example would be sending requests to the closest endpoints, improving the responsiveness of your applications. Learn more.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -6902,7 +6895,7 @@
         "service": "Azure Front Door Service",
         "webLink": "https://azure.microsoft.com/en-us/services/frontdoor/",
         "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
-        "description": "",
+        "description": "Easily join your distributed microservice architectures into a single global application using HTTP load balancing and path-based routing rules. Automate turning up new regions and scale-out with API-driven global actions, and independent fault-tolerance to your back end microservices in Azure—or anywhere.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -6987,7 +6980,7 @@
         "service": "VPN Gateway",
         "webLink": "https://azure.microsoft.com/en-us/services/vpn-gateway/",
         "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure VPN Gateway.svg",
-        "description": "",
+        "description": "Azure VPN Gateway connects your on-premises networks to Azure through Site-to-Site VPNs in a similar way that you set up and connect to a remote branch office. The connectivity is secure and uses the industry-standard protocols Internet Protocol Security (IPsec) and Internet Key Exchange (IKE).",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -7021,7 +7014,7 @@
         "service": "Azure DDoS Protection",
         "webLink": "https://azure.microsoft.com/en-us/services/ddos-protection/",
         "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
-        "description": "",
+        "description": "Backed by the Microsoft global network, DDoS Protection brings massive DDoS mitigation capacity to every Azure region. Scrub traffic at the Azure network edge before it can impact the availability of your service.",
         "keywords": [],
         "metadata": [],
         "dependencies": {
@@ -7071,7 +7064,7 @@
         ],
         "service": "Storage",
         "webLink": "https://azure.microsoft.com/en-us/services/storage/",
-        "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Storage.svg",
+        "img": ".\\img\\logos\\Google\\Storage & Databases\\Cloud Storage.svg",
         "description": "Simple, distributed, cross-platform file system",
         "keywords": [],
         "metadata": [],

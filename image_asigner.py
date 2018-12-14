@@ -12,7 +12,7 @@ with open('./database/data.json') as f:
 found = 0
 
 for entry in data:
-    query = "Azure "+ entry['service']+".svg"
+    query = ""+ entry['service']+" API.svg"
     absolutePath = "NaN"
     for root, dirs, files in os.walk('.\\img\logos\\'):
         for file in files:

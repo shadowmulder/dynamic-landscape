@@ -87,6 +87,12 @@
             .append("div")
             .attr("id", "topnav")
             .attr("class", "topnav")
+            .on("mousemove", function () {
+                cursorOutsideIcon = false;
+            })
+            .on("mouseout", function (d, i) {
+                cursorOutsideIcon = true;
+            });
 
         var searchTB = pageHeader
             .append("div")
@@ -220,7 +226,13 @@
             .attr("class", "footer")
             .style("padding-left", "12%")
             .append("div")
-            .attr("class", "row");
+            .attr("class", "row")
+            .on("mousemove", function () {
+                cursorOutsideIcon = false;
+            })
+            .on("mouseout", function (d, i) {
+                cursorOutsideIcon = true;
+            });;
 
 
         /**
@@ -1294,8 +1306,11 @@
             if (md.type = "tags") {
                 detailsText.append("h5").html(md.title).style("margin-top", "50px");
                 md.content.forEach(tag => {
-                    detailsText.append("div").attr("class", "tag").text(tag);
+                    detailsText.append("div").attr("class", "tag").html("<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"" + tag.link + "\">" + tag.text + "</a>");
                 })
+            } else if (md.type = "text"){
+                detailsText.append("h5").html(md.title).style("margin-top", "50px");
+                detailsText.append("span").html("<i>" + md.content + "</i>");
             }
         })
 
