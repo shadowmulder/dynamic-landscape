@@ -80,7 +80,7 @@ _.each(uData, function (d, i) {
     var keyWordsMetaData = [];
 
     _.each(d.metadata, function(md,i){
-        if (md.type = "tag") {
+        if (md.type == "tag") {
             _.each(md.content, function(entry,i){
 
                 keyWordsMetaData = keyWordsMetaData.concat(keyWordsMetaData, entry.text.split(" "));

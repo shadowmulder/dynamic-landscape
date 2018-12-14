@@ -365,10 +365,6 @@
         "members": []
       },
       {
-        "category": "Data Transfer",
-        "members": []
-      },
-      {
         "category": "Databases",
         "members": [
           {
@@ -673,10 +669,6 @@
             "img": ".\\img\\logos\\AWS\\Management Tools\\ManagementTools_AWSTrustedAdvisor.svg"
           }
         ]
-      },
-      {
-        "category": "Media",
-        "members": []
       },
       {
         "category": "Media Services",
@@ -1303,31 +1295,6 @@
         ]
       },
       {
-        "category": "Data Transfer",
-        "members": [
-          {
-            "id": "Tra_229_0",
-            "service": "Transfer Appliance",
-            "img": ".\\img\\logos\\Google\\Data Transfer\\Transfer Appliance.svg"
-          },
-          {
-            "id": "Clo_230_0",
-            "service": "Cloud Storage Transfer Service",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Big_231_0",
-            "service": "BigQuery Data Transfer Service",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          },
-          {
-            "id": "Vel_232_0",
-            "service": "Velostrata",
-            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
-          }
-        ]
-      },
-      {
         "category": "Databases",
         "members": [
           {
@@ -1567,7 +1534,7 @@
         "members": []
       },
       {
-        "category": "Media",
+        "category": "Media Services",
         "members": [
           {
             "id": "Anv_260_0",
@@ -1582,12 +1549,29 @@
         ]
       },
       {
-        "category": "Media Services",
-        "members": []
-      },
-      {
         "category": "Migration & Transfer",
-        "members": []
+        "members": [
+          {
+            "id": "Tra_229_0",
+            "service": "Transfer Appliance",
+            "img": ".\\img\\logos\\Google\\Data Transfer\\Transfer Appliance.svg"
+          },
+          {
+            "id": "Clo_230_0",
+            "service": "Cloud Storage Transfer Service",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Big_231_0",
+            "service": "BigQuery Data Transfer Service",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          },
+          {
+            "id": "Vel_232_0",
+            "service": "Velostrata",
+            "img": "./img/logos/Google/Extras/Google Cloud Platform.svg"
+          }
+        ]
       },
       {
         "category": "Mobile",
@@ -1826,6 +1810,11 @@
             "id": "Cog_296_0",
             "service": "Cognitive Services - Knowledge APIs",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+          },
+          {
+            "id": "Azu_301_1",
+            "service": "Azure Machine Learning service",
+            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Machine Learning.svg"
           }
         ]
       },
@@ -1861,8 +1850,8 @@
             "img": ".\\img\\logos\\Microsoft\\CnE_Cloud\\SVG\\Azure Data Factory.svg"
           },
           {
-            "id": "AI_301_0",
-            "service": "AI + Machine Learning",
+            "id": "Azu_301_0",
+            "service": "Azure Machine Learning service",
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Machine Learning.svg"
           },
           {
@@ -2021,7 +2010,13 @@
       },
       {
         "category": "Cost Management",
-        "members": []
+        "members": [
+          {
+            "id": "Cos_369_1",
+            "service": "Cost Management",
+            "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
+          }
+        ]
       },
       {
         "category": "Customer Engagement",
@@ -2029,10 +2024,6 @@
       },
       {
         "category": "Data Analysis",
-        "members": []
-      },
-      {
-        "category": "Data Transfer",
         "members": []
       },
       {
@@ -2343,7 +2334,7 @@
         ]
       },
       {
-        "category": "Media",
+        "category": "Media Services",
         "members": [
           {
             "id": "Med_374_0",
@@ -2381,10 +2372,6 @@
             "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg"
           }
         ]
-      },
-      {
-        "category": "Media Services",
-        "members": []
       },
       {
         "category": "Migration & Transfer",

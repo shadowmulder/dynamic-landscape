@@ -154,7 +154,7 @@ html {
 }
 
 .modal-dialog {
-	z-index: 5;
+	z-index: 6;
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -193,7 +193,7 @@ html {
 	bottom: 0;
 	background-color: rgba(0, 0, 0, 0.5);
 	/* Black background with opacity */
-	z-index: 4;
+	z-index: 5;
 	/* Specify a stack order in case you're using a different order for other elements */
 	cursor: pointer;
 	/* Add a pointer on hover */
@@ -433,6 +433,10 @@ input[type=number]
 	left: 100%;
 	position: fixed;
 	top: 100%;
+}
+
+a[target="_blank"]:after {
+    content: url(./img/external-link.svg);
 }
 
 @media print {

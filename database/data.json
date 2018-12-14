@@ -2847,7 +2847,13 @@
         "img": "./img/logos/AWS/Storage/Storage_AmazonS3.svg",
         "description": "Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. This means customers of all sizes and industries can use it to store and protect any amount of data for a range of use cases, such as websites, mobile applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics. Amazon S3 provides easy-to-use management features so you can organize your data and configure finely-tuned access controls to meet your specific business, organizational, and compliance requirements. Amazon S3 is designed for 99.999999999% (11 9's) of durability, and stores data for millions of applications for companies all around the world. ",
         "keywords": [],
-        "metadata": [],
+        "metadata": [
+            {
+                "title": "Notes",
+                "type": "text",
+                "content": "This service is utilized to host this page."                
+            }
+        ],
         "dependencies": {
             "in": [],
             "out": []
@@ -3983,7 +3989,7 @@
         "provider": "Google",
         "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
         "category": [
-            "Data Transfer"
+            "Migration & Transfer"
         ],
         "service": "Transfer Appliance",
         "webLink": "https://cloud.google.com/transfer-appliance/",
@@ -4000,7 +4006,7 @@
         "provider": "Google",
         "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
         "category": [
-            "Data Transfer"
+            "Migration & Transfer"
         ],
         "service": "Cloud Storage Transfer Service",
         "webLink": "https://cloud.google.com/storage/transfer/",
@@ -4017,7 +4023,7 @@
         "provider": "Google",
         "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
         "category": [
-            "Data Transfer"
+            "Migration & Transfer"
         ],
         "service": "BigQuery Data Transfer Service",
         "webLink": "https://cloud.google.com/bigquery/transfer/",
@@ -4034,7 +4040,7 @@
         "provider": "Google",
         "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
         "category": [
-            "Data Transfer"
+            "Migration & Transfer"
         ],
         "service": "Velostrata",
         "webLink": "https://cloud.google.com/velostrata/",
@@ -4510,7 +4516,7 @@
         "provider": "Google",
         "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
         "category": [
-            "Media"
+            "Media Services"
         ],
         "service": "Anvato",
         "webLink": "https://www.anvato.com/",
@@ -4527,7 +4533,7 @@
         "provider": "Google",
         "providerIcon": "./img/logos/Google/Extras/Google Cloud Platform.svg",
         "category": [
-            "Media"
+            "Media Services"
         ],
         "service": "Zync Render",
         "webLink": "https://www.zyncrender.com/",
@@ -5207,9 +5213,10 @@
         "provider": "Microsoft",
         "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
         "category": [
-            "Analytics"
+            "Analytics",
+            "AI + Machine Learning"
         ],
-        "service": "AI + Machine Learning",
+        "service": "Azure Machine Learning service",
         "webLink": "https://azure.microsoft.com/en-us/services/machine-learning-service/",
         "img": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure Machine Learning.svg",
         "description": "Simplify and accelerate the building, training, and deployment of your machine learning models. Use automated machine learning to identify suitable algorithms and tune hyperparameters faster. Improve productivity and reduce costs with autoscaling compute and DevOps for machine learning. Seamlessly deploy to the cloud and the edge with one click. Access all these capabilities from your favorite Python environment using the latest open-source frameworks, such as PyTorch, TensorFlow, and scikit-learn.",
@@ -6363,7 +6370,8 @@
         "provider": "Microsoft",
         "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
         "category": [
-            "Management & Governance"
+            "Management & Governance",
+            "Cost Management"
         ],
         "service": "Cost Management",
         "webLink": "https://azure.microsoft.com/en-us/services/cost-management/",
@@ -6448,7 +6456,7 @@
         "provider": "Microsoft",
         "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
         "category": [
-            "Media"
+            "Media Services"
         ],
         "service": "Media Services",
         "webLink": "https://azure.microsoft.com/en-us/services/media-services/",
@@ -6465,7 +6473,7 @@
         "provider": "Microsoft",
         "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
         "category": [
-            "Media"
+            "Media Services"
         ],
         "service": "Encoding",
         "webLink": "https://azure.microsoft.com/en-us/services/media-services/encoding/",
@@ -6482,7 +6490,7 @@
         "provider": "Microsoft",
         "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
         "category": [
-            "Media"
+            "Media Services"
         ],
         "service": "Azure Media Player",
         "webLink": "https://azure.microsoft.com/en-us/services/media-services/media-player/",
@@ -6499,7 +6507,7 @@
         "provider": "Microsoft",
         "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
         "category": [
-            "Media"
+            "Media Services"
         ],
         "service": "Live and On-Demand Streaming",
         "webLink": "https://azure.microsoft.com/en-us/services/media-services/live-on-demand/",
@@ -6516,7 +6524,7 @@
         "provider": "Microsoft",
         "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
         "category": [
-            "Media"
+            "Media Services"
         ],
         "service": "Media Analytics",
         "webLink": "https://azure.microsoft.com/en-us/services/media-services/media-analytics/",
@@ -6533,7 +6541,7 @@
         "provider": "Microsoft",
         "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
         "category": [
-            "Media"
+            "Media Services"
         ],
         "service": "Content Protection",
         "webLink": "https://azure.microsoft.com/en-us/services/media-services/content-protection/",
@@ -6550,7 +6558,7 @@
         "provider": "Microsoft",
         "providerIcon": "./img/logos/Microsoft/CnE_Cloud/SVG/Azure_logo_icon_50.svg",
         "category": [
-            "Media"
+            "Media Services"
         ],
         "service": "Video Indexer",
         "webLink": "https://azure.microsoft.com/en-us/services/media-services/video-indexer/",

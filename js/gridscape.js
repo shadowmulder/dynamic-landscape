@@ -41,7 +41,8 @@
 
 
     function Gridscape() {
-
+        var isFirefox = typeof InstallTrigger !== 'undefined';
+        console.log("Is Firefox: "+isFirefox)
         if (!(this instanceof Gridscape)) {
             return new Gridscape()
         }
@@ -944,9 +945,12 @@
     * of all rows at the same value
     */
     function lockResizing() {
+        var padding = 2;
+        var isFirefox = typeof InstallTrigger !== 'undefined';
+        if (isFirefox) padding = 1.87;
         normalizeHeight("#cContainer", "#cContainer", "height");
         //normalizeHeight("#cContainer", "#vHeader", "width", 2);
-        normalizeHeight("#cContainer", "#vHeader", "height", 2);
+        normalizeHeight("#cContainer", "#vHeader", "height", padding);
         normalizeHeight("#hHeader", "#hHeader", "height");
 
     }
@@ -1005,7 +1009,7 @@
     *   padding: can be added as an offset to the max height h
     */
     function normalizeHeight(sID, tID, hw, padding) {
-
+        var isFirefox = typeof InstallTrigger !== 'undefined';
         padding = padding || 0;
 
         var source = d3.selectAll(sID);
@@ -1229,6 +1233,7 @@
 
 
     function createFeedBackView() {
+        alert("THERE IS NO FUNCTIONALITY BEHIND THE FEEDBACK FUNCTION (YET), SO PLEASE DO NOT MAKE AN EFFORT TO TYPE TEXT IN THERE!")
         var currentScrollOffset = document.documentElement.scrollTop;
         modalView.attr("class", "modal-dialog modal-lg");
         modalViewTitle.text("FEEDBACK");
@@ -1303,12 +1308,12 @@
         detailsText.append("span").html("<i>" + item.description + "</i>");
 
         item.metadata.forEach(md => {
-            if (md.type = "tags") {
+            if (md.type == "tags") {
                 detailsText.append("h5").html(md.title).style("margin-top", "50px");
                 md.content.forEach(tag => {
                     detailsText.append("div").attr("class", "tag").html("<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"" + tag.link + "\">" + tag.text + "</a>");
                 })
-            } else if (md.type = "text"){
+            } else if (md.type == "text"){
                 detailsText.append("h5").html(md.title).style("margin-top", "50px");
                 detailsText.append("span").html("<i>" + md.content + "</i>");
             }
