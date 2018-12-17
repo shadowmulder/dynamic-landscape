@@ -44,9 +44,10 @@ _.each(data, function (d, i) {
         id_prefix = id_prefix.substring(0, Math.min(3, id_prefix.length));
         var id = id_prefix + "_" + i + "_" + j;
         id = id.replace(" ","");
-        //_.assign(nd, { "id": id });
+
         ids.push(id);
        
+
 
         var newEntry = {
             id:id,
@@ -59,7 +60,7 @@ _.each(data, function (d, i) {
             description:(d.description).trim(),
             keywords:d.keywords,
             metadata: d.metadata,
-            dependencies:d.dependencies
+            connections:d.connections
         }
 
         uData.push(newEntry);
@@ -119,13 +120,37 @@ _.each(uData, function (d, i) {
      * BEGIN: dependency list refactoring
      */
 
-    _.each(d.dependencies.in, function (dep) {
-        dep.dname = idMap[dep.dname] || "";
+    var connections = {
+        in:[],
+        out:[]
+    }
+
+    _.each(d.connections.in, function (con) {
+        var name = idMap[con.dname] || "";
+        if (name == "") {
+            console.error("\n>>> No object found for \""+con.dname+"\"\n");
+        } else {
+            var validConnection = {
+                dname: name,
+                dtype: con.dtype
+            }
+            connections.in.push(validConnection);
+        }
     })
 
-    _.each(d.dependencies.out, function (dep) {
-        dep.dname = idMap[dep.dname] || "";
+    _.each(d.connections.out, function (con) {
+        var name = idMap[con.dname] || "";
+        if (name == "") {
+            console.error("\n>>> No object found for \""+con.dname+"\"\n");
+        } else {
+            var validConnection = {
+                dname: name,
+                dtype: con.dtype
+            }
+            connections.out.push(validConnection);
+        }
     })
+
 
     /**
      * END: dependency list refactoring
@@ -141,7 +166,7 @@ _.each(uData, function (d, i) {
         categoryOneIcon: d.categoryOneIcon,
         description: d.description,
         img: d.img,
-        dependencies: d.dependencies,
+        connections: connections,
         keywords: keyWordList,
         metadata: d.metadata
     };

@@ -34,24 +34,47 @@
     var modalViewFooter;
     var modalViewHeaderIcon;
     var mouseOnOverlay = false;
+    var config = {
+        itemName: "Item",
+        verticalCategoryName: "Category A",
+        horizontalCategoryName: "Category B",
+        detailedViewHeaderText: "ITEM DETAILS",
+        showHelp: false,
+        showPrint: false,
+        showPDF: false,
+        showFeedback: false
+    };
 
 
 
 
 
-    function Gridscape() {
+    function Gridscape(props) {
+        config.itemName = props.itemName || config.itemName;
+        config.verticalCategoryName = props.verticalCategoryName || config.verticalCategoryName;
+        config.horizontalCategoryName = props.horizontalCategoryName || config.horizontalCategoryName;
+        config.detailedViewHeaderText = props.detailedViewHeaderText || config.detailedViewHeaderText;
+        config.showHelp = props.showHelp || config.showHelp;
+        config.showPrint = props.showPrint || config.showPrint;
+        config.showPDF = props.showPDF ||  config.showPDF;
+        config.showFeedback = props.showFeedback || config.showFeedback;
+
         var isFirefox = typeof InstallTrigger !== 'undefined';
-        console.log("Is Firefox: "+isFirefox)
+        console.log("Is Firefox: " + isFirefox)
         if (!(this instanceof Gridscape)) {
             return new Gridscape()
         }
-        classContext = this;
+        
         /**
         * BEGIN STATIC BODY SECTION
         */
 
         createHeader();
-        createFooter();
+        if (config.showHelp || 
+            config.showPrint ||
+            config.showPDF ||
+            config.showFeedback) {createFooter();}
+
         tooltip = d3.select("body").append("div").attr("class", "toolTip");
         /**
         * END STATIC BODY SECTION
@@ -238,7 +261,8 @@
         /**
          * Help button
          */
-        footer.append("div")
+        if (config.showHelp) {
+            footer.append("div")
             .attr("class", "col")
             .append("button")
             .attr("class", "footer-button")
@@ -247,11 +271,14 @@
             })
             .append("span")
             .text("Help");
+        }
+
 
         /**
          * Print button
          */
-        footer.append("div")
+        if (config.showPrint){
+            footer.append("div")
             .attr("class", "col")
             .append("button")
             .attr("class", "footer-button")
@@ -260,12 +287,14 @@
             })
             .append("span")
             .text("Print");
+        }
 
 
-        /**
-         * PDF button
-         */
-        footer.append("div")
+
+
+
+        if (config.showPDF) {
+            footer.append("div")
             .attr("class", "col")
             .append("form")
             .attr("method", "get")
@@ -277,11 +306,14 @@
             })
             .append("span")
             .text("PDF");
+        }
+
 
         /**
          * Feedback button
          */
-        footer.append("div")
+        if (config.showFeedback) {
+            footer.append("div")
             .attr("class", "col")
             .append("button")
             .attr("class", "footer-button")
@@ -290,6 +322,8 @@
             })
             .append("span")
             .text("Feedback");
+        }
+
 
 
         /**
@@ -1109,7 +1143,7 @@
         jsPlumb.repaintEverything();
         adjustSVGOverlay();
         jsPlumb.repaintEverything();
-        //showDependencies();
+        //showconnections();
         getLandscapeHeight();
         document.getElementById("zoomFIndicator").value = Math.floor(fontZoomFactor * 100);
     }
@@ -1160,7 +1194,7 @@
     }
 
     function processItemClick(node) {
-        showDependencies();
+        showconnections();
 
         menuNode.style("display", "inline-block");
 
@@ -1244,10 +1278,10 @@
             .text("Close")
             .on("click", hideDetails);
         var form = modalViewBody.append("form").attr("method", "post");
-        form.append("label").attr("for","user").text("Name or / and E-Mail");
-        form.append("input").attr("type","text").attr("id","userID").attr("name","usercontact");
-        form.append("label").attr("for","textArea").text("Feedback");
-        form.append("textarea").attr("id", "feedbackText").attr("placeholder", "Your feedback goes here").attr("name","textArea")
+        form.append("label").attr("for", "user").text("Name or / and E-Mail");
+        form.append("input").attr("type", "text").attr("id", "userID").attr("name", "usercontact");
+        form.append("label").attr("for", "textArea").text("Feedback");
+        form.append("textarea").attr("id", "feedbackText").attr("placeholder", "Your feedback goes here").attr("name", "textArea")
             .style("height", modalViewBody._groups[0][0].clientHeight - 200 + "px")
             .style("width", modalViewBody._groups[0][0].clientWidth - 30 + "px");
 
@@ -1268,7 +1302,7 @@
 
         var item = searchIndex.find(x => x.id === id);
 
-        modalViewTitle.text("SERVICE DETAILS");
+        modalViewTitle.text(config.detailedViewHeaderText);
         var categoryOneIconSize = modalViewTitle._groups[0][0].clientHeight;
 
         modalViewBody.html("");
@@ -1297,9 +1331,15 @@
             .attr("class", "modalView")
             .style("margin-left", leftMargin + "px");
 
-        detailsText.append("h5").html("<b>Service: </b><i><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"" + item.webLink + "\">" + item.itemNode + "</i>");
-        detailsText.append("h5").style("margin-top", "10px").html("<b>Provider: </b><i>" + item.categoryOne + "</a></i>");
-        detailsText.append("h5").html("<b>Category: </b><i>" + item.categoryTwo + "</i>");
+        if (typeof item.webLink !== 'undefined') {
+            detailsText.append("h5").html("<b>Service: </b><i><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"" + item.webLink + "\">" + item.itemNode + "</i>");
+        } else {
+            detailsText.append("h5").html("<b>"+config.itemName+": </b><i>" + item.itemNode + "</i>");
+        }
+
+
+        detailsText.append("h5").style("margin-top", "10px").html("<b>"+config.verticalCategoryName+": </b><i>" + item.categoryOne + "</a></i>");
+        detailsText.append("h5").html("<b>"+config.horizontalCategoryName+": </b><i>" + item.categoryTwo + "</i>");
         detailsText.append("h5").html("<b>Description</b>").style("margin-top", "50px");;
         detailsText.append("span").html("<i>" + item.description + "</i>");
 
@@ -1309,7 +1349,7 @@
                 md.content.forEach(tag => {
                     detailsText.append("div").attr("class", "tag").html("<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"" + tag.link + "\">" + tag.text + "</a>");
                 })
-            } else if (md.type == "text"){
+            } else if (md.type == "text") {
                 detailsText.append("h5").html(md.title).style("margin-top", "50px");
                 detailsText.append("span").html("<i>" + md.content + "</i>");
             }
@@ -1457,18 +1497,18 @@
         });
     }
     var depsActive = false;
-    function showDependencies() {
+    function showconnections() {
         if (currentElementId === null) return;
 
         jsPlumb.deleteEveryEndpoint();
-        var dependencies = searchIndex.filter(node => node.id == currentElementId)[0].dependencies;
+        var connections = searchIndex.filter(node => node.id == currentElementId)[0].connections;
         var nodesToHighlight = [];
         var con_in = [];
         var con_out = [];
 
         nodesToHighlight.push(currentElementId);
 
-        dependencies.out.forEach(item => {
+        connections.out.forEach(item => {
 
             item.dname.forEach(id => {
                 con_in.push(id);
@@ -1488,7 +1528,7 @@
 
         });
 
-        dependencies.in.forEach(item => {
+        connections.in.forEach(item => {
 
             item.dname.forEach(id => {
                 con_in.push(id);
