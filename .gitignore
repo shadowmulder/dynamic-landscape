@@ -15,4 +15,4 @@
 /server/node_modules
 
 #python
-image_asigner.py
+.py

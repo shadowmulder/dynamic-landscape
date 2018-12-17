@@ -27,7 +27,7 @@ var outputPath = '../offline/landscape_latest.pdf';
 
     await page.emulateMedia('print');
     await page.evaluate(x => {
-        land.generatePDFHeadless();
+        gridscape.generatePDFHeadless();
       });
     await page.pdf(
         {

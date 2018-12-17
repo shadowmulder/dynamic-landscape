@@ -1375,16 +1375,16 @@
         var originalZoom = zoomFactor;
         var originalFontZoom = fontZoomFactor;
 
-        this.zoomReset();
+        zoomReset();
 
         while (getLandscapeHeight() > 20) {
-            this.zoom(-0.1)
+            zoom(-0.1)
         }
 
         jsPlumb.repaintEverything();
 
         window.print();
-        this.zoomReset();
+        zoomReset();
         jsPlumb.repaintEverything();
 
     }
@@ -1393,7 +1393,7 @@
     Gridscape.prototype.generatePDFHeadless = function () {
 
         while (getLandscapeHeight() > 20) {
-            this.zoom(-0.1)
+            zoom(-0.1)
         }
         jsPlumb.repaintEverything();
 
