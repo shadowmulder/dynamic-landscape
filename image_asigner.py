@@ -6,7 +6,7 @@ import json
 
 
 
-with open('./database/data.json') as f:
+with open('./database/data.json', encoding="utf8") as f:
     data = json.load(f)
 
 found = 0

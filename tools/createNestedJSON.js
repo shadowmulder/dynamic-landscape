@@ -3,16 +3,18 @@
 const fs = require('fs');
 const _ = require('lodash');
 
+var configDataFileName = 'config.json';
+
 var dataBaseFileName = "../database/data.json";
-var dictionaryFileName = '../database/dict.json';
+var dictionaryFileName = 'blacklist_dictionary.json';
 
 var searchIndexFileName = '../database/search_index.json';
 var autocompleteFileName = '../database/autocomplete_index.json';
 
-var landscapeDataFileName = '../database/cloud_services_nested_mc.json';
+var landscapeDataFileName = '../database/structure.json';
 
 
-
+var config = JSON.parse(fs.readFileSync(configDataFileName));
 console.log("Reading database file " + dataBaseFileName + "...")
 var data = JSON.parse(fs.readFileSync(dataBaseFileName));
 console.log("Succsess: " + data.length + " objects loaded.")
@@ -21,10 +23,12 @@ var dictionary = JSON.parse(fs.readFileSync(dictionaryFileName)).small;
 console.log("Succsess: " + dictionary.length + " words in dictionary.")
 
 
-var keyOne = 'provider';
-var keyTwo = 'category';
-var categoryClassOne = unique(data, keyOne);
-var categoryClassTwo = uniqueFlat(data, keyTwo);
+var keyOne = config.keyOne;
+var keyTwo = config.keyTwo;
+var keyOneIcon = config.keyOneIcon;
+var itemNodeKey = config.itemNodeKey;
+var categoryOneClass = unique(data, keyOne);
+var categoryTwoClass = uniqueFlat(data, keyTwo);
 
 var searchList = [];
 var idMap = [[]];
@@ -35,8 +39,8 @@ var allKeyWordsList;
 
 _.each(data, function (d, i) {
     var ids = [];
-    _.each(d.category, function (c, j) {
-        var id_prefix = (d.service).trim();
+    _.each(d[keyTwo], function (c, j) {
+        var id_prefix = (d[itemNodeKey]).trim();
         id_prefix = id_prefix.substring(0, Math.min(3, id_prefix.length));
         var id = id_prefix + "_" + i + "_" + j;
         id = id.replace(" ","");
@@ -46,10 +50,10 @@ _.each(data, function (d, i) {
 
         var newEntry = {
             id:id,
-            provider:(d.provider).trim(),
-            providerIcon: d.providerIcon,
-            category:d.category[j],
-            service:(d.service).trim(),
+            categoryOne:(d[keyOne]).trim(),
+            categoryOneIcon: d[keyOneIcon],
+            categoryTwo:d[keyTwo][j],
+            itemNode:(d[itemNodeKey]).trim(),
             webLink:d.webLink,
             img:d.img,
             description:(d.description).trim(),
@@ -59,9 +63,10 @@ _.each(data, function (d, i) {
         }
 
         uData.push(newEntry);
+
         
     });
-    idMap[d.service] = ids;
+    idMap[d[itemNodeKey]] = ids;
 });
 
 
@@ -74,9 +79,9 @@ _.each(uData, function (d, i) {
      */
 
     var keyWordList = d.keywords;
-    var keyWordsCategory = d.category.split(" ");
-    var keyWordsService = d.service.split(" ");
-    var keyWordsProvider = d.provider.split(" ");
+    var keyWordscategoryTwo = d.categoryTwo.split(" ");
+    var keyWordsitemNode = d.itemNode.split(" ");
+    var keyWordscategoryOne = d.categoryOne.split(" ");
     var keyWordsMetaData = [];
 
     _.each(d.metadata, function(md,i){
@@ -99,7 +104,7 @@ _.each(uData, function (d, i) {
         return !dictionary.includes(item);
     })
 
-    keyWordList = [...(new Set(keyWordList.concat(keyWordsProvider, keyWordsCategory, keyWordsService, keyWordsDescriptionFiltered, keyWordsMetaData)))];
+    keyWordList = [...(new Set(keyWordList.concat(keyWordscategoryOne, keyWordscategoryTwo, keyWordsitemNode, keyWordsDescriptionFiltered, keyWordsMetaData)))];
 
     _.each(keyWordList, function (w, i) {
         //console.log(keyWordList[i]);
@@ -129,11 +134,11 @@ _.each(uData, function (d, i) {
     var sEl =
     {
         id: d.id,
-        service: d.service,
+        itemNode: d.itemNode,
         webLink: d.webLink,
-        provider: d.provider,
-        category: d.category,
-        providerIcon: d.providerIcon,
+        categoryOne: d.categoryOne,
+        categoryTwo: d.categoryTwo,
+        categoryOneIcon: d.categoryOneIcon,
         description: d.description,
         img: d.img,
         dependencies: d.dependencies,
@@ -156,16 +161,16 @@ require('fs').writeFileSync(searchIndexFileName, JSON.stringify(searchList, null
 require('fs').writeFileSync(autocompleteFileName, JSON.stringify(allKeyWordsList, null, 2));
 console.log("Search index file created: " + searchIndexFileName);
 
-var landscape = _.map(categoryClassOne, function (u) {
-    var providerIcon =_.find(uData, {'provider': u}).providerIcon;
+var landscape = _.map(categoryOneClass, function (u) {
+    var categoryOneIcon =_.find(uData, {'categoryOne': u}).categoryOneIcon;
     
     var categories = [];
-    _.each(categoryClassTwo, function (v, i) {
+    _.each(categoryTwoClass, function (v, i) {
         categories.push(getRecords(u, v));
     })
     return {
-        provider: u,
-        providerIcon: providerIcon,
+        categoryOne: u,
+        categoryOneIcon: categoryOneIcon,
         categories: categories
     }
 }
@@ -177,20 +182,20 @@ console.log("Landscape data created: " + landscapeDataFileName);
 
 function getRecords(key1, key2) {
     var records = (_.filter(uData, function (item) {
-        return (item[keyOne] == key1) && ((item[keyTwo] == key2));
+        return (item.categoryOne == key1) && ((item.categoryTwo == key2));
     }));
     var reduced_records = [];
     _.each(records, function (record) {
         var small_record = {
             id: record.id,
-            service: record.service,
+            itemNode: record.itemNode,
             img: record.img,
             
         }
         reduced_records.push(small_record);
     });
     return {
-        category: key2,
+        categoryTwo: key2,
         members: reduced_records
     }
 }

@@ -14,7 +14,7 @@
     var fontSize = imgMinSize / 2;
     var leftHeaderPositions;
     var leftContainer;
-    var providerColumn;
+    var categoryOneColumn;
     var currentElementId = null;
     var landscape;
     var cursorOutsideIcon = true;
@@ -29,7 +29,6 @@
     var settings;
     //var father = d3.select("body")._groups[0][0];
     var menu;
-    var classContext;
     var modalViewTitle;
     var modalViewHeader;
     var modalViewFooter;
@@ -68,7 +67,7 @@
             }
         });
 
-        d3.json("./database/cloud_services_nested_mc.json", function (d) {
+        d3.json("./database/structure.json", function (d) {
             data = d;
             createLandscape(d);
         });
@@ -110,7 +109,7 @@
 
         searchTB.append("button")
             .on("click", function () {
-                classContext.search();
+                search();
             })
             .attr("type", "button")
             .append("span")
@@ -125,7 +124,7 @@
         zoomTB.append("button")
             .attr("id", "zoomOutButton")
             .on("click", function () {
-                classContext.zoom(-0.1);
+                zoom(-0.1);
             })
             .append("span")
             .attr("class", "oi oi-zoom-out");
@@ -138,13 +137,13 @@
             .attr("type", "number")
             .attr("value", "100")
             .on("change", function () {
-                classContext.absoluteZoom(this.value / 100);
+                absoluteZoom(this.value / 100);
             })
 
         zoomTB.append("button")
             .attr("id", "zoomInButton")
             .on("click", function () {
-                classContext.zoom(0.1);
+                zoom(0.1);
             })
             .append("span")
             .attr("class", "oi oi-zoom-in");
@@ -153,7 +152,7 @@
             .attr("id", "zoomResetButton")
             .style("margin", "0px 5px 0px 5px")
             .on("click", function () {
-                classContext.zoomReset();
+                zoomReset();
             })
             .append("span")
             .attr("class", "bbg")
@@ -162,7 +161,7 @@
         zoomTB.append("button")
             .attr("id", "zoomFOutButton")
             .on("click", function () {
-                classContext.zoomFont(-0.1);
+                zoomFont(-0.1);
             })
             .append("span")
             .attr("class", "bbg")
@@ -179,14 +178,14 @@
             .attr("type", "number")
             .attr("value", "100")
             .on("change", function () {
-                classContext.absoluteFontZoom(this.value / 100);
+                absoluteFontZoom(this.value / 100);
             });
 
 
         zoomTB.append("button")
             .attr("id", "zoomFInButton")
             .on("click", function () {
-                classContext.zoomFont(0.1);
+                zoomFont(0.1);
             })
             .append("span")
             .attr("class", "bbg")
@@ -257,7 +256,7 @@
             .append("button")
             .attr("class", "footer-button")
             .on("click", function () {
-                classContext.generatePDF();
+                generatePDF();
             })
             .append("span")
             .text("Print");
@@ -777,7 +776,7 @@
   * createLandscape creates the main grid in the right layout div based on the data from json file
   * IMPORTANT NOTES:
   * - The grid technically consists of ONLY ONE ROW to enable automatical wraping provided by the bootstrap lib 
-  * - Every column consists of further rows. The amount of these rows depends on the amount of key1-categories (in this example: providers)
+  * - Every column consists of further rows. The amount of these rows depends on the amount of key1-categories (in this example: proveder)
   *   The height of theses rows must be normalized manually to provide the table like appearance. This can be done with the normalizeHeight function.
   * - The very left column with the key1-category names (= providers) is technically not a part of the main grid. 
   *   It is detached to an extra column. This is done to keep it on the very left while cloning it along with the main grid wraps.
@@ -846,8 +845,7 @@
                 .attr("id", "hHeader")
                 .append("div")
                 .attr("class", "textBox")
-                //.style("font-size", fontSize * fontZoomFactor + "px")
-                .html("<b>" + d.category + "</b>");
+                .html("<b>" + d.categoryTwo + "</b>");
         });
 
         data.forEach(d => {
@@ -868,7 +866,7 @@
                 categories.push(cat);
                 d.categories[cc].members.forEach(m => {
                     var service = cat.append("div")
-                        .attr("class", "serviceIcon")
+                        .attr("class", "itemIcon")
                         .attr("id", m.id)
                         .append("img")
                         .attr("class", "iconImg")
@@ -883,7 +881,7 @@
                                 .style("left", d3.event.pageX - 50 + "px")
                                 .style("top", d3.event.pageY - 70 + "px")
                                 .style("display", "inline-block")
-                                .text(m.service);
+                                .text(m.itemNode);
 
 
                             this.style.boxShadow = "0 0 10px rgba(0,0,0,0.5)";
@@ -960,23 +958,23 @@
 
         var c = 1;
         leftContainer._groups[0][0].innerHTML = '';
-        d3.selectAll("#providerColumn").remove();
+        d3.selectAll("#categoryOneColumn").remove();
         for (i = 0; i < leftHeaderPositions; i++) {
 
             pos = 20;
-            providerColumn = leftContainer
+            categoryOneColumn = leftContainer
                 .append("div")
-                .attr("id", "providerColumn")
+                .attr("id", "categoryOneColumn")
                 .style("margin-top", pos + "px");
 
-            providerColumn
+            categoryOneColumn
                 .append("div")
                 .attr("id", "hHeader")
                 .style("border", "0px");
 
 
             data.forEach(d => {
-                var providerName = providerColumn
+                var categoryOneName = categoryOneColumn
                     .append("div")
                     .attr("id", "vHeader")
                     .style("font-size", fontSize * fontZoomFactor + "px")
@@ -984,16 +982,16 @@
                     .append("div")
                     .attr("class", "vContainer");
 
-                providerName
+                categoryOneName
                     .append("div")
-                    .attr("class", "providerIcon")
+                    .attr("class", "categoryOneIcon")
                     .append("img")
-                    .attr("src", d.providerIcon)
+                    .attr("src", d.categoryOneIcon)
                     .attr("height", catImgMinSize * zoomFactor)
                     .attr("width", catImgMinSize * zoomFactor);
 
-                providerName.append("div")
-                    .attr("class", "textBoxRot").text(d.provider);
+                categoryOneName.append("div")
+                    .attr("class", "textBoxRot").text(d.categoryOne);
             });
 
             c++;
@@ -1025,15 +1023,12 @@
         d3.selectAll(tID).style(hw, h + padding + "px");
     }
 
-    Gridscape.prototype.searchStub = function () {
-        search();
-    }
 
     /*
     * zoom changes the size of images and text in the grid larger or smaller
     * and adjusts the size of the parent elements if necessary
     */
-    Gridscape.prototype.zoom = function (newFactor) {
+    function zoom(newFactor) {
         menu.close();
 
 
@@ -1061,14 +1056,14 @@
         iconScale = Math.round(imgMinSize * zoomFactor);
         unlockResizing();
         d3.selectAll(".categories").style("padding", 15 * zoomFactor + "px")
-        var images = d3.selectAll(".serviceIcon").selectAll("img");
+        var images = d3.selectAll(".itemIcon").selectAll("img");
 
 
         images.attr("height", iconScale + "px");
         images.attr("width", iconScale + "px");
 
 
-        var iconContainers = d3.selectAll(".serviceIcon");
+        var iconContainers = d3.selectAll(".itemIcon");
         iconContainers.style("height", iconScale + "px");
         iconContainers.style("width", iconScale + "px");
 
@@ -1076,7 +1071,7 @@
         d3.selectAll("#hHeader").style("font-size", fontSize * zoomFactor + "px");
 
 
-        //d3.selectAll("#zoomIndicator").text("ZOOM: " + Math.floor(zoomFactor * 100) + "%");
+
         document.getElementById("zoomIndicator").value = Math.floor(zoomFactor * 100);
         updateLefHandHeader();
         lockResizing();
@@ -1087,12 +1082,11 @@
     }
 
 
-    Gridscape.prototype.zoomFont = function (newFactor) {
+    function zoomFont(newFactor) {
 
         fontZoomFactor += newFactor;
         fontZoomFactor = Math.round(fontZoomFactor * 10) / 10;
         // keep zoom factor between zoomMin and zoomMax
-        //fontZoomFactor = Math.min(Math.max(fontZoomFactor, zoomMin), zoomMax);
         fontZoomFactor = Math.min(Math.max(fontZoomFactor, zoomMin), zoomMax);
         var zoomInB = d3.select("#zoomFInButton");
         var zoomOutB = d3.select("#zoomFOutButton");
@@ -1108,6 +1102,8 @@
         }
         unlockResizing();
         d3.selectAll("#hHeader").style("font-size", Math.round(fontSize * fontZoomFactor) + "px");
+        d3.selectAll(".connectorLabelOut").style("font-size", Math.round(fontSize * fontZoomFactor) + "px");
+        d3.selectAll(".connectorLabelIn").style("font-size", Math.round(fontSize * fontZoomFactor) + "px");
         updateLefHandHeader();
         lockResizing();
         jsPlumb.repaintEverything();
@@ -1119,24 +1115,24 @@
     }
 
 
-    Gridscape.prototype.absoluteZoom = function (scale) {
+    function absoluteZoom(scale) {
         zoomFactor = scale;
-        this.zoom(0);
+        zoom(0);
     }
 
-    Gridscape.prototype.absoluteFontZoom = function (scale) {
+    function absoluteFontZoom(scale) {
         fontZoomFactor = scale;
-        this.zoomFont(0);
+        zoomFont(0);
     }
 
     /**
     * resets image and text size inside the grid
     */
-    Gridscape.prototype.zoomReset = function () {
+    function zoomReset() {
         zoomFactor = 1.0;
         fontZoomFactor = 1.0;
-        this.zoomFont(0);
-        this.zoom(0);
+        zoomFont(0);
+        zoom(0);
     }
 
 
@@ -1268,12 +1264,12 @@
         var logoSize = 100;
         var leftMargin = logoSize + 30;
 
-        var providerIconSize = modalViewHeader._groups[0][0].clientHeight;
+        var categoryOneIconSize = modalViewHeader._groups[0][0].clientHeight;
 
         var item = searchIndex.find(x => x.id === id);
 
         modalViewTitle.text("SERVICE DETAILS");
-        var providerIconSize = modalViewTitle._groups[0][0].clientHeight;
+        var categoryOneIconSize = modalViewTitle._groups[0][0].clientHeight;
 
         modalViewBody.html("");
         modalViewHeaderIcon.html("");
@@ -1285,9 +1281,9 @@
         var imageColumn = modalViewBody.append("div").attr("class", "modalViewIcon");
 
         modalViewHeaderIcon.append("img")
-            .attr("src", item.providerIcon)
-            .attr("height", providerIconSize)
-            .attr("width", providerIconSize);
+            .attr("src", item.categoryOneIcon)
+            .attr("height", categoryOneIconSize)
+            .attr("width", categoryOneIconSize);
 
 
         imageColumn.append("img")
@@ -1301,9 +1297,9 @@
             .attr("class", "modalView")
             .style("margin-left", leftMargin + "px");
 
-        detailsText.append("h5").html("<b>Service: </b><i><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"" + item.webLink + "\">" + item.service + "</i>");
-        detailsText.append("h5").style("margin-top", "10px").html("<b>Provider: </b><i>" + item.provider + "</a></i>");
-        detailsText.append("h5").html("<b>Category: </b><i>" + item.category + "</i>");
+        detailsText.append("h5").html("<b>Service: </b><i><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"" + item.webLink + "\">" + item.itemNode + "</i>");
+        detailsText.append("h5").style("margin-top", "10px").html("<b>Provider: </b><i>" + item.categoryOne + "</a></i>");
+        detailsText.append("h5").html("<b>Category: </b><i>" + item.categoryTwo + "</i>");
         detailsText.append("h5").html("<b>Description</b>").style("margin-top", "50px");;
         detailsText.append("span").html("<i>" + item.description + "</i>");
 
@@ -1375,7 +1371,7 @@
 
 
 
-    Gridscape.prototype.generatePDF = function () {
+    function generatePDF() {
         var originalZoom = zoomFactor;
         var originalFontZoom = fontZoomFactor;
 
@@ -1454,7 +1450,7 @@
 
     function adjustIconOpacityById(idList) {
 
-        d3.selectAll(".serviceIcon").select("img").style("opacity", "0.1");
+        d3.selectAll(".itemIcon").select("img").style("opacity", "0.1");
         idList.forEach(r => {
             var node = d3.selectAll("#" + r).select("img");
             node.style("opacity", "1");
