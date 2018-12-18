@@ -1,47 +1,81 @@
 var should = require("should")
-var module = require("./createNestedJSON")
-const fs = require('fs');
-const _ = require('lodash');
-
-describe("error testing", function () {
-  it("should throw an error", function (done) {
-
+var mut = require("../tools/createNestedJSON")
+var pdfP = require("../tools/headlessPrint")
+const chai = require('chai')
+const expect = chai.expect;
+const validUrl = require('valid-url');
 
 
-    var configDataFileName = 'config.json';
 
-    var dataBaseFileName = "../database/data.json";
-    var dictionaryFileName = 'blacklist_dictionary.json';
+describe("Testing the json converter", function () {
+  it("should remove old database files.", function () {
+    
+    expect(mut.clearOldDatabase()).to.be.false;
 
-    var searchIndexFileName = '../database/search_index.json';
-    var autocompleteFileName = '../database/autocomplete_index.json';
+  })
 
-    var landscapeDataFileName = '../database/structure.json';
+  it("create new database files", function (done) {
+    
+    expect(mut.convert()).to.be.true;
+    done();
+  })
 
-
-    var config = JSON.parse(fs.readFileSync(configDataFileName));
-    console.log("Reading database file " + dataBaseFileName + "...")
-    var data = JSON.parse(fs.readFileSync(dataBaseFileName));
-    console.log("Succsess: " + data.length + " objects loaded.")
-    console.log("Reading dictionary file " + dictionaryFileName + "...")
-    var dictionary = JSON.parse(fs.readFileSync(dictionaryFileName)).small;
-    console.log("Succsess: " + dictionary.length + " words in dictionary.")
+  it("should produce valid database entries.", function (done) {
 
 
-    var keyOne = config.keyOne;
-    var keyTwo = config.keyTwo;
-    var keyOneIcon = config.keyOneIcon;
-    var itemNodeKey = config.itemNodeKey;
-    var categoryOneClass = unique(data, keyOne);
-    var categoryTwoClass = uniqueFlat(data, keyTwo);
+    mut.list_for_test.forEach(entry => {
+      expect(entry).to.have.property('id')
+      expect(entry).to.have.property('itemNode')
+      expect(entry).to.have.property('categoryOne')
+      expect(entry).to.have.property('categoryTwo')
+      expect(entry).to.have.property('categoryOneIcon')
+      expect(entry).to.have.property('description')
+      expect(entry).to.have.property('img')
+      expect(entry).to.have.property('connections')
+      expect(entry).to.have.property('keywords')
+      expect(entry).to.have.property('metadata')
 
-    var searchList = [];
-    var idMap = [[]];
-    var uData = [];
-    var allKeyWordsSet = new Set();
-    var allKeyWordsList;
+      expect(entry.metadata).to.be.an('array')
+      expect(entry.keywords).to.be.an('array')
 
-    module.should.throw();
+      if (typeof entry.webLink !== 'undefined') {
+
+        var isValidURL = false;
+        if (validUrl.isUri(entry.webLink)) {
+          isValidURL = true;
+        }
+
+        expect(isValidURL).to.be.true;
+      }
+
+
+
+      expect(entry.itemNode).to.not.equal("");
+      expect(entry.categoryOne).to.not.equal("");
+      expect(entry.categoryTwo).to.not.equal("");
+    })
     done();
   })
 })
+
+describe("Testing headless chrome printer", function () {
+
+  it("should delete the old PDF file", function () {
+
+      expect(pdfP.removeOldFile()).to.be.false;
+
+
+    
+  })
+
+  it("should create a new PDF file", async function () {
+    this.timeout(5000);
+    //setTimeout(done, 3000);
+      var res = await pdfP.printPDF();
+      expect(res).to.be.true;
+
+    
+  })
+})
+
+

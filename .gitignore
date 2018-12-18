@@ -11,8 +11,13 @@
 #npm
 /tools/package-lock.json
 /tools/node_modules
+/tools/test.js
+/tools/package.json
 /server/package-lock.json
 /server/node_modules
+/test/package-lock.json
+/test/node_modules
+
 
 #python
 .py
