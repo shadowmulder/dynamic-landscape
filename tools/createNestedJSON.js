@@ -37,6 +37,10 @@ var allKeyWordsSet = new Set();
 var allKeyWordsList;
 
 
+convert();
+
+
+function convert(){
 _.each(data, function (d, i) {
     var ids = [];
     _.each(d[keyTwo], function (c, j) {
@@ -180,12 +184,6 @@ _.each(uData, function (d, i) {
 })
 
 
-
-
-require('fs').writeFileSync(searchIndexFileName, JSON.stringify(searchList, null, 2));
-require('fs').writeFileSync(autocompleteFileName, JSON.stringify(allKeyWordsList, null, 2));
-console.log("Search index file created: " + searchIndexFileName);
-
 var landscape = _.map(categoryOneClass, function (u) {
     var categoryOneIcon =_.find(uData, {'categoryOne': u}).categoryOneIcon;
     
@@ -202,8 +200,12 @@ var landscape = _.map(categoryOneClass, function (u) {
 );
 
 
+require('fs').writeFileSync(searchIndexFileName, JSON.stringify(searchList, null, 2));
+require('fs').writeFileSync(autocompleteFileName, JSON.stringify(allKeyWordsList, null, 2));
+console.log("Search index file created: " + searchIndexFileName);
 require('fs').writeFileSync(landscapeDataFileName, JSON.stringify(landscape, null, 2));
 console.log("Landscape data created: " + landscapeDataFileName);
+}
 
 function getRecords(key1, key2) {
     var records = (_.filter(uData, function (item) {
@@ -243,3 +245,8 @@ function uniqueFlat(arr, key) {
 
     return _.uniq(c.sort());
 }
+/**
+module.exports = convert;
+module.exports = unique;
+module.exports = uniqueFlat;
+ */
