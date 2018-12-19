@@ -1,32 +1,39 @@
 # Dynamic Landscape
-> Dynamic Landscape by [MaibornWolff](www.maibornwolff.de)
+> Dynamic Landscape by [MaibornWolff](https://www.maibornwolff.de/)
 
-### Jump to Section
- - [What is Dynamic Landscape](#whatisdynamiclandscape)
- - [Getting started](#gettingstardet)
- - [Using your own data](#usingyourowndata)
- - [Further dependencies](#furtherdependencies)
- - [Used libraries](#usedlibraries)
+## Jump to Section
+ - [What is Dynamic Landscape](#What-is-Dynamic-Landscape)
+ - [Getting started](#Getting-started)
+ - [Using your own data](#Using-your-own-data)
+ - [Further dependencies](#Further-dependencies)
+ - [Used libraries](#Used-libraries)
 
-### What is Dynamic Landscape
-Dynamic Landscape is a web-based visualization tool. It was initially designed to visualize the set of cloud services provided by Microsoft (Azure), Amazon (AWS) and Google (GCP). This project includes the respective database for demonstration purposes. Our Dynamic Landscape tool also provides a basic search functionality for the items in your database as well as the possibility to show connections between items. In the context of cloud services these connections represent service dependencies for different scenarios. Currently this functionality can only be observed for AWS Lambda and Elastic Beanstalk.
+## What is Dynamic Landscape
+Dynamic Landscape is a web-based visualization tool. It was initially designed to visualize the set of cloud services provided by Microsoft (Azure), Amazon (AWS) and Google (GCP). This project includes the respective database for demonstration purposes. Our Dynamic Landscape tool also provides a basic search functionality for the items in your database as well as the possibility to show connections between items. In the context of cloud services these connections represent service dependencies for different scenarios. 
 
 
-### Getting started
+## Getting started
+### Installation
 In order to run the tool with the database provided by us you only need a http server of your choice. Using Node.js this would look like this:
 
+- Download or clone the repo
 - install server `npm install http-server -g`
 - run server in projects root dir `http-server`
 
+### Functionality overview
 At the top of the page you will find the search input. The search runs using the logical “AND” so an item has to match all of the entered keywords. In order to zoom the contents of the page use the zoom buttons to the left of the search bar. You can either zoom everything (left toolbox) or only the text (right toolbox). Press the button between the two toolboxes to reset the zoom.
 
-![alt text][Scrrenshot_1]
-[Scrrenshot_1]: https://github.com/MaibornWolff/dynamic-landscape/blob/master/screenshots/screenshot_1.jpg "Dynamic Landscape"
+![Dynamic Landscape](https://github.com/MaibornWolff/dynamic-landscape/blob/master/screenshots/screenshot_1.jpg)
 
 If you click on any of the icons the page will show the outputs and inputs of this service. Currently this functionality can only be observed for AWS Lambda and Elastic Beanstalk. Additionally, an icon with a document will pop up. By clicking on it you will open a detailed view of the selected service.
 
+![Dynamic Landscape Dependencies](https://github.com/MaibornWolff/dynamic-landscape/blob/master/screenshots/screenshot_2.jpg)
 
-### Using your own data
+
+![Dynamic Landscape Details](https://github.com/MaibornWolff/dynamic-landscape/blob/master/screenshots/screenshot_3.jpg)
+
+
+## Using your own data
 In order to you use your own data each entry in your database must be assignable to exactly two categories. In the provided example these are the cloud service providers (e.g. Amazon) and the actual cloud service category (e.g. “Storage”). Every entry must match the following JSON format:
 
     {
@@ -73,17 +80,19 @@ Please use the **data.json** as an example. You also have to set the name for th
 
 Then you can run `node createDatabase.js`
 
-### Further dependencies
-In order to run the backend PDF generator (**headlessPrint.js**) you will need to install the **puppeteer** module into the tools dir:
+## Further dependencies
+_All of these go into the tools dir._
 
-`npm i puppeteer`
+ - backend PDF generator (**headlessPrint.js**) requiers **puppeteer** module: `npm i puppeteer`
+ - we use **colors** to provide better readability for console messages: `npm i colors`
 
 
-### Used libraries
+## Used libraries
 - D3 (v.4): <https://github.com/d3/d3>
 - jsPlumb Community Edition: <https://jsplumbtoolkit.com/>
 - blooming-menu: <https://github.com/caiogondim/blooming-menu.js>
 - jQuery: <https://jquery.com/>
 - jQuery UI: <https://jqueryui.com/>
+- jQuery Tags Input Plugin (revisited): <https://github.com/underovsky/jquery-tagsinput-revisited>
 
 
