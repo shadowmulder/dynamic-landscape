@@ -78,7 +78,8 @@ Please use the **data.json** as an example. You also have to set the name for th
 Then you can run `node createDatabase.js`
 
 ## Further dependencies
-__All of these go into the tools dir__
+_All of these go into the tools dir._
+
 In order to run the backend PDF generator (**headlessPrint.js**) you will need to install the **puppeteer** module:
 
 `npm i puppeteer`
