@@ -1,18 +1,18 @@
 # Dynamic Landscape
 > Dynamic Landscape by [MaibornWolff](https://www.maibornwolff.de/)
 
-### Jump to Section
+## Jump to Section
  - [What is Dynamic Landscape](#What-is-Dynamic-Landscape)
- - [Getting started](#gettingstardet)
- - [Using your own data](#usingyourowndata)
- - [Further dependencies](#furtherdependencies)
- - [Used libraries](#usedlibraries)
+ - [Getting started](#Getting-started)
+ - [Using your own data](#Using-your-own-data)
+ - [Further dependencies](#Further-dependencies)
+ - [Used libraries](#Used-libraries)
 
-### What is Dynamic Landscape
+## What is Dynamic Landscape
 Dynamic Landscape is a web-based visualization tool. It was initially designed to visualize the set of cloud services provided by Microsoft (Azure), Amazon (AWS) and Google (GCP). This project includes the respective database for demonstration purposes. Our Dynamic Landscape tool also provides a basic search functionality for the items in your database as well as the possibility to show connections between items. In the context of cloud services these connections represent service dependencies for different scenarios. Currently this functionality can only be observed for AWS Lambda and Elastic Beanstalk.
 
 
-### Getting started
+## Getting started
 In order to run the tool with the database provided by us you only need a http server of your choice. Using Node.js this would look like this:
 
 - install server `npm install http-server -g`
@@ -25,7 +25,7 @@ At the top of the page you will find the search input. The search runs using the
 If you click on any of the icons the page will show the outputs and inputs of this service. Currently this functionality can only be observed for AWS Lambda and Elastic Beanstalk. Additionally, an icon with a document will pop up. By clicking on it you will open a detailed view of the selected service.
 
 
-### Using your own data
+## Using your own data
 In order to you use your own data each entry in your database must be assignable to exactly two categories. In the provided example these are the cloud service providers (e.g. Amazon) and the actual cloud service category (e.g. “Storage”). Every entry must match the following JSON format:
 
     {
@@ -72,13 +72,13 @@ Please use the **data.json** as an example. You also have to set the name for th
 
 Then you can run `node createDatabase.js`
 
-### Further dependencies
+## Further dependencies
 In order to run the backend PDF generator (**headlessPrint.js**) you will need to install the **puppeteer** module into the tools dir:
 
 `npm i puppeteer`
 
 
-### Used libraries
+## Used libraries
 - D3 (v.4): <https://github.com/d3/d3>
 - jsPlumb Community Edition: <https://jsplumbtoolkit.com/>
 - blooming-menu: <https://github.com/caiogondim/blooming-menu.js>
