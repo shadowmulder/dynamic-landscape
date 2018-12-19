@@ -1,4 +1,5 @@
 # Dynamic Landscape
+[![Build Status](https://travis-ci.org/MaibornWolff/dynamic-landscape.svg?branch=master)](https://travis-ci.org/MaibornWolff/dynamic-landscape)
 > Dynamic Landscape by [MaibornWolff](https://www.maibornwolff.de/)
 
 ## Jump to Section
