@@ -83,7 +83,9 @@ _All of these go into the tools dir._
 In order to run the backend PDF generator (**headlessPrint.js**) you will need to install the **puppeteer** module:
 
 `npm i puppeteer`
+
 We also use "colors" to provide better readability for console messages:
+
 `npm i colors`
 
 
