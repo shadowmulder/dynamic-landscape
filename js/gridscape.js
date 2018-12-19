@@ -271,7 +271,7 @@
             .append("button")
             .attr("class", "footer-button")
             .on("click", function () {
-
+                window.open('https://github.com/MaibornWolff/dynamic-landscape/blob/master/README.md#Getting-started', '_blank');
             })
             .append("span")
             .text("Help");
@@ -307,9 +307,6 @@
             .attr("action", "/offline/landscape_latest.pdf")
             .append("button")
             .attr("class", "footer-button")
-            .on("click", function () {
-
-            })
             .append("span")
             .text("PDF");
         }
