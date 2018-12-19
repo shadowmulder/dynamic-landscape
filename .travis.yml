@@ -1,0 +1,12 @@
+language: node_js
+
+node_js:
+  - 'stable'
+
+before_install:
+  - "npm install http-server -g"
+  - "http-server"
+  - "cd tools"
+  - "npm install --save-dev mocha chai should valid-url colors fs lodash"
+
+script: npm test
