@@ -24,6 +24,11 @@ At the top of the page you will find the search input. The search runs using the
 
 If you click on any of the icons the page will show the outputs and inputs of this service. Currently this functionality can only be observed for AWS Lambda and Elastic Beanstalk. Additionally, an icon with a document will pop up. By clicking on it you will open a detailed view of the selected service.
 
+![Dynamic Landscape Dependencies](https://github.com/MaibornWolff/dynamic-landscape/blob/master/screenshots/screenshot_2.jpg)
+
+
+![Dynamic Landscape Details](https://github.com/MaibornWolff/dynamic-landscape/blob/master/screenshots/screenshot_3.jpg)
+
 
 ## Using your own data
 In order to you use your own data each entry in your database must be assignable to exactly two categories. In the provided example these are the cloud service providers (e.g. Amazon) and the actual cloud service category (e.g. “Storage”). Every entry must match the following JSON format:
