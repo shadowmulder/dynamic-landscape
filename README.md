@@ -13,11 +13,14 @@ Dynamic Landscape is a web-based visualization tool. It was initially designed t
 
 
 ## Getting started
+### Installation
 In order to run the tool with the database provided by us you only need a http server of your choice. Using Node.js this would look like this:
 
+- Download or clone the repo
 - install server `npm install http-server -g`
 - run server in projects root dir `http-server`
 
+### Functionality overview
 At the top of the page you will find the search input. The search runs using the logical “AND” so an item has to match all of the entered keywords. In order to zoom the contents of the page use the zoom buttons to the left of the search bar. You can either zoom everything (left toolbox) or only the text (right toolbox). Press the button between the two toolboxes to reset the zoom.
 
 ![Dynamic Landscape](https://github.com/MaibornWolff/dynamic-landscape/blob/master/screenshots/screenshot_1.jpg)
@@ -80,13 +83,8 @@ Then you can run `node createDatabase.js`
 ## Further dependencies
 _All of these go into the tools dir._
 
-In order to run the backend PDF generator (**headlessPrint.js**) you will need to install the **puppeteer** module:
-
-`npm i puppeteer`
-
-We also use "colors" to provide better readability for console messages:
-
-`npm i colors`
+ - backend PDF generator (**headlessPrint.js**) requiers **puppeteer** module: `npm i puppeteer`
+ - we use **colors** to provide better readability for console messages: `npm i colors`
 
 
 ## Used libraries
