@@ -89,5 +89,6 @@ In order to run the backend PDF generator (**headlessPrint.js**) you will need t
 - blooming-menu: <https://github.com/caiogondim/blooming-menu.js>
 - jQuery: <https://jquery.com/>
 - jQuery UI: <https://jqueryui.com/>
+- jQuery Tags Input Plugin (revisited): <https://github.com/underovsky/jquery-tagsinput-revisited>
 
 
