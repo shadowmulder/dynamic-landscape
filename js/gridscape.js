@@ -239,16 +239,19 @@
             .append("span")
             .attr("id", "headerText")
             .style("font-size", "10mm")
-            .text("GRIDSCAPE");
+            .text("DYNAMIC LANDSCAPE");
 
     }
 
     function createFooter() {
-        var footer = d3.select("body")
+        var leftPadding = 50;
+
+        var footerContainer = d3.select("body")
             .append("div")
             .attr("class", "footer")
-            .style("padding-left", "12%")
-            .append("div")
+            .style("padding-left", "25%");
+
+        var footer = footerContainer.append("div")
             .attr("class", "row")
             .on("mousemove", function () {
                 cursorOutsideIcon = false;
@@ -262,6 +265,7 @@
          * Help button
          */
         if (config.showHelp) {
+            leftPadding -= 10;
             footer.append("div")
             .attr("class", "col")
             .append("button")
@@ -278,6 +282,7 @@
          * Print button
          */
         if (config.showPrint){
+            leftPadding -= 10;
             footer.append("div")
             .attr("class", "col")
             .append("button")
@@ -294,6 +299,7 @@
 
 
         if (config.showPDF) {
+            leftPadding -= 10;
             footer.append("div")
             .attr("class", "col")
             .append("form")
@@ -313,6 +319,7 @@
          * Feedback button
          */
         if (config.showFeedback) {
+            leftPadding -= 10;
             footer.append("div")
             .attr("class", "col")
             .append("button")
@@ -324,7 +331,7 @@
             .text("Feedback");
         }
 
-
+        footerContainer.style("padding-left", leftPadding+"%");
 
         /**
          * Impress button
