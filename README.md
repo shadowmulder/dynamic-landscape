@@ -23,14 +23,14 @@ In order to run the tool with the database provided by us you only need a http s
 ### Functionality overview
 At the top of the page you will find the search input. The search runs using the logical “AND” so an item has to match all of the entered keywords. In order to zoom the contents of the page use the zoom buttons to the left of the search bar. You can either zoom everything (left toolbox) or only the text (right toolbox). Press the button between the two toolboxes to reset the zoom.
 
-![Dynamic Landscape](https://github.com/MaibornWolff/dynamic-landscape/blob/master/screenshots/screenshot_1.jpg)
+![Dynamic Landscape](https://github.com/MaibornWolff/dynamic-landscape/blob/master/screenshots/screenshot_1.png)
 
 If you click on any of the icons the page will show the outputs and inputs of this service. Currently this functionality can only be observed for AWS Lambda and Elastic Beanstalk. Additionally, an icon with a document will pop up. By clicking on it you will open a detailed view of the selected service.
 
-![Dynamic Landscape Dependencies](https://github.com/MaibornWolff/dynamic-landscape/blob/master/screenshots/screenshot_2.jpg)
+![Dynamic Landscape Dependencies](https://github.com/MaibornWolff/dynamic-landscape/blob/master/screenshots/screenshot_2.png)
 
 
-![Dynamic Landscape Details](https://github.com/MaibornWolff/dynamic-landscape/blob/master/screenshots/screenshot_3.jpg)
+![Dynamic Landscape Details](https://github.com/MaibornWolff/dynamic-landscape/blob/master/screenshots/screenshot_3.png)
 
 
 ## Using your own data
