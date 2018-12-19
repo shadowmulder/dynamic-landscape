@@ -5,7 +5,7 @@ node_js:
 
 before_install:
   - "npm install http-server"
-  - "chmod +x start_server.sh""
+  - "chmod +x start_server.sh"
   - "./start_server.sh"
   - "cd tools"
   - "npm install --save-dev mocha chai should valid-url colors fs lodash"
