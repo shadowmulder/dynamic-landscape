@@ -4,7 +4,7 @@ node_js:
   - 'stable'
 
 before_install:
-  - "npm install http-server -g"
+  - "npm install http-server"
   - "./start_server.sh"
   - "cd tools"
   - "npm install --save-dev mocha chai should valid-url colors fs lodash"
