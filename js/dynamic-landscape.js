@@ -1488,7 +1488,7 @@
             var id = $(obj).attr('id');
             var tags = _splitIntoTags(delimiter[id], val);
 
-            for (i = 0; i < tags.length; ++i) {
+            for (var i = 0; i < tags.length; ++i) {
                 $(obj).addTag(tags[i], {
                     focus: false,
                     callback: false
