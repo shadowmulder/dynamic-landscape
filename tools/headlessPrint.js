@@ -43,7 +43,7 @@ exports.printPDF = async function () {
     try {
         console.log("Calling page preparation adapter at host "+host);
         await page.evaluate(x => {
-            gridscape.generatePDFHeadless();
+            dynamicLandscape.generatePDFHeadless();
         });
     } catch (err){
         console.error("FATAL ERROR: There is something wrong with the front-end print handler (Gridscape.prototype.generatePDFHeadless)".red);
