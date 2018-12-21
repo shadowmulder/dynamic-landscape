@@ -1,5 +1,5 @@
-; (function () {
-    'use srict'
+(function () {
+    'use strict'
     const zoomMax = 2.0;
     const zoomMin = 0.3;
 
@@ -593,9 +593,9 @@
         var c = 1;
         leftContainer._groups[0][0].innerHTML = '';
         d3.selectAll("#categoryOneColumn").remove();
-        for (i = 0; i < leftHeaderPositions; i++) {
+        for (var i = 0; i < leftHeaderPositions; i++) {
 
-            pos = 20;
+            var pos = 20;
             categoryOneColumn = leftContainer
                 .append("div")
                 .attr("id", "categoryOneColumn")
@@ -648,7 +648,7 @@
         var source = d3.selectAll(sID);
         var h = 0;
         source._groups[0].forEach(function (g) {
-            _h = g.clientHeight;
+            var _h = g.clientHeight;
 
             if (_h > h) {
                 h = _h;
@@ -1264,7 +1264,7 @@
                 $('#' + id + '_tagsinput .tag').remove();
 
                 var str = '';
-                for (i = 0; i < old.length; ++i) {
+                for (var i = 0; i < old.length; ++i) {
                     if (old[i] != value) {
                         str = str + _getDelimiter(delimiter[id]) + old[i];
                     }
@@ -1383,7 +1383,7 @@
                 $(data.fake_input).on('blur', data, function (event) {
                     $(data.holder).removeClass('focus');
                 });
-                l_data = jQuery;
+
                 if (settings.autocomplete !== null && jQuery.ui.autocomplete !== undefined) {
                     $(data.fake_input).autocomplete(settings.autocomplete);
                     $(data.fake_input).on('autocompleteselect', data, function (event, ui) {
