@@ -10,23 +10,34 @@
  - [Used libraries](#Used-libraries)
 
 ## What is Dynamic Landscape
-Dynamic Landscape is a web-based visualization tool. It was initially designed to visualize the set of cloud services provided by Microsoft (Azure), Amazon (AWS) and Google (GCP). This project includes the respective database for demonstration purposes. Our Dynamic Landscape tool also provides a basic search functionality for the items in your database as well as the possibility to show connections between items. In the context of cloud services these connections represent service dependencies for different scenarios. 
+Dynamic Landscape is a web-based visualization tool. It was initially designed to visualize the set of cloud services 
+provided by Microsoft (Azure), Amazon (AWS) and Google (GCP). This project includes the respective database for 
+demonstration purposes. Our Dynamic Landscape tool also provides a basic search functionality for the items in your 
+database as well as the possibility to show connections between items. In the context of cloud services these 
+connections represent service dependencies for different scenarios. 
 
 
 ## Getting started
+
 ### Installation
-In order to run the tool with the database provided by us you only need a http server of your choice. Using Node.js this would look like this:
+In order to run the tool with the database provided by us you only need a http server of your choice. Using Node.js this 
+would look like this:
 
 - Download or clone the repo
-- install server `npm install http-server -g`
-- run server in projects root dir `http-server`
+- Install third party dependencies `yarn` 
+- run server in projects root dir `yarn http-server`
 
 ### Functionality overview
-At the top of the page you will find the search input. The search runs using the logical “AND” so an item has to match all of the entered keywords. In order to zoom the contents of the page use the zoom buttons to the left of the search bar. You can either zoom everything (left toolbox) or only the text (right toolbox). Press the button between the two toolboxes to reset the zoom.
+At the top of the page you will find the search input. The search runs using the logical “AND” so an item has to match 
+all of the entered keywords. In order to zoom the contents of the page use the zoom buttons to the left of the search 
+bar. You can either zoom everything (left toolbox) or only the text (right toolbox). Press the button between the two 
+toolboxes to reset the zoom.
 
 ![Dynamic Landscape](https://github.com/MaibornWolff/dynamic-landscape/blob/master/screenshots/screenshot_1.png)
 
-If you click on any of the icons the page will show the outputs and inputs of this service. Currently this functionality can only be observed for AWS Lambda and Elastic Beanstalk. Additionally, an icon with a document will pop up. By clicking on it you will open a detailed view of the selected service.
+If you click on any of the icons the page will show the outputs and inputs of this service. Currently this functionality 
+can only be observed for AWS Lambda and Elastic Beanstalk. Additionally, an icon with a document will pop up. By 
+clicking on it you will open a detailed view of the selected service.
 
 ![Dynamic Landscape Dependencies](https://github.com/MaibornWolff/dynamic-landscape/blob/master/screenshots/screenshot_2.png)
 
@@ -35,7 +46,9 @@ If you click on any of the icons the page will show the outputs and inputs of th
 
 
 ## Using your own data
-In order to you use your own data each entry in your database must be assignable to exactly two categories. In the provided example these are the cloud service providers (e.g. Amazon) and the actual cloud service category (e.g. “Storage”). Every entry must match the following JSON format:
+In order to you use your own data each entry in your database must be assignable to exactly two categories. In the 
+provided example these are the cloud service providers (e.g. Amazon) and the actual cloud service category (e.g. 
+“Storage”). Every entry must match the following JSON format:
 
     {
         "categoryA": "Name for the first category (y-axis)",
@@ -75,7 +88,10 @@ Or taking an actual example from our database:
         }
     }
 
-Please use the **data.json** as an example. You also have to set the name for the keys in the **config.json** in order to run the **convertDatabase.js** properly. Name your database file **"data.json"** and place it in the database dir. The database converter is located in the tools dir. In order to run it, you need to install **lodash** module inside this dir:
+Please use the **data.json** as an example. You also have to set the name for the keys in the **config.json** in order 
+to run the **convertDatabase.js** properly. Name your database file **"data.json"** and place it in the database dir. 
+The database converter is located in the tools dir. In order to run it, you need to install **lodash** module inside 
+this dir:
 
 `npm i lodash`
 
