@@ -9,6 +9,7 @@
 .DS_Store
 
 #npm
+node_modules/
 /tools/package-lock.json
 /tools/node_modules
 /server/package-lock.json
