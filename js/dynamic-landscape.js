@@ -462,7 +462,7 @@
         data[0].categories.forEach(d => {
             //var gV = Math.random() / 10;
             gV = ((gV + 1) % 5);
-            var bgA = "rgb(0,0,0," + ((gV + 1) / 60) + ")";
+            var bgA = "rgba(0,0,0," + ((gV + 1) / 60) + ")";
             var bg = "linear-gradient(" + bgA + ", transparent)";
 
             var column = grid

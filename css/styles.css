@@ -3,7 +3,7 @@
 	--navHeighth: 65px;
 	--icon-height: 20px;
 	--elems-per-col: 4;
-	--masterColor: rgb(230, 230, 230);
+	--masterColor: rgba(230, 230, 230);
 }
 
 .categories {
@@ -317,7 +317,7 @@ button {
 }
 
 #vHeader {
-	border: var(--cell-border) solid rgb(0, 0, 0, .05);
+	border: var(--cell-border) solid rgba(0, 0, 0, .05);
 	border-right: 0;
 	border-radius: 10px 0px 0px 10px;
     padding: 10px 0px 10px 0px;
@@ -332,8 +332,8 @@ button {
 }
 
 #cCell {
-	border-top: var(--cell-border) solid rgb(0, 0, 0, .05);
-	border-bottom: var(--cell-border) solid rgb(0, 0, 0, .05);
+	border-top: var(--cell-border) solid rgba(0, 0, 0, .05);
+	border-bottom: var(--cell-border) solid rgba(0, 0, 0, .05);
 	-moz-box-sizing: border-box;
 }
 
@@ -400,7 +400,7 @@ button {
 }
 
 #catColumn:hover{
-	background-color: rgb(0, 134, 136, .1);
+	background-color: rgba(0, 134, 136, .1);
 	transition: background-color .1s
 }
 
