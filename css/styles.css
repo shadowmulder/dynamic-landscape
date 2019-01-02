@@ -420,6 +420,10 @@ input[type=number]
 	top: 100%;
 }
 
+a {
+	color: #008688;
+}
+
 a[target="_blank"]:before {
 	background-image: url(/img/external-link.svg);
 	background-size: 14px 14px;
