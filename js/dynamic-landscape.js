@@ -256,9 +256,9 @@
                 .attr("class", "toolbox")
                 .style("padding-left","100px")
                 .append("span")
-                .style("white-space","pre-line")
+                .style("float","right")
                 .style("right","0")
-                .text(config.corporateIdentity);
+                .html(config.corporateIdentity);
         }
 
 
