@@ -11,6 +11,7 @@
 
 ## What is Dynamic Landscape
 Dynamic Landscape is a web-based visualization tool. It was initially designed to visualize the set of cloud services provided by Microsoft (Azure), Amazon (AWS) and Google (GCP). This project includes the respective database for demonstration purposes. Our Dynamic Landscape tool also provides a basic search functionality for the items in your database as well as the possibility to show connections between items. In the context of cloud services these connections represent service dependencies for different scenarios. 
+Try out the [online demo](http://cloudlandscape.fe-in-der-cloud.de/) for cloud services.
 
 
 ## Getting started
