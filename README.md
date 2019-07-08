@@ -1,6 +1,6 @@
 # Dynamic Landscape
 [![Build Status](https://travis-ci.com/MaibornWolff/dynamic-landscape.svg?branch=master)](https://travis-ci.com/MaibornWolff/dynamic-landscape)
-> Dynamic Landscape by [MaibornWolff](https://www.maibornwolff.de/)
+> Dynamic Landscape - [Online demo](http://cloudlandscape.fe-in-der-cloud.de/)
 
 ## Jump to Section
  - [What is Dynamic Landscape](#What-is-Dynamic-Landscape)
