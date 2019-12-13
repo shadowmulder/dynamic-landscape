@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 39 39"
+   enable-background="new 0 0 648 648"
+   xml:space="preserve"
+   id="svg112"
+   sodipodi:docname="Policy.svg"
+   width="39"
+   height="39"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata118"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs116" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="3840"
+   inkscape:window-height="2004"
+   id="namedview114"
+   showgrid="false"
+   inkscape:zoom="14.377838"
+   inkscape:cx="102.2219"
+   inkscape:cy="38.125799"
+   inkscape:window-x="-16"
+   inkscape:window-y="2864"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg112" />
+<g
+   id="Layer_1"
+   transform="translate(0,-609)">
+</g>
+<g
+   id="Isolation_Mode"
+   transform="translate(0,-609)">
+	<path
+   d="m 341.6,306.4 v -1.8 h -24.9 c -2.6,0 -7.4,1.6 -7.4,7.4 v 23.4 c -2.5,0.3 -4.5,2.4 -4.5,5 0,2.8 2.3,5.1 5.1,5.1 h 23.4 l -0.1,-0.1 c 2.4,-0.4 4.2,-2.5 4.2,-5 0,-0.5 -0.1,-1 -0.2,-1.5 v -3.2 l 0.1,-0.1 h -0.1 v -20.4 h 7.3 l 0.4,-0.8 c 0.5,-1 0.8,-2.1 0.8,-3.1 0,-2.7 -1.5,-4.6 -4.1,-4.9 z"
+   id="path95"
+   inkscape:connector-curvature="0"
+   style="fill:#ffffff" />
+</g>
+<g
+   id="Completed_Icons"
+   transform="translate(-305.86994,-305.46685)">
+	<g
+   id="g109">
+		<path
+   d="m 329.3,336.9 h -19.4 c -2,0 -3.6,1.6 -3.6,3.6 0,2 1.6,3.6 3.6,3.6 h 19.4 c -1,-0.9 -1.6,-2.1 -1.6,-3.6 -0.1,-1.5 0.6,-2.7 1.6,-3.6 z"
+   id="path98"
+   inkscape:connector-curvature="0"
+   style="clip-rule:evenodd;fill:#515150;fill-rule:evenodd" />
+		<path
+   d="m 344.2,311.4 c 0,-2.3 -1.3,-3.6 -3.6,-3.6 -1.2,0 -3.6,2.5 -3.6,4.7 v 1.2 h 6.5 c 0.5,-0.7 0.7,-1.5 0.7,-2.3 z"
+   id="path100"
+   inkscape:connector-curvature="0"
+   style="clip-rule:evenodd;fill:#515150;fill-rule:evenodd" />
+		<circle
+   cx="332.39999"
+   cy="340.5"
+   r="3.5999999"
+   id="circle102"
+   style="clip-rule:evenodd;fill:#515150;fill-rule:evenodd" />
+		<g
+   id="Rectangle_6_5_">
+			<g
+   id="g106">
+				<path
+   d="m 316.7,306.1 c 0,0 -5.9,0 -5.9,5.9 0,5.9 0,23.9 0,23.9 H 331 l -1.3,4.5 h 5.9 v -4.7 c 0,0 0,-5.9 0,-23.7 0,-5.9 5.9,-5.9 5.9,-5.9 z m 10.7,26.1 H 315.5 V 331 h 11.9 z m 3.6,-3.5 h -15.4 v -1.2 H 331 Z m 0,-3.6 h -15.4 v -1.2 H 331 Z m 0,-3.6 h -15.4 v -1.2 H 331 Z m 0,-3.5 h -15.4 v -1.2 H 331 Z m 0,-3.6 H 315.6 V 312 H 331 Z"
+   id="path104"
+   inkscape:connector-curvature="0"
+   style="fill:#515150" />
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

@@ -15,7 +15,7 @@
 /server/node_modules
 /test/package-lock.json
 /test/node_modules
-
+/_new/node_modules
 
 #python
 .py
