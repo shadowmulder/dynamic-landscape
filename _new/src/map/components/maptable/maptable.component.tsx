@@ -8,6 +8,7 @@ import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import { Grid } from '@material-ui/core';
 import { DemoData } from '../../../assets/data/dataType';
+import LazyLoad from 'react-lazyload';
 
 interface IProps {
   content: Array<DemoData>;
@@ -21,6 +22,11 @@ const useStyles = makeStyles({
   },
   table: {
     minWidth: 650
+  },
+  tableIcon: {
+    height: 30,
+    float: 'left',
+    width: 30
   }
 });
 
@@ -39,21 +45,31 @@ export default function MapTableComponent(props: IProps) {
         >
           <TableHead>
             <TableRow>
+              <TableCell></TableCell>
+              <TableCell>Service</TableCell>
               <TableCell>Provider</TableCell>
-              <TableCell align="right">Service</TableCell>
-              <TableCell align="right">Category</TableCell>
-              <TableCell align="right">Description</TableCell>
+              <TableCell>Category</TableCell>
+              <TableCell></TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             {rows.map(row => (
               <TableRow>
+                <TableCell>
+                  <LazyLoad height={30}>
+                    <img
+                      src={row.img}
+                      alt={row.service}
+                      className={classes.tableIcon}
+                    ></img>
+                  </LazyLoad>
+                </TableCell>
+                <TableCell>{row.service}</TableCell>
                 <TableCell component="th" scope="row">
                   {row.provider}
                 </TableCell>
-                <TableCell align="right">{row.service}</TableCell>
-                <TableCell align="right">{row.category}</TableCell>
-                <TableCell align="right">{row.description}</TableCell>
+                <TableCell>{row.category}</TableCell>
+                <TableCell>More Information</TableCell>
               </TableRow>
             ))}
           </TableBody>

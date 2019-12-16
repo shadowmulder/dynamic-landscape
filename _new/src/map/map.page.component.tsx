@@ -28,7 +28,7 @@ class MapComponant extends React.Component<IProps> {
 
   componentDidMount() {
     this.props.setContent(testdate);
-    setTimeout(() => this.props.loadingDone(), 3000);
+    setTimeout(() => this.props.loadingDone(), 1000);
   }
 
   public render() {
