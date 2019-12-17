@@ -6,12 +6,13 @@ import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
-import { Grid } from '@material-ui/core';
+import { Grid, Button } from '@material-ui/core';
 import { DemoData } from '../../../assets/data/dataType';
 import LazyLoad from 'react-lazyload';
 
 interface IProps {
   content: Array<DemoData>;
+  setDetailService: (object: object) => void;
 }
 
 const useStyles = makeStyles({
@@ -34,6 +35,10 @@ export default function MapTableComponent(props: IProps) {
   const classes = useStyles();
 
   const rows = props.content;
+
+  const setDetailService = (event: any, service: object) => {
+    props.setDetailService(service);
+  };
 
   return (
     <Grid item xs={10} className={classes.card}>
@@ -69,7 +74,11 @@ export default function MapTableComponent(props: IProps) {
                   {row.provider}
                 </TableCell>
                 <TableCell>{row.category}</TableCell>
-                <TableCell>More Information</TableCell>
+                <TableCell>
+                  <Button onClick={event => setDetailService(event, row)}>
+                    More Information
+                  </Button>
+                </TableCell>
               </TableRow>
             ))}
           </TableBody>

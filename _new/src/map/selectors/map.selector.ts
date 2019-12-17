@@ -9,6 +9,10 @@ export const getContent = (state: IState): Array<DemoData> => {
   return state.content;
 };
 
+export const getDetailService = (state: IState): DemoData => {
+  return state.detailedService;
+};
+
 export const getContentByProvider = (
   state: IState,
   provider: string
