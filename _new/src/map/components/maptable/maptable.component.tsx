@@ -10,6 +10,7 @@ import { Grid, Button, TableFooter, TablePagination } from '@material-ui/core';
 import { DemoData } from '../../../assets/data/dataType';
 import LazyLoad from 'react-lazyload';
 import TablePaginationActions from './paginationActions.component';
+import { FilterComponent } from './../filter/filter.container.component';
 
 interface IProps {
   content: Array<DemoData>;
@@ -29,6 +30,9 @@ const useStyles = makeStyles({
     height: 30,
     float: 'left',
     width: 30
+  },
+  filterIcon: {
+    float: 'right'
   }
 });
 
@@ -63,6 +67,7 @@ export default function MapTableComponent(props: IProps) {
 
   return (
     <Grid item xs={10} className={classes.card}>
+      <FilterComponent iconClassName={classes.filterIcon} />
       <Paper className={classes.paper}>
         <Table
           className={classes.table}

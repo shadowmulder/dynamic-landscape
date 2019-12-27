@@ -2,6 +2,7 @@ import { DemoData } from '../../assets/data/dataType';
 
 export const SETCONTENT = 'SETCONTENT';
 export const SETDETAILSERVICE = 'SETDETAILSERVICE';
+export const SETFILTER = 'SETFILTER';
 
 interface SetContentAction {
   type: typeof SETCONTENT;
@@ -11,6 +12,18 @@ interface SetContentAction {
 export function setContent(value: Array<DemoData>): MapActionTypes {
   return {
     type: SETCONTENT,
+    payload: value
+  };
+}
+
+interface SetFilterAction {
+  type: typeof SETFILTER;
+  payload: any;
+}
+
+export function setFilter(value: any): MapActionTypes {
+  return {
+    type: SETFILTER,
     payload: value
   };
 }
@@ -34,4 +47,7 @@ export function deleteDetailService(): MapActionTypes {
   };
 }
 
-export type MapActionTypes = SetContentAction | SetDetailService; //|| ...
+export type MapActionTypes =
+  | SetContentAction
+  | SetDetailService
+  | SetFilterAction; //|| ...

@@ -14,7 +14,6 @@ import {
   Slide,
   Grid,
   Typography,
-  Link,
   List,
   ListItem,
   ListItemIcon,

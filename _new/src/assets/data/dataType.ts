@@ -9,3 +9,9 @@ export type DemoData = {
   keywords: Array<string>;
   // [key: string]: any;
 };
+
+export type Providers = 'Google' | 'AWS' | 'Azure' | null;
+
+export type DataFilter = {
+  provider: Providers[];
+};

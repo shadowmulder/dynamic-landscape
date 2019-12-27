@@ -1,12 +1,16 @@
 import { IState } from '../reducers/map.reducer';
-import { DemoData } from '../../assets/data/dataType';
+import { DemoData, DataFilter } from '../../assets/data/dataType';
 
 export const getLoadingStatus = (state: IState): boolean => {
   return state.laoding;
 };
 
 export const getContent = (state: IState): Array<DemoData> => {
-  return state.content;
+  return state.filtertContent.length ? state.filtertContent : state.content;
+};
+
+export const getFilter = (state: IState): DataFilter => {
+  return state.filter;
 };
 
 export const getDetailService = (state: IState): DemoData => {
