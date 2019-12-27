@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
+import axios from 'axios';
 
 import { Dispatch } from 'redux';
 import { IState } from '../reducers';
@@ -9,7 +10,6 @@ import {
   getDetailService
 } from './selectors/map.selector';
 import {
-  loadingDone,
   setContent,
   setDetailService,
   deleteDetailService
@@ -18,16 +18,12 @@ import { Loading } from './components/laoding/loading.container.component';
 import { Grid } from '@material-ui/core';
 import { MapTable } from './components/maptable/maptable.container.component';
 import { DemoData } from '../assets/data/dataType';
-
-//import Test Data
-import testdate from '../assets/data/data.json';
 import { DetailModal } from './components/detailModal/detailModal.container.component';
 
 interface IProps {
   laoding: boolean;
   content: Array<DemoData>;
   detailService: DemoData;
-  loadingDone: () => void;
   setContent: (object: Array<DemoData>) => void;
   setDetailService: (object: DemoData) => void;
   deleteDetailService: () => void;
@@ -39,9 +35,14 @@ class MapComponant extends React.Component<IProps> {
   //   // Don't call this.setState() here!
   // }
 
+  private fetchData() {
+    axios.get(`http://localhost:1111/`).then(res => {
+      this.props.setContent(res.data);
+    });
+  }
+
   componentDidMount() {
-    this.props.setContent(testdate);
-    setTimeout(() => this.props.loadingDone(), 1000);
+    this.fetchData();
   }
 
   public render() {
@@ -72,13 +73,9 @@ const mapStateToProps = (state: IState) => ({
 });
 
 const mapDispatchToProps = (dispatch: Dispatch) => ({
-  loadingDone: () => dispatch(loadingDone(true)),
   setContent: (content: Array<DemoData>) => dispatch(setContent(content)),
   setDetailService: (service: DemoData) => dispatch(setDetailService(service)),
   deleteDetailService: () => dispatch(deleteDetailService())
 });
 
-export const Map = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(MapComponant);
+export const Map = connect(mapStateToProps, mapDispatchToProps)(MapComponant);

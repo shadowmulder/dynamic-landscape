@@ -1,20 +1,7 @@
 import { DemoData } from '../../assets/data/dataType';
 
-export const LOADINGDONE = 'LOADINGDONE';
 export const SETCONTENT = 'SETCONTENT';
 export const SETDETAILSERVICE = 'SETDETAILSERVICE';
-
-interface LoadingDoneAction {
-  type: typeof LOADINGDONE;
-  payload: boolean;
-}
-
-export function loadingDone(value: boolean): MapActionTypes {
-  return {
-    type: LOADINGDONE,
-    payload: value
-  };
-}
 
 interface SetContentAction {
   type: typeof SETCONTENT;
@@ -47,7 +34,4 @@ export function deleteDetailService(): MapActionTypes {
   };
 }
 
-export type MapActionTypes =
-  | LoadingDoneAction
-  | SetContentAction
-  | SetDetailService; //|| ...
+export type MapActionTypes = SetContentAction | SetDetailService; //|| ...

@@ -58,7 +58,7 @@ export default function MapTableComponent(props: IProps) {
             </TableRow>
           </TableHead>
           <TableBody>
-            {rows.map(row => (
+            {rows.slice(1, 3).map(row => (
               <TableRow>
                 <TableCell>
                   <LazyLoad height={30}>
