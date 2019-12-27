@@ -20,6 +20,12 @@ import { MapTable } from './components/maptable/maptable.container.component';
 import { DemoData } from '../assets/data/dataType';
 import { DetailModal } from './components/detailModal/detailModal.container.component';
 
+//URL to fetch data
+const dataUrl: string =
+  process.env.NODE_ENV !== 'production'
+    ? `http://localhost:1111/`
+    : (process.env.dataUrl as string);
+
 interface IProps {
   laoding: boolean;
   content: Array<DemoData>;
@@ -36,7 +42,7 @@ class MapComponant extends React.Component<IProps> {
   // }
 
   private fetchData() {
-    axios.get(`http://localhost:1111/`).then(res => {
+    axios.get(dataUrl).then(res => {
       this.props.setContent(res.data);
     });
   }

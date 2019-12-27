@@ -6,9 +6,10 @@ import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
-import { Grid, Button } from '@material-ui/core';
+import { Grid, Button, TableFooter, TablePagination } from '@material-ui/core';
 import { DemoData } from '../../../assets/data/dataType';
 import LazyLoad from 'react-lazyload';
+import TablePaginationActions from './paginationActions.component';
 
 interface IProps {
   content: Array<DemoData>;
@@ -40,6 +41,26 @@ export default function MapTableComponent(props: IProps) {
     props.setDetailService(service);
   };
 
+  const [page, setPage] = React.useState(0);
+  const [rowsPerPage, setRowsPerPage] = React.useState(25);
+
+  const emptyRows =
+    rowsPerPage - Math.min(rowsPerPage, rows.length - page * rowsPerPage);
+
+  const handleChangePage = (
+    event: React.MouseEvent<HTMLButtonElement> | null,
+    newPage: number
+  ) => {
+    setPage(newPage);
+  };
+
+  const handleChangeRowsPerPage = (
+    event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    setRowsPerPage(parseInt(event.target.value, 10));
+    setPage(0);
+  };
+
   return (
     <Grid item xs={10} className={classes.card}>
       <Paper className={classes.paper}>
@@ -58,7 +79,10 @@ export default function MapTableComponent(props: IProps) {
             </TableRow>
           </TableHead>
           <TableBody>
-            {rows.slice(1, 3).map(row => (
+            {(rowsPerPage > 0
+              ? rows.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
+              : rows
+            ).map(row => (
               <TableRow>
                 <TableCell>
                   <LazyLoad height={30}>
@@ -81,7 +105,29 @@ export default function MapTableComponent(props: IProps) {
                 </TableCell>
               </TableRow>
             ))}
+            {emptyRows > 0 && (
+              <TableRow style={{ height: 53 * emptyRows }}>
+                <TableCell colSpan={6} />
+              </TableRow>
+            )}
           </TableBody>
+          <TableFooter>
+            <TableRow>
+              <TablePagination
+                rowsPerPageOptions={[25, 50, 100, { label: 'All', value: -1 }]}
+                count={rows.length}
+                rowsPerPage={rowsPerPage}
+                page={page}
+                SelectProps={{
+                  inputProps: { 'aria-label': 'rows per page' },
+                  native: true
+                }}
+                onChangePage={handleChangePage}
+                onChangeRowsPerPage={handleChangeRowsPerPage}
+                ActionsComponent={TablePaginationActions}
+              />
+            </TableRow>
+          </TableFooter>
         </Table>
       </Paper>
     </Grid>
