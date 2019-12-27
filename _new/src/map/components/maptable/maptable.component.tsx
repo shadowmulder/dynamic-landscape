@@ -13,7 +13,7 @@ import TablePaginationActions from './paginationActions.component';
 
 interface IProps {
   content: Array<DemoData>;
-  setDetailService: (object: object) => void;
+  setDetailService: (service: DemoData) => void;
 }
 
 const useStyles = makeStyles({
@@ -37,7 +37,7 @@ export default function MapTableComponent(props: IProps) {
 
   const rows = props.content;
 
-  const setDetailService = (event: any, service: object) => {
+  const setDetailService = (event: any, service: DemoData) => {
     props.setDetailService(service);
   };
 
@@ -97,7 +97,7 @@ export default function MapTableComponent(props: IProps) {
                 <TableCell component="th" scope="row">
                   {row.provider}
                 </TableCell>
-                <TableCell>{row.category}</TableCell>
+                <TableCell>{row.category.join(' | ')}</TableCell>
                 <TableCell>
                   <Button onClick={event => setDetailService(event, row)}>
                     More Information

@@ -30,7 +30,7 @@ export function setDetailService(value: DemoData): MapActionTypes {
 export function deleteDetailService(): MapActionTypes {
   return {
     type: SETDETAILSERVICE,
-    payload: {}
+    payload: {} as DemoData
   };
 }
 

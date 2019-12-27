@@ -9,7 +9,7 @@ import { setDetailService } from '../../actions/map.actions';
 
 interface IProps {
   content: Array<DemoData>;
-  setDetailService: (object: object) => void;
+  setDetailService: (service: DemoData) => void;
 }
 
 const mapStateToProps = (state: IState) => ({
@@ -17,7 +17,7 @@ const mapStateToProps = (state: IState) => ({
 });
 
 const mapDispatchToProps = (dispatch: Dispatch) => ({
-  setDetailService: (service: object) => dispatch(setDetailService(service))
+  setDetailService: (service: DemoData) => dispatch(setDetailService(service))
 });
 
 export const MapTable = connect(

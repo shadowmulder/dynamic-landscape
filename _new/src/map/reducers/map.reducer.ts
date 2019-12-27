@@ -12,7 +12,7 @@ export interface IState {
 const initialState: IState = {
   laoding: true,
   content: [],
-  detailedService: {}
+  detailedService: {} as DemoData
 };
 
 export const Map = (state: IState = initialState, action: IAction<any>) => {

@@ -1,3 +1,11 @@
 export type DemoData = {
-  [key: string]: any;
+  provider: string;
+  providerIcon: string;
+  category: Array<string>;
+  service: string;
+  webLink: string;
+  img: string;
+  description: string;
+  keywords: Array<string>;
+  // [key: string]: any;
 };

@@ -10,7 +10,17 @@ import Paper, { PaperProps } from '@material-ui/core/Paper';
 import Draggable from 'react-draggable';
 import { DemoData } from '../../../assets/data/dataType';
 import { TransitionProps } from '@material-ui/core/transitions';
-import { Slide, Grid, Typography } from '@material-ui/core';
+import {
+  Slide,
+  Grid,
+  Typography,
+  Link,
+  List,
+  ListItem,
+  ListItemIcon,
+  ListItemText
+} from '@material-ui/core';
+import WebIcon from '@material-ui/icons/Web';
 
 interface IProps {
   service: DemoData;
@@ -23,6 +33,9 @@ const useStyles = makeStyles((theme: Theme) =>
     icon: {
       width: 90,
       paddingRight: 40
+    },
+    ListItemIcon: {
+      minWidth: 35
     }
   })
 );
@@ -65,7 +78,6 @@ export default function DetailModalContainer(props: IProps) {
             alignItems="center"
           >
             <Grid item>
-              {' '}
               <img
                 src={props.service.img}
                 alt="Service Icon"
@@ -77,14 +89,27 @@ export default function DetailModalContainer(props: IProps) {
                 {props.service.service}
               </Typography>
               <Typography variant="subtitle1" gutterBottom>
-                Category:{' '}
-                {props.service.category.map((cat: string) => cat + ' | ')}
+                Category: <strong>{props.service.category.join(' | ')}</strong>
               </Typography>
             </Grid>
           </Grid>
         </DialogTitle>
         <DialogContent>
-          <DialogContentText>{props.service.description}</DialogContentText>
+          <Grid container spacing={4}>
+            <Grid item xs={12} md={8}>
+              <DialogContentText>{props.service.description}</DialogContentText>
+            </Grid>
+            <Grid item xs={12} md={4}>
+              <List dense={true} disablePadding={true}>
+                <ListItem button>
+                  <ListItemIcon className={classes.ListItemIcon}>
+                    <WebIcon />
+                  </ListItemIcon>
+                  <ListItemText primary={props.service.webLink.split('/')[2]} />
+                </ListItem>
+              </List>
+            </Grid>
+          </Grid>
         </DialogContent>
         <DialogActions>
           <Button autoFocus onClick={handleClose} color="primary">

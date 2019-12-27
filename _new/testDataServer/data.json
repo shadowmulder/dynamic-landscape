@@ -2,7 +2,7 @@
   {
     "provider": "Amazon",
     "providerIcon": "./img/logos/AWS/General/AWS_Simple_Icons_AWS_Cloud.svg",
-    "category": ["Analytics"],
+    "category": ["Analytics", "Analytics2"],
     "service": "Amazon Athena",
     "webLink": "https://aws.amazon.com/athena/?nc2=h_mo",
     "img": ".\\img\\logos\\AWS\\Analytics\\Analytics_AmazonAthena.svg",
