@@ -11,12 +11,14 @@ import {
   Checkbox,
   FormControlLabel
 } from '@material-ui/core';
-import { DataFilter, Providers } from '../../../assets/data/dataType';
+import { DataFilter, Providers, DemoData } from '../../../assets/data/dataType';
+import serviceFilter from './filterLogic';
 
 interface IProps {
   filter: DataFilter;
   iconClassName: any;
-  setFilter: (Filter: DataFilter) => void;
+  services: DemoData[];
+  setFilter: (services: DemoData[], Filter: DataFilter) => void;
 }
 
 const useStyles = makeStyles({
@@ -51,7 +53,8 @@ export default function FilterComponentContainer(props: IProps) {
     }
 
     if (open === false) {
-      props.setFilter(state.filter);
+      let filteredServices = serviceFilter(props.services, state.filter);
+      props.setFilter(filteredServices, state.filter);
     }
 
     setState({ ...state, open: open });
@@ -64,14 +67,15 @@ export default function FilterComponentContainer(props: IProps) {
     if (event.target.checked) {
       setState({
         ...state,
-        filter: {
-          provider: [...state.filter.provider, name]
-        }
+        filter: { ...state.filter, provider: [...state.filter.provider, name] }
       });
     } else {
       setState({
         ...state,
-        filter: { provider: state.filter.provider.filter(p => p !== name) }
+        filter: {
+          ...state.filter,
+          provider: state.filter.provider.filter(p => p !== name)
+        }
       });
     }
   };

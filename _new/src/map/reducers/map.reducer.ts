@@ -20,7 +20,8 @@ const initialState: IState = {
   content: [],
   detailedService: {} as DemoData,
   filter: {
-    provider: []
+    provider: [],
+    category: ['Security']
   },
   filtertContent: []
 };
@@ -41,11 +42,9 @@ export const Map = (state: IState = initialState, action: IAction<any>) => {
     case SETFILTER:
       return update(state, {
         filtertContent: {
-          $set: state.content.filter(s =>
-            action.payload.provider.includes(s.provider)
-          )
+          $set: action.payload.services
         },
-        filter: { $set: action.payload }
+        filter: { $set: action.payload.filter }
       });
 
     default:

@@ -4,11 +4,7 @@ import axios from 'axios';
 
 import { Dispatch } from 'redux';
 import { IState } from '../reducers';
-import {
-  getLoadingStatus,
-  getContent,
-  getDetailService
-} from './selectors/map.selector';
+import { getLoadingStatus, getDetailService } from './selectors/map.selector';
 import {
   setContent,
   setDetailService,
@@ -28,7 +24,6 @@ const dataUrl: string =
 
 interface IProps {
   laoding: boolean;
-  content: Array<DemoData>;
   detailService: DemoData;
   setContent: (object: Array<DemoData>) => void;
   setDetailService: (object: DemoData) => void;
@@ -74,7 +69,6 @@ class MapComponant extends React.Component<IProps> {
 
 const mapStateToProps = (state: IState) => ({
   laoding: getLoadingStatus(state.Map),
-  content: getContent(state.Map),
   detailService: getDetailService(state.Map)
 });
 

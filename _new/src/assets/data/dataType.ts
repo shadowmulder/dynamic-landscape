@@ -1,5 +1,5 @@
 export type DemoData = {
-  provider: string;
+  provider: Providers;
   providerIcon: string;
   category: Array<string>;
   service: string;
@@ -14,4 +14,5 @@ export type Providers = 'Google' | 'AWS' | 'Azure' | null;
 
 export type DataFilter = {
   provider: Providers[];
+  category: any;
 };

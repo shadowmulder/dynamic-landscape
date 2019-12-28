@@ -21,10 +21,10 @@ interface SetFilterAction {
   payload: any;
 }
 
-export function setFilter(value: any): MapActionTypes {
+export function setFilter(services: DemoData[], filter: any): MapActionTypes {
   return {
     type: SETFILTER,
-    payload: value
+    payload: { services, filter }
   };
 }
 
