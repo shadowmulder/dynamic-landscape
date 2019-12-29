@@ -67,10 +67,7 @@ export default function MapTableComponent(props: IProps) {
 
   return (
     <Grid item xs={10} className={classes.card}>
-      <FilterComponent
-        iconClassName={classes.filterIcon}
-        services={props.content}
-      />
+      <FilterComponent iconClassName={classes.filterIcon} />
       <Paper className={classes.paper}>
         <Table
           className={classes.table}
@@ -90,8 +87,8 @@ export default function MapTableComponent(props: IProps) {
             {(rowsPerPage > 0
               ? rows.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
               : rows
-            ).map(row => (
-              <TableRow>
+            ).map((row, i) => (
+              <TableRow key={i}>
                 <TableCell>
                   <LazyLoad height={30}>
                     <img

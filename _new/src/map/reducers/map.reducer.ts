@@ -6,6 +6,7 @@ import {
   SETFILTER
 } from '../actions/map.actions';
 import { DemoData, DataFilter } from '../../assets/data/dataType';
+import serviceFilter from './filterLogic';
 
 export interface IState {
   laoding: boolean;
@@ -42,9 +43,9 @@ export const Map = (state: IState = initialState, action: IAction<any>) => {
     case SETFILTER:
       return update(state, {
         filtertContent: {
-          $set: action.payload.services
+          $set: serviceFilter(state.content, action.payload)
         },
-        filter: { $set: action.payload.filter }
+        filter: { $set: action.payload }
       });
 
     default:

@@ -4,21 +4,19 @@ import FilterComponentContainer from './filter.component';
 import { setFilter } from './../../actions/map.actions';
 import { getFilter } from './../../selectors/map.selector';
 import { IState } from './../../../reducers/index';
-import { DataFilter, DemoData } from '../../../assets/data/dataType';
+import { DataFilter } from '../../../assets/data/dataType';
 
 interface IProps {
   filter: DataFilter;
   iconClassName: any;
-  services: DemoData[];
-  setFilter: (services: DemoData[], Filter: DataFilter) => void;
+  setFilter: (filter: DataFilter) => void;
 }
 const mapStateToProps = (state: IState) => ({
   filter: getFilter(state.Map)
 });
 
 const mapDispatchToProps = (dispatch: Dispatch) => ({
-  setFilter: (services: DemoData[], filter: DataFilter) =>
-    dispatch(setFilter(services, filter))
+  setFilter: (filter: DataFilter) => dispatch(setFilter(filter))
 });
 
 export const FilterComponent = connect(

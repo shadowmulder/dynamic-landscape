@@ -1,10 +1,11 @@
-import { DemoData, DataFilter } from '../../../assets/data/dataType';
+import { DemoData, DataFilter } from '../../assets/data/dataType';
 
 export default function serviceFilter(
   services: DemoData[],
   filterSet: DataFilter
 ): DemoData[] {
   let filtered = false;
+  console.log(filterSet);
 
   //filter provider
   if (Array.isArray(filterSet.provider) && filterSet.provider.length) {

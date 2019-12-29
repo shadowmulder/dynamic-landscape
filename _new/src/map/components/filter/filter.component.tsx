@@ -9,16 +9,15 @@ import {
   Typography,
   FormGroup,
   Checkbox,
-  FormControlLabel
+  FormControlLabel,
+  Chip
 } from '@material-ui/core';
-import { DataFilter, Providers, DemoData } from '../../../assets/data/dataType';
-import serviceFilter from './filterLogic';
+import { DataFilter, Providers } from '../../../assets/data/dataType';
 
 interface IProps {
   filter: DataFilter;
   iconClassName: any;
-  services: DemoData[];
-  setFilter: (services: DemoData[], Filter: DataFilter) => void;
+  setFilter: (filter: DataFilter) => void;
 }
 
 const useStyles = makeStyles({
@@ -53,36 +52,82 @@ export default function FilterComponentContainer(props: IProps) {
     }
 
     if (open === false) {
-      let filteredServices = serviceFilter(props.services, state.filter);
-      props.setFilter(filteredServices, state.filter);
+      props.setFilter(state.filter);
     }
 
     setState({ ...state, open: open });
   };
 
-  const Vendors = ['Amazon', 'Microsoft', 'Google'];
-  const handleChange = (name: Providers) => (
-    event: React.ChangeEvent<HTMLInputElement>
-  ) => {
+  const providers = ['Amazon', 'Microsoft', 'Google'];
+
+  const handleChange = (
+    filterKey: keyof typeof props.filter,
+    value: Providers
+  ) => (event: React.ChangeEvent<HTMLInputElement>) => {
     if (event.target.checked) {
       setState({
         ...state,
-        filter: { ...state.filter, provider: [...state.filter.provider, name] }
+        filter: {
+          ...state.filter,
+          [filterKey]: [...state.filter[filterKey], value]
+        }
       });
     } else {
       setState({
         ...state,
         filter: {
           ...state.filter,
-          provider: state.filter.provider.filter(p => p !== name)
+          [filterKey]: (state.filter[filterKey] as string[]).filter(
+            p => p !== value
+          )
         }
       });
     }
   };
 
+  const getFilterChips = (filterSet: DataFilter) => {
+    let chipSet: any[] = [];
+    for (let [filter, value] of Object.entries(filterSet)) {
+      value.forEach((value: Providers | string) => {
+        chipSet.push(
+          <Chip
+            key={value as string}
+            label={`${filter.replace(/^\w/, c => c.toUpperCase())}:  ${value}`}
+            onDelete={() =>
+              onChipDelete(filter as keyof typeof props.filter, value as string)
+            }
+            color="primary"
+          />
+        );
+      });
+    }
+    return chipSet;
+  };
+
+  const onChipDelete = (
+    filterKey: keyof typeof props.filter,
+    value: string
+  ): void => {
+    const newFilter = {
+      ...state.filter,
+      [filterKey]: (state.filter[filterKey] as string[]).filter(
+        p => p !== value
+      )
+    };
+    setState({
+      ...state,
+      filter: newFilter
+    });
+    props.setFilter(newFilter);
+  };
+
   return (
     <div>
       <div>
+        {/* Chipset of current filter*/}
+        {getFilterChips(props.filter)}
+
+        {/* Icon to open filter window */}
         <IconButton
           className={props.iconClassName}
           onClick={toggleDrawer(true)}
@@ -115,20 +160,24 @@ export default function FilterComponentContainer(props: IProps) {
             </Grid>
             <Grid item xs={12} md={6}>
               <FormGroup row>
-                {Vendors.map((vendor: string) => {
+                {providers.map((provider: string, i: number) => {
                   return (
                     <FormControlLabel
+                      key={i}
                       control={
                         <Checkbox
                           checked={state.filter.provider.some(
-                            v => v === vendor
+                            v => v === provider
                           )}
-                          onChange={handleChange(vendor as Providers)}
-                          value={vendor}
+                          onChange={handleChange(
+                            'provider',
+                            provider as Providers
+                          )}
+                          value={provider}
                           color="primary"
                         />
                       }
-                      label={vendor}
+                      label={provider}
                     />
                   );
                 })}
