@@ -24,7 +24,7 @@ const useStyles = makeStyles({
     overflowX: 'auto'
   },
   table: {
-    minWidth: 650
+    minWidth: 100
   },
   tableIcon: {
     height: 30,
@@ -46,7 +46,7 @@ export default function MapTable(props: IProps) {
   };
 
   const [page, setPage] = React.useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(25);
+  const [rowsPerPage, setRowsPerPage] = React.useState(9);
 
   const emptyRows =
     rowsPerPage - Math.min(rowsPerPage, rows.length - page * rowsPerPage);
@@ -110,8 +110,17 @@ export default function MapTable(props: IProps) {
                 </TableCell>
               </TableRow>
             ))}
+            {!!!rows.length && (
+              <TableRow>
+                <TableCell>Empty</TableCell>
+              </TableRow>
+            )}
             {emptyRows > 0 && (
-              <TableRow style={{ height: 53 * emptyRows }}>
+              <TableRow
+                style={{
+                  height: 49 * (!!!rows.length ? emptyRows : emptyRows - 1)
+                }}
+              >
                 <TableCell colSpan={6} />
               </TableRow>
             )}

@@ -6,7 +6,11 @@ export const getLoadingStatus = (state: IState): boolean => {
 };
 
 export const getContent = (state: IState): Array<DemoData> => {
-  return state.filtertContent.length ? state.filtertContent : state.content;
+  return Object.keys(state.filter).some(
+    key => state.filter[key as keyof typeof state.filter].length > 0
+  )
+    ? state.filtertContent
+    : state.content;
 };
 
 export const getFilter = (state: IState): DataFilter => {

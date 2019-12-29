@@ -22,7 +22,7 @@ const initialState: IState = {
   detailedService: {} as DemoData,
   filter: {
     provider: [],
-    category: ['Security', 'te']
+    category: ['Security']
   },
   filtertContent: []
 };
@@ -32,6 +32,9 @@ export const Map = (state: IState = initialState, action: IAction<any>) => {
     case SETCONTENT:
       return update(state, {
         content: { $set: action.payload },
+        filtertContent: {
+          $set: serviceFilter(action.payload, state.filter)
+        },
         laoding: { $set: false }
       });
 
