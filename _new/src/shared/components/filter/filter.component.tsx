@@ -10,7 +10,8 @@ import {
   FormGroup,
   Checkbox,
   FormControlLabel,
-  Chip
+  Chip,
+  Button
 } from '@material-ui/core';
 import { DataFilter, Providers } from '../../../assets/data/dataType';
 
@@ -26,7 +27,12 @@ const useStyles = makeStyles({
     width: 250
   },
   fullList: {
-    width: 'auto'
+    width: 'auto',
+    margin: 40,
+    backgroundImage: `url(${Logo})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'bottom right',
+    backgroundSize: 100
   },
   logo: {
     height: 50
@@ -34,6 +40,9 @@ const useStyles = makeStyles({
   chip: {
     float: 'right',
     margin: '8px 5px'
+  },
+  item: {
+    marginTop: 20
   }
 });
 
@@ -47,20 +56,12 @@ export default function FilterComponentContainer(props: IProps) {
   const toggleDrawer = (open: boolean) => (
     event: React.KeyboardEvent | React.MouseEvent
   ) => {
-    if (
-      event &&
-      event.type === 'keydown' &&
-      ((event as React.KeyboardEvent).key === 'Tab' ||
-        (event as React.KeyboardEvent).key === 'Shift')
-    ) {
-      return;
-    }
-
-    if (open === false) {
+    if (!!!open) {
       props.setFilter(state.filter);
+      setState({ ...state, open: open });
+    } else {
+      setState({ ...state, filter: { ...props.filter }, open: open });
     }
-
-    setState({ ...state, open: open });
   };
 
   const providers = ['Amazon', 'Microsoft', 'Google'];
@@ -115,8 +116,8 @@ export default function FilterComponentContainer(props: IProps) {
     value: string
   ): void => {
     const newFilter = {
-      ...state.filter,
-      [filterKey]: (state.filter[filterKey] as string[]).filter(
+      ...props.filter,
+      [filterKey]: (props.filter[filterKey] as string[]).filter(
         p => p !== value
       )
     };
@@ -138,7 +139,7 @@ export default function FilterComponentContainer(props: IProps) {
           <SearchIcon></SearchIcon>
         </IconButton>
         {/* Chipset of current filter*/}
-        {props.displayChips || getFilterChips(props.filter)}
+        {props.displayChips && getFilterChips(props.filter)}
       </div>
       <SwipeableDrawer
         anchor="top"
@@ -152,19 +153,15 @@ export default function FilterComponentContainer(props: IProps) {
             direction="row"
             justify="center"
             alignItems="center"
-            style={{ margin: 40 }}
             className={classes.fullList}
             role="presentation"
             onKeyDown={toggleDrawer(false)}
           >
             <Grid item xs={12} md={12}>
-              <Typography variant="h4">
-                <img src={Logo} alt="Logo" className={classes.logo} />
-                Filter Services
-              </Typography>
+              <Typography variant="h4">Filter Services</Typography>
             </Grid>
-            <Grid item xs={12} md={6}>
-              <FormGroup row>
+            <Grid item xs={12} md={6} className={classes.item}>
+              <FormGroup>
                 {providers.map((provider: string, i: number) => {
                   return (
                     <FormControlLabel
@@ -188,8 +185,11 @@ export default function FilterComponentContainer(props: IProps) {
                 })}
               </FormGroup>
             </Grid>
-            <Grid item xs={12} md={6}>
-              <img src={Logo} alt="Logo" className={classes.logo} />
+            <Grid item xs={12} md={6} className={classes.item}></Grid>
+            <Grid item xs={12} className={classes.item}>
+              <Button color="primary" onClick={toggleDrawer(false)}>
+                Apply
+              </Button>
             </Grid>
           </Grid>
         </div>

@@ -8,6 +8,7 @@ import Logo from '../../../assets/logos/DL_Logo.svg';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { Card, Link } from '@material-ui/core';
 import { urls } from '../../externalURL';
+import { FilterComponent } from '../filter/filter.container.component';
 
 interface IProps {}
 
@@ -33,6 +34,10 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     logo: {
       height: 40
+    },
+    filterIcon: {
+      float: 'right',
+      color: 'white'
     }
   })
 );
@@ -56,6 +61,10 @@ export default function NavigationComponent() {
             <img src={Logo} alt="Logo" className={classes.logo} />
           </Card>
           <div className={classes.spacing}></div>
+          <FilterComponent
+            iconClassName={classes.filterIcon}
+            displayChips={false}
+          />
           <IconButton className={classes.button}>
             <Link href={urls.github} target="_blank" rel="noopener noreferrer">
               <GitHubIcon className={classes.button} />

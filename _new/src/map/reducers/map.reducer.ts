@@ -22,7 +22,7 @@ const initialState: IState = {
   detailedService: {} as DemoData,
   filter: {
     provider: [],
-    category: ['Security']
+    category: ['Security', 'te']
   },
   filtertContent: []
 };

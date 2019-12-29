@@ -5,7 +5,6 @@ export default function serviceFilter(
   filterSet: DataFilter
 ): DemoData[] {
   let filtered = false;
-  console.log(filterSet);
 
   //filter provider
   if (Array.isArray(filterSet.provider) && filterSet.provider.length) {

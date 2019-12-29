@@ -67,7 +67,7 @@ export default function MapTable(props: IProps) {
 
   return (
     <Grid item xs={10} className={classes.card}>
-      <FilterComponent iconClassName={classes.filterIcon} />
+      <FilterComponent iconClassName={classes.filterIcon} displayChips={true} />
       <Paper className={classes.paper}>
         <Table
           className={classes.table}
