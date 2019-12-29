@@ -1,15 +1,16 @@
 import { Dispatch } from 'redux';
 import { connect } from 'react-redux';
 import FilterComponentContainer from './filter.component';
-import { setFilter } from './../../actions/map.actions';
-import { getFilter } from './../../selectors/map.selector';
-import { IState } from './../../../reducers/index';
+import { setFilter } from '../../../map/actions/map.actions';
+import { getFilter } from '../../../map/selectors/map.selector';
+import { IState } from '../../../reducers/index';
 import { DataFilter } from '../../../assets/data/dataType';
 
 interface IProps {
   filter: DataFilter;
   iconClassName: any;
   setFilter: (filter: DataFilter) => void;
+  displayChips?: Boolean;
 }
 const mapStateToProps = (state: IState) => ({
   filter: getFilter(state.Map)

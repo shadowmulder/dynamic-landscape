@@ -14,5 +14,5 @@ export type Providers = 'Google' | 'AWS' | 'Azure' | null;
 
 export type DataFilter = {
   provider: Providers[];
-  ategory: string[];
+  category: string[];
 };

@@ -18,6 +18,7 @@ interface IProps {
   filter: DataFilter;
   iconClassName: any;
   setFilter: (filter: DataFilter) => void;
+  displayChips?: Boolean;
 }
 
 const useStyles = makeStyles({
@@ -29,6 +30,10 @@ const useStyles = makeStyles({
   },
   logo: {
     height: 50
+  },
+  chip: {
+    float: 'right',
+    margin: '8px 5px'
   }
 });
 
@@ -97,6 +102,7 @@ export default function FilterComponentContainer(props: IProps) {
               onChipDelete(filter as keyof typeof props.filter, value as string)
             }
             color="primary"
+            className={classes.chip}
           />
         );
       });
@@ -124,9 +130,6 @@ export default function FilterComponentContainer(props: IProps) {
   return (
     <div>
       <div>
-        {/* Chipset of current filter*/}
-        {getFilterChips(props.filter)}
-
         {/* Icon to open filter window */}
         <IconButton
           className={props.iconClassName}
@@ -134,6 +137,8 @@ export default function FilterComponentContainer(props: IProps) {
         >
           <SearchIcon></SearchIcon>
         </IconButton>
+        {/* Chipset of current filter*/}
+        {props.displayChips || getFilterChips(props.filter)}
       </div>
       <SwipeableDrawer
         anchor="top"

@@ -53,7 +53,7 @@ function PaperComponent(props: PaperProps) {
   );
 }
 
-export default function DetailModalContainer(props: IProps) {
+export default function DetailModal(props: IProps) {
   const classes = useStyles();
   const handleClose = props.deleteDetailService;
   return (

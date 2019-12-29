@@ -10,7 +10,7 @@ import { Grid, Button, TableFooter, TablePagination } from '@material-ui/core';
 import { DemoData } from '../../../assets/data/dataType';
 import LazyLoad from 'react-lazyload';
 import TablePaginationActions from './paginationActions.component';
-import { FilterComponent } from './../filter/filter.container.component';
+import { FilterComponent } from '../../../shared/components/filter/filter.container.component';
 
 interface IProps {
   content: Array<DemoData>;
@@ -36,7 +36,7 @@ const useStyles = makeStyles({
   }
 });
 
-export default function MapTableComponent(props: IProps) {
+export default function MapTable(props: IProps) {
   const classes = useStyles();
 
   const rows = props.content;

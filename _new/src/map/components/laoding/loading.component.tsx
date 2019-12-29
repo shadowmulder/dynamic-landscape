@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-export default function LoadingComponent() {
+export default function Loading() {
   const classes = useStyles();
 
   return (
