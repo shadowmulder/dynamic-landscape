@@ -35,6 +35,9 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     ListItemIcon: {
       minWidth: 35
+    },
+    InfoButton: {
+      textTransform: 'inherit'
     }
   })
 );
@@ -100,11 +103,20 @@ export default function DetailModal(props: IProps) {
             </Grid>
             <Grid item xs={12} md={4}>
               <List dense={true} disablePadding={true}>
-                <ListItem button>
-                  <ListItemIcon className={classes.ListItemIcon}>
-                    <WebIcon />
-                  </ListItemIcon>
-                  <ListItemText primary={props.service.webLink.split('/')[2]} />
+                <ListItem>
+                  <Button
+                    href={props.service.webLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    className={classes.InfoButton}
+                  >
+                    <ListItemIcon className={classes.ListItemIcon}>
+                      <WebIcon />
+                    </ListItemIcon>
+                    <ListItemText
+                      primary={props.service.webLink.split('/')[2]}
+                    />
+                  </Button>
                 </ListItem>
               </List>
             </Grid>

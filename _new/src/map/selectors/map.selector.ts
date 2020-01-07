@@ -17,6 +17,10 @@ export const getFilter = (state: IState): DataFilter => {
   return state.filter;
 };
 
+export const getPossibleFilterValues = (state: IState): DataFilter => {
+  return state.toFilterValues;
+};
+
 export const getDetailService = (state: IState): DemoData => {
   return state.detailedService;
 };

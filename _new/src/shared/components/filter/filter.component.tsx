@@ -11,12 +11,19 @@ import {
   Checkbox,
   FormControlLabel,
   Chip,
-  Button
+  Button,
+  Select,
+  MenuItem,
+  Input,
+  FormControl,
+  InputLabel,
+  ListItemText
 } from '@material-ui/core';
 import { DataFilter, Providers } from '../../../assets/data/dataType';
 
 interface IProps {
   filter: DataFilter;
+  possibleFilterValues: DataFilter;
   iconClassName: any;
   setFilter: (filter: DataFilter) => void;
   displayChips?: Boolean;
@@ -43,50 +50,54 @@ const useStyles = makeStyles({
   },
   item: {
     marginTop: 20
+  },
+  chipSelection: {
+    margin: 2
+  },
+  category: {
+    width: '100%'
   }
 });
 
 export default function FilterComponentContainer(props: IProps) {
   const classes = useStyles();
-  const [state, setState] = React.useState({
-    open: false,
-    filter: { ...props.filter }
-  });
+  const [open, setOpen] = React.useState(false);
+  const [filter, setFilter] = React.useState({ ...props.filter });
 
   const toggleDrawer = (open: boolean) => (
     event: React.KeyboardEvent | React.MouseEvent
   ) => {
     if (!!!open) {
-      props.setFilter(state.filter);
-      setState({ ...state, open: open });
+      props.setFilter(filter);
+      setOpen(open);
     } else {
-      setState({ ...state, filter: { ...props.filter }, open: open });
+      setOpen(open);
+      setFilter({ ...props.filter });
     }
   };
 
-  const providers = ['Amazon', 'Microsoft', 'Google'];
+  const handleChangeSelect = (event: React.ChangeEvent<{ value: unknown }>) => {
+    console.log(event.target.value);
+    setFilter({ ...filter, category: event.target.value as string[] });
+  };
 
-  const handleChange = (
+  const handleChangeCheckbox = (
     filterKey: keyof typeof props.filter,
     value: Providers
   ) => (event: React.ChangeEvent<HTMLInputElement>) => {
+    console.log({
+      ...filter,
+      [filterKey]: [...filter[filterKey], value]
+    });
     if (event.target.checked) {
-      setState({
-        ...state,
-        filter: {
-          ...state.filter,
-          [filterKey]: [...state.filter[filterKey], value]
-        }
+      setFilter({
+        ...filter,
+        [filterKey]: [...filter[filterKey], value]
       });
     } else {
-      setState({
-        ...state,
-        filter: {
-          ...state.filter,
-          [filterKey]: (state.filter[filterKey] as string[]).filter(
-            p => p !== value
-          )
-        }
+      setFilter({
+        ...filter,
+        [filterKey]: (filter[filterKey] as string[]).filter(p => p !== value)
       });
     }
   };
@@ -121,10 +132,7 @@ export default function FilterComponentContainer(props: IProps) {
         p => p !== value
       )
     };
-    setState({
-      ...state,
-      filter: newFilter
-    });
+    setFilter(newFilter);
     props.setFilter(newFilter);
   };
 
@@ -143,7 +151,7 @@ export default function FilterComponentContainer(props: IProps) {
       </div>
       <SwipeableDrawer
         anchor="top"
-        open={state.open}
+        open={open}
         onClose={toggleDrawer(false)}
         onOpen={toggleDrawer(true)}
       >
@@ -151,8 +159,8 @@ export default function FilterComponentContainer(props: IProps) {
           <Grid
             container
             direction="row"
-            justify="center"
-            alignItems="center"
+            justify="flex-start"
+            alignItems="flex-start"
             className={classes.fullList}
             role="presentation"
             onKeyDown={toggleDrawer(false)}
@@ -160,32 +168,63 @@ export default function FilterComponentContainer(props: IProps) {
             <Grid item xs={12} md={12}>
               <Typography variant="h4">Filter Services</Typography>
             </Grid>
-            <Grid item xs={12} md={6} className={classes.item}>
+            <Grid item xs={12} md={2} className={classes.item}>
               <FormGroup>
-                {providers.map((provider: string, i: number) => {
-                  return (
-                    <FormControlLabel
-                      key={i}
-                      control={
-                        <Checkbox
-                          checked={state.filter.provider.some(
-                            v => v === provider
-                          )}
-                          onChange={handleChange(
-                            'provider',
-                            provider as Providers
-                          )}
-                          value={provider}
-                          color="primary"
-                        />
-                      }
-                      label={provider}
-                    />
-                  );
-                })}
+                {props.possibleFilterValues.provider.map(
+                  (provider: Providers, i: number) => {
+                    return (
+                      <FormControlLabel
+                        key={i}
+                        control={
+                          <Checkbox
+                            checked={filter.provider.some(v => v === provider)}
+                            onChange={handleChangeCheckbox(
+                              'provider',
+                              provider as Providers
+                            )}
+                            value={provider}
+                            color="primary"
+                          />
+                        }
+                        label={provider}
+                      />
+                    );
+                  }
+                )}
               </FormGroup>
             </Grid>
-            <Grid item xs={12} md={6} className={classes.item}></Grid>
+            <Grid item xs={12} md={6} className={classes.item}>
+              <FormControl className={classes.category}>
+                <InputLabel id="category-select-label">Category</InputLabel>
+                <Select
+                  labelId="category-select-label"
+                  id="category-select"
+                  className={classes.category}
+                  multiple
+                  value={filter.category}
+                  onChange={handleChangeSelect}
+                  input={<Input id="category-select" />}
+                  renderValue={selected => (
+                    <div className={classes.chipSelection}>
+                      {(selected as string[]).map(value => (
+                        <Chip
+                          key={value}
+                          label={value}
+                          className={classes.chip}
+                        />
+                      ))}
+                    </div>
+                  )}
+                >
+                  {props.possibleFilterValues.category.map(cat => (
+                    <MenuItem key={cat} value={cat}>
+                      <Checkbox checked={filter.category.indexOf(cat) > -1} />
+                      <ListItemText primary={cat} />
+                    </MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
+            </Grid>
             <Grid item xs={12} className={classes.item}>
               <Button color="primary" onClick={toggleDrawer(false)}>
                 Apply

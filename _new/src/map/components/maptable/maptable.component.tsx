@@ -1,12 +1,18 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
-import { Grid, Button, TableFooter, TablePagination } from '@material-ui/core';
+import {
+  Grid,
+  Button,
+  TableFooter,
+  TablePagination,
+  Typography
+} from '@material-ui/core';
 import { DemoData } from '../../../assets/data/dataType';
 import LazyLoad from 'react-lazyload';
 import TablePaginationActions from './paginationActions.component';
@@ -17,24 +23,33 @@ interface IProps {
   setDetailService: (service: DemoData) => void;
 }
 
-const useStyles = makeStyles({
-  card: {},
-  paper: {
-    width: '100%',
-    overflowX: 'auto'
-  },
-  table: {
-    minWidth: 100
-  },
-  tableIcon: {
-    height: 30,
-    float: 'left',
-    width: 30
-  },
-  filterIcon: {
-    float: 'right'
-  }
-});
+const useStyles = makeStyles((theme: Theme) =>
+  createStyles({
+    card: {},
+    paper: {
+      width: '100%',
+      overflowX: 'auto'
+    },
+    table: {
+      minWidth: 100
+    },
+    tableIcon: {
+      height: 30,
+      float: 'left',
+      width: 30
+    },
+    filterIcon: {
+      float: 'right'
+    },
+    header: {
+      backgroundColor: theme.palette.grey[600]
+    },
+    headerTitle: {
+      color: 'white',
+      margin: 0
+    }
+  })
+);
 
 export default function MapTable(props: IProps) {
   const classes = useStyles();
@@ -74,12 +89,36 @@ export default function MapTable(props: IProps) {
           size="small"
           aria-label="a dense table"
         >
-          <TableHead>
+          <TableHead className={classes.header}>
             <TableRow>
               <TableCell></TableCell>
-              <TableCell>Service</TableCell>
-              <TableCell>Provider</TableCell>
-              <TableCell>Category</TableCell>
+              <TableCell>
+                <Typography
+                  variant="h6"
+                  gutterBottom
+                  className={classes.headerTitle}
+                >
+                  Service
+                </Typography>
+              </TableCell>
+              <TableCell>
+                <Typography
+                  variant="h6"
+                  gutterBottom
+                  className={classes.headerTitle}
+                >
+                  Provider
+                </Typography>
+              </TableCell>
+              <TableCell>
+                <Typography
+                  variant="h6"
+                  gutterBottom
+                  className={classes.headerTitle}
+                >
+                  Category
+                </Typography>
+              </TableCell>
               <TableCell></TableCell>
             </TableRow>
           </TableHead>

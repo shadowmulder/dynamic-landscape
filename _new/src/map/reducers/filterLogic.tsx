@@ -1,6 +1,18 @@
 import { DemoData, DataFilter } from '../../assets/data/dataType';
 
-export default function serviceFilter(
+//Create a list of Unique Values to filter on
+export function getToFilterValues(services: DemoData[]): any {
+  const provider = new Set(services.map(service => service.provider));
+  const category = new Set();
+  services.map(service => service.category.forEach(cat => category.add(cat)));
+
+  return {
+    provider: Array.from(provider),
+    category: Array.from(category)
+  };
+}
+
+export function serviceFilter(
   services: DemoData[],
   filterSet: DataFilter
 ): DemoData[] {
@@ -30,7 +42,8 @@ export default function serviceFilter(
         const filterValues = filterSet[
           filter as keyof typeof filterSet
         ] as Array<string>;
-        return filterValues.every(elem => serviceValues.indexOf(elem) > -1);
+
+        return filterValues.some(elem => serviceValues.indexOf(elem) > -1);
       });
     }
   }

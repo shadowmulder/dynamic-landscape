@@ -6,7 +6,7 @@ import {
   SETFILTER
 } from '../actions/map.actions';
 import { DemoData, DataFilter } from '../../assets/data/dataType';
-import serviceFilter from './filterLogic';
+import { getToFilterValues, serviceFilter } from './filterLogic';
 
 export interface IState {
   laoding: boolean;
@@ -14,6 +14,7 @@ export interface IState {
   detailedService: DemoData;
   filtertContent: Array<DemoData>;
   filter: DataFilter; //TODO - define
+  toFilterValues: DataFilter;
 }
 
 const initialState: IState = {
@@ -22,7 +23,11 @@ const initialState: IState = {
   detailedService: {} as DemoData,
   filter: {
     provider: [],
-    category: ['Security']
+    category: []
+  },
+  toFilterValues: {
+    provider: [],
+    category: []
   },
   filtertContent: []
 };
@@ -34,6 +39,9 @@ export const Map = (state: IState = initialState, action: IAction<any>) => {
         content: { $set: action.payload },
         filtertContent: {
           $set: serviceFilter(action.payload, state.filter)
+        },
+        toFilterValues: {
+          $set: getToFilterValues(action.payload)
         },
         laoding: { $set: false }
       });
