@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import axios from 'axios';
 
 import { Dispatch } from 'redux';
 import { IState } from '../reducers';
@@ -20,12 +19,7 @@ import { DemoData } from '../assets/data/dataType';
 import DetailModal from './components/detailModal/detailModal.component';
 import Loading from './components/laoding/loading.component';
 import MapTable from './components/maptable/maptable.component';
-
-//URL to fetch data
-const dataUrl: string =
-  process.env.NODE_ENV !== 'production'
-    ? `http://localhost:1111/`
-    : (process.env.dataUrl as string);
+import fetchAllServices from '../shared/mongodbConnection';
 
 interface IProps {
   laoding: boolean;
@@ -43,9 +37,7 @@ class MapComponant extends React.Component<IProps> {
   // }
 
   private fetchData() {
-    axios.get(dataUrl).then(res => {
-      this.props.setContent(res.data);
-    });
+    fetchAllServices().then((data: DemoData[]) => this.props.setContent(data));
   }
 
   componentDidMount() {
@@ -92,4 +84,7 @@ const mapDispatchToProps = (dispatch: Dispatch) => ({
   deleteDetailService: () => dispatch(deleteDetailService())
 });
 
-export const Map = connect(mapStateToProps, mapDispatchToProps)(MapComponant);
+export const Map = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(MapComponant);

@@ -88,6 +88,9 @@ export default function DetailModal(props: IProps) {
             </Grid>
             <Grid item>
               <Typography variant="h3" component="h2">
+                {props.service.provider === props.service.service.split(' ')[0]
+                  ? ''
+                  : props.service.provider}{' '}
                 {props.service.service}
               </Typography>
               <Typography variant="subtitle1" gutterBottom>
