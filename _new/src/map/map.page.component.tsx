@@ -37,7 +37,15 @@ class MapComponant extends React.Component<IProps> {
   // }
 
   private fetchData() {
-    fetchAllServices().then((data: DemoData[]) => this.props.setContent(data));
+    try {
+      this.props.setContent(JSON.parse(sessionStorage.serviceContent));
+    } catch (error) {
+      console.log(error);
+      fetchAllServices().then((data: DemoData[]) => {
+        sessionStorage.serviceContent = JSON.stringify(data);
+        this.props.setContent(data);
+      });
+    }
   }
 
   componentDidMount() {
