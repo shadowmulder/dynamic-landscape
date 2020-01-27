@@ -19,21 +19,28 @@ const credential = new UserApiKeyCredential(
 );
 
 export default async function fetchAllServices(login?: any) {
-  let returnDoc = [] as DemoData[];
-  await client.auth
-    .loginWithCredential(credential)
-    .then(() =>
-      db
-        .collection(COLLECTION)
-        .find({})
-        .toArray()
-    )
-    .then((docs: any) => {
-      console.log('[MongoDB Stitch] Connected to Stitch');
-      returnDoc = docs;
-    })
-    .catch((err: any) => {
-      console.error(err);
-    });
-  return returnDoc;
+  try {
+    return JSON.parse(sessionStorage.serviceContent);
+  } catch (error) {
+    console.log(error);
+    console.log('Fetching Data');
+    let returnDoc = [] as DemoData[];
+    await client.auth
+      .loginWithCredential(credential)
+      .then(() =>
+        db
+          .collection(COLLECTION)
+          .find({})
+          .toArray()
+      )
+      .then((docs: any) => {
+        console.log('[MongoDB Stitch] Connected to Stitch');
+        returnDoc = docs;
+        sessionStorage.serviceContent = JSON.stringify(docs);
+      })
+      .catch((err: any) => {
+        console.error(err);
+      });
+    return returnDoc;
+  }
 }

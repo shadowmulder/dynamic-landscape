@@ -18,7 +18,8 @@ const useStyles = makeStyles((theme: Theme) =>
       flexGrow: 1
     },
     appBar: {
-      backgroundColor: theme.palette.grey[600]
+      // backgroundColor: theme.palette.grey[600]
+      backgroundColor: theme.palette.primary.main
     },
     menuButton: {
       marginRight: theme.spacing(2)

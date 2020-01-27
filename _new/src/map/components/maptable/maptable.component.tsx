@@ -42,7 +42,8 @@ const useStyles = makeStyles((theme: Theme) =>
       float: 'right'
     },
     header: {
-      backgroundColor: theme.palette.grey[600]
+      // backgroundColor: theme.palette.grey[600]
+      backgroundColor: theme.palette.primary.main
     },
     headerTitle: {
       color: 'white',

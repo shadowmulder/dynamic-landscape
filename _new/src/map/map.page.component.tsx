@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-
+import { Switch, Route } from 'react-router-dom';
 import { Dispatch } from 'redux';
 import { IState } from '../reducers';
 import {
@@ -37,19 +37,21 @@ class MapComponant extends React.Component<IProps> {
   // }
 
   private fetchData() {
+    // if (this.props.laoding) {
+    //   fetchAllServices().then((data: DemoData[]) => {
+    //     sessionStorage.serviceContent = JSON.stringify(data);
+    //     this.props.setContent(data);
+    //   });
+    // }
     try {
       this.props.setContent(JSON.parse(sessionStorage.serviceContent));
     } catch (error) {
       console.log(error);
-      fetchAllServices().then((data: DemoData[]) => {
-        sessionStorage.serviceContent = JSON.stringify(data);
-        this.props.setContent(data);
-      });
     }
   }
 
   componentDidMount() {
-    this.fetchData();
+    fetchAllServices().then((data: DemoData[]) => this.props.setContent(data));
   }
 
   public render() {
@@ -70,10 +72,17 @@ class MapComponant extends React.Component<IProps> {
         {this.props.laoding ? (
           <Loading />
         ) : (
-          <MapTable
-            content={this.props.content}
-            setDetailService={this.props.setDetailService}
-          />
+          <Switch>
+            <Route path="/landscape">
+              <p>asdfasdf</p>
+            </Route>
+            <Route path="/">
+              <MapTable
+                content={this.props.content}
+                setDetailService={this.props.setDetailService}
+              />
+            </Route>
+          </Switch>
         )}
       </Grid>
     );
